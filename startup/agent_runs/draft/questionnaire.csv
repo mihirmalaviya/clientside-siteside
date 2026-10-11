@@ -1,0 +1,17 @@
+q_id,question,format,requirement
+Q1,"ClinicalTrials.gov lists 'Levine Cancer Center, Charlotte' as a site on NCT05730036. Is your site currently activated for this trial?",yes/no,R4
+Q2,"If activated: how many participants has your site randomized to date?",number,R1
+Q3,Name of the proposed (or current) Principal Investigator for this trial,short text,R24
+Q4,"How many patients per year do you see with RRMM after 1-4 prior lines (lenalidomide- and PI-exposed) who have had no prior pomalidomide, elotuzumab or BCMA-directed T-cell therapy?",number,R1;R2
+Q5,How many participants do you expect to randomize per month?,number,R1
+Q6,"For overlapping patients, how would you rank this trial against QUINTESSENTIAL-2 (NCT06615479)?",choice:this trial first|equal|QUINTESSENTIAL-2 first,R4
+Q7,Can you admit participants for 24 h after each of the first two step-up doses with less than 1 week's notice?,yes/no,R7;R9
+Q8,Is tocilizumab stocked on-site and available within 2 hours of a CRS order?,yes/no,R8
+Q9,Is your site (pharmacy and healthcare setting) certified in the commercial LYNOZYFIC REMS?,yes/no,R12
+Q10,Are your prescribers and pharmacy certified in the PS-Pomalidomide REMS?,yes/no,R15
+Q11,"Does your infusion center have capacity for weekly elotuzumab infusions (about 2-3 h each) in cycles 1-2?",yes/no,R14
+Q12,Can you process and freeze serum for PK/ADA at -70 C or colder on-site?,yes/no,R20
+Q13,Can you ship fresh bone marrow aspirate to a central MRD lab on the day it is collected?,yes/no,R19
+Q14,Is PET-CT or whole-body low-dose CT available for extramedullary disease assessment within 14 days of an order?,yes/no,R18
+Q15,Which IRB would be the IRB of record for this trial?,choice:sponsor central IRB|Advarra|WFUHS IRB|other,R23
+Q16,"What is your typical time, in days, from receiving a draft contract and budget to signing it?",number,R23

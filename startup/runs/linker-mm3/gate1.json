@@ -1,0 +1,31 @@
+{
+ "stage": "1",
+ "passed": true,
+ "checks": [
+  {
+   "check": "50 ranked picks",
+   "ok": true,
+   "detail": "50 picks"
+  },
+  {
+   "check": "real sites found",
+   "ok": true,
+   "detail": "5 of 10 (baselines: count 4, ours 2, +sponsor 3)"
+  },
+  {
+   "check": "every pick cites a past trial",
+   "ok": true,
+   "detail": "50/50"
+  },
+  {
+   "check": "citations real and pre-start",
+   "ok": true,
+   "detail": "42 cited, bad: []"
+  },
+  {
+   "check": "never names the target",
+   "ok": true,
+   "detail": "clean"
+  }
+ ]
+}

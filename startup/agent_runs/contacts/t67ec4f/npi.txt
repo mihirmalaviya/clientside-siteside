@@ -1,0 +1,23 @@
+Ajai Chari -> ["1376560136 AJAI CHARI NEW YORK,NY ['Internal Medicine, Hematology & Oncology'] upd 2024-01-21"]
+Sikander Ailawadhi -> ["1063670339 SIKANDER AILAWADHI JACKSONVILLE,FL ['Internal Medicine, Hematology & Oncology'] upd 2020-08-31"]
+Dickran Kazandjian -> ["1114096567 DICKRAN KAZANDJIAN MIAMI,FL ['Internal Medicine, Hematology & Oncology'] upd 2022-06-28"]
+Nisha Joseph -> ["1285990309 NISHA JOSEPH ATLANTA,GA ['Internal Medicine, Medical Oncology'] upd 2018-10-29"]
+Andrew Yee -> ["1568453496 ANDREW YEE BOSTON,MA ['Internal Medicine, Medical Oncology'] upd 2026-03-24"]
+Paul Richardson -> ["1770544256 PAUL RICHARDSON BOSTON,MA ['Internal Medicine, Hematology & Oncology'] upd 2026-07-13"]
+Shaji Kumar -> ["1568434090 SHAJI KUMAR ROCHESTER,MN ['Internal Medicine, Hematology'] upd 2020-08-14"]
+David Siegel -> ["1457310815 DAVID SIEGEL HACKENSACK,NJ ['Internal Medicine, Medical Oncology'] upd 2022-01-26", "1639302235 DAVID SIEGEL RED BANK,NJ ['Emergency Medicine'] upd 2009-08-29"]
+Sham Mailankody -> ["1912235946 SHAM MAILANKODY NEW YORK,NY ['Internal Medicine, Medical Oncology'] upd 2025-05-07"]
+Manisha Bhutani -> ["1013184571 MANISHA BHUTANI CHARLOTTE,NC ['Internal Medicine, Hematology'] upd 2024-07-15"]
+Cristina Gasparetto -> ["1730242504 CRISTINA GASPARETTO DURHAM,NC ['Internal Medicine, Infectious Disease'] upd 2025-09-11"]
+Faiz Anwer -> []
+Dan* Vogl -> ["1992733448 DAN VOGL PHILADELPHIA,PA ['Internal Medicine, Hematology'] upd 2016-02-01"]
+Brian Hess -> ["1770898900 BRIAN HESS CHARLESTON,SC ['Internal Medicine, Hematology'] upd 2022-03-02"]
+Hamza Hashmi -> ["1164862652 HAMZA HASHMI CHARLESTON,SC ['Internal Medicine, Hematology'] upd 2023-10-25"]
+Jesus Berdeja -> ["1902842412 JESUS BERDEJA NASHVILLE,TN ['Internal Medicine, Hematology & Oncology'] upd 2012-01-25"]
+Larry Anderson -> ["1841477122 LARRY ANDERSON GREENVILLE,TX ['Physical Therapist'] upd 2013-06-20", "1144267766 LARRY ANDERSON DALLAS,TX ['Internal Medicine, Medical Oncology'] upd 2019-05-22", "1134159627 LAWRENCE ANDERSON TYLER,TX ['Dermatology'] upd 2020-09-15", "1740805795 LORENZO ANDERSON MCKINNEY,TX ['Optometrist'] upd 2021-11-01"]
+Mohammed Kanaan -> ["1326270992 MOHAMMED KANAAN PUYALLUP,WA ['Internal Medicine, Hematology & Oncology'] upd 2021-06-14"]
+Senecal 1417046236 FRANCIS TACOMA WA ['Internal Medicine, Hematology & Oncology']
+Dominick 1477963676 ANTHONY CHARLESTON SC ['Internal Medicine, Hematology & Oncology'] 2024-08-16
+Dominick done
+Anwer 1356543169 FAIZ TUCSON AZ ['Internal Medicine, Hematology & Oncology'] 2020-01-09
+Anwer done

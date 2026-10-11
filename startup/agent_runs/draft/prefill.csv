@@ -1,0 +1,21 @@
+fact,value,source
+Site name variants on ClinicalTrials.gov,"Levine Cancer Institute; Atrium Health Levine Cancer Institute; Carolinas Medical Center/Levine Cancer Institute; Levine Cancer Center; Carolinas Healthcare System (Charlotte, NC)",ctg.py query.cond=multiple myeloma with query.locn for each name
+Site already listed on this trial (NCT05730036),"Yes: 'Levine Cancer Center (Charlotte, North Carolina)' appears as a US location; trial status RECRUITING; no PI listed",ctg.py query.term=linvoseltamab --pi
+Site listed on another linvoseltamab trial,"Yes: NCT05828511 (Regeneron, linvoseltamab window-of-opportunity in NDMM, recruiting) and NCT07053436 (MMRC Horizon Two HR NDMM, recruiting)",ctg.py query.term=linvoseltamab --pi
+Myeloma trials listed at site (all statuses),98 studies (90 interventional; 19 Phase 3; 18 currently recruiting),ctg.py multiple myeloma searches (3 site names; Charlotte-located LCI/Atrium entries only)
+T-cell engager / bispecific MM trials at site,"22 (e.g., teclistamab NCT03145181/NCT04557098, talquetamab NCT04586426, etentamig NCT06158841, TNB-383B NCT03933735, JNJ-79635322 NCT05652335)",ctg.py multiple myeloma searches
+CAR-T MM trials at site,"15 (e.g., cilta-cel NCT03548207/NCT04133636, ide-cel NCT03601078, anito-cel NCT06413498, arlo-cel NCT06615479)",ctg.py multiple myeloma searches
+Prior experience with EPd regimen,Yes: ELOQUENT-3 (NCT02654132; BMS; Phase 2 elotuzumab+pomalidomide+dex; completed) listed at Carolinas Healthcare System,ctg.py multiple myeloma searches
+Prior experience with pomalidomide trials,"Yes: 25 site trials include pomalidomide or elotuzumab (e.g., NCT04150965, NCT05455320, NCT07096778)",ctg.py multiple myeloma searches
+Currently recruiting competing RRMM trials (Phase 2/3),"NCT06615479 QUINTESSENTIAL-2 (arlo-cel vs standard, len-exposed RRMM, Phase 3); NCT07096778 inobrodib+Pd (Phase 2)",ctg.py multiple myeloma searches (status RECRUITING)
+Currently recruiting competing RRMM trials (Phase 1/1-2),"NCT05650632, NCT05651932, NCT05652335, NCT05722418, NCT06892522, NCT06953960, NCT07116616",ctg.py multiple myeloma searches (status RECRUITING)
+Myeloma program leader,"Peter Voorhees, MD (leads multiple myeloma program; Professor, Wake Forest Univ School of Medicine); co-author of LINKER-MM3 trial-in-progress abstract",vjhemonc.com/speaker/peter-voorhees; LINKER-MM3 TiP abstract (HemaSphere 2023) via web search
+Other MM investigators listed as site PI on CTG,"Manisha Bhutani, MD; Cindy Varga, MD; Reed Friend, MD",ctg.py --pi (recruiting trials)
+Program size,Plasma Cell Disorders program; >4000 active myeloma patients; >300 transplants for plasma cell disorders in past 4 years,atriumhealth.org/medical-services/specialty-care/cancer-care/multiple-myeloma
+Network,More than 25 Levine Cancer locations across the Carolinas,atriumhealth.org multiple-myeloma page
+Cellular therapy accreditation,FACT accredited adult program (opened 2018); 67 CAR-T infusions in 2024; commercial Abecma and Carvykti offered,bmtinfonet.org CAR-T center directory 42572
+Cellular therapy address,"1021 Morehead Medical Drive, Building II, Charlotte, NC 28204",bmtinfonet.org CAR-T center directory 42572
+Hospital,"Atrium Health Carolinas Medical Center: ~874-bed tertiary/quaternary hospital, ACS-verified Level I trauma center",Atrium/Advocate job postings; atriumhealth.org newsroom 2020-05
+Outpatient bispecific step-up experience in system,Atrium Health (Wake Forest Baptist) runs hospital-at-home outpatient step-up for teclistamab/talquetamab; LCI author on 2026 IMS outpatient teclistamab abstract,hmpgloballearningnetwork.com JCP article; jnjmedicalconnect IMS 2026 abstract (web search)
+IRB arrangements (historical),"LCI oncology trials reviewed by Chesapeake IRB (now Advarra) since 2012; Phase III/IV industry trials by Copernicus Group IRB since 2006; WFUHS IRB used by combined cancer center",atriumhealth.org/research-clinical-trials/institutional-review-board; AHWFB cancer center descriptions PDF
+IRB contact,"IRBinfo@AtriumHealth.org, 704-355-3158",atriumhealth.org IRB page

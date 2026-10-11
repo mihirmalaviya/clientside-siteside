@@ -1,0 +1,26 @@
+{
+ "stage": "3a",
+ "passed": true,
+ "checks": [
+  {
+   "check": "must-cover items (draft_must_cover.md)",
+   "ok": true,
+   "detail": "13 of 14; missing: ['M14']"
+  },
+  {
+   "check": "questions",
+   "ok": true,
+   "detail": "16"
+  },
+  {
+   "check": "redundant (asks public facts)",
+   "ok": true,
+   "detail": "none"
+  },
+  {
+   "check": "closed-format share",
+   "ok": true,
+   "detail": "16/16"
+  }
+ ]
+}

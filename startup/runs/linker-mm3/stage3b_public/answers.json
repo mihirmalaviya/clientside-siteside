@@ -1,0 +1,1408 @@
+{
+ "sites": [
+  {
+   "rank": 1,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 16 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 16 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 9 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 9 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 2 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 2 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 3 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 3 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 6 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 6 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 10 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 10 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 10 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 10 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 7 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; Norton not FACT-accredited, so no public proxy"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; no FACT accreditation found"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 7 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 10 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 10 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 2 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 2 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 5 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 5 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "answers": [
+    {
+     "q_id": "Q1",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma program lead / research data manager (clinic volume not public)"
+    },
+    {
+     "q_id": "Q2",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q3",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI; public data only show 7 competing BCMA/T-cell trials recruiting"
+    },
+    {
+     "q_id": "Q4",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / data manager"
+    },
+    {
+     "q_id": "Q5",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Investigational pharmacy manager"
+    },
+    {
+     "q_id": "Q6",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator / lab manager"
+    },
+    {
+     "q_id": "Q7",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research lab / biorepository manager"
+    },
+    {
+     "q_id": "Q8",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Research coordinator lead"
+    },
+    {
+     "q_id": "Q9",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient heme-onc unit nurse manager / PI"
+    },
+    {
+     "q_id": "Q10",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Inpatient pharmacy; FACT IEC accreditation (standards require on-site tocilizumab) supports yes"
+    },
+    {
+     "q_id": "Q11",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Unit nurse educator; FACT IEC accreditation implies CRS/ICANS staff training"
+    },
+    {
+     "q_id": "Q12",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Pharmacy director (REMS certification lists are not public)"
+    },
+    {
+     "q_id": "Q13",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Infusion center scheduling manager"
+    },
+    {
+     "q_id": "Q14",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical research office / myeloma research manager"
+    },
+    {
+     "q_id": "Q15",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Myeloma PI / CRO feasibility lead; non-public pipeline. Public: 7 competing trials now recruiting"
+    },
+    {
+     "q_id": "Q16",
+     "answer": "",
+     "source": "",
+     "needs_human": "yes",
+     "note": "Clinical trials office contracts lead; IRB/contract timelines not found publicly"
+    }
+   ]
+  }
+ ]
+}

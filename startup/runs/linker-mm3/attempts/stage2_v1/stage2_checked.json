@@ -1,0 +1,548 @@
+[
+ {
+  "rank": 1,
+  "facility": "Memorial Sloan Kettering Cancer Center",
+  "short": "MSK",
+  "city": "New York",
+  "state": "New York",
+  "pi": "Saad Usmani",
+  "alts": [
+   "Alexander Lesokhin",
+   "Sham Mailankody"
+  ],
+  "confidence": 0.4,
+  "evidence": "Myeloma Service chief with recent MSK 1572 filings; MSK has no Regeneron linvoseltamab PI in Open Payments, so this rests on his seniority",
+  "note": "Moved from Levine Cancer Institute (Charlotte) to MSK; his NPI record still lists Charlotte",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "No PI listed for MSK on recruiting bispecific MM trials"
+   },
+   {
+    "source": "Open Payments",
+    "status": "none",
+    "finding": "No MSK PI in linvoseltamab/REGN5459/odronextamab research payments"
+   },
+   {
+    "source": "NPI",
+    "status": "changed",
+    "finding": "NPI 1962601526 location still Charlotte NC"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "Filed 1572s at MSK main campus 2026"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "MSK Early Drug Development Service trial-placement contact page loads"
+   }
+  ],
+  "contact_url": "https://www.mskcc.org/departments/division-solid-tumor-oncology/early-drug-development-service-phase-clinical-trials/contact-us",
+  "contact_domain": "mskcc.org",
+  "bmis_latest": "2026-08-18",
+  "url_status": 200
+ },
+ {
+  "rank": 2,
+  "facility": "Ohio State University James Cancer Hospital",
+  "short": "OSU James",
+  "city": "Columbus",
+  "state": "Ohio",
+  "pi": "Naresh Bumma",
+  "alts": [
+   "Srinivas Devarakonda"
+  ],
+  "confidence": 0.9,
+  "evidence": "LINKER-MM1 (NCT03761108) and linvoseltamab combination study (NCT05137054) site PI; payments run 2021-2025",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "confirms",
+    "finding": "PI on NCT07657312 (infliximab CRS prophylaxis) and NCT06974786 (T-cell engager)"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT03761108 and NCT05137054 through 2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1346504412, 460 W 10th Ave, Columbus"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at the James, latest 2026-08"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "OSUCCC-James Clinical Trials Office page loads"
+   }
+  ],
+  "contact_url": "https://cancer.osu.edu/for-cancer-researchers/clinical-research/clinical-trials-office",
+  "contact_domain": "cancer.osu.edu",
+  "bmis_latest": "2026-08-28",
+  "url_status": 200
+ },
+ {
+  "rank": 3,
+  "facility": "Weill Cornell Medicine / NewYork-Presbyterian",
+  "short": "Weill Cornell",
+  "city": "New York",
+  "state": "New York",
+  "pi": "Ruben Niesvizky",
+  "alts": [
+   "John Allan"
+  ],
+  "confidence": 0.8,
+  "evidence": "Site PI for the linvoseltamab combination study NCT05137054 (196 payment records 2024-25)",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "No PI listed for this site on recruiting bispecific MM trials"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT05137054 in 2024-2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1710074885, 425 E 61st St, New York"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at NYP/Weill Cornell 2026"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Joint Clinical Trials Office (WCM/NYP) site loads"
+   }
+  ],
+  "contact_url": "https://jcto.weill.cornell.edu/",
+  "contact_domain": "jcto.weill.cornell.edu",
+  "bmis_latest": "2026-08-18",
+  "url_status": 403
+ },
+ {
+  "rank": 4,
+  "facility": "University of Michigan",
+  "short": "Michigan Rogel",
+  "city": "Ann Arbor",
+  "state": "Michigan",
+  "pi": "Matthew Pianko",
+  "alts": [
+   "Erica Campagnaro"
+  ],
+  "confidence": 0.85,
+  "evidence": "Site PI for REGN5459 (NCT04083534) and LINKER-MM1 (NCT03761108); payments run 2022-2025",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "No PI listed for Michigan on recruiting bispecific MM trials"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT04083534 and NCT03761108 through 2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1245523778, 1500 E Medical Center Dr, Ann Arbor"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at University of Michigan, latest 2026-04"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Oncology Clinical Trials Support Unit site loads; it handles industry-sponsored trials"
+   }
+  ],
+  "contact_url": "https://octsu.med.umich.edu/",
+  "contact_domain": "octsu.med.umich.edu",
+  "bmis_latest": "2026-04-23",
+  "url_status": 200
+ },
+ {
+  "rank": 5,
+  "facility": "UT Southwestern Medical Center",
+  "short": "UTSW",
+  "city": "Dallas",
+  "state": "Texas",
+  "pi": "Aimaz Afrough",
+  "alts": [
+   "Larry Anderson"
+  ],
+  "confidence": 0.75,
+  "evidence": "Site PI for linvoseltamab combination study NCT05137054 (2024-25); Anderson led REGN5459 (NCT04083534)",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "confirms",
+    "finding": "PI on NCT06974786 (frontline T-cell engager) at UTSW"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT05137054 in 2024-2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1477964518, 6201 Harry Hines Blvd, Dallas"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at UTSW, latest 2025-07"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Simmons Cancer Center Clinical Research Operations page loads"
+   }
+  ],
+  "contact_url": "https://www.utsouthwestern.edu/departments/simmons/research/clinical-research-operations.html",
+  "contact_domain": "utsouthwestern.edu",
+  "bmis_latest": "2025-07-31",
+  "url_status": 200
+ },
+ {
+  "rank": 6,
+  "facility": "Mayo Clinic Rochester",
+  "short": "Mayo Rochester",
+  "city": "Rochester",
+  "state": "Minnesota",
+  "pi": "Shaji Kumar",
+  "alts": [
+   "Prashant Kapoor",
+   "Joselle Cook"
+  ],
+  "confidence": 0.7,
+  "evidence": "Site PI for linvoseltamab combination study NCT05137054 (137 payment records 2024-25); Kapoor led REGN5459",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "Only an NCI teclistamab trial lists a Mayo PI (Ricardo Parrondo)"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT05137054 in 2024-2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1568434090, 200 1st St SW, Rochester"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at Mayo Clinic Rochester, latest 2026-07"
+   },
+   {
+    "source": "Web",
+    "status": "none",
+    "finding": "Office of Clinical Trials Sponsor Engagement page blocks automated fetches (403); it shows up in search results"
+   }
+  ],
+  "contact_url": "https://www.mayo.edu/research/centers-programs/center-clinical-translational-science/offices/office-of-clinical-trials/sponsor-engagement",
+  "contact_domain": "mayo.edu",
+  "bmis_latest": "2026-07-27",
+  "url_status": 403
+ },
+ {
+  "rank": 7,
+  "facility": "University of Texas MD Anderson Cancer Center",
+  "short": "MD Anderson",
+  "city": "Houston",
+  "state": "Texas",
+  "pi": "Robert Orlowski",
+  "alts": [
+   "Krina Patel",
+   "Sheeba Thomas"
+  ],
+  "confidence": 0.5,
+  "evidence": "PI of Regeneron linvoseltamab study NCT05828511 (456 payment records 2024-25); prior LINKER/REGN5459 PI Hans Lee has left",
+  "note": "Hans Lee (LINKER-MM1/REGN5459 PI) moved to SCRI Oncology Partners, Nashville (1572s from 2025-12)",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "No PI listed for MD Anderson on recruiting industry bispecific MM trials"
+   },
+   {
+    "source": "Open Payments",
+    "status": "changed",
+    "finding": "Hans Lee was PI for NCT03761108/NCT04083534; Orlowski is now Regeneron's main PI here"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1336209956, 1515 Holcombe Blvd, Houston"
+   },
+   {
+    "source": "BMIS",
+    "status": "changed",
+    "finding": "Hans Lee's 1572s now list SCRI Oncology Partners; Orlowski still at MD Anderson (2026)"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Office of Research Administration Private Industry Contracts page loads"
+   }
+  ],
+  "contact_url": "https://www.mdanderson.org/research/research-resources/office-of-research-administration/private-industry.html",
+  "contact_domain": "mdanderson.org",
+  "bmis_latest": "2026-02-27",
+  "url_status": 200
+ },
+ {
+  "rank": 8,
+  "facility": "Norton Cancer Institute",
+  "short": "Norton",
+  "city": "Louisville",
+  "state": "Kentucky",
+  "pi": "Joseph Maly",
+  "alts": [
+   "Don Stevens"
+  ],
+  "confidence": 0.85,
+  "evidence": "LINKER-MM1 (NCT03761108) site PI with payments 2021-2025; Stevens leads odronextamab and NCT05828511",
+  "note": "Norton Healthcare runs its own research office, not an outside network",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "No PI listed for Norton on recruiting bispecific MM trials"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT03761108 through 2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1043502206, Dutchmans Ln, Louisville"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at Norton Cancer Institute St. Matthews, latest 2026-08"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Norton Cancer Institute provider/research page loads"
+   }
+  ],
+  "contact_url": "https://nortonhealthcareprovider.com/norton-cancer-institute/",
+  "contact_domain": "nortonhealthcareprovider.com",
+  "bmis_latest": "2026-08-27",
+  "url_status": 403
+ },
+ {
+  "rank": 9,
+  "facility": "Dana-Farber Cancer Institute",
+  "short": "DFCI",
+  "city": "Boston",
+  "state": "Massachusetts",
+  "pi": "Clifton Mo",
+  "alts": [
+   "Shonali Midha",
+   "Omar Nadeem"
+  ],
+  "confidence": 0.8,
+  "evidence": "Site PI for linvoseltamab combination study NCT05137054 (138 payment records 2024-25)",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "confirms",
+    "finding": "PI on Regeneron-listed D2 study NCT07624513 at DFCI"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT05137054 in 2024-2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1184827107, 450 Brookline Ave, Boston"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at DFCI, latest 2026-07"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "DFCI Center for Clinical and Translational Research page loads and mentions industry partnerships"
+   }
+  ],
+  "contact_url": "https://www.dana-farber.org/research/integrative-research/clinical-and-translational-research",
+  "contact_domain": "dana-farber.org",
+  "bmis_latest": "2026-07-10",
+  "url_status": 200
+ },
+ {
+  "rank": 10,
+  "facility": "UCLA Medical Center",
+  "short": "UCLA",
+  "city": "Los Angeles",
+  "state": "California",
+  "pi": "Sarah Larson",
+  "alts": [
+   "Gary Schiller"
+  ],
+  "confidence": 0.6,
+  "evidence": "PI of Regeneron linvoseltamab study NCT05828511 at Ronald Reagan UCLA (115 payment records 2024-25)",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "Only Gary Schiller is listed on a UCLA MM trial"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT05828511 in 2024-2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1588820955, 10833 Le Conte Ave, Los Angeles"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at UCLA through 2024-10 (none newer)"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Jonsson Cancer Center Clinical Research page loads"
+   }
+  ],
+  "contact_url": "https://www.uclahealth.org/cancer/researchers/clinical-research",
+  "contact_domain": "uclahealth.org",
+  "bmis_latest": "2024-10-04",
+  "url_status": 200
+ },
+ {
+  "rank": 11,
+  "facility": "Sylvester Comprehensive Cancer Center (University of Miami)",
+  "short": "Sylvester",
+  "city": "Miami",
+  "state": "Florida",
+  "pi": "James Hoffman",
+  "alts": [
+   "Dickran Kazandjian",
+   "C. Ola Landgren"
+  ],
+  "confidence": 0.55,
+  "evidence": "LINKER-MM1 (NCT03761108) site PI with payments 2021-2025; Kazandjian/Landgren run linvoseltamab and teclistamab investigator-initiated trials",
+  "note": "",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "changed",
+    "finding": "Kazandjian is PI on linvoseltamab IIT NCT06910124; Landgren on teclistamab NCT06100237"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT03761108 through 2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1427214147, 1611 NW 12th Ave, Miami"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at Sylvester, latest 2026-08 (after a 2024 Baystate filing)"
+   },
+   {
+    "source": "Web",
+    "status": "confirms",
+    "finding": "Sylvester Clinical Research Services page loads"
+   }
+  ],
+  "contact_url": "https://umiamihealth.org/en/sylvester-comprehensive-cancer-center/research/research-resources/clinical-research-services",
+  "contact_domain": "umiamihealth.org",
+  "bmis_latest": "2026-08-12",
+  "url_status": 200
+ },
+ {
+  "rank": 12,
+  "facility": "H. Lee Moffitt Cancer Center",
+  "short": "Moffitt",
+  "city": "Tampa",
+  "state": "Florida",
+  "pi": "Rachid Baz",
+  "alts": [
+   "Melissa Alsina",
+   "Ariel Grajales-Cruz"
+  ],
+  "confidence": 0.75,
+  "evidence": "LINKER-MM1 (NCT03761108) site PI 2023-2025, taking over from Jason Brayer",
+  "note": "Jason Brayer was the earlier LINKER-MM1 PI (2021-22); his last 1572 was 2019",
+  "checks": [
+   {
+    "source": "CT.gov",
+    "status": "none",
+    "finding": "Alsina and Grajales-Cruz listed on non-Regeneron bispecific trials"
+   },
+   {
+    "source": "Open Payments",
+    "status": "confirms",
+    "finding": "Payments as PI for NCT03761108 in 2023-2025"
+   },
+   {
+    "source": "NPI",
+    "status": "confirms",
+    "finding": "NPI 1831393875, 12902 USF Magnolia Dr, Tampa"
+   },
+   {
+    "source": "BMIS",
+    "status": "confirms",
+    "finding": "1572s at Moffitt, latest 2024-11"
+   },
+   {
+    "source": "Web",
+    "status": "none",
+    "finding": "Clinical Trials Administration page blocks automated fetches (403); it shows up in search results"
+   }
+  ],
+  "contact_url": "https://moffitt.org/clinical-trials-research/clinical-trials/clinical-trials-administration",
+  "contact_domain": "moffitt.org",
+  "bmis_latest": "2024-11-18",
+  "url_status": 403
+ }
+]

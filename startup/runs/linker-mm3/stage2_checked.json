@@ -1,0 +1,527 @@
+[
+ {
+  "rank": 1,
+  "facility": "Memorial Sloan Kettering Cancer Center",
+  "short": "MSK",
+  "city": "New York",
+  "state": "New York",
+  "pi": "Saad Usmani",
+  "alts": [
+   "Alexander Lesokhin",
+   "Malin Hultcrantz"
+  ],
+  "route": "pi",
+  "confidence": 0.7,
+  "evidence": "MSK myeloma chief; teclistamab (TECVAYLI) research payments at MSK; recruiting RRMM PI; active 1572s through 2026-08",
+  "note": "No Regeneron linvoseltamab PI found at MSK in Open Payments 2020-2025 (MSK is a site on Regeneron's newer linvo Ph3s, PI not public). Mailankody's last 1572 was 2023, so he's out.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at MSK 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Teclistamab (BCMAxCD3) research payments 2023-25",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "PI on recruiting RRMM trial at MSK",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 1,
+    "finding": "1 recruiting MM trial as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://www.mskcc.org/research-advantage/support/clinical-research-administration",
+  "contact_domain": "mskcc.org",
+  "bmis_latest": "2026-08-18",
+  "url_status": 200,
+  "competing_rule": 1
+ },
+ {
+  "rank": 2,
+  "facility": "Ohio State University James Cancer Hospital",
+  "short": "OSU",
+  "city": "Columbus",
+  "state": "Ohio",
+  "pi": "Naresh Bumma",
+  "alts": [
+   "Srinivas Devarakonda",
+   "Ashley Rosko"
+  ],
+  "route": "pi",
+  "confidence": 0.9,
+  "evidence": "OSU site PI on linvoseltamab Ph1/2 (NCT03761108, 2020-25) and linvo combo trial NCT05137054; 1572 2026-08",
+  "note": "",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at OSU James 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT03761108 and NCT05137054",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM linvo Ph1/2 site PI",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 3,
+    "finding": "3 recruiting MM trials as PI (mild minus)",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://cancer.osu.edu/research-and-education/shared-resources/clinical-trials-office",
+  "contact_domain": "cancer.osu.edu",
+  "bmis_latest": "2026-08-28",
+  "url_status": 200,
+  "competing_rule": 3
+ },
+ {
+  "rank": 3,
+  "facility": "Weill Cornell Medicine / NewYork-Presbyterian",
+  "short": "Weill Cornell",
+  "city": "New York",
+  "state": "New York",
+  "pi": "Ruben Niesvizky",
+  "alts": [
+   "Mateo Mejia Saldarriaga"
+  ],
+  "route": "pi",
+  "confidence": 0.8,
+  "evidence": "Weill Cornell PI on Regeneron linvoseltamab combo trial NCT05137054 (2024-25 payments); 1572 2026-08",
+  "note": "Trials run through the Weill Cornell / NYP Joint Clinical Trials Office (JCTO). Alt is weak: Rosenbaum's last 1572 was 2024-12, so she's out.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at NYP/Weill 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT05137054",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "Long RRMM trial record; linvo combo Ph1",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 0,
+    "finding": "0 recruiting MM trials listed as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://jcto.weill.cornell.edu/collaborators",
+  "contact_domain": "weill.cornell.edu",
+  "bmis_latest": "2026-08-18",
+  "url_status": 403,
+  "competing_rule": 0
+ },
+ {
+  "rank": 4,
+  "facility": "University of Michigan",
+  "short": "Michigan",
+  "city": "Ann Arbor",
+  "state": "Michigan",
+  "pi": "Matthew Pianko",
+  "alts": [
+   "Erica Campagnaro",
+   "Elie Dib"
+  ],
+  "route": "pi",
+  "confidence": 0.9,
+  "evidence": "Michigan PI on linvoseltamab Ph1/2 (NCT03761108), REGN5459 (NCT04083534) and NCT06140524, payments 2022-25; 1572 2026-04",
+  "note": "He took over from Jing Christine Ye, who moved to MD Anderson.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at U Michigan 2026-04",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments: linvo, REGN5459",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM Ph1/2 site PI",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 1,
+    "finding": "1 recruiting MM trial as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://octsu.med.umich.edu/",
+  "contact_domain": "umich.edu",
+  "bmis_latest": "2026-04-23",
+  "url_status": 200,
+  "competing_rule": 1
+ },
+ {
+  "rank": 5,
+  "facility": "UT Southwestern Medical Center",
+  "short": "UTSW",
+  "city": "Dallas",
+  "state": "Texas",
+  "pi": "Larry Anderson",
+  "alts": [
+   "Aimaz Afrough"
+  ],
+  "route": "pi",
+  "confidence": 0.75,
+  "evidence": "UTSW PI on REGN5459 Ph1/2 (NCT04083534), payments 2021-25; 1572 2026-08; fewer competing trials than Afrough",
+  "note": "Afrough is the linvo combo (NCT05137054) PI and is close, but has 3 recruiting PI trials and his last 1572 was 2025-07.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at UTSW 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments REGN5459 (linvo relative)",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM Ph1/2 site PI",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 2,
+    "finding": "2 recruiting MM trials as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://www.utsouthwestern.edu/departments/simmons/research/clinical-research-office.html",
+  "contact_domain": "utsouthwestern.edu",
+  "bmis_latest": "2026-08-28",
+  "url_status": 200,
+  "competing_rule": 2
+ },
+ {
+  "rank": 6,
+  "facility": "Mayo Clinic Rochester",
+  "short": "Mayo Rochester",
+  "city": "Rochester",
+  "state": "Minnesota",
+  "pi": "Shaji Kumar",
+  "alts": [
+   "Prashant Kapoor",
+   "Joselle Cook"
+  ],
+  "route": "pi",
+  "confidence": 0.75,
+  "evidence": "Mayo PI on Regeneron linvoseltamab combo NCT05137054 (2024-25); also teclistamab and elranatamab research; 1572 2026-07",
+  "note": "Close call. Kapoor (REGN5459 PI 2021-25, 1 recruiting trial) is a near-equal alternative. The sponsor-engagement page is behind bot protection (HTTP 403 to scripts); it showed up in search results but I could not load it.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at Mayo Rochester 2026-07",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT05137054 (linvo)",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "Many RRMM early-phase trials",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 2,
+    "finding": "2 recruiting MM trials as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://www.mayo.edu/research/centers-programs/center-clinical-translational-science/offices/office-of-clinical-trials/sponsor-engagement",
+  "contact_domain": "mayo.edu",
+  "bmis_latest": "2026-07-27",
+  "url_status": 403,
+  "competing_rule": 2
+ },
+ {
+  "rank": 7,
+  "facility": "University of Texas MD Anderson Cancer Center",
+  "short": "MD Anderson",
+  "city": "Houston",
+  "state": "Texas",
+  "pi": "Jing Christine Ye",
+  "alts": [
+   "Robert Orlowski",
+   "Mahmoud Gaballa"
+  ],
+  "route": "pi",
+  "confidence": 0.7,
+  "evidence": "Now carries linvo Ph1/2 and REGN5459 payments at MDA (2025) after Hans Lee left; earlier linvo investigator at Michigan; 1572 at MDA 2026-08",
+  "note": "Handover: former linvo PI Hans Lee now files 1572s at SCRI Oncology Partners in Nashville (2026). Orlowski (linvo NDMM window trial NCT05828511) is a strong alternative with fewer competing trials.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at MDA 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT03761108/NCT04083534 at MDA 2025",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM linvo Ph1/2; teclistamab",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 2,
+    "finding": "2 recruiting MM trials as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://www.mdanderson.org/research/research-resources/office-of-research-administration/private-industry.html",
+  "contact_domain": "mdanderson.org",
+  "bmis_latest": "2026-08-18",
+  "url_status": 200,
+  "competing_rule": 1
+ },
+ {
+  "rank": 8,
+  "facility": "Norton Cancer Institute",
+  "short": "Norton",
+  "city": "Louisville",
+  "state": "Kentucky",
+  "pi": "Joseph Maly",
+  "alts": [
+   "Don Stevens"
+  ],
+  "route": "pi",
+  "confidence": 0.8,
+  "evidence": "Norton PI on linvoseltamab Ph1/2 NCT03761108 (payments 2020-25) and another Regeneron linvo study; 1572 2026-08",
+  "note": "Studies go through the Norton Healthcare Research Office (now Norton Research Institute). This is the system's own office, not an outside network.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at Norton Cancer Institute 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT03761108 (linvo)",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM linvo Ph1/2 site PI",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 0,
+    "finding": "0 recruiting MM trials listed as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://nortonhealthcareprovider.com/research/norton-research-institute",
+  "contact_domain": "nortonhealthcareprovider.com",
+  "bmis_latest": "2026-08-27",
+  "url_status": 403,
+  "competing_rule": 0
+ },
+ {
+  "rank": 9,
+  "facility": "Dana-Farber Cancer Institute",
+  "short": "DFCI",
+  "city": "Boston",
+  "state": "Massachusetts",
+  "pi": "Clifton Mo",
+  "alts": [
+   "Shonali Midha",
+   "Elizabeth O'Donnell"
+  ],
+  "route": "pi",
+  "confidence": 0.85,
+  "evidence": "DFCI PI on Regeneron linvoseltamab combo NCT05137054 (138 payments 2024-25); 1572 2026-07",
+  "note": "O'Donnell runs the linvo precursor-disease trial (NCT06140524).",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at DFCI 2026-07",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT05137054",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM bispecific trials as PI",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 2,
+    "finding": "2 recruiting MM trials as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://www.dana-farber.org/research/our-researchers/administration",
+  "contact_domain": "dana-farber.org",
+  "bmis_latest": "2026-07-10",
+  "url_status": 200,
+  "competing_rule": 2
+ },
+ {
+  "rank": 10,
+  "facility": "UCLA Medical Center",
+  "short": "UCLA",
+  "city": "Los Angeles",
+  "state": "California",
+  "pi": "Gary Schiller",
+  "alts": [
+   "Herbert Eradat",
+   "Monica Mead"
+  ],
+  "route": "office",
+  "confidence": 0.4,
+  "evidence": "Only UCLA heme-malignancy investigator with current 1572s and myeloma trial history (elotuzumab Ph3); no bispecific or RRMM-lead record",
+  "note": "Sarah Larson (UCLA site PI on linvo NCT05828511) has no 1572 since 2024-10, so she fails the still-there test. Let the Jonsson CRU / Oncology Clinical Trials Network name the PI.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at UCLA 2026",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "no",
+    "finding": "No Regeneron or bispecific MM payments found",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "no",
+    "finding": "Elotuzumab NDMM Ph3 only; no RRMM lead found",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 1,
+    "finding": "1 recruiting MM-related study as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://www.uclahealth.org/cancer/researchers/clinical-research",
+  "contact_domain": "uclahealth.org",
+  "bmis_latest": "2026-08-18",
+  "url_status": 200,
+  "competing_rule": 1
+ },
+ {
+  "rank": 11,
+  "facility": "Sylvester Comprehensive Cancer Center (University of Miami)",
+  "short": "Sylvester",
+  "city": "Miami",
+  "state": "Florida",
+  "pi": "James Hoffman",
+  "alts": [
+   "Dickran Kazandjian",
+   "Carl Ola Landgren"
+  ],
+  "route": "pi",
+  "confidence": 0.85,
+  "evidence": "Miami PI on linvoseltamab Ph1/2 NCT03761108 with payments every year 2020-25; 1572 at Sylvester 2026-08; no competing recruiting PI trials",
+  "note": "Kazandjian also has Regeneron linvo research payments but leads 4 recruiting trials.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at Sylvester 2026-08",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "Regeneron payments NCT03761108",
+    "source": "Open Payments"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM linvo Ph1/2 site PI",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 0,
+    "finding": "0 recruiting MM trials listed as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://umiamihealth.org/sylvester-comprehensive-cancer-center/research/research-resources",
+  "contact_domain": "umiamihealth.org",
+  "bmis_latest": "2026-08-12",
+  "url_status": 200,
+  "competing_rule": 0
+ },
+ {
+  "rank": 12,
+  "facility": "H. Lee Moffitt Cancer Center",
+  "short": "Moffitt",
+  "city": "Tampa",
+  "state": "Florida",
+  "pi": "Melissa Alsina",
+  "alts": [
+   "Brandon Blue",
+   "Kenneth Shain"
+  ],
+  "route": "pi",
+  "confidence": 0.6,
+  "evidence": "PI of Moffitt elranatamab (BCMAxCD3) trial NCT06947083 with Elrexfio research payments; 1572 2026-02",
+  "note": "The former linvo PIs fail the still-there test: Rachid Baz's last 1572 was 2024-11 and Jason Brayer has none recent. The office page is behind bot protection (HTTP 403 to scripts); it showed up in search results but I could not load it.",
+  "criteria": {
+   "still_there": {
+    "met": "yes",
+    "finding": "1572 at Moffitt 2026-02",
+    "source": "BMIS"
+   },
+   "same_drug": {
+    "met": "yes",
+    "finding": "PI elranatamab trial; Elrexfio payments",
+    "source": "CT.gov"
+   },
+   "same_kind": {
+    "met": "yes",
+    "finding": "RRMM trials, CAR-T/bispecific",
+    "source": "CT.gov"
+   },
+   "has_room": {
+    "met": "yes",
+    "competing": 1,
+    "finding": "1 recruiting MM trial as PI",
+    "source": "CT.gov"
+   }
+  },
+  "contact_url": "https://moffitt.org/clinical-trials-research/clinical-trials/clinical-trials-administration",
+  "contact_domain": "moffitt.org",
+  "bmis_latest": "2026-02-13",
+  "url_status": 403,
+  "competing_rule": 1
+ }
+]

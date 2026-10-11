@@ -1,0 +1,8 @@
+{"graded_by": "human (Claude main session) against draft_must_cover.md, after reading outputs; same rules as attempt 1",
+ "must_cover": {"M1": "question", "M2": "prefill", "M3": "question", "M4": "question", "M5": "prefill", "M6": "question",
+                "M7": "question", "M8": "prefill", "M9": "prefill", "M10": "question", "M11": "question", "M12": "question",
+                "M13": "prefill", "M14": "missing"},
+ "notes": {"M8/M9": "prefill via ACR/IAC accreditation search; the agent itself says this may be optimistic",
+           "M12": "Q14 coordinator FTEs, Q5 investigational pharmacy turnaround",
+           "M14": "PI is prefilled but PI interest/enrollment commitment is no longer asked (attempt 1's Q4 was dropped)"},
+ "redundant": []}

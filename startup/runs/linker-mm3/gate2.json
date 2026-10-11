@@ -1,0 +1,41 @@
+{
+ "stage": "2",
+ "passed": true,
+ "checks": [
+  {
+   "check": "12 contacts",
+   "ok": true,
+   "detail": "12"
+  },
+  {
+   "check": "PI still there: FDA 1572 in the site's city since 2025-04-11 (BMIS)",
+   "ok": true,
+   "detail": "12 of 12"
+  },
+  {
+   "check": "all 4 criteria reported",
+   "ok": true,
+   "detail": "missing at: none"
+  },
+  {
+   "check": "seniority-only picks routed to the office",
+   "ok": true,
+   "detail": "misrouted: none"
+  },
+  {
+   "check": "competing-trial count within 2 of script rule",
+   "ok": true,
+   "detail": "12 of 12"
+  },
+  {
+   "check": "no dead contact URLs",
+   "ok": true,
+   "detail": "all reachable (403 = bot-blocked, counted reachable)"
+  },
+  {
+   "check": "no emails or phone numbers",
+   "ok": true,
+   "detail": "none"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "stage": "3b",
+ "passed": true,
+ "checks": [
+  {
+   "check": "public pre-fill counts match script rule (+-15% or 3)",
+   "ok": true,
+   "detail": "24 of 24; misses: []"
+  },
+  {
+   "check": "Riverside: made-up answers",
+   "ok": true,
+   "detail": "none"
+  },
+  {
+   "check": "Riverside: unanswerables flagged",
+   "ok": true,
+   "detail": "unflagged: none"
+  },
+  {
+   "check": "Riverside: wrong answers (reported, not gated)",
+   "ok": true,
+   "detail": "none of 21"
+  }
+ ]
+}

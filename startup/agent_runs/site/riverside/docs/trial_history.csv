@@ -1,0 +1,8 @@
+trial,sponsor,phase,population,drug_class,status,site_start,site_end,site_enrolled,pi
+ALD-201,Alder Therapeutics,3,relapsed/refractory multiple myeloma,anti-CD38 combination,completed,2019-03,2021-02,11,Elena Marsh
+ALD-150,Alder Therapeutics,2,diffuse large B-cell lymphoma,CD19 antibody-drug conjugate,completed,2020-05,2022-01,4,Lena Okafor
+CRV-114,Corvane Bio,2,relapsed/refractory multiple myeloma,BCMA antibody-drug conjugate,completed,2021-06,2023-05,5,Elena Marsh
+HLV-330,Halvorsen Pharma,1/2,relapsed/refractory multiple myeloma,BCMAxCD3 bispecific antibody,completed,2024-01,2025-01,7,Elena Marsh
+ALD-415,Alder Therapeutics,3,newly diagnosed multiple myeloma,anti-CD38 quadruplet,recruiting,2024-09,,6,Elena Marsh
+MRD-088,Meridian Oncology,2,relapsed/refractory multiple myeloma,BCMA CAR-T,recruiting,2025-06,,2,Raj Patel
+CRV-402,Corvane Bio,1,relapsed/refractory multiple myeloma,GPRC5DxCD3 bispecific antibody,recruiting,2026-02,,1,Elena Marsh

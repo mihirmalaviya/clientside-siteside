@@ -1,0 +1,13 @@
+q_id,question
+L1,"How many interventional multiple myeloma trials has the site participated in (any status, excluding withdrawn)?"
+L2,How many of those started on or after 2021-10-11?
+L3,How many interventional myeloma trials is the site currently recruiting for?
+L4,Has the site participated in a myeloma trial of a T-cell-engaging bispecific (or trispecific) antibody?
+L5,How many such T-cell-engaging antibody myeloma trials has the site participated in?
+L6,Has the site participated in a BCMA CAR-T myeloma trial?
+L7,Name up to 3 investigators listed as principal investigator at the site on currently recruiting myeloma trials.
+L8,Which industry sponsor has run the most myeloma trials at the site?
+L9,How many clinical research coordinators support myeloma trials at the site?
+L10,What is the site's median IRB approval time?
+L11,How many -80C research freezers does the site have?
+L12,What is the site's indirect cost (overhead) rate for industry trials?

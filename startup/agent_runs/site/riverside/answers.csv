@@ -1,0 +1,33 @@
+q_id,answer,source,confidence,needs_human,note
+Q1,"Yes. Riverside Medical Center ICU, 24 beds, same building, 24/7 intensivist coverage",capabilities_2026.md;past_questionnaire_2023_alder.md,high,no,Capabilities 2026 confirms; consistent with 2023 questionnaire
+Q2,Yes. Step-up dosing is performed inpatient on the 6 West oncology unit,sop_crs_icans_v2_2025-03.md;past_questionnaire_2023_alder.md,high,no,Conflict: 2023 Alder said outpatient/no inpatient beds; SOP v2 (2025-03) supersedes it
+Q3,4 beds reserved on 6 West for research step-up dosing admissions,sop_crs_icans_v2_2025-03.md;capabilities_2026.md,high,no,SOP v2.0 effective 2025-03-01; capabilities 2026 refers to the SOP
+Q4,Yes. Pharmacy keeps a minimum of 2 doses per enrolled patient on site at all times,sop_crs_icans_v2_2025-03.md;past_questionnaire_2024_corvane.md,high,no,Conflict: 2024 Corvane said 'stocked on request'; SOP v2 (2025-03) is more recent
+Q5,Yes. SOP HEM-RES-014 v2.0 (effective 2025-03-01) covers CRS/ICANS for T-cell engagers,sop_crs_icans_v2_2025-03.md,high,no,"ASTCT grading, ICE every 12h, ICU transfer pathway"
+Q6,"2 (HLV-330 BCMAxCD3, completed; CRV-402 GPRC5DxCD3, recruiting)",trial_history.csv,high,no,BCMA CAR-T (MRD-088) and ADCs are not counted as T-cell engagers
+Q7,"7 (HLV-330, BCMAxCD3 bispecific, 2024-01 to 2025-01)",trial_history.csv,high,no,HLV-330 is the only completed bispecific trial
+Q8,2 (MRD-088 BCMA CAR-T; CRV-402 GPRC5DxCD3 bispecific),trial_history.csv,medium,no,Both are recruiting RRMM; ALD-415 is newly diagnosed MM so it doesn't compete; how much eligibility overlaps is unconfirmed
+Q9,"70 (approximately, per year)",past_questionnaire_2025_halvorsen.md;past_questionnaire_2024_corvane.md;past_questionnaire_2023_alder.md,medium,no,"Conflict: ~50 (2023), ~60 (2024), ~70 (2025); used the most recent (2025-08)"
+Q10,Estimated range 7-14 per year: ~70 RRMM/yr; HLV-330 (similar BCMAxCD3 RRMM population) enrolled 7 in 12 months; 3+ lines/triple-class exposed/BCMA-naive/ECOG 0-1 likely 10-20% of 70; MRD-088 and CRV-402 compete for the same pool,past_questionnaire_2025_halvorsen.md;trial_history.csv,low,yes,Estimate only; PI Elena Marsh should confirm with a clinic database query
+Q11,"4 (Maya Chen lead, Tom Reyes, Priya Nair, Sam Ortiz)",staff_roster_2026-01.csv;past_questionnaire_2023_alder.md;past_questionnaire_2024_corvane.md,high,no,Conflict: 2 (2023) and 3 (2024); roster 2026-01 is the most recent
+Q12,"Yes. Dana Wolfe, Investigational Drug Pharmacist, dedicated to research pharmacy",staff_roster_2026-01.csv,high,no,Per roster 2026-01
+Q13,No. Sub-I Dr. Raj Patel's GCP certificate expired 2025-11-30,staff_roster_2026-01.csv;cv_elena_marsh.md,medium,no,"As of 2026-10-11 Marsh is valid to 2027-05-31 and Okafor to 2026-12-15 (expires soon); roster is from 2026-01, so check whether Patel has renewed"
+Q14,12 (since joining Riverside 2014-07; as of 2026-10),cv_elena_marsh.md;staff_roster_2026-01.csv,high,no,CV says industry trials since 2014; roster start date 2014-07-01
+Q15,2 (continuous temperature monitoring with alarm and backup power),capabilities_2026.md;past_questionnaire_2023_alder.md,high,no,Conflict: 2023 Alder said 1; capabilities 2026 is more recent
+Q16,Yes. CLIA certified (#36D9999999) and CAP accredited,capabilities_2026.md;past_questionnaire_2024_corvane.md,high,no,Consistent across 2024 and 2026
+Q17,No. Referral to Valley Imaging Partners (average 5 business days to schedule),capabilities_2026.md;past_questionnaire_2023_alder.md,high,no,Consistent with 2023
+Q18,No. MRD by NGS is a send-out to the central/sponsor lab,capabilities_2026.md,high,no,
+Q19,Yes. Performed on site in the hematology clinic,capabilities_2026.md,high,no,
+Q20,Yes. 24/7 hematology attending and fellow on call; neurology consult 24/7,sop_crs_icans_v2_2025-03.md;past_questionnaire_2025_halvorsen.md,high,no,
+Q21,6 (local Riverside IRB),past_questionnaire_2025_halvorsen.md;past_questionnaire_2023_alder.md,medium,no,Conflict: 8 weeks (2023); used 2025 figure
+Q22,Yes. WCG IRB,past_questionnaire_2025_halvorsen.md;past_questionnaire_2023_alder.md,high,no,Consistent 2023 and 2025
+Q23,10,past_questionnaire_2025_halvorsen.md;past_questionnaire_2024_corvane.md,medium,no,Conflict: ~12 weeks (2024); used 2025 figure
+Q24,28 (FY2025),past_questionnaire_2025_halvorsen.md;past_questionnaire_2024_corvane.md,medium,no,"Conflict: 30% (2024); used 28% FY2025; FY2026 rate not on file, so confirm with contracts office"
+Q25,Medidata Rave; Veeva Vault EDC,past_questionnaire_2024_corvane.md,medium,no,Only source is 2024; staff have changed since then (Sam Ortiz joined 2025-10)
+Q26,Yes. Epic read-only remote access,past_questionnaire_2025_halvorsen.md;capabilities_2026.md,high,no,
+Q27,30 (approximately),past_questionnaire_2025_halvorsen.md,medium,no,Single source (2025)
+Q28,"Yes. Discounted rate at partner hotel Riverside Inn, 10 minutes from the hospital",past_questionnaire_2025_halvorsen.md,high,no,
+Q29,,,low,yes,No document on file; ask the regulatory specialist (Chris Lam) or the IRB
+Q30,,,low,yes,"Needs a PI decision (Dr. Elena Marsh); for reference, HLV-330 enrolled 7 in 12 months"
+Q31,,,low,yes,No document on file; ask the regulatory specialist (Chris Lam) or the QA office
+Q32,,,low,yes,No document on file (trial_history only has start months); ask the lead CRC (Maya Chen)

@@ -1,0 +1,1866 @@
+id,facility,city,state
+1,102,waco,texas
+2,103,miami,florida
+3,104,hialeah,florida
+4,105,miami,florida
+5,106,bozeman,montana
+6,107,miami,florida
+7,108,edmond,oklahoma
+8,109,smyrna,tennessee
+9,110,rock hill,south carolina
+10,111,san jose,california
+11,112,cincinnati,ohio
+12,113,bellevue,nebraska
+13,114,centennial,colorado
+14,115,eugene,oregon
+15,116,medford,oregon
+16,1222 6 061 center for human genomics,winston-salem,north carolina
+17,1222 6 064 arthur f gelb medical corporation lakewood,lakewood,california
+18,1222 6 066 allergy and asthma medical group and rsrch ctr apc,san diego,california
+19,1222 6 067 northeast medical research associates,north darthmouth,massachusetts
+20,1222 6 068 national jewish medical center,denver,colorado
+21,1222 6 069 allergy associates medical group,san diego,california
+22,1222 6 071 pulmonary consultants,tacoma,washington
+23,1304 15th st,santa monica,california
+24,1st allergy and asthma clinical research ctr,thornton,colorado
+25,1st allergy and clinical research center,centennial,colorado
+26,3 c institute for social development,durham,north carolina
+27,3 c institute for social development dba 3c institute,durham,north carolina
+28,501 howard av,altoona,pennsylvania
+29,508 w 6th av,spokane,washington
+30,620 south 20th street nhb 104,birmingham,alabama
+31,7707 fannin ste 195,houston,texas
+32,a s t h m a,seattle,washington
+33,aaadrs clinical research center,coral gables,florida
+34,aac research,charleston,south carolina
+35,aac research,mt pleasant,north carolina
+36,aac research,mt. pleasant,south carolina
+37,aafp national research network,kansas city,kansas
+38,aair research center,rochester,new york
+39,aapri clinical research institute,lincoln,rhode island
+40,aapri clinical research institute,providence,rhode island
+41,aapri clinical research institute,warwick,rhode island
+42,aara research center,dallas,texas
+43,abel and buchheim,miami,florida
+44,abm research center,fresno,california
+45,abraham research,crescent springs,kentucky
+46,abraham research,florence,kentucky
+47,acadiana medicine clinic,opelousas,louisiana
+48,accelovance,melbourne,florida
+49,achieve clinical research,birmingham,alabama
+50,adac research,greenville,south carolina
+51,adolescent and pediatric associates,montgomery,alabama
+52,adult ped aller central jersey,edison,new jersey
+53,adult pediatric allergy central jersey,edison,new jersey
+54,advanced allergy and asthma,rockville centre,new york
+55,advanced clinical concepts,shillington,pennsylvania
+56,advanced clinical concepts,temple,pennsylvania
+57,advanced ent and allergy,louisville,kentucky
+58,advanced pediatrics,vienna,virginia
+59,advanced research for health improvement,naples,florida
+60,advanced research institute,new port richey,florida
+61,advanced research institute,reno,nevada
+62,advanced research institute of miami,homestead,florida
+63,advances in medicine,rancho mirage,california
+64,advocate children s hospital oak lawn,oak lawn,illinois
+65,aero allergy research labs of savannah,savannah,georgia
+66,aero allergy research labs of savannah 505 eisenhower,savannah,georgia
+67,aeroallergy research,savannah,georgia
+68,aeroallergy research laboratories of savannah,savannah,georgia
+69,aeroallergy research labs,savannah,georgia
+70,aeroallergy research labs of savanna,savannah,georgia
+71,aeroallergy research labs of savannah,savannah,georgia
+72,airway clinical research center room 1303 moffitt ucsf medical center,san francisco,california
+73,airway research and clinical trials center,san diego,california
+74,akron children s hospital,akron,ohio
+75,alabama allergy and asthma,birmingham,alabama
+76,alabama allergy and asthma center,birmingham,alabama
+77,alabama allergy and asthma clinic,montgomery,alabama
+78,alabama asthma and allergy center,homewood,alabama
+79,alabama clinical research associates,pell city,alabama
+80,alameda county medical center,oakland,california
+81,alan kaufman md,the bronx,new york
+82,alan kaufman md pp,the bronx,new york
+83,albany area primary healthcare,newton,georgia
+84,albermarle allergy and asthma,elizabeth city,north carolina
+85,albert einstein college of medicine montefiore mc,the bronx,new york
+86,albert einstein college of medicine yeshiva university,the bronx,new york
+87,albert einstein healthcare network,philadelphia,pennsylvania
+88,albert einstein medical center,philadelphia,pennsylvania
+89,albert p hirdt do pp,newburgh,new york
+90,alfred i dupont hospital for children,wilmington,delaware
+91,all seasons allergy and asthma center p a,fort walton beach,florida
+92,allainz research institute,westminster,california
+93,allegheny general hospital,pittsburgh,pennsylvania
+94,alleghney general hospital,pittsburgh,pennsylvania
+95,allergic disease and asthma center,greenville,south carolina
+96,allergic disease and asthma center research,greenville,south carolina
+97,allergic diseases s c,west allis,wisconsin
+98,allergic diseases sc,west allis,wisconsin
+99,allergy and arthritis family,gardner,massachusetts
+100,allergy and asth phys of cent ky,lexington,kentucky
+101,allergy and asthma,san diego,california
+102,allergy and asthma and dermatology research center,lake oswego,oregon
+103,allergy and asthma assoc,las vegas,nevada
+104,allergy and asthma assoc of santa clara valley research center,san jose,california
+105,allergy and asthma assoc of santa clara valley research ctr,san jose,california
+106,allergy and asthma assocaites of santa clara valley,san jose,california
+107,allergy and asthma associates,houston,texas
+108,allergy and asthma associates,kirkland,washington
+109,allergy and asthma associates,las vegas,nevada
+110,allergy and asthma associates,lexington,kentucky
+111,allergy and asthma associates oak street medical p c,eugene,oregon
+112,allergy and asthma associates of houston,houston,texas
+113,allergy and asthma associates of northern california,san jose,california
+114,allergy and asthma associates of santa clara res center,san jose,california
+115,allergy and asthma associates of santa clara valley,san jose,california
+116,allergy and asthma associates of santa clara valley rc,san jose,california
+117,allergy and asthma associates of santa clara valley research center,san jose,california
+118,allergy and asthma associates of santa clara valley research centere,san jose,california
+119,allergy and asthma associates of southern california,mission viejo,california
+120,allergy and asthma associates of southern california a medical group,mission viejo,california
+121,allergy and asthma associates santa clara valley research center,san jose,california
+122,allergy and asthma care,glen carbon,illinois
+123,allergy and asthma care center,fargo,north dakota
+124,allergy and asthma care center,gainesville,georgia
+125,allergy and asthma care center,long beach,california
+126,allergy and asthma care center of southern california,long beach,california
+127,allergy and asthma care of fl clinical research,ocala,florida
+128,allergy and asthma care of florida,ocala,florida
+129,allergy and asthma care of waco,waco,texas
+130,allergy and asthma care specialists,metairie,louisiana
+131,allergy and asthma center,bellevue,nebraska
+132,allergy and asthma center,fort wayne,indiana
+133,allergy and asthma center,oxford,alabama
+134,allergy and asthma center,waco,texas
+135,allergy and asthma center of chicago,river forest,illinois
+136,allergy and asthma center of el paso,el paso,texas
+137,allergy and asthma center of nc,high point,north carolina
+138,allergy and asthma center of north carolina,high point,north carolina
+139,allergy and asthma center of southern oregon,medford,oregon
+140,allergy and asthma centre of dayton,centerville,ohio
+141,allergy and asthma clin cen tx,round rock,texas
+142,allergy and asthma clinic,san mateo,california
+143,allergy and asthma clinic of central texas,austin,texas
+144,allergy and asthma clinic of central texas,killeen,texas
+145,allergy and asthma clinic research center,conyers,georgia
+146,allergy and asthma clinical of central texas,austin,texas
+147,allergy and asthma clinical research,walnut creek,california
+148,allergy and asthma clinical research center,conyers,georgia
+149,allergy and asthma clinical research center,lawrenceville,georgia
+150,allergy and asthma clinical research center,oklahoma city,oklahoma
+151,allergy and asthma consultants,mt. pleasant,south carolina
+152,allergy and asthma consultants,redwood city,california
+153,allergy and asthma consultants llp,mt. pleasant,south carolina
+154,allergy and asthma diagnostic office,liverpool,new york
+155,allergy and asthma diagnostic treatment center,tallahassee,florida
+156,allergy and asthma dtc,tallahassee,florida
+157,allergy and asthma immunology associates,scottsdale,arizona
+158,allergy and asthma inst valley,granada hills,california
+159,allergy and asthma med group of diablo valley cr,walnut creek,california
+160,allergy and asthma med group research center,san diego,california
+161,allergy and asthma medical group,walnut creek,california
+162,allergy and asthma medical group and research center,long beach,california
+163,allergy and asthma medical group and research center,san diego,california
+164,allergy and asthma medical group and research center a p c,san diego,california
+165,allergy and asthma medical group clinical research division,walnut creek,california
+166,allergy and asthma medical group of bay area,walnut creek,california
+167,allergy and asthma medical group of diablo valley,danville,california
+168,allergy and asthma medical group of diablo valley,walnut creek,california
+169,allergy and asthma of northern nm,los alamos,new mexico
+170,allergy and asthma prevention and treatment center,san diego,california
+171,allergy and asthma relief experts,granada hills,california
+172,allergy and asthma res ctr,san antonio,texas
+173,allergy and asthma research,eugene,oregon
+174,allergy and asthma research associates,dallas,texas
+175,allergy and asthma research center,san antonio,texas
+176,allergy and asthma research center of el paso,el paso,texas
+177,allergy and asthma research center p a,san antonio,texas
+178,allergy and asthma research group,eugene,oregon
+179,allergy and asthma research groups,eugene,oregon
+180,allergy and asthma research grp,eugene,oregon
+181,allergy and asthma research institute,waco,texas
+182,allergy and asthma research of new jersey,philadelphia,pennsylvania
+183,allergy and asthma research of nj,mount laurel,new jersey
+184,allergy and asthma research of nj,philadelphia,pennsylvania
+185,allergy and asthma research of nj lnc,philadelphia,pennsylvania
+186,allergy and asthma specialist medical group,huntington beach,california
+187,allergy and asthma specialists,blue bell,pennsylvania
+188,allergy and asthma specialists,huntington beach,california
+189,allergy and asthma specialists medical group,huntington beach,california
+190,allergy and asthma specialists medical group and research ct,huntington beach,california
+191,allergy and asthma specialists psc,owensboro,kentucky
+192,allergy and asthmas specialists of harrisburg,harrisburg,pennsylvania
+193,allergy and clinical immun assoc,pittsburgh,pennsylvania
+194,allergy and clinical immunology,bangor,maine
+195,allergy and clinical immunology,pittsburgh,pennsylvania
+196,allergy and clinical immunology associates,pittsburgh,pennsylvania
+197,allergy and clinical research center,centennial,colorado
+198,allergy and immunology,tulsa,oklahoma
+199,allergy and immunology associates,scottsdale,arizona
+200,allergy and immunology clinic at university of michigan,ann arbor,michigan
+201,allergy and immunology medical group,vista,california
+202,allergy and respiratory care center,milwaukee,wisconsin
+203,allergy and respiratory center,canton,ohio
+204,allergy arth fam treatment ctr,gardner,massachusetts
+205,allergy assoc asthma allergy and sinus ctr,knoxville,tennessee
+206,allergy assoc medical group,san diego,california
+207,allergy associates,chesterfield,missouri
+208,allergy associates,knoxville,tennessee
+209,allergy associates medical group,san diego,california
+210,allergy associates of hartford,glastonbury,connecticut
+211,allergy associates of tucson,tucson,arizona
+212,allergy associates of utah,murray,utah
+213,allergy associates research center,portland,oregon
+214,allergy associates research center crn,portland,oregon
+215,allergy asthma and clinical immunology,brick,new jersey
+216,allergy asthma and clinical research center,oklahoma city,oklahoma
+217,allergy asthma and dermatology research,lake oswego,oregon
+218,allergy asthma and dermatology research center,lake oswego,oregon
+219,allergy asthma and dermatology research center 3975 me,lake oswego,oregon
+220,allergy asthma and immun assoc,garland,texas
+221,allergy asthma and immun center,leesburg,florida
+222,allergy asthma and immunology,san antonio,texas
+223,allergy asthma and immunology associates,lincoln,nebraska
+224,allergy asthma and immunology center of alaska,anchorage,alaska
+225,allergy asthma and respiratory care center,long beach,california
+226,allergy asthma and respiratory care medical center,long beach,california
+227,allergy asthma and sinus center,greenfield,wisconsin
+228,allergy asthma and sinus center,knoxville,tennessee
+229,allergy asthma and sinus center,leesburg,virginia
+230,allergy asthma and sinus center,palm beach gardens,florida
+231,allergy asthma and sinus center f c,greenfield,wisconsin
+232,allergy asthma and sinus center s c,greenfield,wisconsin
+233,allergy asthma and sinus consultants,riverside,california
+234,allergy asthma care,crown point,indiana
+235,allergy asthma care ctr,los angeles,california
+236,allergy asthma immunology of rochester aair,rochester,new york
+237,allergy asthma immunology of rochester research center,rochester,new york
+238,allergy asthma immunology services,jefferson city,missouri
+239,allergy asthma k4,madison,wisconsin
+240,allergy asthma research assoc,dallas,texas
+241,allergy asthma research institute,waco,texas
+242,allergy asthma sleep center,astoria,new york
+243,allergy asthma sleep center,brooklyn,new york
+244,allergy asthma sleep center,new york,new york
+245,allergy asthma sleep center,staten island,new york
+246,allergy asthma specialists,blue bell,pennsylvania
+247,allergy center at brookstone,columbus,ohio
+248,allergy consultants,boca raton,florida
+249,allergy consultants,verona,new jersey
+250,allergy consultants,verona,pennsylvania
+251,allergy immunology associates,south euclid,ohio
+252,allergy immunology research center of north texas,dallas,texas
+253,allergy medical clinic,los angeles,california
+254,allergy medical clinic research division,los angeles,california
+255,allergy partners,richmond,virginia
+256,allergy partners of western nc,asheville,north carolina
+257,allergy partners of western north carolina,asheville,north carolina
+258,allergy research foundation,los angeles,california
+259,allergy respiratory and sleep center,canton,ohio
+260,allergy sinus asthma research institute,miami,florida
+261,allergy treatment center of new jersey,piscataway,new jersey
+262,allianz medical and research center,fountain valley,california
+263,allianz research institute,westminster,california
+264,allied clinical research,gold river,california
+265,allied clinical research,reno,nevada
+266,allied clinical research,sacramento,california
+267,alta clinical research,tucson,arizona
+268,altana pharma,cities in alabama,alabama
+269,altana pharma,cities in arizona,arizona
+270,altana pharma,cities in arkansas,arkansas
+271,altana pharma,cities in california,california
+272,altana pharma,cities in colorado,colorado
+273,altana pharma,cities in connecticut,connecticut
+274,altana pharma,cities in delaware,delaware
+275,altana pharma,cities in florida,florida
+276,altana pharma,cities in georgia,georgia
+277,altana pharma,cities in idaho,idaho
+278,altana pharma,cities in illinois,illinois
+279,altana pharma,cities in indiana,indiana
+280,altana pharma,cities in iowa,iowa
+281,altana pharma,cities in kansas,kansas
+282,altana pharma,cities in kentucky,kentucky
+283,altana pharma,cities in louisiana,louisiana
+284,altana pharma,cities in maine,maine
+285,altana pharma,cities in maryland,maryland
+286,altana pharma,cities in massachusetts,massachusetts
+287,altana pharma,cities in michigan,michigan
+288,altana pharma,cities in minnesota,minnesota
+289,altana pharma,cities in mississippi,mississippi
+290,altana pharma,cities in missouri,missouri
+291,altana pharma,cities in montana,montana
+292,altana pharma,cities in nebraska,nebraska
+293,altana pharma,cities in nevada,nevada
+294,altana pharma,cities in new jersey,new jersey
+295,altana pharma,cities in new york,new york
+296,altana pharma,cities in north carolina,north carolina
+297,altana pharma,cities in north dakota,north dakota
+298,altana pharma,cities in ohio,ohio
+299,altana pharma,cities in oklahoma,oklahoma
+300,altana pharma,cities in oregon,oregon
+301,altana pharma,cities in pennsylvania,pennsylvania
+302,altana pharma,cities in rhode island,rhode island
+303,altana pharma,cities in south carolina,south carolina
+304,altana pharma,cities in tennessee,tennessee
+305,altana pharma,cities in texas,texas
+306,altana pharma,cities in utah,utah
+307,altana pharma,cities in vermont,vermont
+308,altana pharma,cities in virginia,virginia
+309,altana pharma,cities in washington,washington
+310,altana pharma,cities in west virginia,west virginia
+311,altana pharma,cities in wisconsin,wisconsin
+312,altana pharma,massachusetts,massachusetts
+313,altoona lung specialists,altoona,pennsylvania
+314,american health research,charlotte,north carolina
+315,american lung association southeast division,smyrna,georgia
+316,amneal pharmaceuticals,brookhaven,new york
+317,amphastar location 1,cypress,california
+318,anaheim clinical trials,anaheim,california
+319,analab clinical research,lenexa,kansas
+320,ann and robert h lurie children s hospital,chicago,illinois
+321,ann and robert h lurie children s hospital of chicago,chicago,illinois
+322,ann and robert h lurie childrens hosptial of chicago,chicago,illinois
+323,ann and robert lurie children s hospital of chicago,chicago,illinois
+324,ansr,peoria,illinois
+325,antelope valley clinical trials,lancaster,california
+326,appalachian regional healthcare,hazard,kentucky
+327,applemed research,miami,florida
+328,arizona research center,phoenix,arizona
+329,arkansas children s hospital,little rock,arkansas
+330,arkansas children s hospital research institute,little rock,arkansas
+331,arthur f gelb medical corporation,lakewood,california
+332,associated pharmaceutical research center,buena park,california
+333,associated scientists to help minimize allergies,seattle,washington
+334,associated specialists in medicine,st louis,missouri
+335,asthma,richland,washington
+336,asthma,seatle,washington
+337,asthma,seattle,washington
+338,asthma allergy and pulmonary associates,philadelphia,pennsylvania
+339,asthma allergy and pulmonary research,madison,wisconsin
+340,asthma allergy and respiratory care center,long beach,california
+341,asthma allergy and sinus center,baltimore,maryland
+342,asthma allergy clinic and research center,shreveport,louisiana
+343,asthma allergy ctr of sw mi,portage,michigan
+344,asthma allergy phys of ri,lincoln,rhode island
+345,asthma allergy pulm associates,philadelphia,pennsylvania
+346,asthma and airway disease research center,tucson,arizona
+347,asthma and allergy associates,colorado springs,colorado
+348,asthma and allergy associates,cortland,new york
+349,asthma and allergy associates,elmira,new york
+350,asthma and allergy associates,ithaca,new york
+351,asthma and allergy associates,pueblo,colorado
+352,asthma and allergy associates,upland,pennsylvania
+353,asthma and allergy associates of southern california,mission viejo,california
+354,asthma and allergy associates p c,colorado springs,colorado
+355,asthma and allergy associates p c and research center,colorado springs,colorado
+356,asthma and allergy center,bellevue,nebraska
+357,asthma and allergy center,elliott,maryland
+358,asthma and allergy center,papillion,nebraska
+359,asthma and allergy center,toledo,ohio
+360,asthma and allergy center of chicago s c,river forest,illinois
+361,asthma and allergy center of chicago sc,river forest,illinois
+362,asthma and allergy center p c,papillion,nebraska
+363,asthma and allergy clinic,san francisco,california
+364,asthma and allergy inst of mi,clinton township,michigan
+365,asthma and allergy of idaho,twin falls,idaho
+366,asthma and allergy physicians,brockton,mississippi
+367,asthma and allergy physicians of rhode island clinical research institute,warwick,rhode island
+368,asthma and allergy physicians of rhode island clinical research institute aapri cri,warwick,rhode island
+369,asthma and allergy research associates,chester,pennsylvania
+370,asthma and allergy research associates,upland,pennsylvania
+371,asthma and allergy research center,sarasota,florida
+372,asthma and allergy research of new jersey,philadelphia,pennsylvania
+373,asthma and allergy research of nj,mount laurel,new jersey
+374,asthma and allergy specialists,minneapolis,minnesota
+375,asthma clinical research center,seattle,washington
+376,asthma institute,chattanooga,tennessee
+377,asthma institute university of pittsburgh,pittsburgh,pennsylvania
+378,asthma medical group and resarch,san diego,california
+379,asthma nasal disease and allergy research center of new england,providence,rhode island
+380,asthma research center,boston,massachusetts
+381,asthma research center brigham and women s hospital,boston,massachusetts
+382,atlanta allergy and asth clin,stockbridge,georgia
+383,atlanta allergy and asthma clini,woodstock,georgia
+384,atlanta allergy and asthma clinic,marietta,georgia
+385,atlanta allergy and asthma clinic,stockbridge,georgia
+386,atlanta allergy and asthma clinic,woodstock,georgia
+387,atlanta pharmaceutical research center,dunwoody,georgia
+388,atlantic allergy asthma immunology associates,ocean city,new jersey
+389,atlantic research center,ocean city,new jersey
+390,atlantic research center,ocean township,new jersey
+391,atrium health,charlotte,north carolina
+392,auburn university,auburn,alabama
+393,aurora sinai medical center,milwaukee,wisconsin
+394,auroroa health care,milwaukee,wisconsin
+395,avail clinical research,deland,florida
+396,aventis pharmaceutical,bridgewater,new jersey
+397,aventis pharmaceuticals,bridgewater,new jersey
+398,axis clinical trials,los angeles,california
+399,baker allergy asthma and dermatology research center,lake oswego,oregon
+400,bandera family health care,san antonio,texas
+401,banner university of arizona medical center,tucson,arizona
+402,banner university of arizona medical center asthma and airway disease research center,tucson,arizona
+403,barbara bush children s hospital at maine medical center,portland,maine
+404,baylor college of medicine,houston,texas
+405,baylor college of medicine dept of medicine,houston,texas
+406,baylor university medical center,dallas,texas
+407,baylor university medical center bumc,dallas,texas
+408,baystate health center,springfield,massachusetts
+409,baystate medical center,springfield,massachusetts
+410,beach clinical research,huntington beach,california
+411,beaumont hospital royal oak,royal oak,michigan
+412,bellevue pediatric associates,bellevue,pennsylvania
+413,bellevue pediatric association,pittsburgh,pennsylvania
+414,belligham asthma and allergy,bellingham,washington
+415,bellingham asthma allergy and immunology,bellingham,washington
+416,bellingham asthma allergy and immunology clinic,bellingham,washington
+417,ben taul general hospital,houston,texas
+418,bend memorial clinic,bend,oregon
+419,bendel medical research,lafayette,louisiana
+420,bensch clinical research,stockton,california
+421,bensch research associates,stockton,california
+422,benton pediactrics,gainesville,florida
+423,berks schuylkill respiratory specialists,wyomissing,pennsylvania
+424,bernstein clinical research,cincinnati,ohio
+425,bernstein clinical research center,cincinnati,ohio
+426,bernstein clinical research center university of cincinnati,cincinnati,ohio
+427,beth israel deaconess medical center,boston,massachusetts
+428,beth israel medical center,new york,new york
+429,beth israel medical center center for health and healing,new york,new york
+430,bethesda allergy asthma and research center,bethesda,maryland
+431,billings clinic research division,billings,montana
+432,biogenics research institute,san antonio,texas
+433,biotech pharmaceutical group,miami,florida
+434,bjhchs hardeeville medical center,ridgeland,south carolina
+435,blessing health system,quincy,illinois
+436,borinquen health care center,miami,florida
+437,boris sagalovich md,brooklyn,new york
+438,boston children s,boston,massachusetts
+439,boston children s hospital,boston,massachusetts
+440,boston children s hospital harvard university,boston,massachusetts
+441,boston medical center,boston,massachusetts
+442,boston university school of medicine,boston,massachusetts
+443,boulder medical center,boulder,colorado
+444,bradford county health department,starke,florida
+445,brandon valico center for allergy and asthma research,valrico,florida
+446,brandon valrico center for allergy and astham research,valrico,florida
+447,breath of life research institute,houston,texas
+448,breath of life research institute,katy,texas
+449,breco research,houston,texas
+450,bridgerland clinical research,north logan,utah
+451,brigham and women s faulkner hospital,boston,massachusetts
+452,brigham and women s hospital,boston,massachusetts
+453,brigham and women s hospital asthma research,boston,massachusetts
+454,brigham and women s hospital pulmonary division,boston,massachusetts
+455,brigham and womens hospital,boston,massachusetts
+456,brigham and womens s hospital,boston,massachusetts
+457,broadlawns medical center,des moines,iowa
+458,brookstone centre parkway,columbus,georgia
+459,brookstone clinical res ctr,columbus,georgia
+460,broward research center,pembroke pines,florida
+461,ca allergy and asthma med group,palmdale,california
+462,ca allergy and asthma med grp,los angeles,california
+463,ca allergy and asthma med grp medical group,los angeles,california
+464,california allergy and asthma,los angeles,california
+465,california allergy and asthma,palmdale,california
+466,california allergy and asthma med group,los angeles,california
+467,california allergy and asthma medical group,los angeles,california
+468,california allergy and asthma medical group,palmdale,california
+469,california research medical group,fullerton,california
+470,call for information,costa mesa,california
+471,call for information,rolling hills estates,california
+472,cambridge health alliance,cambridge,massachusetts
+473,canyon internal medicine,tucson,arizona
+474,capital allergy resp dis ctr,sacramento,california
+475,capital pediatrics and adolescent center,raleigh,north carolina
+476,capitol pediatric and adolescent center,raleigh,north carolina
+477,cardinal respiratory,springfield,illinois
+478,cardiopulmonary associates of missoula,missoula,montana
+479,carlos piniella md,miami,florida
+480,carnegie mellon university,pittsburgh,pennsylvania
+481,carolina medtrials,winston-salem,north carolina
+482,carolinas medical center northeast lovelace,kannapolis,north carolina
+483,carolinas research,concord,north carolina
+484,case western reserve university,cleveland,ohio
+485,castro mission health center,san francisco,california
+486,cchhs,chicago,illinois
+487,cedar crosse research center,chicago,illinois
+488,celerion,lincoln,nebraska
+489,celerion,tempe,arizona
+490,center for allergy and asthma,highland park,new jersey
+491,center for allergy asthma and immunology creighton university,omaha,nebraska
+492,center for asthma and allergy,highland park,new jersey
+493,center for clinical research,brockton,massachusetts
+494,center for clinical research,taunton,massachusetts
+495,center for clinical trials,paramount,california
+496,center for clinical trials of sacramento,sacramento,california
+497,center for environmental medicine asthma and lung biology,chapel hill,north carolina
+498,center for environmental medicine asthma and lung biology at university of north carolina,chapel hill,north carolina
+499,center for health research kph,honolulu,hawaii
+500,center for health research kpnw,portland,oregon
+501,center for pharmaceutical research,kansas city,missouri
+502,center for sleep and consciousness and wisconsin sleep clinic,madison,wisconsin
+503,center for urban population health,milwaukee,wisconsin
+504,center of research excellence,oxford,alabama
+505,centers for disease control and prevention,atlanta,georgia
+506,central asth and allergy care research division,altoona,pennsylvania
+507,central coast allergy and asthma,salinas,california
+508,central florida pulmonary grou,orlando,florida
+509,central florida pulmonary group,altamonte springs,florida
+510,central florida pulmonary group,orlando,florida
+511,central fulton community mental health center at grady hospital,atlanta,georgia
+512,central texas health research,new braunfels,texas
+513,central texas health research corporation,new braunfels,texas
+514,charleston allergy and asthma research,summerville,south carolina
+515,charlotte lung and health center,charlotte,north carolina
+516,chesapeake clinical research,baltimore,maryland
+517,chesapeake clinical research,white marsh,maryland
+518,chesapeake clinical research crn,baltimore,maryland
+519,chest medicine clinical services,skokie,illinois
+520,chest medicine consultants,chicago,illinois
+521,child health institute unversity of washington,seattle,washington
+522,children and youth project,louisville,kentucky
+523,children s asthma respiratory and exercise specialists,glenview,illinois
+524,children s center for digestive healthcare,atlanta,georgia
+525,children s clinic of jonesboro,jonesboro,arkansas
+526,children s colorado hospital,aurora,colorado
+527,children s healthcare of altanta,atlanta,georgia
+528,children s healthcare of atlanta emory university,atlanta,georgia
+529,children s hospital and research center oakland,oakland,california
+530,children s hospital at montefiore,the bronx,new york
+531,children s hospital at montefiore albert einstein college of medicine,the bronx,new york
+532,children s hospital boston,boston,massachusetts
+533,children s hospital colorado,aurora,colorado
+534,children s hospital los angeles,los angeles,california
+535,children s hospital of king s daughter,norfolk,virginia
+536,children s hospital of kings daughters,norfolk,virginia
+537,children s hospital of michigan,detroit,michigan
+538,children s hospital of new york medical center,new york,new york
+539,children s hospital of orange county pediatric subspecialty faculty,orange,california
+540,children s hospital of philadelphia,philadelphia,pennsylvania
+541,children s hospital of philadelphia chop,philadelphia,pennsylvania
+542,children s hospital of philadelphia emergency department,philadelphia,pennsylvania
+543,children s hospital of pittsburgh division of allergy immunology and infectious diseases,pittsburgh,pennsylvania
+544,children s hospital of pittsburgh of upmc,pittsburgh,pennsylvania
+545,children s hospital of richmond,richmond,virginia
+546,children s hospital of wisconsin,milwaukee,wisconsin
+547,children s hospital ou medical center,oklahoma city,oklahoma
+548,children s hospital san diego,san diego,california
+549,children s hospitals and clinics of minnesota emergency department,minneapolis,minnesota
+550,children s hosptial of orange county div asthma allergy and immunology,orange,california
+551,children s international medical research,slidell,louisiana
+552,children s medical center,dallas,texas
+553,children s medical center dallas,dallas,texas
+554,children s memorial hospital,chicago,illinois
+555,children s memorial hospital department of allergy,chicago,illinois
+556,children s mercy hospital,kansas city,missouri
+557,children s mercy hospital and clinics,kansas city,missouri
+558,children s mercy hospitals and clinics,kansas city,missouri
+559,children s minnesota,saint paul,minnesota
+560,children s national health system,washington d.c.,district of columbia
+561,children s national medical center,washington d.c.,district of columbia
+562,children s national medical center impact dc,washington d.c.,district of columbia
+563,children s research institute,washington d.c.,district of columbia
+564,childrens hospital colorado,aurora,colorado
+565,childrens hospital of kings daughters,norfolk,virginia
+566,childrens lung specialists,las vegas,nevada
+567,childrens memorial hospital,chicago,illinois
+568,choc psf amc,orange,california
+569,choc psf amc disision of allergy asthma and immunology,orange,california
+570,choc psf amc division of allergy asthma and immunology,orange,california
+571,choc psf amc divison aa and i,orange,california
+572,choc psf division of allergy asthma and immunology,orange,california
+573,chop,philadelphia,pennsylvania
+574,christiana hospital,newark,delaware
+575,christopher c randolph md pp,waterbury,connecticut
+576,cincinnati children s hospital,cincinnati,ohio
+577,cincinnati children s hospital and medical center,cincinnati,ohio
+578,cincinnati children s hospital medical center,cincinnati,ohio
+579,cincinnati children s medical hospital,cincinnati,ohio
+580,cincinnati childrens hospital medical center,cincinnati,ohio
+581,cleveland clinic,cleveland,ohio
+582,cleveland clinic dept of endocrinology,cleveland,ohio
+583,cleveland clinic euclid hospital,euclid,ohio
+584,cleveland clinic foundation,cleveland,ohio
+585,clinical neuroscience solutions,jacksonville,florida
+586,clinical research center,little rock,arkansas
+587,clinical research center,st louis,missouri
+588,clinical research center l l c,st louis,missouri
+589,clinical research center of alabama,birmingham,alabama
+590,clinical research center of albama,birmingham,alabama
+591,clinical research center of allergy and asthma consultants,tinton falls,new jersey
+592,clinical research center of indiana,indianapolis,indiana
+593,clinical research centers of colorado,englewood,colorado
+594,clinical research consortium,las vegas,nevada
+595,clinical research consortium nevada,las vegas,nevada
+596,clinical research consortuim arizona,tempe,arizona
+597,clinical research ctr,st louis,missouri
+598,clinical research group of montana,bozeman,montana
+599,clinical research inst,minneapolis,minnesota
+600,clinical research inst of southern oregon,medford,oregon
+601,clinical research institute,minneapolis,minnesota
+602,clinical research institute,plymouth,minnesota
+603,clinical research institute of south oregaon,medford,oregon
+604,clinical research institute of southern oregan,medford,oregon
+605,clinical research institute of southern oregn,medford,oregon
+606,clinical research institute of southern oregon,medford,oregon
+607,clinical research of charlotte,charlotte,north carolina
+608,clinical research of ozarks,columbia,missouri
+609,clinical research of ozarks,rolla,missouri
+610,clinical research of rock hill,rock hill,south carolina
+611,clinical research partners,henrico,virginia
+612,clinical research partners,richmond,virginia
+613,clinical research solutions,knoxville,tennessee
+614,clinical research solutions baptist hospitals of east tennesse,knoxville,tennessee
+615,clinical research specialist,metairie,louisiana
+616,clinical research specialists,metairie,louisiana
+617,clinical research trials of florida,tampa,florida
+618,clinical reserch centers of colorado,denver,colorado
+619,clinical trial center,jenkintown,pennsylvania
+620,clinical trial network,houston,texas
+621,clinical trials north houston,houston,texas
+622,clinical trials of north houston,houston,texas
+623,clinical trials of orange cnty,orange,california
+624,clinical trials of orange county,orange,california
+625,clintex research group,miami,florida
+626,cmc elizabeth family medicine,charlotte,north carolina
+627,cns clinical trials,fort myers,florida
+628,cns network,long beach,california
+629,coastal carolina health care p a,new bern,north carolina
+630,codman square health center,boston,massachusetts
+631,cohero health,new york,new york
+632,college park family care center,overland park,kansas
+633,colonial heights pediatrics,colonial heights,virginia
+634,colorado allergy and asthma center,centennial,colorado
+635,colorado allergy and asthma center,denver,colorado
+636,colorado allergy and asthma center,englewood,colorado
+637,colorado allergy and asthma center,lakewood,colorado
+638,colorado allergy and asthma centers,centennial,colorado
+639,colorado allergy and asthma centers,denver,colorado
+640,colorado allergy and asthma centers,englewood,colorado
+641,colorado allergy and asthma centers,lakewood,colorado
+642,colorado allergy and asthma centres p c,denver,colorado
+643,colorado allergy and asthma clinic,centennial,colorado
+644,colorado asthma and allergy centers 125 rampart way,denver,colorado
+645,colorado asthma and allergy research centers p c,centenniel,colorado
+646,colorado children s hospital breathing institute,aurora,colorado
+647,columbia presbyterian medical center,new york,new york
+648,columbia university,new york,new york
+649,columbia university asthma center,new york,new york
+650,columbia university health sciences,new york,new york
+651,columbia university irving medical center,new york,new york
+652,columbia university medical center,new york,new york
+653,columbia university medical center eastside,new york,new york
+654,columbia university new york university consortium,new york,new york
+655,columbus city schools,columbus,ohio
+656,columbus nationwide children s hospital,columbus,ohio
+657,columbus regional research institute,columbus,georgia
+658,combined research orlando,orlando,florida
+659,commonwealth clinical research specialists,richmond,virginia
+660,community medical center,missoula,montana
+661,compleware,iowa city,iowa
+662,comprehensive allergy services,oakland,california
+663,connecticut children s hospital,hartford,connecticut
+664,connecticut children s medical center,hartford,connecticut
+665,consultants in pulmonary medicine,olathe,kansas
+666,contract research organization cro appointed by altair therapeutics altair s offices are in,san diego,california
+667,cook county health and hospitals system,chicago,illinois
+668,cooper green hospital,birmingham,alabama
+669,copperview medical center,south jordan,utah
+670,cor clinical research,oklahoma city,oklahoma
+671,cornell weill pulmonary allergy pediatric clinics,new york,new york
+672,cornerstone research care,high point,north carolina
+673,corsicana medical research,corsicana,texas
+674,corvallis clinic,corvallis,oregon
+675,cotton o neil clinic stormont vail hlth care,topeka,kansas
+676,cotton o neil clinical research center,topeka,kansas
+677,craig a spiegel md,bridgeton,missouri
+678,craig spiegel md,bridgeton,missouri
+679,creighton university,omaha,nebraska
+680,creighton university division of allergy and immunology,omaha,nebraska
+681,creighton university medical center,omaha,nebraska
+682,creighton university medical center department of pulmonology and critical care,omaha,nebraska
+683,cri,minneapolis,minnesota
+684,crisor,medford,oregon
+685,critical therapeutics,lexington,massachusetts
+686,ct children s medical center,hartford,connecticut
+687,ctsc clinical research center,sacramento,california
+688,cu pharmaceutical research,rock hill,south carolina
+689,dallas allergy immunology research,dallas,texas
+690,danbury hospital,danbury,connecticut
+691,dartmouth hospital manchester,manchester,new hampshire
+692,dataquest medical research,lawrenceville,georgia
+693,david bernstein,cincinnati,ohio
+694,david geffen school of medicine ucla,los angeles,california
+695,davis heart and lung research institute,columbus,ohio
+696,dayton clinical research,dayton,ohio
+697,dayton clinical research center,dayton,ohio
+698,deaconess clinic,evansville,indiana
+699,deaconess clinic downtown,evansville,indiana
+700,dean clinic,madison,wisconsin
+701,dedicated clinical research,goodyear,arizona
+702,del sol research management,tucson,arizona
+703,delaware valley institute for clinical research,cherry hill,new jersey
+704,dell children s medical center emergency department,austin,texas
+705,dell children s medical center of central texas,austin,texas
+706,denver health and hospital authority,denver,colorado
+707,dep of medicine div of allergy pulmonary and critical care medicine vanderbilt university,nashville,tennessee
+708,department of family medicine,charlotte,north carolina
+709,department of pediatric critical care kosair children s hospital,louisville,kentucky
+710,department of pediatrics university of rochester,rochester,new york
+711,dept of genetics and genomic sciences icahn institute for genomics and multiscale biology icahn school of medicine at mount sinai,new york,new york
+712,dept of health evaluation sciences penn state college of medicine,hershey,pennsylvania
+713,desert sun clinical research,tucson,arizona
+714,detroit medical center wayne state university school of medicine,detroit,michigan
+715,diabetes and glandular disease research assoc,san antonio,texas
+716,discovery clinical trials,san antonio,texas
+717,division of allergy and immunology washington univ school of med,st louis,missouri
+718,division of pulmonary and critical care medicine,durham,north carolina
+719,doctor s care,new orleans,louisiana
+720,dolby providers,new orleans,louisiana
+721,dorchester house multi service center,boston,massachusetts
+722,dorrington medical associates,houston,texas
+723,downtown la research center,los angeles,california
+724,dr alan kaufman,the bronx,new york
+725,dr emory robinette,abingdon,virginia
+726,dr joann blessing moore,palo alto,california
+727,dr paul shapero,bangor,maine
+728,dr santiago reyes,oklahoma city,oklahoma
+729,dr senders and associates,university heights,ohio
+730,dr winder and associates toledo center for clinical research,sylvania,ohio
+731,dubois regional medical center,dubois,pennsylvania
+732,duke asthma allergy and airway center,durham,north carolina
+733,duke clinical vaccine unit,durham,north carolina
+734,duke un,durham,north carolina
+735,duke university,durham,north carolina
+736,duke university asthma allergy and airway center,durham,north carolina
+737,duke university medical center,durham,north carolina
+738,duke university medical center division of clinical informatics,durham,north carolina
+739,duke university school of medicine,durham,north carolina
+740,east tennessee center for clinical research,knoxville,tennessee
+741,east west medical research institute,honolulu,hawaii
+742,eastside comprehensive medical center,new york,new york
+743,edward waters college medical center mayo,jacksonville,florida
+744,el camino hospital,mountain view,california
+745,elite clinical studies,phoenix,arizona
+746,elliot j ginchansky md,dallas,texas
+747,emerald coast research associates,panama city,florida
+748,eminence research,oklahoma city,oklahoma
+749,emory children s center,atlanta,georgia
+750,emory clinic,atlanta,georgia
+751,emory university,atlanta,georgia
+752,emory university school of medicine,atlanta,georgia
+753,emory university school of medicine sinus nasal and allergy center,atlanta,georgia
+754,empirical medical research,canton,ohio
+755,ent and allergy associates,newburgh,new york
+756,environmental protection agency at university of north carolina,chapel hill,north carolina
+757,epa human studies facility,chapel hill,north carolina
+758,epimrd dba western sky medical research,el paso,texas
+759,erie county medical center,buffalo,new york
+760,erie family health center,chicago,illinois
+761,essex morris pediatric group,livingston,new jersey
+762,evanston hospital,evanston,illinois
+763,evidation health,san mateo,california
+764,excelsior school,durham,north carolina
+765,executive health and research associates,atlanta,georgia
+766,fairfax hospital,falls church,virginia
+767,family allergy and asthma,gaithersburg,maryland
+768,family allergy and asthma,louisville,kentucky
+769,family allergy and asthma center,atlanta,georgia
+770,family allergy and asthma research center,louisville,kentucky
+771,family allergy and asthma research institute,louisville,kentucky
+772,family center for asthma and allergic diseases,friendswood,texas
+773,family health center,san francisco,california
+774,family medical center,foothill ranch,california
+775,family medicine occupational health center,shaker heights,ohio
+776,fl ctr allergy and asthma res,miami,florida
+777,florida center for alergy and asthma research,miami,florida
+778,florida center for allergy and asthma research,aventura,florida
+779,florida center for allergy and asthma reserch,miami,florida
+780,florida center for asthma and allergy research,miami,florida
+781,florida ctr allergy and asthma,miami,florida
+782,florida institute for clinical research,orlando,florida
+783,florida premier research institute,winter park,florida
+784,florida pulmonary research institute,winter park,florida
+785,fort wayne medical institute,fort wayne,indiana
+786,fpa clinical research,kissimmee,florida
+787,franciscan research center st joseph medical center,tacoma,washington
+788,franklin square hospital,baltimore,maryland
+789,future search clinical trials l p,austin,texas
+790,g a carmichael f h c,canton,mississippi
+791,geisinger south wilkes barre primary care clinic,wilkes-barre,pennsylvania
+792,genesis clinical research and consulting,fall river,massachusetts
+793,genesis health system,davenport,iowa
+794,george o connor md,boston,massachusetts
+795,georgia health sciences university,augusta,georgia
+796,georgia pain clinic,marietta,georgia
+797,georgia pediatric pulmonology associates choa,atlanta,georgia
+798,georgia pollen,albany,georgia
+799,georgia pollens,albany,georgia
+800,georgia pollens clinical research centers,albany,georgia
+801,georgia pollens crc,albany,georgia
+802,gettysburg medical clinic,fresno,california
+803,glenn m silber m d p a,ellicott city,maryland
+804,golden pine clinical research,long beach,california
+805,grace medical home,orlando,florida
+806,grand blanc medical,grand blanc,michigan
+807,grand view hospital clinical research department,sellersville,pennsylvania
+808,great lakes medical research,willoughby,ohio
+809,greater austin allergy asthma and immunology,austin,texas
+810,greater philadelphia health action,philadelphia,pennsylvania
+811,greater roslindale medical and dental center,roslindale,massachusetts
+812,greenville pharmaceutical research,greenville,south carolina
+813,gulf coast allergy center p a,port charlotte,florida
+814,hackensack university medical center,hackensack,new jersey
+815,hampton roads center for clinical research,norfolk,virginia
+816,hamzavi dermatology,fort gratiot,michigan
+817,hamzavi dermatology dermatology specialists of canton,canton,michigan
+818,harborview s children and teens clinic,seattle,washington
+819,harris health smith clinic,houston,texas
+820,harvard pilgrim health care,wellesley,massachusetts
+821,hasbro children s hospital,providence,rhode island
+822,health care partners medical group,long beach,california
+823,health quality partners,doylestown,pennsylvania
+824,health sciences research at asthma and allergy,cortland,new york
+825,healthcare research,florissant,missouri
+826,healthpartners specialty center lung and sleep health,saint paul,minnesota
+827,heartland clinical research,omaha,nebraska
+828,heartland research associates,wichita,kansas
+829,hennepin county medical center,minneapolis,minnesota
+830,henry ford health system,detroit,michigan
+831,henry ford health system division of allergy and immunology,detroit,michigan
+832,henry ford hospital,detroit,michigan
+833,henry ford hospital and medical centers,detroit,michigan
+834,henry ford hospital emergency department,detroit,michigan
+835,henry ford medical center,detroit,michigan
+836,henry ford system,detroit,michigan
+837,high risk children s clinic,houston,texas
+838,high schools in 5 boroughs of new york city,new york,new york
+839,hill country family medical center,boerne,texas
+840,hofstra north shore lij school of medicine,new hyde park,new york
+841,hofstra university school of medicine,hempstead,new york
+842,holston medical group,kingsport,tennessee
+843,holy spirit hospital,camp hill,pennsylvania
+844,hope clinical trials,miami,florida
+845,hopewell valley family medicine,trenton,new jersey
+846,hospital of university of pennyslvania,philadelphia,pennsylvania
+847,howard county center for lung and sleep,columbia,maryland
+848,howard university,washington d.c.,district of columbia
+849,hugh windom md,sarasota,florida
+850,human research laboratory university of miami school of medicine,miami,florida
+851,huntington hospital,pasadena,california
+852,huntsville lung associates,huntsville,alabama
+853,hurley child and adolescent asthma center,flint,michigan
+854,icahn school of medicine at mount sinai,new york,new york
+855,icsl clinical studies,bloomington,illinois
+856,icsl clinical studies,normal,illinois
+857,idaho allergy dba idaho research,eagle,idaho
+858,idaho research,eagle,idaho
+859,idaho state university,pocatello,idaho
+860,illinois consortium,chicago,illinois
+861,illinois consortium northwestern univ of chicago univ of illinois,chicago,illinois
+862,illinois institute of technology,chicago,illinois
+863,immunoe international research centers,centennial,colorado
+864,immunoe research centers,centennial,colorado
+865,impact clinical trials,las vegas,nevada
+866,in quest medical research,duluth,georgia
+867,indiana university,bloomington,indiana
+868,indiana university,indianapolis,indiana
+869,indiana university acrc,indianapolis,indiana
+870,indiana university riley children s hospital,indianapolis,indiana
+871,indiana university school of health physical education and recreation,bloomington,indiana
+872,indiana university school of medicine,indianapolis,indiana
+873,infinity medical research,north dartmouth,massachusetts
+874,innovation research center,palmetto bay,florida
+875,innovative clinical research,lafayette,colorado
+876,innovative research of west florida,clearwater,florida
+877,innovative research of west florida,largo,florida
+878,inova fairfax hospital,falls church,virginia
+879,inquisithealth,river edge,new jersey
+880,inst for resp and sleep med,langhorne,pennsylvania
+881,institute for asthma and allergy,wheaton,maryland
+882,institute for behavioral and community health at san diego state university,san diego,california
+883,institute for family health,new york,new york
+884,institute of health care assessment,san diego,california
+885,institute of healthcare assessment,san diego,california
+886,integrated health associates clinsite research,ann arbor,michigan
+887,integrated medical research,ashland,oregon
+888,integrated research group,corona,california
+889,integrated research group,riverside,california
+890,integrated research group,upland,california
+891,integrated research group incorporated,riverside,california
+892,integrated research of inland,riverside,california
+893,integrity people services research company,oklahoma city,oklahoma
+894,integrity research,pensacola,florida
+895,intergated medical research,ashland,oregon
+896,intermountain medical center,murray,utah
+897,iowa clinical research corporation,iowa city,iowa
+898,ips research,oklahoma city,oklahoma
+899,ips research company,oklahoma city,oklahoma
+900,isis clinical research,austin,texas
+901,island medical research,commack,new york
+902,island medical research allergy and asthma center,rockville centre,new york
+903,jacobi medical center,the bronx,new york
+904,jacobi medical center north central bronx hospital nbhn,the bronx,new york
+905,jamaica hospital medical center,jamaica,new york
+906,jasper summit research,jasper,alabama
+907,jefferson clinic,birmington,alabama
+908,jefferson county,louisville,kentucky
+909,jewish medical and research center,denver,colorado
+910,joann blessing moore md pp,palo alto,california
+911,john hopkins asthma and allergy center,baltimore,maryland
+912,john r oishei children s hospital,buffalo,new york
+913,johns hopkins,baltimore,maryland
+914,johns hopkins all children s hospital,st. petersburg,florida
+915,johns hopkins asthma and allergy,baltimore,maryland
+916,johns hopkins asthma and allergy center,baltimore,maryland
+917,johns hopkins bayview medical center,baltimore,maryland
+918,johns hopkins children s center department of allergy and immunology,baltimore,maryland
+919,johns hopkins hospital,baltimore,maryland
+920,johns hopkins hospital pediatric emergency department,baltimore,maryland
+921,johns hopkins medical institutions,baltimore,maryland
+922,johns hopkins university,baltimore,maryland
+923,johns hopkins university school of medicine,baltimore,maryland
+924,johns hopkins university school of medicine 600 north wolfe st cmsc 1102,baltimore,maryland
+925,johnston memorial hospital,abingdon,virginia
+926,jonathan corren md,los angeles,california
+927,jordan silberman,palo alto,california
+928,kaiser permananete fremont medical center,fremont,california
+929,kaiser permananete hayward medical center,hayward,california
+930,kaiser permananete novato medical center,novato,california
+931,kaiser permananete san jose medical center,san jose,california
+932,kaiser permanente,oakland,california
+933,kaiser permanente,richmond,california
+934,kaiser permanente,santa clara,california
+935,kaiser permanente center for health research,portland,oregon
+936,kaiser permanente colorado,denver,colorado
+937,kaiser permanente hayward medical center allergy department,hayward,california
+938,kaiser permanente medical center,san diego,california
+939,kaiser permanente of colorado,denver,colorado
+940,kaiser permanente san diego,san diego,california
+941,kaiser permanente san francisco medical center,san francisco,california
+942,kaiser permanente san francisco medical center allergy department,san francisco,california
+943,kaiser permanente southern california region,san diego,california
+944,kansas city allergy and asthma,overland park,kansas
+945,kansas city allergy and asthma assoc,overland park,kansas
+946,kansas city allergy and asthma associates,overland park,kansas
+947,kansas city allergy and asthma center,overland park,kansas
+948,kapiolani medical center for women and children,honolulu,hawaii
+949,katie mills,chapel hill,north carolina
+950,keck usc school of medicine,los angeles,california
+951,kent county hospital,warwick,rhode island
+952,kent state university,kent,ohio
+953,kern allergy med clinic,bakersfield,california
+954,kern research,bakersfield,california
+955,kerrville allergy and asthma associates,kerrville,texas
+956,kings county hospital center,brooklyn,new york
+957,kosair children s hospital,louisville,kentucky
+958,lac usc medical center,los angeles,california
+959,lahey clinic,burlington,massachusetts
+960,lancaster county school district,lancaster,south carolina
+961,laura and isaac perlmutter cancer center at nyu langone,new york,new york
+962,lebonheur children s hospital,memphis,tennessee
+963,lee county public safety and emergency services,fort myers,florida
+964,lenox hill hospital,new york,new york
+965,leon county ems,tallahassee,florida
+966,leonard bacharier md,st louis,missouri
+967,lijmc,queens,new york
+968,little rock allergy and asthma,little rock,arkansas
+969,little rock allergy and asthma clinical research center,little rock,arkansas
+970,live oak allergy and asthma clinic,live oak,texas
+971,live oak allergy and asthma clinic,san antonio,texas
+972,loma linda university medical center,loma linda,california
+973,long island jewish hospital and north shore hospital,new hyde park,new york
+974,long island jewish medical center,new hyde park,new york
+975,long island jewish medical center,queens,new york
+976,los angeles kaiser permanente allergy department,los angeles,california
+977,louisiana state university,new orleans,louisiana
+978,louisiana state university health sciences center,new orleans,louisiana
+979,louisiana state university health sciences center ernest n morial asthma allergy and respiratory disease center,new orleans,louisiana
+980,louisianna state university,new orleans,louisiana
+981,lovelace scientific resources,albuquerque,new mexico
+982,lovelace scientific resources,austin,texas
+983,lovelace scientific resources,phoenix,arizona
+984,loyola university medical center,maywood,illinois
+985,lsu health sciences,new orleans,louisiana
+986,lsu mc sheveport,shreveport,louisiana
+987,lsuhsc pulmonary critical care,new orleans,louisiana
+988,lung diagnostics,san antonio,texas
+989,lynchburg pulmonary associates,lynchburg,virginia
+990,madera family medical group,madera,california
+991,maimonides medical center,brooklyn,new york
+992,maimonides medical center division of pediatric pulmonology,brooklyn,new york
+993,managed health services,milwaukee,wisconsin
+994,manassas clinical research center,manassas,virginia
+995,maria fareri children s hospital at westchester medical center and new york medical college,valhalla,new york
+996,maricopa medical center dept of emergency medicine,phoenix,arizona
+997,mary bridge children s hospital at multi care health system,tacoma,washington
+998,marycliff allergy specialists ps,spokane,washington
+999,massachusetts general hospital,boston,massachusetts
+1000,mattapan community health center,mattapan,massachusetts
+1001,maxine hall health center,san francisco,california
+1002,mayo clinic,rochester,minnesota
+1003,mayo clinic in rochester,rochester,minnesota
+1004,mayo clinic rochester,rochester,minnesota
+1005,mayo clinic scottsdale,scottsdale,arizona
+1006,mcgovern and baja allergy assoc,springfield,massachusetts
+1007,mclennan county medical education and research foundation,waco,texas
+1008,mdc research,mobile,alabama
+1009,mds pharma services,new orleans,louisiana
+1010,mds pharma services us,lincoln,nebraska
+1011,medex healthcare research,st louis,missouri
+1012,medex healthcare research 009,st louis,missouri
+1013,medford medical clinic llp,medford,oregon
+1014,medical college of wisconsin,milwaukee,wisconsin
+1015,medical research associates,long beach,california
+1016,medical research network,the woodlands,texas
+1017,medical research of arizona,scottsdale,arizona
+1018,medical research of arizona a division of allergy asthma and immunology associates,scottsdale,arizona
+1019,medical research of arizona allergy asthma and immu,scottsdale,arizona
+1020,medical university of south carolina,charleston,south carolina
+1021,medical university of south carolina musc,charleston,south carolina
+1022,medtrial,columbia,south carolina
+1023,meharry medical college clinical trials office,nashville,tennessee
+1024,memorial hermann hospital system,houston,texas
+1025,memorial hospital of ri,pawtucket,rhode island
+1026,mercy hospital and medical center,chicago,illinois
+1027,mercyhealth hospital rockton avenue,rockford,illinois
+1028,meredith mccormack,baltimore,maryland
+1029,metrohealth,cleveland,ohio
+1030,metrohealth medical center,cleveland,ohio
+1031,metrohealth system,cleveland,ohio
+1032,metroplex pulmonology and sleep center,mckinney,texas
+1033,miami children s hospital,miami,florida
+1034,miami clinical research,miami,florida
+1035,michael w simon md psc,nicholasville,kentucky
+1036,michigan medicine university of michigan,ann arbor,michigan
+1037,mid michigan sleep center,grand blanc,michigan
+1038,midwest allergy and asthma center,omaha,nebraska
+1039,midwest allergy and asthma clinic,omaha,nebraska
+1040,midwest allergy sinus asthma,normal,illinois
+1041,midwest chest consultants,saint charles,missouri
+1042,midwest clinical research,st louis,missouri
+1043,midwestern university,downers grove,illinois
+1044,milken institute school of public health,washington d.c.,district of columbia
+1045,milwaukee medical clinic,milwaukee,wisconsin
+1046,miriam hospital,providence,rhode island
+1047,mission neighborhood health center,san francisco,california
+1048,mississippi asthma and allergy clinic,jackson,mississippi
+1049,mississippi asthma and allergy clinic p a,jackson,mississippi
+1050,missouri breaks industries research,eagle butte,south dakota
+1051,molekule,san francisco,california
+1052,monroe biomedical research,monroe,north carolina
+1053,montana medical research,missoula,montana
+1054,montant medical research,missoula,montana
+1055,montefiore,the bronx,new york
+1056,montefiore einstein clinical research center,the bronx,new york
+1057,montefiore medical center,the bronx,new york
+1058,montefiore medical center moses campus,the bronx,new york
+1059,montefiore medical center moses division weiler division,the bronx,new york
+1060,montefiore medical center weiler campus,the bronx,new york
+1061,montefiore medical group,the bronx,new york
+1062,montefiore medical group chcc,the bronx,new york
+1063,montgomery medical,smithfield,pennsylvania
+1064,montgomery pulmonary consultants,montgomery,alabama
+1065,moonshine research center,doral,florida
+1066,morgantown pulmonary associates,morgantown,west virginia
+1067,mount sinai,new york,new york
+1068,mount sinai dait icac 01 02,new york,new york
+1069,mount sinai hospital,chicago,illinois
+1070,mount sinai hospital,new york,new york
+1071,mount sinai icahn school of medicine,new york,new york
+1072,mount sinai medical center,new york,new york
+1073,mount sinai national jewish health respiratory institute icahn school of medicine,new york,new york
+1074,mount sinai school medicine,new york,new york
+1075,mount sinai school of medicine,new york,new york
+1076,mount sinai st luke s roosevelt hospital center,new york,new york
+1077,mount sinai west,new york,new york
+1078,mountainview clinical research,greer,south carolina
+1079,mt sinai,new york,new york
+1080,multicare institute for research and innovation,tacoma,washington
+1081,multicare pulmonary specialists,tacoma,washington
+1082,nassau chest pysicians,massapequa,new york
+1083,nassau county fire rescue department,yulee,florida
+1084,nassau university medical center,east meadow,new york
+1085,nassim mcmonigle mescia and associates,new albany,indiana
+1086,nat l aller asth charleston,charleston,south carolina
+1087,national allergy and asthma and urticaria centers of charleston,charleston,south carolina
+1088,national allergy and asthma research,north charleston,south carolina
+1089,national allergy asthma and urticaria centers of charleston,charleston,south carolina
+1090,national allergy asthma and uticaria center of charleston,charleston,south carolina
+1091,national allergy asthma and uticaria centers,charleston,south carolina
+1092,national clinical research,richmond,virginia
+1093,national clinical resources,provo,utah
+1094,national institute of allergy and infectious diseases niaid,bethesda,maryland
+1095,national institutes of health clinical center 9000 rockville pike,bethesda,maryland
+1096,national jewish center,denver,colorado
+1097,national jewish health,denver,colorado
+1098,national jewish hospital,denver,colorado
+1099,national jewish medical and research center,denver,colorado
+1100,national jewish medical and research center dait icac 01 02,denver,colorado
+1101,national jewish medical and research ceter,denver,colorado
+1102,nationwide children s hospital,columbus,ohio
+1103,nc state park scholars children s specialty clinic,raleigh,north carolina
+1104,neem research group,charlotte,north carolina
+1105,neem research group,columbia,south carolina
+1106,neem research group of charleston,charleston,south carolina
+1107,nemour s childrens center,jacksonville,florida
+1108,nemours alfred i dupont hospital for children,wilmington,delaware
+1109,nemours children s clinic,jacksonville,florida
+1110,nemours children s clinic,orlando,florida
+1111,nemours children s hospital,jacksonville,florida
+1112,nemours children s hospital,orlando,florida
+1113,nemours children s hospital dept of pulmonology,orlando,florida
+1114,nemours children s specialty care,jacksonville,florida
+1115,nemours children s specialty care,pensacola,florida
+1116,nemours childrens clinic,jacksonville,florida
+1117,nemours specialty care,jacksonville,florida
+1118,new england clinical studies,north dartmouth,massachusetts
+1119,new horizon s health research,atlanta,georgia
+1120,new horizons clinical research,cincinnati,ohio
+1121,new orleans center for clinical research volunteer research group,knoxville,tennessee
+1122,new phase research and development,knoxville,tennessee
+1123,new york city department of health and mental hygiene,new york,new york
+1124,new york consortium columbia university,new york,new york
+1125,new york consortium new york univ and columbia univ,new york,new york
+1126,new york medical college,valhalla,new york
+1127,new york methodist hospital,brooklyn,new york
+1128,new york presbyterian hospital weill medical college of cornell university,new york,new york
+1129,new york pulmonary associates p c,new york,new york
+1130,new york university langone medical center,new york,new york
+1131,new york university school of medicine,new york,new york
+1132,newton wellesley hospital,newton,massachusetts
+1133,nih clinical center,bethesda,maryland
+1134,north bay allergy and asthma medical assoc,napa,california
+1135,north bay clinical trials,napa,california
+1136,north carolina children s allergy and asthma center,raleigh,north carolina
+1137,north carolina clinical research,raleigh,north carolina
+1138,north east medical research associates,north dartmouth,massachusetts
+1139,north shore lij medical center,new hyde park,new york
+1140,north shore long island jewish health system,new hyde park,new york
+1141,north shore long island jewish health system division of allergy immunology,great neck,new york
+1142,north shore medical arts llp,great neck,new york
+1143,north shore university hospital,manhasset,new york
+1144,north texas institute for clinical trials,fort worth,texas
+1145,northeast iowa medical education foundation,waterloo,iowa
+1146,northeast med research associates,north dartmouth,massachusetts
+1147,northeast medical research associates,no. dartmouth,massachusetts
+1148,northeast medical research associates,north darthmouth,massachusetts
+1149,northeast medical research associates,north dartmouth,massachusetts
+1150,northeast medical research group,north dartmouth,massachusetts
+1151,northern california research,fair oaks,california
+1152,northern illinios research associates,dekalb,illinois
+1153,northern illinois associates,dekalb,illinois
+1154,northern illinois research associates,dekalb,illinois
+1155,northern new england consortium,colchester,vermont
+1156,northern new england consortium univ of vermont and other locations,burlington,vermont
+1157,northridge internal medicine,charlottesville,virginia
+1158,northshore medical research,covington,louisiana
+1159,northshore medical research,slidell,louisiana
+1160,northshore university healthsystem,evanston,illinois
+1161,northwest asthma allergy center,vancouver,washington
+1162,northwest medical center,phoenix,arizona
+1163,northwestern memorial hospital,chicago,illinois
+1164,northwestern university,chicago,illinois
+1165,northwestern university feinberg school of medicine,chicago,illinois
+1166,northwestern university memorial hospital,chicago,illinois
+1167,northwestern universtiy,chicago,illinois
+1168,norton children s hospital,louisville,kentucky
+1169,norwalk hospital,norwalk,connecticut
+1170,novartis,east hanover,new jersey
+1171,nyu school of medicine,new york,new york
+1172,o and o alpan,fairfax,virginia
+1173,ocean allergy and resp res ctr,brick,new jersey
+1174,ocean allergy and respiratory research center,brick,new jersey
+1175,ocean park health center,san francisco,california
+1176,odessa brown children s clinic,seattle,washington
+1177,office of clinical research university of missouri columbia,columbia,missouri
+1178,office of constantine falliers md,denver,colorado
+1179,office of constantine saadeh,amarillo,texas
+1180,office of gary richmond md,fort lauderdale,florida
+1181,office of meera dewan md,omaha,nebraska
+1182,office of michael marcus md,staten island,new york
+1183,office of neil kao,greenville,south carolina
+1184,office of richard castaldo,tonawanda,new york
+1185,office of robert n wolfe md,los angeles,california
+1186,office of ronald saff,tallahassee,florida
+1187,office of yekaterina khronusova md,las vegas,nevada
+1188,office or richard castaldo md,tonawanda,new york
+1189,ohio pediatric research assn,dayton,ohio
+1190,ohio state university,columbus,ohio
+1191,ohio state university medical center,columbus,ohio
+1192,ohio state university medical center columbus children s hospital,columbus,ohio
+1193,ohsu allergy and clinical immunology clinic,portland,oregon
+1194,ok clinical research,edmond,oklahoma
+1195,oklahoma allergy and asthma clinic,oklahoma city,oklahoma
+1196,oklahoma institute of allergy and asthma clinical research,edmond,oklahoma
+1197,oklahoma institute of allergy and asthma clinical research,oklahoma city,oklahoma
+1198,olean medical group,olean,new york
+1199,olive view ucla medical center,sylmar,california
+1200,olmsted medical center,rochester,minnesota
+1201,optimed research,columbus,ohio
+1202,optimed research ohio state university,columbus,ohio
+1203,oregon center for applied science,eugene,oregon
+1204,oregon health and science university,portland,oregon
+1205,orlando clinic for asthma and respiratory diseases,longwood,florida
+1206,orlando clinical research center,orlando,florida
+1207,pacific coast allergy,crescent city,california
+1208,pacific northwest airways va puget sound healthcare system,seattle,washington
+1209,palm beach research center,west palm beach,florida
+1210,palm spring research institute,hialeah,florida
+1211,palos verdes medical group pvmg peninsula research associates pra,rolling hills estates,california
+1212,paragon research,san antonio,texas
+1213,parikh institute for research,new york,new york
+1214,park nicollet institute,minneapolis,minnesota
+1215,parkland health and hospital system asthma allergy and arthritis clinics,dallas,texas
+1216,partners center for connected health,boston,massachusetts
+1217,partners in asthma and allergy care p a,valrico,florida
+1218,patrick v perin md,teaneck,new jersey
+1219,paul a shapero md,bangor,maine
+1220,paul shapero s private practice,bangor,maine
+1221,pccs,albany,new york
+1222,pchi,needham,massachusetts
+1223,pcp for life mercury clinical research,splendora,texas
+1224,pearl therapeutics,anaheim,california
+1225,pearl therapeutics,asheville,north carolina
+1226,pearl therapeutics,bakersfield,california
+1227,pearl therapeutics,birmingham,alabama
+1228,pearl therapeutics,cerritos,california
+1229,pearl therapeutics,colorado springs,colorado
+1230,pearl therapeutics,columbia,south carolina
+1231,pearl therapeutics,cornelius,north carolina
+1232,pearl therapeutics,dallas,texas
+1233,pearl therapeutics,el paso,texas
+1234,pearl therapeutics,evanston,illinois
+1235,pearl therapeutics,fall river,massachusetts
+1236,pearl therapeutics,gastonia,north carolina
+1237,pearl therapeutics,grove city,ohio
+1238,pearl therapeutics,iowa city,iowa
+1239,pearl therapeutics,killeen,texas
+1240,pearl therapeutics,kissimmee,florida
+1241,pearl therapeutics,lake oswego,oregon
+1242,pearl therapeutics,los angeles,california
+1243,pearl therapeutics,mckinney,texas
+1244,pearl therapeutics,medford,oregon
+1245,pearl therapeutics,miami,florida
+1246,pearl therapeutics,middleburg heights,ohio
+1247,pearl therapeutics,monroe,north carolina
+1248,pearl therapeutics,new braunfels,texas
+1249,pearl therapeutics,north dartmouth,massachusetts
+1250,pearl therapeutics,omaha,nebraska
+1251,pearl therapeutics,ormond beach,florida
+1252,pearl therapeutics,quartz hill,california
+1253,pearl therapeutics,raleigh,north carolina
+1254,pearl therapeutics,rancho mirage,california
+1255,pearl therapeutics,rolling hills estates,california
+1256,pearl therapeutics,san antonio,texas
+1257,pearl therapeutics,shelby,north carolina
+1258,pearl therapeutics,skillman,new jersey
+1259,pearl therapeutics,st louis,missouri
+1260,pearl therapeutics,stockton,california
+1261,pearl therapeutics,verona,new jersey
+1262,pearl therapeutics,waco,texas
+1263,pediatric allergy immunology assoc,dallas,texas
+1264,pediatric allergy immunology associates,dallas,texas
+1265,pediatric alliance greentree division,green tree,pennsylvania
+1266,pediatric associates of mt carmel,cincinnati,ohio
+1267,pediatric care and medical group,huntington beach,california
+1268,pediatric care center,seattle,washington
+1269,pediatric care medical group,huntington beach,california
+1270,pediatric clinic,bogalusa,louisiana
+1271,pediatric diagnostic center,ventura,california
+1272,pediatric exercise and genomics research center university of california irvine,irvine,california
+1273,pediatric pulmonary associates of north texas,dallas,texas
+1274,pediatric pulmonary association of north texas,dallas,texas
+1275,pediatric research consortium of children s hospital of philadelphia perc,philadelphia,pennsylvania
+1276,pediatrick research in office settings pros,elk grove village,illinois
+1277,pediatrics allergy clinic at georgia health sciences university,augusta,georgia
+1278,pen memory center,philadelphia,pennsylvania
+1279,peninsula allergy associates,daly city,california
+1280,peninsula research associates,rolling hills estates,california
+1281,penisula research associates,rolling hills estates,california
+1282,penn presbyterain medical center penn lung center,philadelphia,pennsylvania
+1283,penn state hershey children s hospital,hersey,pennsylvania
+1284,penn state hershey medical center penn state college of medicine,hershey,pennsylvania
+1285,penn state hershey medical group,hershey,pennsylvania
+1286,penn state milton s hershey medical center,hershey,pennsylvania
+1287,penn state university hershey medical center,hershey,pennsylvania
+1288,pennington biomedical research center,baton rouge,louisiana
+1289,pennsylvania state hershey,hershey,pennsylvania
+1290,pennsylvania state university,hershey,pennsylvania
+1291,peoria pulmonary associates,peoria,illinois
+1292,perez betancourt medical clinic,metairie,louisiana
+1293,peters medical research,high point,north carolina
+1294,pharmaceutical research and consulting,dallas,texas
+1295,phoenix children s hospital,phoenix,arizona
+1296,phoenix childrens hospital,phoenix,arizona
+1297,physician s clinic of spokane,spokane,washington
+1298,pi coor clinical research,burke,virginia
+1299,piedmont medical research,winston-salem,north carolina
+1300,pinaccle trials smo,atlanta,georgia
+1301,pioneer clinical research,bellevue,nebraska
+1302,pioneer research solutions,houston,texas
+1303,pmg research of wilmington,wilmington,north carolina
+1304,potrero hill health center,san francisco,california
+1305,pra international,lenexa,kansas
+1306,pracs institute,fargo,north dakota
+1307,premier clinical research,spokane,washington
+1308,premiere pharmaceutical research,tempe,arizona
+1309,prestige clinical research center,miami,florida
+1310,princeton center for clinical research,princeton,new jersey
+1311,princeton center for clinical research,skillman,new jersey
+1312,private clinic,bangor,pennsylvania
+1313,public health seattle and king county,seattle,washington
+1314,puget sound pediatric research network,seattle,washington
+1315,pulmonary and allergy associates,sellersville,pennsylvania
+1316,pulmonary and allergy associates,springfield,new jersey
+1317,pulmonary and allergy associates,summit,new jersey
+1318,pulmonary and allergy associates p a,summit,new jersey
+1319,pulmonary and critical care associates of baltimor,towson,maryland
+1320,pulmonary and critical care services p c 5 palisades dr su,albany,new york
+1321,pulmonary and critical care specialists,novi,michigan
+1322,pulmonary and research associates,spokane,washington
+1323,pulmonary and sleep research,spokane,washington
+1324,pulmonary associates,colorado springs,colorado
+1325,pulmonary associates,phoenix,arizona
+1326,pulmonary associates of mobile,ithaca,new york
+1327,pulmonary associates of mobile,mobile,alabama
+1328,pulmonary associates of mobile p c,mobile,alabama
+1329,pulmonary associates of richmond,richmond,virginia
+1330,pulmonary associates research division,mobile,alabama
+1331,pulmonary consultants,tacoma,washington
+1332,pulmonary consultants of north idaho,coeur d'alene,idaho
+1333,pulmonary disease and critical care associates p a,columbia,maryland
+1334,pulmonary disease specialists,kissimmee,florida
+1335,pulmonary human research laboratory university of miami miller school of medicine,miami,florida
+1336,pulmonary medical research of ny,bay shore,new york
+1337,pulmonary research of abingdon,abingdon,virginia
+1338,pulmonary research of albingdon,abingdon,virginia
+1339,pulmornary consultants,tacoma,washington
+1340,quality assurance research center,san antonio,texas
+1341,quality assurance research ctr,san antonio,texas
+1342,quality of life medical and research center,tucson,arizona
+1343,qure healthcare,san francisco,california
+1344,radiant research,bridgeton,missouri
+1345,radiant research,charleston,south carolina
+1346,radiant research,encinitas,california
+1347,radiant research honolulu,honolulu,hawaii
+1348,rady children s hospital,san diego,california
+1349,rady children s hospital san diego,san diego,california
+1350,rainbow babies and children s hospital,cleveland,ohio
+1351,rainbow babies and children s hospital case western reserve university,cleveland,ohio
+1352,rainbow babies and children s hospital of univ hospitals case med center,cleveland,ohio
+1353,rainbow babies and children s hospital university hospitals of cleveland pediatric emergency department,cleveland,ohio
+1354,raleigh pediatric associates,raleigh,north carolina
+1355,rap cleveland clinic,cleveland,ohio
+1356,rapha institute for clinical research,fayetteville,north carolina
+1357,redding allergy and asthma care,redding,california
+1358,regional allergy and asthma consultants,asheville,north carolina
+1359,regional allergy and asthma consultants p a,asheville,north carolina
+1360,research across america,dallas,texas
+1361,research center,anderson,south carolina
+1362,research center,congers,georgia
+1363,research center,elizabeth city,north carolina
+1364,research center,fort worth,texas
+1365,research center,gainesville,florida
+1366,research center,hialeah,florida
+1367,research center,largo,florida
+1368,research center,los angeles,california
+1369,research center,minneapolis,minnesota
+1370,research center,panama city,florida
+1371,research center,pell city,alabama
+1372,research center,phoenix,arizona
+1373,research center,portland,oregon
+1374,research center,rochester,new york
+1375,research center,stevensville,michigan
+1376,research center,upland,pennsylvania
+1377,research institute of south florida,miami,florida
+1378,research protocol mgmt spc,pittsburgh,pennsylvania
+1379,resp dis of children and adolescents,oklahoma city,oklahoma
+1380,respiratory and sleep disorders specialists,the woodlands,texas
+1381,respiratory medicine research institute of mi,ypsilanti,michigan
+1382,respiratory medicine research institute of michigan,ypsilanti,michigan
+1383,respiratory medicine researh institute of michigan,ypsilanti,michigan
+1384,respiratory specialists,reading,pennsylvania
+1385,respiratory therapy and pulmonary clinical research brigham and women s hospital,boston,massachusetts
+1386,rho federal system division data coordinating center,chapel hill,north carolina
+1387,rhode island hospital,providence,rhode island
+1388,rhode island hospital hasbro children s hospital,providence,rhode island
+1389,richard h fine people s clinic general medicine clinic,san francisco,california
+1390,riley hospital for children,indianapolis,indiana
+1391,roberson allergy and asthma,west palm beach,florida
+1392,robert zeiger md,san diego,california
+1393,rochester regional health,rochester,new york
+1394,rockwood clinics ps,spokane,washington
+1395,rocky mountain center for clinical research,wheat ridge,colorado
+1396,rohr and columbo asthma allergy and immunology specialists,bryn mawr,pennsylvania
+1397,rohr and columbo asthma allergy and immunology specialists p c,bryn mawr,pennsylvania
+1398,rush presbyterian st luke s medical center,chicago,illinois
+1399,rush presbyterian st luke s medical center rush university,chicago,illinois
+1400,rush university,chicago,illinois
+1401,rush university medical center,chicago,illinois
+1402,rush university medical center stroger hospital,chicago,illinois
+1403,rutgers robert wood johnson medical school,piscataway,new jersey
+1404,rx r and d,metairie,louisiana
+1405,rx research,woodstock,georgia
+1406,s carolina pharmaceutical research,spartanburg,south carolina
+1407,saint francis sleep allergy and lung institute,clearwater,florida
+1408,saint louis children s hospital,st louis,missouri
+1409,saint vincent catholic medical center,new york,new york
+1410,san diego state university,san diego,california
+1411,san jose clinical research,san jose,california
+1412,san marcus research clinic,miami,florida
+1413,san marcus research clinic,miami lakes,florida
+1414,san tan allergy and asthma,gilbert,arizona
+1415,sanofi aventis,bridgewater,new jersey
+1416,sanofi aventis administrative office,bridgewater,new jersey
+1417,sanofi aventis us,bridgewater,new jersey
+1418,sansum clinic,santa barbara,california
+1419,santiago reyes md,oklahoma city,oklahoma
+1420,santiago reyes md private prac,oklahoma city,oklahoma
+1421,sarasota clinical research,sarasota,florida
+1422,sarasota county ems,sarasota,florida
+1423,school of public health bloomington,bloomington,indiana
+1424,score physician alliance,st. petersburg,florida
+1425,scripps clinic at torrey pines,la jolla,california
+1426,scripps clinic carmel valley,san diego,california
+1427,sdsu center for behavioral epidemiology and community health,san diego,california
+1428,seattle children s,seattle,washington
+1429,seattle children s hospital,seattle,washington
+1430,seattle children s hospital research institute,seattle,washington
+1431,sentara general hospital,norfolk,virginia
+1432,seton healthcare,austin,texas
+1433,shands starke medical group,starke,florida
+1434,sharp rees stealy medical group,san diego,california
+1435,silver avenue family health center,san francisco,california
+1436,sinai health system,chicago,illinois
+1437,siouxland medical education foundation,sioux city,iowa
+1438,sirius clinical research,austin,texas
+1439,slone center office based research network scor boston university,boston,massachusetts
+1440,sneeze wheeze and itch,bloomington,illinois
+1441,sneeze wheeze and itch,normal,illinois
+1442,sneeze wheeze and itch associates,normal,illinois
+1443,sooner clinical research,oklahoma city,oklahoma
+1444,south bend clinic,south bend,indiana
+1445,south bend clniic,south bend,indiana
+1446,south end community health center,boston,massachusetts
+1447,south florida research center,miami,florida
+1448,south florida research trials,miami,florida
+1449,south hills pulmonary assoc,pittsburgh,pennsylvania
+1450,south miami clinical research,south miami,florida
+1451,south texas allergy and asthma medical professionals,san antonio,texas
+1452,southeast health center,san francisco,california
+1453,southeast regional research group,columbus,georgia
+1454,southeastern endocrine and diabetes,roswell,georgia
+1455,southeastern integrated medical,gainesville,florida
+1456,southern allergy and asthma,savannah,georgia
+1457,southern california clinical trials,lakewood,california
+1458,southern california institute for respiratory,los angeles,california
+1459,southern california institute for respiratory diseases,los angeles,california
+1460,southern california research,mission viejo,california
+1461,southern california research center,mission viejo,california
+1462,southern california research center,viejo,california
+1463,southern illinois university school of medicine,springfield,illinois
+1464,southern methodist university smu,dallas,texas
+1465,southside elementary school,starke,florida
+1466,southwest allergy and asthma p a,san antonio,texas
+1467,spartanburg medical research,spartanburg,south carolina
+1468,spartanburg regional health service district,spartanburg,south carolina
+1469,spartanburg regional medical center,spartanburg,south carolina
+1470,spectrum health hospitals,grand rapids,michigan
+1471,spectrum health services,philadelphia,pennsylvania
+1472,spokane allergy and asthma clinical research,spokane,washington
+1473,st anne s hospital,fall river,massachusetts
+1474,st anthony medical clinic,san francisco,california
+1475,st elizabeth health center,utica,new york
+1476,st elizabeth s children health center,utica,new york
+1477,st elizabeth s children s health center,utica,new york
+1478,st elizabeth s medical center,boston,massachusetts
+1479,st francis hospital medical center,hartford,connecticut
+1480,st francis sleep allergy and lung institute,clearwater,florida
+1481,st louis children s hospital,st louis,missouri
+1482,st louis children s hospital allergy immunology and pulmonary medicine program,st louis,missouri
+1483,st louis university,st louis,missouri
+1484,st louis university school of medicine,st louis,missouri
+1485,st peter s university hospital,new brunswick,new jersey
+1486,st vincent healthcare,indianapolis,indiana
+1487,st vincent hospital and health care center,indianapolis,indiana
+1488,staamp research,san antonio,texas
+1489,stanford university,palo alto,california
+1490,stanford university,stanford,california
+1491,stanford university medical center,stanford,california
+1492,stanford university school of medicine,stanford,california
+1493,starke elementary school,starke,florida
+1494,sterling research group,cincinnati,ohio
+1495,stony brook university medical center,stony brook,new york
+1496,storms clinical research institute,colorado springs,colorado
+1497,strong memorial hospital neonatal intensive care unit,rochester,new york
+1498,stuart epstein md pp,beverly hills,california
+1499,sugar land allerg asthma immun,sugar land,texas
+1500,summit pediatric pulmonology,summit,new jersey
+1501,sun research institute,san antonio,texas
+1502,suncoast research group,miami,florida
+1503,suny downstate medical center,brooklyn,new york
+1504,suny university of buffalo,buffalo,new york
+1505,swedish health services,seattle,washington
+1506,swedish medical center,seattle,washington
+1507,swope parkway health center,kansas city,missouri
+1508,sylvana research,san antonio,texas
+1509,sylvana research assocaites,san antonio,texas
+1510,sylvana research associates,san antonio,texas
+1511,sylvania research associates,san antonio,texas
+1512,sylvanna research,san antonio,texas
+1513,tekton research,austin,texas
+1514,temple uni medical center pulmonary and critical care medicine,philadelphia,pennsylvania
+1515,temple university,philadelphia,pennsylvania
+1516,temple university hospital,philadelphia,pennsylvania
+1517,temple university hospital lung center,philadelphia,pennsylvania
+1518,temple university school of medicine,philadelphia,pennsylvania
+1519,texas children s hospital,houston,texas
+1520,texas children s hospital baylor college of medicine,houston,texas
+1521,texas children s hospital ut houston,houston,texas
+1522,texas institute of chest and sleep disorder,houston,texas
+1523,texas tech university health science center,amarillo,texas
+1524,texas tech university health sciences center,lubbock,texas
+1525,thomas jefferson hospital,philadelphia,pennsylvania
+1526,thomas jefferson hospital pulmonary lab,philadelphia,pennsylvania
+1527,thomasville pediatrics,thomasville,north carolina
+1528,timber lane allergy and asthma research,south burlington,vermont
+1529,toledo center for clinial researcch,sylvania,ohio
+1530,toledo center for clinical research,sylvania,ohio
+1531,toledo inst of clin research,toledo,ohio
+1532,toledo institute of clinical research,toledo,ohio
+1533,tom waddell urban health clinic,san francisco,california
+1534,total child health,baltimore,maryland
+1535,tpmg rancho cordova,rancho cordova,california
+1536,transitional clinical research,portland,oregon
+1537,transitional clinical research allergy associates research center,portland,oregon
+1538,treasure valley medical research,boise,idaho
+1539,tripler army medical center,tripler amc,hawaii
+1540,tts research,boerne,texas
+1541,tufts medical center,boston,massachusetts
+1542,tulane university,new orleans,louisiana
+1543,uab lung health center,birmingham,alabama
+1544,uc davis,sacramento,california
+1545,uc davis ctsc clinical research center,sacramento,california
+1546,uc davis department of dermatology,sacramento,california
+1547,ucdmc vanchcs ccrc,mather,california
+1548,ucla,los angeles,california
+1549,ucla david geffen school of medcine,los angeles,california
+1550,ucla medical center harbor,torrance,california
+1551,ucsd medical center,san diego,california
+1552,ucsd medical center thornton hospital,san diego,california
+1553,ucsd school of medicine,la jolla,california
+1554,ucsf airway clinical research center,san francisco,california
+1555,ucsf benioff children s hospital,san francisco,california
+1556,uf health pediatrics,gainesville,florida
+1557,uh cleveland medical center,cleveland,ohio
+1558,ui health,chicago,illinois
+1559,umass medical school advanced mri center,worcester,massachusetts
+1560,umass medical school advanced mri center united states,worcester,massachusetts
+1561,umdnj,newark,new jersey
+1562,unc center for environmental medicine asthma and lung biology,chapel hill,north carolina
+1563,unc epa,chapel hill,north carolina
+1564,united healthcare,milwaukee,wisconsin
+1565,univ of mo kansas city school of medicine,kansas city,missouri
+1566,univ of south florida asthma allergy and immunology clinical research unit,tampa,florida
+1567,univeristy of miami school of medicine,miami,florida
+1568,univeristy of rochester,rochester,new york
+1569,univeristy of virginia,charlottesville,virginia
+1570,univeristy of wisconsin hospital and clinics,madison,wisconsin
+1571,university at buffalo,buffalo,new york
+1572,university hospitals case medical center,cleveland,ohio
+1573,university hospitals cleveland medical center,cleveland,ohio
+1574,university hospitals cleveland medical center asthma research center,cleveland,ohio
+1575,university hospitals of cleveland rainbow babies and children s hospital,cleveland,ohio
+1576,university hospitals rainbow babies and children s hospital,cleveland,ohio
+1577,university medical center of southern nevada,las vegas,nevada
+1578,university of alabama,birmingham,alabama
+1579,university of alabama at birmingham,birmingham,alabama
+1580,university of alabama at birmingham lung health center,birmingham,alabama
+1581,university of alabama birmingham lung health center,birmingham,alabama
+1582,university of alabama lung health center,birmingham,alabama
+1583,university of arizona,tucson,arizona
+1584,university of arizona and tucson unified school district,tucson,arizona
+1585,university of arizona arizona respiratory center,tucson,arizona
+1586,university of arizona college of medicine,tucson,arizona
+1587,university of arizona dait icac 01 02,tucson,arizona
+1588,university of arizona health sciences center,tucson,arizona
+1589,university of arizona tucson,tucson,arizona
+1590,university of arkansas for medical sciences,little rock,arkansas
+1591,university of california,san francisco,california
+1592,university of california at davis school of medicine ticon 1 suite 100b 2000 stockton blvd,sacramento,california
+1593,university of california at san diego,la jolla,california
+1594,university of california at san diego,san diego,california
+1595,university of california at san francisco,san francisco,california
+1596,university of california berkeley,berkeley,california
+1597,university of california davis,sacramento,california
+1598,university of california davis department of public health sciences,davis,california
+1599,university of california davis general clinical research center,sacramento,california
+1600,university of california davis health system division of pulmonary and critical care medicine,sacramento,california
+1601,university of california los angeles,los angeles,california
+1602,university of california san diego,san diego,california
+1603,university of california san diego airway research and clinical trials center,san diego,california
+1604,university of california san diego la jolla altman clinical translation research institute,san diego,california
+1605,university of california san francisco,san francisco,california
+1606,university of california san francisco adult,san francisco,california
+1607,university of california san francisco benioff children s hospital,oakland,california
+1608,university of california san francisco parnassus campus,san francisco,california
+1609,university of central florida,orlando,florida
+1610,university of chicago,chicago,illinois
+1611,university of chicago hospitals,chicago,illinois
+1612,university of chicago medical center,chicago,illinois
+1613,university of chicago medicine,chicago,illinois
+1614,university of cincinnati,cincinnati,ohio
+1615,university of colorado,aurora,colorado
+1616,university of colorado denver,aurora,colorado
+1617,university of colorado denver anschutz medical campus,aurora,colorado
+1618,university of connecticut health center,farmington,connecticut
+1619,university of florida,gainesville,florida
+1620,university of florida asthma research lab,gainesville,florida
+1621,university of florida college of medicine,jacksonville,florida
+1622,university of illinois,chicago,illinois
+1623,university of illinois at chicago,chicago,illinois
+1624,university of illinois at chicago breathe chicago center,chicago,illinois
+1625,university of illinois chicago,chicago,illinois
+1626,university of illinois hospital and health sciences system,chicago,illinois
+1627,university of iowa,iowa city,iowa
+1628,university of iowa hospitals and clinics,iowa city,iowa
+1629,university of iowa hospitals and clinics internal medicine,iowa city,iowa
+1630,university of iowa hospitals and clinics roy j and lucille a carver college of medicine,iowa city,iowa
+1631,university of kansas,kansas city,kansas
+1632,university of kansas med ctr int med allgy immun rheum,kansas city,kansas
+1633,university of kansas medical center,kansas city,kansas
+1634,university of kentucky medical center,lexington,kentucky
+1635,university of kentucky medical center center for clinical and translational science,lexington,kentucky
+1636,university of louisville,louisville,kentucky
+1637,university of louisville pediatric pulmonology,louisville,kentucky
+1638,university of maryland baltimore,baltimore,maryland
+1639,university of maryland school of medicine,baltimore,maryland
+1640,university of massachusetts,worcester,massachusetts
+1641,university of massachusetts medical school,worcester,massachusetts
+1642,university of massachusetts umass memorial,worcester,massachusetts
+1643,university of miami,miami,florida
+1644,university of miami and university of south florida in tampa,miami,florida
+1645,university of miami mailman center for child development,miami,florida
+1646,university of miami miller school of medicine,miami,florida
+1647,university of miami school of medicine,miami,florida
+1648,university of miami school of medicine sylvester at deerfield,deerfield beach,florida
+1649,university of miami university of south florida,miami,florida
+1650,university of miami university of south florida,tampa,florida
+1651,university of miami univestiy of south florida,miami,florida
+1652,university of michigan,ann arbor,michigan
+1653,university of michigan medicine,ann arbor,michigan
+1654,university of michigan school of public health,ann arbor,michigan
+1655,university of minnesota,minneapolis,minnesota
+1656,university of mississippi medical center,jackson,mississippi
+1657,university of mississippi medical center allergy immunology and asthma care clinic,jackson,mississippi
+1658,university of missouri at kansas city,kansas city,missouri
+1659,university of missouri department of internal medicine,columbia,missouri
+1660,university of missouri kansas city,kansas city,missouri
+1661,university of missouri kansas city school of medicine,kansas city,missouri
+1662,university of montana,missoula,montana
+1663,university of nebraska medical center,omaha,nebraska
+1664,university of nebraska medical center children s hospital and medical center,omaha,nebraska
+1665,university of new mexico,albuquerque,new mexico
+1666,university of new mexico health sciences center,albuquerque,new mexico
+1667,university of new mexico school of med,albuquerque,new mexico
+1668,university of north carolin at chapel hill,chapel hill,north carolina
+1669,university of north carolina,chapel hill,north carolina
+1670,university of north carolina at chapel hill,chapel hill,north carolina
+1671,university of north carolina cemalb,chapel hill,north carolina
+1672,university of oklahoma health sciences center ouhsc and oklahoma physicians resource research network okprn,oklahoma city,oklahoma
+1673,university of pennsylvania,philadelphia,pennsylvania
+1674,university of pennsylvania health center,philadelphia,pennsylvania
+1675,university of pennsylvania health system,philadelphia,pennsylvania
+1676,university of pittsburgh,pittsburgh,pennsylvania
+1677,university of pittsburgh adult,pittsburgh,pennsylvania
+1678,university of pittsburgh asthma insititute upmc,pittsburgh,pennsylvania
+1679,university of pittsburgh asthma institute,pittsburgh,pennsylvania
+1680,university of pittsburgh asthma institute at upmc,pittsburgh,pennsylvania
+1681,university of pittsburgh division of pulmonary,pittsburgh,pennsylvania
+1682,university of pittsburgh medical center,pittsburgh,pennsylvania
+1683,university of pittsburgh medical center health system,pittsburgh,pennsylvania
+1684,university of rochester,rochester,new york
+1685,university of rochester medical center,rochester,new york
+1686,university of south carolina,columbia,south carolina
+1687,university of south florida,tampa,florida
+1688,university of south florida asthma allergy and immunology clinical research unit,tampa,florida
+1689,university of south florida college of medicine,tampa,florida
+1690,university of south florida morsani college of medicine,tampa,florida
+1691,university of southern california,los angeles,california
+1692,university of southern california adult asthma and allergy center,los angeles,california
+1693,university of tennessee,memphis,tennessee
+1694,university of texas at austin,austin,texas
+1695,university of texas at el paso,el paso,texas
+1696,university of texas health center at tyler,tyler,texas
+1697,university of texas health science center at houston,houston,texas
+1698,university of texas health science center at san antonio,san antonio,texas
+1699,university of texas medical branch,galveston,texas
+1700,university of texas medical branch division of apics,galveston,texas
+1701,university of texas medical school at houston,houston,texas
+1702,university of texas southwestern dait icac 01 02,dallas,texas
+1703,university of texas southwestern medical center,dallas,texas
+1704,university of texas southwestern medical center psychoneuroendocrine research program,dallas,texas
+1705,university of texas southwestern medical school,dallas,texas
+1706,university of utah,salt lake city,utah
+1707,university of utah health,salt lake city,utah
+1708,university of utah health sciences center,salt lake city,utah
+1709,university of vermont,burlington,vermont
+1710,university of vermont,colchester,vermont
+1711,university of vermont medical center,burlington,vermont
+1712,university of virginia,charlottesville,virginia
+1713,university of virginia fontaine research park,charlottesville,virginia
+1714,university of virginia health system,charlottesville,virginia
+1715,university of virginia medical center,charlottesville,virginia
+1716,university of washington,seattle,washington
+1717,university of washington school of nursing,seattle,washington
+1718,university of wisconsin,madison,wisconsin
+1719,university of wisconsin allergy and asthma clinical research,madison,wisconsin
+1720,university of wisconsin at madison,madison,wisconsin
+1721,university of wisconsin hospital,madison,wisconsin
+1722,university of wisconsin madison,madison,wisconsin
+1723,university of wisconsin madison allergy asthma clinical research unit,madison,wisconsin
+1724,university of wisconsin madison department of asthma allergy and pulmonary clinical research,madison,wisconsin
+1725,university of wisconsin medical school,madison,wisconsin
+1726,university of wisconsin school of medicine and public health,madison,wisconsin
+1727,university of wisconsin school of medicine and public health asthma allergy and pulmonary clinical research,madison,wisconsin
+1728,university of wisconsin section of allergy pulmonary and critical care,madison,wisconsin
+1729,unm hsc,albuquerque,new mexico
+1730,unynet jefferson family medicine,buffalo,new york
+1731,up0099 101,north dartmouth,massachusetts
+1732,up0099 102,raleigh,north carolina
+1733,uphams corner health center,dorchester,massachusetts
+1734,upmc,pittsburgh,pennsylvania
+1735,upmc children s hospital of pittsburgh,pittsburgh,pennsylvania
+1736,upstate pharma research,simpsonville,south carolina
+1737,upstate pharmaceutical research,greenville,south carolina
+1738,upstate pharmaceutical research greenville,greenville,south carolina
+1739,urban family practice,marietta,georgia
+1740,urban health plan,the bronx,new york
+1741,usf asthma allergy and immun clinical research,tampa,florida
+1742,usf asthma allergy and immunology cru,tampa,florida
+1743,ut southwestern medical center,dallas,texas
+1744,ut southwestern medical center at dallas,dallas,texas
+1745,utah clinical trials,salt lake city,utah
+1746,utmb pathology clinical services,galveston,texas
+1747,utx medical,galveston,texas
+1748,uw health sports medicine and integrative medicine program,madison,wisconsin
+1749,uw madison asthma allergy and pulmonary research center,madison,wisconsin
+1750,va adult and pediatric allergy and asthma,richmond,virginia
+1751,va boston healthcare system jamaica plain campus jamaica plain ma,boston,massachusetts
+1752,va loma linda healthcare system,loma linda,california
+1753,va medical center bronx,the bronx,new york
+1754,va west los angeles medical center,los angeles,california
+1755,va wny healthcare system,buffalo,new york
+1756,valley clinical research center,bethlehem,pennsylvania
+1757,valley clinical research center,easton,pennsylvania
+1758,vanderbilt asthma sinus allergy program and research centers,nashville,tennessee
+1759,vanderbilt children s hospital,nashville,tennessee
+1760,vanderbilt medical university,nashville,tennessee
+1761,vanderbilt univeristy medical center,nashville,tennessee
+1762,vanderbilt university,nashville,tennessee
+1763,vanderbilt university asap research,nashville,tennessee
+1764,vanderbilt university medical center,nashville,tennessee
+1765,vanderbilt university medical center monroe carell jr childrens hospital pediatric emergency department,nashville,tennessee
+1766,vanderbilt vaccine research program,nashville,tennessee
+1767,vcom,blacksburg,virginia
+1768,veritas clinical specialties,topeka,kansas
+1769,vermont lung center,colchester,vermont
+1770,vermont lung center at university of vermont,burlington,vermont
+1771,vermont lung center at university of vermont,colchester,vermont
+1772,virgina commonwealth,richmond,virginia
+1773,virginia adult and pediatric allergy and asthma,richmond,virginia
+1774,virginia adult and pediatric allergy and asthma p c,richmond,virginia
+1775,virginia commonwealth university,richmond,virginia
+1776,virginia hospital center,arlington,virginia
+1777,vital prospects clin res,tulsa,oklahoma
+1778,vital prospects clinical research institute,tulsa,oklahoma
+1779,vitalink research,greenville,south carolina
+1780,volunteer medical research,port charlotte,florida
+1781,wake forest baptist health,winston-salem,north carolina
+1782,wake forest school of medicine,winston-salem,north carolina
+1783,wake forest univeristy health services,winston-salem,north carolina
+1784,wake forest university,winston-salem,north carolina
+1785,wake forest university baptist medical center,winston-salem,north carolina
+1786,wake forest university baptist medical center gastroenterology and digestive health,winston-salem,north carolina
+1787,wake forest university baptist medicial center,winston-salem,north carolina
+1788,wake forest university center for human genomics,winston-salem,north carolina
+1789,wake forest university health sciences,winston-salem,north carolina
+1790,wake forest university school of medicine,winston-salem,north carolina
+1791,walton county ems,defuniak springs,florida
+1792,waren w pleskow md,encinitas,california
+1793,warren w pleskow md,encinitas,california
+1794,washington state university,pullman,washington
+1795,washington state university college of nursing,spokane,washington
+1796,washington univ school of med,seattle,washington
+1797,washington univ school of med,st louis,missouri
+1798,washington univeristy school of medicine division of pulmonary and critical care medicine,st louis,missouri
+1799,washington university,st louis,missouri
+1800,washington university in st louis,st louis,missouri
+1801,washington university in st louis school of medicine,st louis,missouri
+1802,washington university of school of medicine,st louis,missouri
+1803,washington university pediatrics,st louis,missouri
+1804,washington university school of medicine,st louis,missouri
+1805,washington university school of medicine barnes jewish hospital,st louis,missouri
+1806,washington university school of medicine div of emergency medicine,st louis,missouri
+1807,washington university school of medicine division of allergy and immunology,st louis,missouri
+1808,washington university school of medicine patient oriented research unit,st louis,missouri
+1809,washington university st louis,st louis,missouri
+1810,washington university st louis university,st louis,missouri
+1811,waterbury pulmonary associates,waterbury,connecticut
+1812,waterbury pulmonary research,waterbury,connecticut
+1813,watts medical research,barnesville,georgia
+1814,wayne state university,detroit,michigan
+1815,wayne state university school of medicine,detroit,michigan
+1816,wcct global,costa mesa,california
+1817,wcct global,cypress,california
+1818,weill cornell internal medicine associates hospital for special surgery,new york,new york
+1819,west coast clinical trials,costa mesa,california
+1820,west coast clinical trials,cypress,california
+1821,west coast clinical trials,long beach,california
+1822,west coast clinical trials,signal hill,california
+1823,west coast clinical trials global,costa mesa,california
+1824,west coast clinical trials global,cypress,california
+1825,west coast clinical trials phase 2 4,long beach,california
+1826,west houston clinical research services,houston,texas
+1827,west penn allegheny general health system,pittsburgh,pennsylvania
+1828,west penn allegheny health system,pittsburgh,pennsylvania
+1829,west virginia univeristy,morgantown,west virginia
+1830,west virginia university,morgantown,west virginia
+1831,western sky medical,el paso,texas
+1832,western sky medical research,el paso,texas
+1833,western sky research,el paso,texas
+1834,western states clinical research,arvada,colorado
+1835,western states clinical research,wheat ridge,colorado
+1836,westlake medical research,westlake village,california
+1837,wheaton franciscan medical group,milwaukee,wisconsin
+1838,william beaumont hospital,royal oak,michigan
+1839,william ebbeling md,fresno,california
+1840,william ebbeling md pp,fresno,california
+1841,william s middleton memorial veterans hospital madison wi,madison,wisconsin
+1842,william storms medical research,colorado springs,colorado
+1843,willis knighton physician network portico pediatrics,shreveport,louisiana
+1844,wilmington medical research,wilmington,north carolina
+1845,winthrop univ hospital,mineola,new york
+1846,winthrop university hospital,long island city,new york
+1847,winthrop university hospital,mineola,new york
+1848,winthrop university hospital winthrop pediatric associates,long island city,new york
+1849,wisconsin research and education network wren,madison,wisconsin
+1850,wishard primary care center,indianapolis,indiana
+1851,wolfson children hospital,jacksonville,florida
+1852,women and children s hospital of buffalo,buffalo,new york
+1853,womes and childrens hospital of buffalo,buffalo,new york
+1854,woodland medical center,woodland,california
+1855,worldwide clinical trials early phase services,san antonio,texas
+1856,wvu medicine,morgantown,west virginia
+1857,yacktman pediatrics,park ridge,illinois
+1858,yakima valley farmworkers clinic,yakima,washington
+1859,yale new haven hospital,new haven,connecticut
+1860,yale school of medicine,new haven,connecticut
+1861,yale university,new haven,connecticut
+1862,yale university center for asthma and airway disease,new haven,connecticut
+1863,yale university school of medicine,new haven,connecticut
+1864,your doctors care,hillsborough,new jersey
+1865,zuckerberg san francisco general hospital,san francisco,california

@@ -2,3 +2,12 @@ ctg_*/pdfs/
 *.log
 __pycache__/
 ctg_*/text/
+startup/asthma_trials.json
+startup/*_trials.json
+startup/data/
+.venv/
+venv/
+node_modules/
+.env
+*:Zone.Identifier
+.DS_Store

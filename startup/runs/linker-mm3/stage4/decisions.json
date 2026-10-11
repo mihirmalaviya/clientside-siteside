@@ -1,0 +1,439 @@
+{
+ "decisions": [
+  {
+   "site_key": "1",
+   "site": "Memorial Sloan Kettering Cancer Center",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 34 trials; Regeneron linvoseltamab: NCT07222761, NCT07393282 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 16 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (MSK BMT Program: adult+peds allo/auto HPC transplant + immune effector cell ther), which supports CRS/ICANS readiness",
+    "Prefill: heavy competition (16 trials) may shrink the BCMA-naive pool",
+    "Prefill: PI's NPI/location not confirmed"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?",
+    "Q3/Q15: Given your many competing BCMA/T-cell-engager trials, how many BCMA-naive patients could realistically go to this study?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation",
+    "prefill: PI NPI"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "2",
+   "site": "Ohio State University James Cancer Hospital",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 13 trials; Regeneron linvoseltamab: NCT03761108, NCT05137054, NCT06292780, NCT07393282 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 9 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (OSU James: adult allo/auto HPC transplant + immune effector cell therapy), which supports CRS/ICANS readiness"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "3",
+   "site": "Weill Cornell Medicine / NewYork-Presbyterian",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 9 trials; Regeneron linvoseltamab: NCT05137054 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 2 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (NYP/Weill Cornell BMT Program: adult allo/auto HPC transplant + immune effector ), which supports CRS/ICANS readiness",
+    "Prefill: PI's NPI/location not confirmed"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation",
+    "prefill: PI NPI"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "4",
+   "site": "University of Michigan",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 13 trials; Regeneron linvoseltamab: NCT03761108, NCT06140524 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 3 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (U Michigan BMT Program: adult+peds allo/auto HPC transplant + immune effector ce), which supports CRS/ICANS readiness"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "5",
+   "site": "UT Southwestern Medical Center",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 10 trials; Regeneron linvoseltamab: NCT05137054 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 6 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (UTSW HSCT Program (with Children's Health): adult+peds allo/auto + immune effect), which supports CRS/ICANS readiness"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "6",
+   "site": "Mayo Clinic Rochester",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 18 trials; Regeneron linvoseltamab: NCT05137054, NCT07393282 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 10 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (Mayo Clinic Rochester BMT Program: adult+peds allo/auto + immune effector cell t), which supports CRS/ICANS readiness",
+    "Prefill: heavy competition (10 trials) may shrink the BCMA-naive pool"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?",
+    "Q3/Q15: Given your many competing BCMA/T-cell-engager trials, how many BCMA-naive patients could realistically go to this study?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "7",
+   "site": "University of Texas MD Anderson Cancer Center",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 17 trials; Regeneron linvoseltamab: NCT03761108, NCT05730036, NCT05828511, NCT06292780 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 10 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (MDACC SCT & Cellular Therapy (adult+peds allo/auto) and MDACC CARTOX Program (im), which supports CRS/ICANS readiness",
+    "Prefill: CT.gov already lists this site on NCT05730036; confirm its current status with the study team before treating it as a new selection",
+    "Prefill: heavy competition (10 trials) may shrink the BCMA-naive pool"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?",
+    "Internal: Is this site already activated on NCT05730036? If so, skip the feasibility decision.",
+    "Q3/Q15: Given your many competing BCMA/T-cell-engager trials, how many BCMA-naive patients could realistically go to this study?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation",
+    "prefill: site already listed on NCT05730036"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "8",
+   "site": "Norton Cancer Institute",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 11 trials; Regeneron linvoseltamab: NCT03761108, NCT05730036, NCT05828511 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 7 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: not FACT-accredited for immune effector cell therapy, so CRS/ICANS readiness rests on Q10/Q11 answers",
+    "Prefill: CT.gov already lists this site on NCT05730036; confirm its current status with the study team before treating it as a new selection",
+    "Prefill: PI's NPI/location not confirmed"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?",
+    "Q10/Q11: Is tocilizumab stocked 24/7, and are the admitting-unit nurses trained in ICE scoring?",
+    "Internal: Is this site already activated on NCT05730036? If so, skip the feasibility decision."
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation",
+    "prefill: site already listed on NCT05730036",
+    "prefill: PI NPI"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "9",
+   "site": "Dana-Farber Cancer Institute",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 22 trials; Regeneron linvoseltamab: NCT05137054, NCT06140524, NCT07393282 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 10 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (DFCI/Brigham Adult Stem Cell Transplant & Cell Therapies: adult allo/auto + immu), which supports CRS/ICANS readiness",
+    "Prefill: heavy competition (10 trials) may shrink the BCMA-naive pool"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?",
+    "Q3/Q15: Given your many competing BCMA/T-cell-engager trials, how many BCMA-naive patients could realistically go to this study?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "10",
+   "site": "UCLA Medical Center",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 5 trials; Regeneron linvoseltamab: NCT05730036, NCT05828511 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 2 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (UCLA HMSCT Program: adult+peds allo/auto + immune effector cell therapy), which supports CRS/ICANS readiness",
+    "Prefill: CT.gov already lists this site on NCT05730036; confirm its current status with the study team before treating it as a new selection",
+    "Prefill: PI's NPI/location not confirmed"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?",
+    "Internal: Is this site already activated on NCT05730036? If so, skip the feasibility decision."
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation",
+    "prefill: site already listed on NCT05730036",
+    "prefill: PI NPI"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "11",
+   "site": "Sylvester Comprehensive Cancer Center (University of Miami)",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 16 trials; Regeneron linvoseltamab: NCT03761108 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 5 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (UMHC/Sylvester Adult Transplantation & Cellular Therapy: adult allo/auto + immun), which supports CRS/ICANS readiness"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "12",
+   "site": "H. Lee Moffitt Cancer Center",
+   "decision": "clarify",
+   "reasons": [
+    "Q1-Q16 all still open (questionnaire not returned), so feasibility can't be judged yet",
+    "Prefill: 9 trials; Regeneron linvoseltamab: NCT03761108 gives T-cell-engager/CRS experience (R13)",
+    "Prefill: 7 competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (R19)",
+    "Prefill: FACT-accredited (Moffitt BMT & Cellular Immunotherapy Program: adult+peds allo/auto + immune effe), which supports CRS/ICANS readiness"
+   ],
+   "follow_ups": [
+    "Q1-Q3: How many RRMM patients with 1-4 prior lines (len + PI) do you see per year, and what share are pomalidomide-naive and BCMA-immunotherapy-naive?",
+    "Q9: Can you reliably schedule 24-hour admissions for step-up doses on Day 1 and Day 8?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS?",
+    "Q14: How many coordinator FTEs could you assign?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q9",
+    "Q12",
+    "Q14",
+    "Q15",
+    "prefill: T-cell engager MM trial history",
+    "prefill: competing trials recruiting",
+    "prefill: FACT accreditation"
+   ],
+   "status": "pending_approval"
+  },
+  {
+   "site_key": "riverside",
+   "site": "Riverside Cancer Center (Dayton, OH)",
+   "decision": "clarify",
+   "reasons": [
+    "Q6 yes (fresh marrow ships to central MRD lab), Q7 yes (two monitored -80C freezers), Q10 yes (tocilizumab, at least 2 doses per patient on site, 24/7), Q11 yes (ICE scoring every 12h on 6 West), Q16 10 weeks to CTA (+~6 weeks local IRB, or WCG): these meet R9, R10, R13, R20",
+    "Q1 is about 70 for all RRMM (low confidence) and the eligible 1-4-line len+PI subset is unknown; Q2 and Q3 are open, so eligible volume (R1-R3) can't be judged",
+    "Q9 open: 4 step-up beds on 6 West are shared with the competing CRV-402 GPRC5DxCD3 trial (R12 capacity concern)",
+    "NOTE: competing RRMM trials MRD-088 (BCMA CAR-T) and CRV-402 (GPRC5D bispecific) are recruiting, and BCMA exposure from HLV-330 shrinks the BCMA-naive pool (R3, R19)",
+    "NOTE: Sub-I Dr. Raj Patel's GCP expired 2025-11-30; GCP for Reyes, Okafor and Lam expires by 2026-12-31 (fixable)",
+    "NOTE: PET-CT is off site (Valley Imaging, ~5 business days); MRI and CT are on site (R8, manageable)",
+    "NOTE: no documentation of echo/MUGA, LYNOZYFIC REMS or IVIG/prophylaxis practice (R7, R14, R15); Q5, Q8, Q12, Q13, Q14, Q15 open",
+    "NOTE: 24-bed ICU, 24/7 intensivists, 24/7 neurology, and prior BCMA bispecific experience (HLV-330, 7 enrolled) support R13; partner hotel supports the 48-hour no-driving rule (R12)"
+   ],
+   "follow_ups": [
+    "Q1: Of the ~70 RRMM patients a year, how many have had 1-4 prior lines including lenalidomide and a PI? (Dr. Elena Marsh)",
+    "Q2: About what share of them are pomalidomide-naive?",
+    "Q3: About what share are BCMA-immunotherapy-naive, given HLV-330 and MRD-088?",
+    "Q9: With CRV-402 also using the 4 step-up beds on 6 West, can you always or usually schedule Day 1 and Day 8 admissions?",
+    "Q15: How many more same-population trials do you plan to open in the next 12 months?",
+    "Q12: Is your pharmacy certified under the pomalidomide REMS? (Dana Wolfe)",
+    "Q5: How many minutes from order to release for an IV investigational dose?",
+    "Q14: How many of your 4 hematology CRCs could be assigned to this study?",
+    "Q13: What is the infusion center's booking lead time for recurring weekly chairs?",
+    "Q8: Can staff hand sponsor ePRO tablets to patients at visits?",
+    "Can you confirm on-site echo/MUGA turnaround, and IVIG and PJP/HSV prophylaxis practice for bispecific patients?",
+    "Will Dr. Raj Patel renew GCP before the 1572, and will Reyes, Okafor and Lam renew before year-end 2026?"
+   ],
+   "cites": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q6",
+    "Q7",
+    "Q9",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q14",
+    "Q15",
+    "Q16",
+    "NOTE: Sub-I Dr. Raj Patel's GCP certificate expired 2025-11-30",
+    "NOTE: competing RRMM trials MRD-088 and CRV-402",
+    "NOTE: PET-CT not on site",
+    "NOTE: no document covers echo/MUGA/ECG, LYNOZYFIC REMS or IVIG/prophylaxis",
+    "NOTE: ICU 24 beds, 24/7 intensivists, neurology"
+   ],
+   "status": "pending_approval"
+  }
+ ]
+}

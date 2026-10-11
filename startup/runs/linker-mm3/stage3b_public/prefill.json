@@ -1,0 +1,862 @@
+{
+ "sites": [
+  {
+   "rank": 1,
+   "myeloma_trials_recruiting": 39,
+   "tcell_engager_trials": 34,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "39 (7 Phase 3); top sponsors: Memorial Sloan Kettering Cancer Center (12), Janssen Research & Development, LLC (5), AbbVie (4)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "16: NCT07280013, NCT05652335, NCT05722418, NCT06953960, NCT07099391, NCT06896916, NCT05020236, NCT07258511, NCT06121843, NCT06297226, NCT07149857, NCT07222761",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "34 trials; Regeneron linvoseltamab: NCT07222761, NCT07393282",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Saad Usmani, MD (CT.gov-listed PI at MSK)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI not found at a New York location (only non-matching/older records returned)",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "MSK BMT Program: adult+peds allo/auto HPC transplant + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/new-york/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "myeloma_trials_recruiting": 19,
+   "tcell_engager_trials": 13,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "19 (3 Phase 3); top sponsors: Regeneron Pharmaceuticals (4), Sanofi (1), C4 Therapeutics, Inc. (1)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "9: NCT07280013, NCT07657312, NCT06052826, NCT06297226, NCT06892522, NCT05137054, NCT03761108, NCT06292780, NCT06465316",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "13 trials; Regeneron linvoseltamab: NCT03761108, NCT05137054, NCT06292780, NCT07393282",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Naresh Bumma, MD",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1346504412; Internal Medicine, Hematology; Columbus OH",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "OSU James: adult allo/auto HPC transplant + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/columbus/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "myeloma_trials_recruiting": 8,
+   "tcell_engager_trials": 9,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "8 (3 Phase 3); top sponsors: AbbVie (2), Karyopharm Therapeutics Inc (1), Juno Therapeutics, Inc., a Bristol-Myers Squibb Company (1)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "2: NCT06892522, NCT05137054",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "9 trials; Regeneron linvoseltamab: NCT05137054",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI",
+     "value": "not found (no PI names on site's recruiting MM listings)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "NYP/Weill Cornell BMT Program: adult allo/auto HPC transplant + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/new-york/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "not found on NCI list",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "myeloma_trials_recruiting": 10,
+   "tcell_engager_trials": 13,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "10 (2 Phase 3); top sponsors: Janssen Research & Development, LLC (2), Regeneron Pharmaceuticals (2), Sanofi (1)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "3: NCT06953960, NCT04634552, NCT03761108",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "13 trials; Regeneron linvoseltamab: NCT03761108, NCT06140524",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Erica L. Campagnaro",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1891854683; Internal Medicine, Hematology; Ann Arbor MI",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "U Michigan BMT Program: adult+peds allo/auto HPC transplant + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/ann-arbor/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center (Rogel)",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "myeloma_trials_recruiting": 10,
+   "tcell_engager_trials": 10,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "10 (3 Phase 3); top sponsors: AbbVie (2), Janssen Research & Development, LLC (2), Caribou Biosciences, Inc. (1)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "6: NCT05722418, NCT06953960, NCT07258511, NCT06297226, NCT06892522, NCT05137054",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "10 trials; Regeneron linvoseltamab: NCT05137054",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Aimaz Afrough, MD",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1477964518; Internal Medicine, Hematology; Dallas TX",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "UTSW HSCT Program (with Children's Health): adult+peds allo/auto + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/dallas/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center (Simmons)",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "myeloma_trials_recruiting": 26,
+   "tcell_engager_trials": 18,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "26 (7 Phase 3); top sponsors: Mayo Clinic (6), Janssen Research & Development, LLC (3), Regeneron Pharmaceuticals (2)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "10: NCT07518186, NCT07802717, NCT07258511, NCT06630104, NCT06121843, NCT06297226, NCT05650632, NCT06940297, NCT05137054, NCT06465316",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "18 trials; Regeneron linvoseltamab: NCT05137054, NCT07393282",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Shaji K. Kumar",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1568434090; Internal Medicine, Hematology; Rochester MN",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "Mayo Clinic Rochester BMT Program: adult+peds allo/auto + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/rochester/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "myeloma_trials_recruiting": 31,
+   "tcell_engager_trials": 17,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "31 (7 Phase 3); top sponsors: M.D. Anderson Cancer Center (9), Regeneron Pharmaceuticals (4), Janssen Research & Development, LLC (3)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "10: NCT05652335, NCT06988488, NCT07382739, NCT05828511, NCT07258511, NCT06121843, NCT06297226, NCT06207799, NCT03761108, NCT06292780",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "17 trials; Regeneron linvoseltamab: NCT03761108, NCT05730036, NCT05828511, NCT06292780",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "yes",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Qaiser Bashir, MD",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1972640241; Internal Medicine, Hematology & Oncology; Houston TX",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "MDACC SCT & Cellular Therapy (adult+peds allo/auto) and MDACC CARTOX Program (immune effector cell therapy)",
+     "source": "https://accredited.factglobal.org/city/houston/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "myeloma_trials_recruiting": 10,
+   "tcell_engager_trials": 11,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "10 (4 Phase 3); top sponsors: Janssen Research & Development, LLC (4), Regeneron Pharmaceuticals (3), C4 Therapeutics, Inc. (1)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "7: NCT07280013, NCT05828511, NCT07518186, NCT07258511, NCT06297226, NCT04634552, NCT03761108",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "11 trials; Regeneron linvoseltamab: NCT03761108, NCT05730036, NCT05828511",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "yes",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI",
+     "value": "not found (no PI names on site's recruiting MM listings)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "Norton not listed in FACT directory (Kentucky lists only UofL Health and UK); BMT InfoNet also says 'Not FACT approved'",
+     "source": "https://accredited.factglobal.org/state/kentucky/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "not found on NCI list",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "CAR-T center listing",
+     "value": "BMT InfoNet lists Abecma, Breyanzi, Carvykti, Tecartus, Yescarta; diseases listed ALL/lymphoma/MCL only; 8-12 CAR-T/yr 2021-23",
+     "source": "https://bmtinfonet.org/car-t-cell-therapy-center-directory-search-details/73448",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "myeloma_trials_recruiting": 29,
+   "tcell_engager_trials": 22,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "29 (3 Phase 3); top sponsors: Dana-Farber Cancer Institute (4), Massachusetts General Hospital (4), Regeneron Pharmaceuticals (3)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "10: NCT06518551, NCT06953960, NCT06832865, NCT07258511, NCT07032714, NCT06121843, NCT06297226, NCT06138275, NCT05137054, NCT06799026",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "22 trials; Regeneron linvoseltamab: NCT05137054, NCT06140524, NCT07393282",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Omar Nadeem, MD",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1215170691; Internal Medicine, Hematology; Boston MA",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "DFCI/Brigham Adult Stem Cell Transplant & Cell Therapies: adult allo/auto + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/boston/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center (Dana-Farber/Harvard)",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "myeloma_trials_recruiting": 5,
+   "tcell_engager_trials": 5,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "5 (3 Phase 3); top sponsors: Regeneron Pharmaceuticals (2), Juno Therapeutics, Inc., a Bristol-Myers Squibb Company (2), European Myeloma Network B.V. (1)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "2: NCT05828511, NCT06297226",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "5 trials; Regeneron linvoseltamab: NCT05730036, NCT05828511",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "yes",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI",
+     "value": "not found (no PI names on site's recruiting MM listings)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "UCLA HMSCT Program: adult+peds allo/auto + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/los-angeles/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center (Jonsson)",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "myeloma_trials_recruiting": 20,
+   "tcell_engager_trials": 16,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "20 (3 Phase 3); top sponsors: University of Miami (4), Pfizer (3), Dickran Kazandjian, MD (2)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "5: NCT07280013, NCT05722418, NCT05020236, NCT06152575, NCT03761108",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "16 trials; Regeneron linvoseltamab: NCT03761108",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Dickran Kazandjian, MD",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1114096567; Internal Medicine, Hematology & Oncology; Miami FL",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "UMHC/Sylvester Adult Transplantation & Cellular Therapy: adult allo/auto + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/miami/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Cancer Center (Clinical; not Comprehensive)",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "myeloma_trials_recruiting": 14,
+   "tcell_engager_trials": 9,
+   "facts": [
+    {
+     "fact": "MM interventional trials recruiting",
+     "value": "14 (2 Phase 3); top sponsors: Janssen Research & Development, LLC (3), AbbVie (2), Juno Therapeutics, Inc., a Bristol-Myers Squibb Company (2)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Competing BCMA/GPRC5D/CAR-T/T-cell-engager trials recruiting (excl. NDMM/SMM/LTFU and NCT05730036)",
+     "value": "7: NCT07258511, NCT06297226, NCT06892522, NCT07149857, NCT03761108, NCT06947083, NCT06465316",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "T-cell engager MM trial history (any status but withdrawn)",
+     "value": "9 trials; Regeneron linvoseltamab: NCT03761108",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "Site already listed on NCT05730036 (linvoseltamab vs EPd, Regeneron Ph3)",
+     "value": "no",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "REGN5459 / odronextamab MM history",
+     "value": "not found (REGN5459 NCT04083534 lists only anonymous 'Regeneron Study Site'; no odronextamab MM trials)",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "CT.gov-listed MM PI on recruiting trials",
+     "value": "Melissa Alsina, MD",
+     "source": "ctg.py {\"query.cond\": \"multiple myeloma\"} --max 20000 --pi",
+     "source_type": "CT.gov"
+    },
+    {
+     "fact": "PI NPI / specialty / location",
+     "value": "NPI 1184656746; Internal Medicine, Hematology; Tampa FL",
+     "source": "https://npiregistry.cms.hhs.gov/api/?version=2.1 (name+state)",
+     "source_type": "NPI"
+    },
+    {
+     "fact": "FACT accreditation (HPC transplant / immune effector cells)",
+     "value": "Moffitt BMT & Cellular Immunotherapy Program: adult+peds allo/auto + immune effector cell therapy",
+     "source": "https://accredited.factglobal.org/city/tampa/",
+     "source_type": "FACT"
+    },
+    {
+     "fact": "NCI designation",
+     "value": "Comprehensive Cancer Center",
+     "source": "https://www.cancer.gov/research/infrastructure/cancer-centers/find",
+     "source_type": "NCI"
+    },
+    {
+     "fact": "Commercial BCMA CAR-T authorized center",
+     "value": "not found (manufacturer locator not machine-readable)",
+     "source": "https://www.carvykti.com/treatment-centers",
+     "source_type": "Web"
+    },
+    {
+     "fact": "PI 1572 (BMIS), Open Payments, CLIA/CAP, ACR/IAC imaging, CMS bed counts, IRB/sIRB policy",
+     "value": "not found (not retrieved; web search quota exhausted)",
+     "source": "none",
+     "source_type": "Web"
+    }
+   ]
+  }
+ ]
+}

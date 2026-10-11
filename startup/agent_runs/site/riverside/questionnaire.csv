@@ -1,0 +1,33 @@
+q_id,question
+Q1,Is there an intensive care unit on site?
+Q2,Can the site admit patients for inpatient step-up dosing?
+Q3,How many inpatient beds can be reserved for step-up dosing admissions?
+Q4,Is tocilizumab kept on site in sufficient quantity for CRS management?
+Q5,Does the site have a written CRS/ICANS management SOP?
+Q6,How many T-cell engager (bispecific antibody) trials has the site participated in?
+Q7,How many patients did the site enroll in its most recent completed bispecific antibody trial?
+Q8,How many trials currently enrolling relapsed/refractory myeloma patients at the site would compete with this study?
+Q9,Approximately how many relapsed/refractory myeloma patients does the site see per year?
+Q10,How many patients per year at the site would meet this trial's eligibility criteria?
+Q11,How many clinical research coordinators support hematologic malignancy trials?
+Q12,Does the site have a dedicated investigational drug pharmacist?
+Q13,Are GCP training certificates current for all investigators (PI and sub-investigators)?
+Q14,How many years has the PI been conducting industry-sponsored trials?
+Q15,How many temperature-monitored -80C freezers are available?
+Q16,Is the local laboratory both CLIA certified and CAP accredited?
+Q17,Is PET-CT available on site?
+Q18,Can MRD testing by NGS be performed locally?
+Q19,Can bone marrow aspirates/biopsies be performed on site?
+Q20,Is 24/7 hematology on-call coverage available?
+Q21,"What is the median local IRB approval time, in weeks?"
+Q22,Does the site accept a central IRB?
+Q23,"What is the median contract and budget execution time, in weeks?"
+Q24,"What is the institutional indirect cost (overhead) rate, in percent?"
+Q25,Which EDC systems do site staff have experience with?
+Q26,Can study monitors get remote read-only EMR access?
+Q27,"What is the site's screen failure rate in hematology trials, in percent?"
+Q28,Does the site provide patient lodging support near the hospital?
+Q29,Can informed consent be conducted in Spanish with a certified translated form?
+Q30,"Will the PI commit to this study, and how many patients will the site commit to enroll?"
+Q31,Has the site had FDA inspection findings (Form 483) in the last 5 years?
+Q32,What is the median time from site initiation visit to first patient enrolled?

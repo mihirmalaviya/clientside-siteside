@@ -1,0 +1,7 @@
+{"graded_by": "human (Claude main session) against agent_runs/site/riverside/docs, after reading outputs",
+ "riverside": {"Q1": "flag_ok", "Q2": "flag_ok", "Q3": "flag_ok", "Q4": "flag_ok", "Q5": "flag_ok", "Q6": "ok", "Q7": "ok", "Q8": "flag_ok",
+               "Q9": "flag_conservative", "Q10": "ok", "Q11": "ok", "Q12": "flag_ok", "Q13": "flag_ok", "Q14": "flag_ok", "Q15": "flag_ok", "Q16": "ok",
+               "NOTE_gcp_patel": "ok", "NOTE_gcp_expiring": "ok", "NOTE_competing": "ok", "NOTE_petct": "ok", "NOTE_lodging": "ok"},
+ "notes": {"Q6": "inference: marrow on site + MRD send-out documented; courier cutoff not documented (agent said medium confidence)",
+           "Q9": "SOP v2 reserves 4 beds; agent flagged rather than choose always/usually: conservative, not wrong",
+           "Q1": "range 40-70 given with reasoning and flagged for PI, as instructed"}}

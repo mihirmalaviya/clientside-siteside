@@ -1,0 +1,5966 @@
+{
+"NCT00000577": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00001893": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00001909": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00018096": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00024544": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00028288": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00029510": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00029679": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00044811": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "mild_moderate"
+},
+"NCT00044824": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "mild_moderate"
+},
+"NCT00045955": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00054964": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00064389": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00069823": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00071552": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00073177": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00073814": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00073827": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00073840": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00076076": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00079937": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00094016": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00094276": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00096616": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00109668": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00110383": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00112411": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00113633": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00113659": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00114413": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00115284": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00115297": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00115323": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00116324": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00124176": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00124995": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00130351": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00133042": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00133666": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00136305": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00140439": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00142610": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00144443": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00145990": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00147810": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00148408": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00149461": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00149487": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00149500": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00156468": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00156507": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00156819": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00162773": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00162864": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00163527": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00166582": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00169962": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00174720": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00174733": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00174746": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00180011": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00181272": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00181285": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00187499": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00189228": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00189436": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00192296": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00195117": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00197964": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00200850": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00200967": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00201058": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00201188": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00204672": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00208234": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00214019": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00214552": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00217854": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00217893": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00218803": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00218816": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00226200": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00227162": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00231114": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00232557": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00233233": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00235053": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00237068": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00238069": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00241852": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00250341": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00250588": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00252291": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00257933": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00262652": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00266851": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00267202": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00269282": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00277446": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00280683": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00282516": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00286416": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00287365": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00287378": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00294398": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00299065": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00301171": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00304304": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00307970": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00308685": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00308932": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00318708": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00318747": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00319488": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00329381": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00330070": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00332826": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00345514": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00346398": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00353184": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00355069": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00359073": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00359775": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00361920": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT00361972": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00367016": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00367263": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00377364": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00377572": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00377663": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00382447": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00384813": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00385463": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00386178": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00388739": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00392288": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00393367": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00393952": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00393991": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00394199": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00394329": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "mild_moderate"
+},
+"NCT00395304": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00399984": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00403637": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00410150": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00414817": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00424125": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00425061": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00434421": {
+"drug": "other",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00442013": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00444236": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00448851": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00456677": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00459368": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00461812": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00466024": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00466596": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00467740": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00471809": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00483041": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00486343": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "mild_moderate"
+},
+"NCT00491790": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00494572": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00495157": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00500539": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00507130": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00510341": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00512486": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00513760": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00514436": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00521222": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00522782": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00528814": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00536042": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00545376": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00552448": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00554970": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00565266": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00565591": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00575861": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00577655": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00581048": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00583778": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00584636": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00585039": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00585260": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00587288": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00588406": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00590720": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00592631": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00595153": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00595361": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00595491": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00601263": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00604578": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00606242": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00614874": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00621829": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00621946": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00623688": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00624429": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00630461": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00634036": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00634517": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00634608": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00634829": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00635505": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00638989": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00639847": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00643578": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00644514": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00657891": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00658749": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00660322": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00670267": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00671593": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00671892": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00675584": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00676468": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00679263": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00682669": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00683449": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00691873": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00695604": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00699439": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00705341": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00706446": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00711165": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00712296": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00722020": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00739219": {
+"drug": "other",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00741208": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00753948": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00762931": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00763035": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00783289": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00784459": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00784485": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00784758": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00787644": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00801853": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00802438": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00806442": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00807183": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00809757": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00815347": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00815724": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00819637": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00825903": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00829179": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00829985": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00832923": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00836368": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00838591": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00839046": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00839124": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00839189": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT00843544": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00846014": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00846573": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00852124": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00860418": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00860834": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00862368": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00867737": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00869167": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00870584": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00874900": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00890175": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00901095": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00910585": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00915538": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00916240": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00918944": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00920621": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00921401": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00927758": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00935077": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00936793": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00940927": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00941694": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00942201": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00952471": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT00958932": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00964301": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT00975273": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00979225": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT00980707": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00993590": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT00994175": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT00994604": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT00995904": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "mild_moderate"
+},
+"NCT01003340": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01016847": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01026298": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01027143": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01028560": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01039324": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01045174": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01047514": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01049178": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01052116": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01057498": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01057615": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01061424": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01065883": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01066416": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01069991": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01070147": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01070888": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01071967": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01072123": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01086527": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01087710": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01097694": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01103037": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01105754": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01105923": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01106326": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01111110": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01113034": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01117116": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01117805": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01118312": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01128348": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01142947": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01143051": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01143688": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01147835": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01152320": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01154699": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01161225": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01161433": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01167855": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01168635": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01169883": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01170676": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01175369": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01175434": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01179256": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01183923": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01188473": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01200446": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01209533": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01210170": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01213706": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01218399": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT01219738": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01221285": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01225913": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT01241006": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01248065": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01251224": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01251523": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01253330": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01256086": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01272635": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01280500": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01290874": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01296087": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01312805": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01316315": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01317563": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01324700": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01326182": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01329939": {
+"drug": "oral",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01350336": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01357642": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01370317": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01380327": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01392859": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01403428": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01405625": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01426581": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01430403": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01437995": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01443728": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01445015": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01446315": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01447173": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01447459": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01449409": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01451944": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01456494": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01484691": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01497691": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01504646": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01509183": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01511302": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01514760": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01515995": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01516073": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01516086": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01519453": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01520688": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01522040": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01522144": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01522703": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01529437": {
+"drug": "other",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01532817": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01536522": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01537133": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01547286": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01550471": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "mild_moderate"
+},
+"NCT01554488": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01560988": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01561690": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01577628": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01583296": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01591044": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01593111": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01597375": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01606306": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01606319": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01612936": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01621386": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01625364": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01629823": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01634334": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01635088": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01641211": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01650844": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01659892": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01659905": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01659918": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01659931": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01675921": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01676896": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01681732": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01691612": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01695031": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01696214": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01705964": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01708070": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01710059": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01710449": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01711593": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01715389": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01715844": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01724307": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01725815": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01725945": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01728038": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01728571": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01730976": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01731015": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01733485": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01737892": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01737905": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01757002": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01770899": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01781507": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01783028": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01804218": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01805687": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01832363": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01833390": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01841281": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01845493": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01852656": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01867125": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01868061": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT01869543": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01873755": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01875003": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01878929": {
+"drug": "other",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01881412": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01895478": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01900470": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01907334": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01913795": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01921894": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01922037": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01939951": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT01951378": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT01966068": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01966692": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01967173": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01972308": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01979055": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT01979588": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01981564": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT01987492": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "severe"
+},
+"NCT01996891": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT01997463": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02003911": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02023151": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02041013": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02045875": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02047929": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT02054975": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02061280": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02064738": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02066129": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02066298": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "mild_moderate"
+},
+"NCT02073747": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02085473": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02086565": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02087644": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02091648": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02091869": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02097355": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02099656": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02104505": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02104674": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02105012": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02111772": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02130882": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02148796": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02150499": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02151422": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02153359": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02153541": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02157766": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02162576": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT02163681": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02176694": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02187445": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02190617": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT02192827": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02201836": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02205723": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02206061": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02215122": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02219048": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02230189": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02230332": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02232126": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02251379": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02253433": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02256397": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02258893": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02275559": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02291302": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02293499": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02298205": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02302040": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02303561": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02306473": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02316223": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02319967": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02336490": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02370004": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02371993": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02374138": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02382510": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02382562": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02388997": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02396849": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02401074": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02404103": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02409277": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02413684": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02426814": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02433535": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02433834": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02433977": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02435394": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02436070": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02443298": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02447575": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02451059": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02454192": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02458482": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02481986": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02489708": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02490566": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02494076": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02495168": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT02498834": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02499887": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02517047": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02532179": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02537691": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02556567": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02566902": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02570984": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02575326": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02577497": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02596087": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02602392": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02605824": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02611531": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02615743": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02624505": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02635334": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02640521": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02653066": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02658877": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02687815": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02696980": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02700542": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02702687": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02710136": {
+"drug": "other",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT02715375": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "mild_moderate"
+},
+"NCT02719379": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02725008": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02726347": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02735174": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02740543": {
+"drug": "inhaled",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02747706": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02748642": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT02752165": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02753764": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02761837": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02763917": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02766374": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02767973": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02768883": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02774941": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02780479": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02787174": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02808689": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02809235": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02809677": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02816216": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02835300": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02839252": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02865967": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02868983": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02872597": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02910401": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02911688": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02913092": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT02915068": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02918019": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02943161": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02947945": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02948738": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02952066": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT02953431": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02966184": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT02967393": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT02995733": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT02999789": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03002402": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03010436": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03015259": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03015610": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03028350": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03029156": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03032159": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03032744": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03036267": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03049111": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03062709": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03065205": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03066596": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03099811": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03103880": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03112577": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03121157": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03137199": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT03137303": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03144531": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03145883": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03157518": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03187119": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03200522": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03203759": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03215836": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03219736": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03248869": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03260790": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03265665": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03277170": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03291808": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03292588": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03297645": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03300752": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03302962": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03304067": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03317977": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03326063": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03327519": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03329066": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03335046": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03340740": {
+"drug": "oral",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03369847": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03370835": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03373409": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03377647": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03390556": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03394989": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03414177": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03416907": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03420651": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT03441438": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03444298": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03446365": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03451630": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03455959": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03469934": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03481673": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03489655": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03509766": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03514485": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03515499": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03518879": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03520881": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03524222": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03532490": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03533764": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03541187": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03545906": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03549897": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03556683": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03562949": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03567694": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03567707": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03581084": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03583814": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03586544": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03600428": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03617718": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03627689": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03643874": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03644355": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03646669": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03647397": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03648203": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03654976": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03673618": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03683576": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03686150": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03694158": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03695276": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03705273": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03705325": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03705832": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03716219": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03733457": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03734861": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03736603": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03736629": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03742167": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03752164": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03762395": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03769519": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03780387": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03800901": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03822637": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03842033": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03847142": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03851250": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03860519": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03878654": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03883594": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03883984": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03885245": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03900624": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03907410": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03911206": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03916237": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03926741": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT03927820": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03930381": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT03952286": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT03962894": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT03978936": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT03994380": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04002362": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT04003415": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04023422": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04026711": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04032834": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04060823": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT04080570": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04089046": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04089085": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04092582": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04108377": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04108962": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04109807": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04113746": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04119271": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04129931": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT04154579": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04160910": {
+"drug": "oral",
+"eos": "yes",
+"pop": "peds",
+"severity": "mild_moderate"
+},
+"NCT04170348": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04179461": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT04184609": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04195958": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04202263": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04203797": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04228107": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04250779": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT04331353": {
+"drug": "other",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04365556": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04373499": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04380038": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04393909": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04401332": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04407806": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04448002": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04450108": {
+"drug": "other",
+"eos": "yes",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT04454125": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04464720": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04470180": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04512547": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04531280": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04552301": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04576442": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04609644": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04613739": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT04617015": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04619017": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04624490": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT04633018": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04669080": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04669288": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT04676490": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04699604": {
+"drug": "oral",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04724733": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04739943": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT04743791": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT04802746": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT04810260": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04825067": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04848662": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04873193": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04896502": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04896645": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04908384": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04919915": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04942379": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04944199": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04951102": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04973345": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04990167": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04995692": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT04997304": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT04998604": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05013073": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05013788": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05035862": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05036733": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05059210": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05072808": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05091034": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05111262": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT05118282": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05120323": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05166811": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05192928": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05206695": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05222451": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05251402": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05254314": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05256303": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05259904": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05278065": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05288504": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05308277": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05322707": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05331170": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05332067": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05332834": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05341726": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05345080": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05347771": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05363670": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT05420766": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05443321": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05445583": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05495256": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05505734": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT05572177": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05575037": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05608668": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05610514": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05623059": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05660850": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05667701": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05689983": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05720325": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05722834": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05726487": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05742646": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05748912": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05757908": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT05762978": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05814510": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05819541": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05824936": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05826561": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05830071": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05832437": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05843045": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05844891": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05848115": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05851443": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05892302": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05934370": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05935332": {
+"drug": "oral",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT05945355": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT05949255": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT05991115": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT05999032": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06003569": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06033313": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06062433": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06074185": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT06098287": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06137040": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT06151405": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06152653": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06154304": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT06159127": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT06196879": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06216535": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06223828": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT06239844": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06270576": {
+"drug": "other",
+"eos": "yes",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06272370": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT06273072": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06304207": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06320210": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06321471": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06336681": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06372249": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06376045": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06379607": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT06385236": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06388460": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06432790": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06461403": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06496607": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06507943": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06512064": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT06513832": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06524856": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06538376": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06539312": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06552013": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06572228": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06596512": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06612294": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06623981": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06637371": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT06651385": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06783101": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06788093": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06820593": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06825871": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT06878898": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06903897": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT06935084": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT06940141": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "both",
+"severity": "severe"
+},
+"NCT06966479": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT06977581": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07029919": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07047430": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07052942": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT07071194": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07116460": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT07116889": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT07137923": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07138027": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07166939": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07196436": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT07219173": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07224061": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07228052": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07241117": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "severe"
+},
+"NCT07261423": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07281274": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07282886": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07301060": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07330778": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT07359846": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07387718": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07396987": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07426458": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07453667": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07455396": {
+"drug": "oral",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT07500532": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07512622": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07536256": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07582211": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "severe"
+},
+"NCT07600190": {
+"drug": "biologic",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07654842": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07660731": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "mild_moderate"
+},
+"NCT07664527": {
+"drug": "inhaled",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07665892": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07705737": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07709754": {
+"drug": "other",
+"eos": "no",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07738016": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07746921": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07772921": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+},
+"NCT07792330": {
+"drug": "other",
+"eos": "no",
+"pop": "peds",
+"severity": "unspecified"
+},
+"NCT07792395": {
+"drug": "oral",
+"eos": "no",
+"pop": "adult",
+"severity": "unspecified"
+},
+"NCT07819747": {
+"drug": "other",
+"eos": "no",
+"pop": "both",
+"severity": "unspecified"
+},
+"NCT07869043": {
+"drug": "biologic",
+"eos": "yes",
+"pop": "adult",
+"severity": "severe"
+}
+}

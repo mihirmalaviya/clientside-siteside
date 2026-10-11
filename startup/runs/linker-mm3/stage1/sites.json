@@ -1,0 +1,2206 @@
+{
+ "sites": [
+  {
+   "rank": 1,
+   "facility": "Memorial Sloan Kettering Cancer Center",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.97,
+   "reason": "6 Regeneron heme/bispecific trial(s); 86 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 97 industry MM trials since 2018; 26 Phase 3",
+   "past_trials": [
+    "NCT04083534",
+    "NCT02290951",
+    "NCT05650632",
+    "NCT05722418"
+   ]
+  },
+  {
+   "rank": 2,
+   "facility": "Ohio State University James Cancer Hospital",
+   "city": "Columbus",
+   "state": "Ohio",
+   "score": 0.943,
+   "reason": "3 Regeneron heme/bispecific trial(s); 14 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 27 industry MM trials since 2018; 6 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT03761108",
+    "NCT06052826",
+    "NCT05243797"
+   ]
+  },
+  {
+   "rank": 3,
+   "facility": "Weill Cornell Medicine / NewYork-Presbyterian",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.935,
+   "reason": "4 Regeneron heme/bispecific trial(s); 13 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 25 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT03888105",
+    "NCT02290951",
+    "NCT05552222"
+   ]
+  },
+  {
+   "rank": 4,
+   "facility": "University of Michigan",
+   "city": "Ann Arbor",
+   "state": "Michigan",
+   "score": 0.935,
+   "reason": "3 Regeneron heme/bispecific trial(s); 11 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 22 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT04083534",
+    "NCT03761108",
+    "NCT05259839",
+    "NCT05552222"
+   ]
+  },
+  {
+   "rank": 5,
+   "facility": "UT Southwestern Medical Center",
+   "city": "Dallas",
+   "state": "Texas",
+   "score": 0.927,
+   "reason": "4 Regeneron heme/bispecific trial(s); 9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 20 industry MM trials since 2018; 4 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT04083534",
+    "NCT05685173",
+    "NCT03888105"
+   ]
+  },
+  {
+   "rank": 6,
+   "facility": "Mayo Clinic Rochester",
+   "city": "Rochester",
+   "state": "Minnesota",
+   "score": 0.927,
+   "reason": "4 Regeneron heme/bispecific trial(s); 18 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 36 industry MM trials since 2018; 4 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT04083534",
+    "NCT03888105",
+    "NCT02290951"
+   ]
+  },
+  {
+   "rank": 7,
+   "facility": "University of Texas MD Anderson Cancer Center",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.925,
+   "reason": "2 Regeneron heme/bispecific trial(s); 20 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 57 industry MM trials since 2018; 8 Phase 3",
+   "past_trials": [
+    "NCT04083534",
+    "NCT03761108",
+    "NCT05698303",
+    "NCT05455320"
+   ]
+  },
+  {
+   "rank": 8,
+   "facility": "Norton Cancer Institute",
+   "city": "Louisville",
+   "state": "Kentucky",
+   "score": 0.909,
+   "reason": "3 Regeneron heme/bispecific trial(s); 7 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 25 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT03761108",
+    "NCT05685173",
+    "NCT03888105",
+    "NCT05552222"
+   ]
+  },
+  {
+   "rank": 9,
+   "facility": "Dana-Farber Cancer Institute",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.908,
+   "reason": "4 Regeneron heme/bispecific trial(s); 20 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 47 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT02651662",
+    "NCT02290951",
+    "NCT05767359"
+   ]
+  },
+  {
+   "rank": 10,
+   "facility": "UCLA Medical Center",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.899,
+   "reason": "1 Regeneron heme/bispecific trial(s); 12 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 21 industry MM trials since 2018; 14 Phase 3",
+   "past_trials": [
+    "NCT05685173",
+    "NCT05317416",
+    "NCT05243797",
+    "NCT04649359"
+   ]
+  },
+  {
+   "rank": 11,
+   "facility": "Sylvester Comprehensive Cancer Center (University of Miami)",
+   "city": "Miami",
+   "state": "Florida",
+   "score": 0.899,
+   "reason": "1 Regeneron heme/bispecific trial(s); 23 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 45 industry MM trials since 2018; 15 Phase 3",
+   "past_trials": [
+    "NCT03761108",
+    "NCT05572515",
+    "NCT05722418",
+    "NCT05259839"
+   ]
+  },
+  {
+   "rank": 12,
+   "facility": "H. Lee Moffitt Cancer Center",
+   "city": "Tampa",
+   "state": "Florida",
+   "score": 0.897,
+   "reason": "4 Regeneron heme/bispecific trial(s); 12 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 20 industry MM trials since 2018; 1 Phase 3",
+   "past_trials": [
+    "NCT03761108",
+    "NCT02290951",
+    "NCT05763563",
+    "NCT05243797"
+   ]
+  },
+  {
+   "rank": 13,
+   "facility": "Columbia University Irving Medical Center",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.895,
+   "reason": "2 Regeneron heme/bispecific trial(s); 8 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 16 industry MM trials since 2018; 4 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT03761108",
+    "NCT05572515",
+    "NCT05932680"
+   ]
+  },
+  {
+   "rank": 14,
+   "facility": "Winship Cancer Institute of Emory University",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "score": 0.895,
+   "reason": "2 Regeneron heme/bispecific trial(s); 31 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 49 industry MM trials since 2018; 4 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT03761108",
+    "NCT05172596",
+    "NCT05243797"
+   ]
+  },
+  {
+   "rank": 15,
+   "facility": "Icahn School of Medicine at Mount Sinai",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.886,
+   "reason": "2 Regeneron heme/bispecific trial(s); 35 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 47 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT03761108",
+    "NCT05685173",
+    "NCT05650632",
+    "NCT05722418"
+   ]
+  },
+  {
+   "rank": 16,
+   "facility": "Wake Forest Baptist Comprehensive Cancer Center",
+   "city": "Winston-Salem",
+   "state": "North Carolina",
+   "score": 0.886,
+   "reason": "2 Regeneron heme/bispecific trial(s); 14 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 22 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT03888105",
+    "NCT05650632",
+    "NCT06052826"
+   ]
+  },
+  {
+   "rank": 17,
+   "facility": "Barbara Ann Karmanos Cancer Institute",
+   "city": "Detroit",
+   "state": "Michigan",
+   "score": 0.877,
+   "reason": "2 Regeneron heme/bispecific trial(s); 14 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 27 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT03761108",
+    "NCT04960579",
+    "NCT05347485"
+   ]
+  },
+  {
+   "rank": 18,
+   "facility": "Stanford University",
+   "city": "Palo Alto",
+   "state": "California",
+   "score": 0.877,
+   "reason": "2 Regeneron heme/bispecific trial(s); 9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 16 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT02290951",
+    "NCT05347485",
+    "NCT05172596",
+    "NCT05032820"
+   ]
+  },
+  {
+   "rank": 19,
+   "facility": "Massachusetts General Hospital",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.865,
+   "reason": "2 Regeneron heme/bispecific trial(s); 12 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 21 industry MM trials since 2018; 1 Phase 3",
+   "past_trials": [
+    "NCT05685173",
+    "NCT02290951",
+    "NCT05455320",
+    "NCT05347485"
+   ]
+  },
+  {
+   "rank": 20,
+   "facility": "Cleveland Clinic",
+   "city": "Cleveland",
+   "state": "Ohio",
+   "score": 0.864,
+   "reason": "1 Regeneron heme/bispecific trial(s); 9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 25 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT03888105",
+    "NCT05722418",
+    "NCT05552222",
+    "NCT04960579"
+   ]
+  },
+  {
+   "rank": 21,
+   "facility": "Beth Israel Deaconess Medical Center",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.858,
+   "reason": "4 Regeneron heme/bispecific trial(s); 9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 10 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05685173",
+    "NCT03888105",
+    "NCT02651662",
+    "NCT02290951"
+   ]
+  },
+  {
+   "rank": 22,
+   "facility": "Medical College of Wisconsin / Froedtert",
+   "city": "Milwaukee",
+   "state": "Wisconsin",
+   "score": 0.847,
+   "reason": "1 Regeneron heme/bispecific trial(s); 22 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 46 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT04083534",
+    "NCT05722418",
+    "NCT05243797",
+    "NCT05259839"
+   ]
+  },
+  {
+   "rank": 23,
+   "facility": "Colorado Blood Cancer Institute",
+   "city": "Denver",
+   "state": "Colorado",
+   "score": 0.847,
+   "reason": "1 Regeneron heme/bispecific trial(s); 17 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 31 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT05347485",
+    "NCT05338775",
+    "NCT05243797",
+    "NCT05469893"
+   ]
+  },
+  {
+   "rank": 24,
+   "facility": "Oregon Health and Science University",
+   "city": "Portland",
+   "state": "Oregon",
+   "score": 0.846,
+   "reason": "2 Regeneron heme/bispecific trial(s); 7 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 16 industry MM trials since 2018; 1 Phase 3",
+   "past_trials": [
+    "NCT03761108",
+    "NCT05172596",
+    "NCT05469893",
+    "NCT04586426"
+   ]
+  },
+  {
+   "rank": 25,
+   "facility": "City of Hope",
+   "city": "Duarte",
+   "state": "California",
+   "score": 0.838,
+   "reason": "1 Regeneron heme/bispecific trial(s); 16 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 26 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05685173",
+    "NCT06052826",
+    "NCT05552222",
+    "NCT05032820"
+   ]
+  },
+  {
+   "rank": 26,
+   "facility": "University of California San Francisco",
+   "city": "San Francisco",
+   "state": "California",
+   "score": 0.838,
+   "reason": "1 Regeneron heme/bispecific trial(s); 22 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 30 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05092347",
+    "NCT04960579",
+    "NCT05032820",
+    "NCT05347485"
+   ]
+  },
+  {
+   "rank": 27,
+   "facility": "Johns Hopkins Sidney Kimmel Cancer Center",
+   "city": "Baltimore",
+   "state": "Maryland",
+   "score": 0.838,
+   "reason": "1 Regeneron heme/bispecific trial(s); 15 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 20 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT02651662",
+    "NCT05552222",
+    "NCT05455320",
+    "NCT05675449"
+   ]
+  },
+  {
+   "rank": 28,
+   "facility": "Indiana University Simon Cancer Center",
+   "city": "Indianapolis",
+   "state": "Indiana",
+   "score": 0.829,
+   "reason": "4 Regeneron heme/bispecific trial(s); 8 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 10 industry MM trials since 2018",
+   "past_trials": [
+    "NCT05137054",
+    "NCT04083534",
+    "NCT03761108",
+    "NCT05201781"
+   ]
+  },
+  {
+   "rank": 29,
+   "facility": "Hackensack University Medical Center",
+   "city": "Hackensack",
+   "state": "New Jersey",
+   "score": 0.826,
+   "reason": "1 Regeneron heme/bispecific trial(s); 14 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 26 industry MM trials since 2018; 1 Phase 3",
+   "past_trials": [
+    "NCT03888105",
+    "NCT05722418",
+    "NCT04960579",
+    "NCT05347485"
+   ]
+  },
+  {
+   "rank": 30,
+   "facility": "Vanderbilt University Medical Center",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.826,
+   "reason": "1 Regeneron heme/bispecific trial(s); 13 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 17 industry MM trials since 2018; 1 Phase 3",
+   "past_trials": [
+    "NCT05650632",
+    "NCT05675449",
+    "NCT04960579",
+    "NCT05338775"
+   ]
+  },
+  {
+   "rank": 31,
+   "facility": "Henry Ford Hospital",
+   "city": "Detroit",
+   "state": "Michigan",
+   "score": 0.817,
+   "reason": "11 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 16 industry MM trials since 2018; 9 Phase 3",
+   "past_trials": [
+    "NCT05552222",
+    "NCT05243797",
+    "NCT05014412",
+    "NCT05083169"
+   ]
+  },
+  {
+   "rank": 32,
+   "facility": "Huntsman Cancer Institute",
+   "city": "Salt Lake City",
+   "state": "Utah",
+   "score": 0.817,
+   "reason": "15 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 27 industry MM trials since 2018; 9 Phase 3",
+   "past_trials": [
+    "NCT05572515",
+    "NCT05722418",
+    "NCT05259839",
+    "NCT05552222"
+   ]
+  },
+  {
+   "rank": 33,
+   "facility": "University of Pennsylvania / Abramson",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.808,
+   "reason": "1 Regeneron heme/bispecific trial(s); 19 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 24 industry MM trials since 2018",
+   "past_trials": [
+    "NCT05092347",
+    "NCT05932680",
+    "NCT05801939",
+    "NCT05243797"
+   ]
+  },
+  {
+   "rank": 34,
+   "facility": "University of Iowa Hospitals and Clinics",
+   "city": "Iowa City",
+   "state": "Iowa",
+   "score": 0.798,
+   "reason": "1 Regeneron heme/bispecific trial(s); 10 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 11 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT03888105",
+    "NCT05932680",
+    "NCT05675449",
+    "NCT04960579"
+   ]
+  },
+  {
+   "rank": 35,
+   "facility": "Texas Oncology",
+   "city": "Austin",
+   "state": "Texas",
+   "score": 0.796,
+   "reason": "12 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 40 industry MM trials since 2018; 6 Phase 3",
+   "past_trials": [
+    "NCT05650632",
+    "NCT05182073",
+    "NCT05014412",
+    "NCT03582033"
+   ]
+  },
+  {
+   "rank": 36,
+   "facility": "Levine Cancer Institute (Atrium Health)",
+   "city": "Charlotte",
+   "state": "North Carolina",
+   "score": 0.796,
+   "reason": "22 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 40 industry MM trials since 2018; 6 Phase 3",
+   "past_trials": [
+    "NCT05722418",
+    "NCT05259839",
+    "NCT05347485",
+    "NCT05552222"
+   ]
+  },
+  {
+   "rank": 37,
+   "facility": "University of Kansas Cancer Center",
+   "city": "Westwood",
+   "state": "Kansas",
+   "score": 0.788,
+   "reason": "9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 20 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05347485",
+    "NCT04960579",
+    "NCT05201781",
+    "NCT05455320"
+   ]
+  },
+  {
+   "rank": 38,
+   "facility": "University of Maryland Greenebaum Cancer Center",
+   "city": "Baltimore",
+   "state": "Maryland",
+   "score": 0.788,
+   "reason": "9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 15 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05259839",
+    "NCT04960579",
+    "NCT05243797",
+    "NCT05535244"
+   ]
+  },
+  {
+   "rank": 39,
+   "facility": "Washington University School of Medicine / Siteman",
+   "city": "St Louis",
+   "state": "Missouri",
+   "score": 0.788,
+   "reason": "15 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 37 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05455320",
+    "NCT05347485",
+    "NCT05201781",
+    "NCT04634552"
+   ]
+  },
+  {
+   "rank": 40,
+   "facility": "Banner MD Anderson Cancer Center",
+   "city": "Gilbert",
+   "state": "Arizona",
+   "score": 0.786,
+   "reason": "14 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 16 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05572515",
+    "NCT05552222",
+    "NCT05317416",
+    "NCT05243797"
+   ]
+  },
+  {
+   "rank": 41,
+   "facility": "UPMC Hillman Cancer Center",
+   "city": "Pittsburgh",
+   "state": "Pennsylvania",
+   "score": 0.779,
+   "reason": "9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 14 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05347485",
+    "NCT05201781",
+    "NCT05243797",
+    "NCT05050097"
+   ]
+  },
+  {
+   "rank": 42,
+   "facility": "Rutgers Cancer Institute of New Jersey",
+   "city": "New Brunswick",
+   "state": "New Jersey",
+   "score": 0.773,
+   "reason": "3 Regeneron heme/bispecific trial(s); 4 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 9 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT03761108",
+    "NCT05685173",
+    "NCT02290951",
+    "NCT05201781"
+   ]
+  },
+  {
+   "rank": 43,
+   "facility": "Fred Hutchinson Cancer Center",
+   "city": "Seattle",
+   "state": "Washington",
+   "score": 0.772,
+   "reason": "10 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 25 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT05650632",
+    "NCT05172596",
+    "NCT05259839",
+    "NCT05455320"
+   ]
+  },
+  {
+   "rank": 44,
+   "facility": "Tennessee Oncology",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.772,
+   "reason": "17 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 25 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT05572515",
+    "NCT05722418",
+    "NCT05535244",
+    "NCT04634552"
+   ]
+  },
+  {
+   "rank": 45,
+   "facility": "University of Alabama at Birmingham",
+   "city": "Birmingham",
+   "state": "Alabama",
+   "score": 0.772,
+   "reason": "13 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 20 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT05722418",
+    "NCT05182073",
+    "NCT04634552",
+    "NCT05050097"
+   ]
+  },
+  {
+   "rank": 46,
+   "facility": "University of North Carolina Lineberger",
+   "city": "Chapel Hill",
+   "state": "North Carolina",
+   "score": 0.766,
+   "reason": "1 Regeneron heme/bispecific trial(s); 6 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 12 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05137054",
+    "NCT05650632",
+    "NCT04960579",
+    "NCT05455320"
+   ]
+  },
+  {
+   "rank": 47,
+   "facility": "Yale Cancer Center",
+   "city": "New Haven",
+   "state": "Connecticut",
+   "score": 0.762,
+   "reason": "1 Regeneron heme/bispecific trial(s); 6 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 9 industry MM trials since 2018; 5 Phase 3",
+   "past_trials": [
+    "NCT05092347",
+    "NCT05552222",
+    "NCT05243797",
+    "NCT05083169"
+   ]
+  },
+  {
+   "rank": 48,
+   "facility": "Mayo Clinic Arizona",
+   "city": "Scottsdale",
+   "state": "Arizona",
+   "score": 0.762,
+   "reason": "15 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 22 industry MM trials since 2018; 2 Phase 3",
+   "past_trials": [
+    "NCT05650632",
+    "NCT05201781",
+    "NCT05014412",
+    "NCT04181827"
+   ]
+  },
+  {
+   "rank": 49,
+   "facility": "University of Nebraska Medical Center",
+   "city": "Omaha",
+   "state": "Nebraska",
+   "score": 0.752,
+   "reason": "9 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 13 industry MM trials since 2018; 3 Phase 3",
+   "past_trials": [
+    "NCT05650632",
+    "NCT05552222",
+    "NCT03651128",
+    "NCT04068597"
+   ]
+  },
+  {
+   "rank": 50,
+   "facility": "Duke University Medical Center",
+   "city": "Durham",
+   "state": "North Carolina",
+   "score": 0.75,
+   "reason": "10 BCMA/T-cell-engager/CAR-T MM trials (CRS experience); 18 industry MM trials since 2018; 1 Phase 3",
+   "past_trials": [
+    "NCT05722418",
+    "NCT05243797",
+    "NCT05032820",
+    "NCT04181827"
+   ]
+  }
+ ],
+ "scored": [
+  {
+   "facility": "Cedars-Sinai Medical Center",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.285
+  },
+  {
+   "facility": "UC Irvine Chao Family Cancer Center",
+   "city": "Orange",
+   "state": "California",
+   "score": 0.284
+  },
+  {
+   "facility": "NYU Langone Health",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.272
+  },
+  {
+   "facility": "University of Chicago",
+   "city": "Chicago",
+   "state": "Illinois",
+   "score": 0.263
+  },
+  {
+   "facility": "Mayo Clinic Florida",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "score": 0.256
+  },
+  {
+   "facility": "University of Arkansas for Medical Sciences",
+   "city": "Little Rock",
+   "state": "Arkansas",
+   "score": 0.256
+  },
+  {
+   "facility": "UC San Diego Moores Cancer Center",
+   "city": "La Jolla",
+   "state": "California",
+   "score": 0.255
+  },
+  {
+   "facility": "Tulane University",
+   "city": "New Orleans",
+   "state": "Louisiana",
+   "score": 0.25
+  },
+  {
+   "facility": "Oncology Hematology Care",
+   "city": "Cincinnati",
+   "state": "Ohio",
+   "score": 0.245
+  },
+  {
+   "facility": "University of Virginia",
+   "city": "Charlottesville",
+   "state": "Virginia",
+   "score": 0.241
+  },
+  {
+   "facility": "Sarah Cannon Research Institute",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.239
+  },
+  {
+   "facility": "Roswell Park Comprehensive Cancer Center",
+   "city": "Buffalo",
+   "state": "New York",
+   "score": 0.236
+  },
+  {
+   "facility": "Medical University of South Carolina",
+   "city": "Charleston",
+   "state": "South Carolina",
+   "score": 0.232
+  },
+  {
+   "facility": "Swedish Cancer Institute",
+   "city": "Seattle",
+   "state": "Washington",
+   "score": 0.23
+  },
+  {
+   "facility": "Thomas Jefferson University",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.227
+  },
+  {
+   "facility": "University of Cincinnati",
+   "city": "Cincinnati",
+   "state": "Ohio",
+   "score": 0.223
+  },
+  {
+   "facility": "Georgetown Lombardi Comprehensive Cancer Center",
+   "city": "Washington D.C.",
+   "state": "District of Columbia",
+   "score": 0.221
+  },
+  {
+   "facility": "VCU Massey Cancer Center",
+   "city": "Richmond",
+   "state": "Virginia",
+   "score": 0.213
+  },
+  {
+   "facility": "University Hospitals Cleveland Medical Center",
+   "city": "Cleveland",
+   "state": "Ohio",
+   "score": 0.213
+  },
+  {
+   "facility": "Tufts Medical Center",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.21
+  },
+  {
+   "facility": "University of Oklahoma Stephenson Cancer Center",
+   "city": "Oklahoma City",
+   "state": "Oklahoma",
+   "score": 0.209
+  },
+  {
+   "facility": "Virginia Cancer Specialists",
+   "city": "Fairfax",
+   "state": "Virginia",
+   "score": 0.202
+  },
+  {
+   "facility": "Loyola University Medical Center",
+   "city": "Maywood",
+   "state": "Illinois",
+   "score": 0.192
+  },
+  {
+   "facility": "Northwestern University",
+   "city": "Chicago",
+   "state": "Illinois",
+   "score": 0.184
+  },
+  {
+   "facility": "University of Wisconsin Carbone Cancer Center",
+   "city": "Madison",
+   "state": "Wisconsin",
+   "score": 0.182
+  },
+  {
+   "facility": "Dartmouth-Hitchcock Medical Center",
+   "city": "Lebanon",
+   "state": "New Hampshire",
+   "score": 0.181
+  },
+  {
+   "facility": "Virginia Oncology Associates",
+   "city": "Norfolk",
+   "state": "Virginia",
+   "score": 0.168
+  },
+  {
+   "facility": "University of Colorado Cancer Center",
+   "city": "Aurora",
+   "state": "Colorado",
+   "score": 0.166
+  },
+  {
+   "facility": "Alexander T Augusta Military Medical Center",
+   "city": "Fort Belvoir",
+   "state": "Virginia",
+   "score": 0.16
+  },
+  {
+   "facility": "University of Rochester",
+   "city": "Rochester",
+   "state": "New York",
+   "score": 0.16
+  },
+  {
+   "facility": "University of Florida Health",
+   "city": "Gainesville",
+   "state": "Florida",
+   "score": 0.155
+  },
+  {
+   "facility": "Montefiore Medical Center",
+   "city": "The Bronx",
+   "state": "New York",
+   "score": 0.151
+  },
+  {
+   "facility": "University of Minnesota Masonic Cancer Center",
+   "city": "Minneapolis",
+   "state": "Minnesota",
+   "score": 0.149
+  },
+  {
+   "facility": "Houston Methodist Hospital",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.147
+  },
+  {
+   "facility": "Baylor Scott & White Sammons Cancer Center",
+   "city": "Dallas",
+   "state": "Texas",
+   "score": 0.146
+  },
+  {
+   "facility": "James R. Berenson MD Inc",
+   "city": "West Hollywood",
+   "state": "California",
+   "score": 0.143
+  },
+  {
+   "facility": "Ochsner Medical Center",
+   "city": "Covington",
+   "state": "Louisiana",
+   "score": 0.138
+  },
+  {
+   "facility": "University of Kentucky Markey Cancer Center",
+   "city": "Lexington",
+   "state": "Kentucky",
+   "score": 0.135
+  },
+  {
+   "facility": "University of Illinois Chicago",
+   "city": "Chicago",
+   "state": "Illinois",
+   "score": 0.134
+  },
+  {
+   "facility": "Center For Cancer And Blood Disorders",
+   "city": "Bethesda",
+   "state": "Maryland",
+   "score": 0.134
+  },
+  {
+   "facility": "UC Davis Comprehensive Cancer Center",
+   "city": "Sacramento",
+   "state": "California",
+   "score": 0.128
+  },
+  {
+   "facility": "St David S South Austin Medical Center",
+   "city": "Austin",
+   "state": "Texas",
+   "score": 0.124
+  },
+  {
+   "facility": "Memorial Healthcare System",
+   "city": "Hollywood",
+   "state": "Florida",
+   "score": 0.123
+  },
+  {
+   "facility": "Northwest Medical Specialties",
+   "city": "Tacoma",
+   "state": "Washington",
+   "score": 0.122
+  },
+  {
+   "facility": "Scripps Clinic",
+   "city": "La Jolla",
+   "state": "California",
+   "score": 0.117
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center Lennar Foundation Medical Center",
+   "city": "Coral Gables",
+   "state": "Florida",
+   "score": 0.116
+  },
+  {
+   "facility": "Baptist Cancer Center",
+   "city": "Memphis",
+   "state": "Tennessee",
+   "score": 0.116
+  },
+  {
+   "facility": "Cleveland Clinic Florida",
+   "city": "Weston",
+   "state": "Florida",
+   "score": 0.115
+  },
+  {
+   "facility": "Boston University Medical Center",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.114
+  },
+  {
+   "facility": "University Of Arizona Cancer Center",
+   "city": "Tucson",
+   "state": "Arizona",
+   "score": 0.11
+  },
+  {
+   "facility": "Beverly Hills Cancer Center",
+   "city": "Beverly Hills",
+   "state": "California",
+   "score": 0.104
+  },
+  {
+   "facility": "Pfizer",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.104
+  },
+  {
+   "facility": "City Of Hope Orange County Lennar Foundation Cancer Center",
+   "city": "Irvine",
+   "state": "California",
+   "score": 0.1
+  },
+  {
+   "facility": "Va Puget Sound Health Care System",
+   "city": "Seattle",
+   "state": "Washington",
+   "score": 0.1
+  },
+  {
+   "facility": "Cancer And Hematology Centers Of Western Michigan",
+   "city": "Grand Rapids",
+   "state": "Michigan",
+   "score": 0.099
+  },
+  {
+   "facility": "Northwest Medical Specialties, Pllc",
+   "city": "Tacoma",
+   "state": "Washington",
+   "score": 0.098
+  },
+  {
+   "facility": "Intermountain Cancer Center St George",
+   "city": "St. George",
+   "state": "Utah",
+   "score": 0.096
+  },
+  {
+   "facility": "St George Regional Hospital",
+   "city": "St. George",
+   "state": "Utah",
+   "score": 0.096
+  },
+  {
+   "facility": "Durham Vamc",
+   "city": "Durham",
+   "state": "North Carolina",
+   "score": 0.096
+  },
+  {
+   "facility": "University Of Connecticut",
+   "city": "Farmington",
+   "state": "Connecticut",
+   "score": 0.096
+  },
+  {
+   "facility": "Christus St Vincent Regional Cancer Center",
+   "city": "Santa Fe",
+   "state": "New Mexico",
+   "score": 0.096
+  },
+  {
+   "facility": "Joe Arrington Cancer Research Treatment Center",
+   "city": "Lubbock",
+   "state": "Texas",
+   "score": 0.096
+  },
+  {
+   "facility": "Ohiohealth",
+   "city": "Columbus",
+   "state": "Ohio",
+   "score": 0.096
+  },
+  {
+   "facility": "Texas Transplant Institute",
+   "city": "San Antonio",
+   "state": "Texas",
+   "score": 0.095
+  },
+  {
+   "facility": "Stony Brook University Hospital",
+   "city": "Stony Brook",
+   "state": "New York",
+   "score": 0.095
+  },
+  {
+   "facility": "Fox Chase Cancer Center",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.094
+  },
+  {
+   "facility": "West Penn Hospital",
+   "city": "Pittsburgh",
+   "state": "Pennsylvania",
+   "score": 0.093
+  },
+  {
+   "facility": "East Jefferson General Hospital",
+   "city": "Metairie",
+   "state": "Louisiana",
+   "score": 0.092
+  },
+  {
+   "facility": "Lifespan Cancer Institute / Rhode Island Hospital",
+   "city": "Providence",
+   "state": "Rhode Island",
+   "score": 0.089
+  },
+  {
+   "facility": "Henry Joyce Cancer Clinic",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center Aventura",
+   "city": "Aventura",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center Coral Springs",
+   "city": "Coral Springs",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center Hollywood",
+   "city": "Hollywood",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center Plantation",
+   "city": "Plantation",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "University Of Miami Hospital And Clinics Deerfield Beach",
+   "city": "Deerfield Beach",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Henry-Joyce Cancer Clinic",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center - Aventura",
+   "city": "Aventura",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center- The Lennar Foundation Medical Center",
+   "city": "Coral Gables",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center - Coral Springs",
+   "city": "Coral Springs",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "University Of Miami Hospital And Clinics - Deerfield Beach",
+   "city": "Deerfield Beach",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center - Hollywood",
+   "city": "Hollywood",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center - Plantation",
+   "city": "Plantation",
+   "state": "Florida",
+   "score": 0.089
+  },
+  {
+   "facility": "St. David'S South Austin Medical Center",
+   "city": "Austin",
+   "state": "Texas",
+   "score": 0.089
+  },
+  {
+   "facility": "University Of Mississippi Medical Center",
+   "city": "Jackson",
+   "state": "Mississippi",
+   "score": 0.086
+  },
+  {
+   "facility": "Suny Upstate Medical University",
+   "city": "Syracuse",
+   "state": "New York",
+   "score": 0.084
+  },
+  {
+   "facility": "Blood And Marrow Transplant Group Of Georgia",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "score": 0.083
+  },
+  {
+   "facility": "Northside Hospital",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "score": 0.08
+  },
+  {
+   "facility": "Novant Health",
+   "city": "Winston-Salem",
+   "state": "North Carolina",
+   "score": 0.079
+  },
+  {
+   "facility": "Rutenberg Cancer Center Id 244647",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.077
+  },
+  {
+   "facility": "Local Institution 101",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "score": 0.077
+  },
+  {
+   "facility": "Local Institution 103",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.077
+  },
+  {
+   "facility": "Local Institution 118",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.077
+  },
+  {
+   "facility": "Clinical Research Advisors Encino Satellite Location",
+   "city": "Encino",
+   "state": "California",
+   "score": 0.077
+  },
+  {
+   "facility": "Clinical Research Advisors Korea Town Satellite Location",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.077
+  },
+  {
+   "facility": "Clinical Research Advisors West Hollywood Satellite Location",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.077
+  },
+  {
+   "facility": "Griffin Cancer Research Building Gcrb",
+   "city": "Miami",
+   "state": "Florida",
+   "score": 0.077
+  },
+  {
+   "facility": "Poudre Valley Health System Pvhs",
+   "city": "Fort Collins",
+   "state": "Colorado",
+   "score": 0.077
+  },
+  {
+   "facility": "Sylvester Comprehensive Cancer Center Deerfield Beach",
+   "city": "Deerfield Beach",
+   "state": "Florida",
+   "score": 0.077
+  },
+  {
+   "facility": "Baptist Memorial Hospital Id 280677",
+   "city": "Memphis",
+   "state": "Tennessee",
+   "score": 0.077
+  },
+  {
+   "facility": "Fort Wayne Medical Oncology And Hematology Id 268179",
+   "city": "Fort Wayne",
+   "state": "Indiana",
+   "score": 0.077
+  },
+  {
+   "facility": "Franciscan St Francis Health Id 280928",
+   "city": "Indianapolis",
+   "state": "Indiana",
+   "score": 0.077
+  },
+  {
+   "facility": "Hope And Healing Cancer Services Id 268536",
+   "city": "Hinsdale",
+   "state": "Illinois",
+   "score": 0.077
+  },
+  {
+   "facility": "Medical Oncology Hematology Consultants Id 268560",
+   "city": "Newark",
+   "state": "Delaware",
+   "score": 0.077
+  },
+  {
+   "facility": "Northwest Medical Specialties Tacoma Id 267117",
+   "city": "Tacoma",
+   "state": "Washington",
+   "score": 0.077
+  },
+  {
+   "facility": "Oncology Consultants Id 268323",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.077
+  },
+  {
+   "facility": "Willamette Valley Cancer Institute And Research Center Id 267088",
+   "city": "Eugene",
+   "state": "Oregon",
+   "score": 0.077
+  },
+  {
+   "facility": "Local Institution - 101",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "score": 0.077
+  },
+  {
+   "facility": "Local Institution - 118",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.077
+  },
+  {
+   "facility": "Local Institution - 103",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.077
+  },
+  {
+   "facility": "Advocate Lutheran General Hospital",
+   "city": "Park Ridge",
+   "state": "Illinois",
+   "score": 0.076
+  },
+  {
+   "facility": "Nyu Langone Hospital Long Island",
+   "city": "Mineola",
+   "state": "New York",
+   "score": 0.074
+  },
+  {
+   "facility": "Novant Health Forsyth Medical Center",
+   "city": "Winston-Salem",
+   "state": "North Carolina",
+   "score": 0.074
+  },
+  {
+   "facility": "Willamette Valley Cancer Institute And Research Center",
+   "city": "Eugene",
+   "state": "Oregon",
+   "score": 0.073
+  },
+  {
+   "facility": "Astera Cancer Care",
+   "city": "East Brunswick",
+   "state": "New Jersey",
+   "score": 0.072
+  },
+  {
+   "facility": "Allegheny Health Network",
+   "city": "Pittsburgh",
+   "state": "Pennsylvania",
+   "score": 0.072
+  },
+  {
+   "facility": "Novant Health",
+   "city": "Charlotte",
+   "state": "North Carolina",
+   "score": 0.072
+  },
+  {
+   "facility": "Adventhealth Medical Group Blood & Marrow Transplant At Orlando",
+   "city": "Orlando",
+   "state": "Florida",
+   "score": 0.072
+  },
+  {
+   "facility": "The University Of Arizona Cancer Center",
+   "city": "Tucson",
+   "state": "Arizona",
+   "score": 0.072
+  },
+  {
+   "facility": "Indiana Blood And Marrow Transplantation",
+   "city": "Indianapolis",
+   "state": "Indiana",
+   "score": 0.072
+  },
+  {
+   "facility": "Regeneron Research Facility",
+   "city": "Tarrytown",
+   "state": "New York",
+   "score": 0.071
+  },
+  {
+   "facility": "Penn State Milton S. Hershey Medical Center",
+   "city": "Hershey",
+   "state": "Pennsylvania",
+   "score": 0.071
+  },
+  {
+   "facility": "Fort Wayne Medical Oncology And Hematology",
+   "city": "Fort Wayne",
+   "state": "Indiana",
+   "score": 0.071
+  },
+  {
+   "facility": "Gsk Investigational Site",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.07
+  },
+  {
+   "facility": "New York Oncology Hematology",
+   "city": "Albany",
+   "state": "New York",
+   "score": 0.07
+  },
+  {
+   "facility": "USC Norris Comprehensive Cancer Center",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.068
+  },
+  {
+   "facility": "Nyu Winthrop",
+   "city": "Mineola",
+   "state": "New York",
+   "score": 0.067
+  },
+  {
+   "facility": "Gsk Investigational Site",
+   "city": "Tucson",
+   "state": "Arizona",
+   "score": 0.067
+  },
+  {
+   "facility": "Gsk Investigational Site",
+   "city": "Kansas City",
+   "state": "Missouri",
+   "score": 0.067
+  },
+  {
+   "facility": "Local Institution 109",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.066
+  },
+  {
+   "facility": "Rush University Medical Center",
+   "city": "Chicago",
+   "state": "Illinois",
+   "score": 0.066
+  },
+  {
+   "facility": "University Of California Davis",
+   "city": "Davis",
+   "state": "California",
+   "score": 0.065
+  },
+  {
+   "facility": "Local Institution 104",
+   "city": "Dallas",
+   "state": "Texas",
+   "score": 0.065
+  },
+  {
+   "facility": "Alta Bates Comprehensive Cancer Center",
+   "city": "Berkeley",
+   "state": "California",
+   "score": 0.065
+  },
+  {
+   "facility": "Walter Reed National Military Medical Center",
+   "city": "Bethesda",
+   "state": "Maryland",
+   "score": 0.064
+  },
+  {
+   "facility": "Rocky Mountain Cancer Centers",
+   "city": "Denver",
+   "state": "Colorado",
+   "score": 0.064
+  },
+  {
+   "facility": "Brooke Army Medical Center",
+   "city": "Fort Sam Houston",
+   "state": "Texas",
+   "score": 0.064
+  },
+  {
+   "facility": "Lds Hospital",
+   "city": "Salt Lake City",
+   "state": "Utah",
+   "score": 0.064
+  },
+  {
+   "facility": "Providence Portland Medical Center",
+   "city": "Portland",
+   "state": "Oregon",
+   "score": 0.063
+  },
+  {
+   "facility": "Renown Regional Medical Center",
+   "city": "Reno",
+   "state": "Nevada",
+   "score": 0.063
+  },
+  {
+   "facility": "Alaska Oncology And Hematology",
+   "city": "Anchorage",
+   "state": "Alaska",
+   "score": 0.062
+  },
+  {
+   "facility": "Orlando Health Cancer Institute",
+   "city": "Orlando",
+   "state": "Florida",
+   "score": 0.062
+  },
+  {
+   "facility": "Michael E Debakey Va Medical Center",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.061
+  },
+  {
+   "facility": "George Washington University",
+   "city": "Washington D.C.",
+   "state": "District of Columbia",
+   "score": 0.061
+  },
+  {
+   "facility": "Alaska Oncology And Hematology Llc",
+   "city": "Anchorage",
+   "state": "Alaska",
+   "score": 0.061
+  },
+  {
+   "facility": "Local Institution 104",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.06
+  },
+  {
+   "facility": "Sarah Cannon Research Institute Methodist Healthcare",
+   "city": "San Antonio",
+   "state": "Texas",
+   "score": 0.06
+  },
+  {
+   "facility": "Local Institution 108",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "score": 0.06
+  },
+  {
+   "facility": "Local Institution 107",
+   "city": "Chicago",
+   "state": "Illinois",
+   "score": 0.06
+  },
+  {
+   "facility": "Gsk Investigational Site",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.06
+  },
+  {
+   "facility": "Florida Cancer Specialists",
+   "city": "Sarasota",
+   "state": "Florida",
+   "score": 0.06
+  },
+  {
+   "facility": "American Oncology Partners Of Maryland",
+   "city": "Bethesda",
+   "state": "Maryland",
+   "score": 0.06
+  },
+  {
+   "facility": "Harris Health Smith Clinic",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.06
+  },
+  {
+   "facility": "Gibbs Cancer Center",
+   "city": "Spartanburg",
+   "state": "South Carolina",
+   "score": 0.06
+  },
+  {
+   "facility": "Community Cancer Institute",
+   "city": "Clovis",
+   "state": "California",
+   "score": 0.06
+  },
+  {
+   "facility": "Uchealth Greeley Hospital",
+   "city": "Greeley",
+   "state": "Colorado",
+   "score": 0.06
+  },
+  {
+   "facility": "Local Institution 118",
+   "city": "Dallas",
+   "state": "Texas",
+   "score": 0.06
+  },
+  {
+   "facility": "Local Institution 125",
+   "city": "Rochester",
+   "state": "Minnesota",
+   "score": 0.06
+  },
+  {
+   "facility": "Baylor College Of Medicine",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.06
+  },
+  {
+   "facility": "UT Health San Antonio",
+   "city": "San Antonio",
+   "state": "Texas",
+   "score": 0.059
+  },
+  {
+   "facility": "Clovis Community Medical Center",
+   "city": "Clovis",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Community Regional Medical Center",
+   "city": "Fresno",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Uchealth Harmony",
+   "city": "Fort Collins",
+   "state": "Colorado",
+   "score": 0.058
+  },
+  {
+   "facility": "Uchealth Medical Center Of Rockies",
+   "city": "Loveland",
+   "state": "Colorado",
+   "score": 0.058
+  },
+  {
+   "facility": "Uchealth Poudre Valley Hospital",
+   "city": "Fort Collins",
+   "state": "Colorado",
+   "score": 0.058
+  },
+  {
+   "facility": "University Of California San Francisco",
+   "city": "Fresno",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Jupiter Medical Center Anderson Family Cancer Institute",
+   "city": "Jupiter",
+   "state": "Florida",
+   "score": 0.058
+  },
+  {
+   "facility": "Nho Revive Research Institute",
+   "city": "Lincoln",
+   "state": "Nebraska",
+   "score": 0.058
+  },
+  {
+   "facility": "Renown Health Medical Oncology",
+   "city": "Reno",
+   "state": "Nevada",
+   "score": 0.058
+  },
+  {
+   "facility": "Renown Office Of Clinical Research",
+   "city": "Reno",
+   "state": "Nevada",
+   "score": 0.058
+  },
+  {
+   "facility": "Cooper Health System Md Anderson Cancer Center At Cooper",
+   "city": "Camden",
+   "state": "New Jersey",
+   "score": 0.058
+  },
+  {
+   "facility": "East Jefferson General Hospital Bone Marrow Transport Clinic",
+   "city": "Metairie",
+   "state": "Louisiana",
+   "score": 0.058
+  },
+  {
+   "facility": "Maryland Oncology Hematology P A",
+   "city": "Silver Spring",
+   "state": "Maryland",
+   "score": 0.058
+  },
+  {
+   "facility": "Memorialcare Long Beach Medical Center",
+   "city": "Long Beach",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Mission Cancer Blood",
+   "city": "Waukee",
+   "state": "Iowa",
+   "score": 0.058
+  },
+  {
+   "facility": "Penn Medicine Lancaster General Health",
+   "city": "Lancaster",
+   "state": "Pennsylvania",
+   "score": 0.058
+  },
+  {
+   "facility": "Pih Health Hospital",
+   "city": "Whittier",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Rocky Mountain Cancer Centers",
+   "city": "Aurora",
+   "state": "Colorado",
+   "score": 0.058
+  },
+  {
+   "facility": "Saint Lukes Hospital Saint Lukes Cancer Specialists",
+   "city": "Chesterfield",
+   "state": "Missouri",
+   "score": 0.058
+  },
+  {
+   "facility": "Adventhealth Medical Group Blood And Marrow Transplant At Orlando",
+   "city": "Orlando",
+   "state": "Florida",
+   "score": 0.058
+  },
+  {
+   "facility": "Cancer And Blood Specialty Clinic",
+   "city": "Los Alamitos",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Christ Hospital Cancer Center",
+   "city": "Cincinnati",
+   "state": "Ohio",
+   "score": 0.058
+  },
+  {
+   "facility": "Christianacare Helen F Graham Cancer Center And Research Institute",
+   "city": "Newark",
+   "state": "Delaware",
+   "score": 0.058
+  },
+  {
+   "facility": "City Of Hope Cancer Center",
+   "city": "Newnan",
+   "state": "Georgia",
+   "score": 0.058
+  },
+  {
+   "facility": "Hematology Oncology Associates Of Cny",
+   "city": "East Syracuse",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Midamerica Cancer Care",
+   "city": "Kansas City",
+   "state": "Missouri",
+   "score": 0.058
+  },
+  {
+   "facility": "Northwell Health Cancer Institute",
+   "city": "Lake Success",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Novant Health Zimmer Cancer Institute",
+   "city": "Wilmington",
+   "state": "North Carolina",
+   "score": 0.058
+  },
+  {
+   "facility": "Richmond Va Medical Center",
+   "city": "Richmond",
+   "state": "Virginia",
+   "score": 0.058
+  },
+  {
+   "facility": "Ucsf Fresno",
+   "city": "Clovis",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "University Of Iowa Health Care",
+   "city": "Waukee",
+   "state": "Iowa",
+   "score": 0.058
+  },
+  {
+   "facility": "Valkyrie Clinical Trials",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Adventhealth Cancer Institute",
+   "city": "Orlando",
+   "state": "Florida",
+   "score": 0.058
+  },
+  {
+   "facility": "American Oncology Partners P A Dba Midamerica Cancer Care",
+   "city": "Kansas City",
+   "state": "Missouri",
+   "score": 0.058
+  },
+  {
+   "facility": "Ascentist Doctor Hospital",
+   "city": "Leawood",
+   "state": "Kansas",
+   "score": 0.058
+  },
+  {
+   "facility": "Baylor Scott And White Medical Center Temple",
+   "city": "Temple",
+   "state": "Texas",
+   "score": 0.058
+  },
+  {
+   "facility": "Ohiohealth Arthur G H Bing Md Cancer Center",
+   "city": "Columbus",
+   "state": "Ohio",
+   "score": 0.058
+  },
+  {
+   "facility": "Ohiohealth Research Institute",
+   "city": "Columbus",
+   "state": "Ohio",
+   "score": 0.058
+  },
+  {
+   "facility": "Ohiohealth Riverside Methodist Hospital",
+   "city": "Columbus",
+   "state": "Ohio",
+   "score": 0.058
+  },
+  {
+   "facility": "Westchester Medical Center",
+   "city": "Valhalla",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Wmchealth Advanced Physician Services",
+   "city": "Hawthorne",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 100",
+   "city": "Indianapolis",
+   "state": "Indiana",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 101",
+   "city": "Pittsburgh",
+   "state": "Pennsylvania",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 102",
+   "city": "Tampa",
+   "state": "Florida",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 103",
+   "city": "Dallas",
+   "state": "Texas",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 104",
+   "city": "Baltimore",
+   "state": "Maryland",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 105",
+   "city": "Seattle",
+   "state": "Washington",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 106",
+   "city": "Nashville",
+   "state": "Tennessee",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 107",
+   "city": "Madison",
+   "state": "Wisconsin",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 108",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 109",
+   "city": "Birmingham",
+   "state": "Alabama",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 110",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 111",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 112",
+   "city": "Westwood",
+   "state": "Kansas",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 113",
+   "city": "Durham",
+   "state": "North Carolina",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 114",
+   "city": "St Louis",
+   "state": "Missouri",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 115",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 119",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 120",
+   "city": "Ann Arbor",
+   "state": "Michigan",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 122",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 123",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 124",
+   "city": "Palo Alto",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 131",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 132",
+   "city": "Houston",
+   "state": "Texas",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 134",
+   "city": "Boston",
+   "state": "Massachusetts",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 135",
+   "city": "New York",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 136",
+   "city": "Salt Lake City",
+   "state": "Utah",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 138",
+   "city": "Hackensack",
+   "state": "New Jersey",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 139",
+   "city": "Chicago",
+   "state": "Illinois",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 140",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 141",
+   "city": "Scottsdale",
+   "state": "Arizona",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 142",
+   "city": "Aurora",
+   "state": "Colorado",
+   "score": 0.058
+  },
+  {
+   "facility": "Local Institution 145",
+   "city": "Los Angeles",
+   "state": "California",
+   "score": 0.058
+  },
+  {
+   "facility": "Wisconsin Institutes For Medical Research",
+   "city": "Madison",
+   "state": "Wisconsin",
+   "score": 0.058
+  },
+  {
+   "facility": "Norwalk Hospital Oncology",
+   "city": "Norwalk",
+   "state": "Connecticut",
+   "score": 0.058
+  },
+  {
+   "facility": "Novant Health 1",
+   "city": "Charlotte",
+   "state": "North Carolina",
+   "score": 0.058
+  },
+  {
+   "facility": "University Of Massachusetts Medical School",
+   "city": "Worcester",
+   "state": "Massachusetts",
+   "score": 0.058
+  },
+  {
+   "facility": "Cancer And Hematology Centers Of Western Michigan Pc",
+   "city": "Grand Rapids",
+   "state": "Michigan",
+   "score": 0.058
+  },
+  {
+   "facility": "Hematology-Oncology Associates Of Cny",
+   "city": "East Syracuse",
+   "state": "New York",
+   "score": 0.058
+  },
+  {
+   "facility": "The Christ Hospital Cancer Center",
+   "city": "Cincinnati",
+   "state": "Ohio",
+   "score": 0.058
+  },
+  {
+   "facility": "Uchealth - Medical Center Of The Rockies",
+   "city": "Loveland",
+   "state": "Colorado",
+   "score": 0.058
+  },
+  {
+   "facility": "Jupiter Medical Center/Anderson Family Cancer Institute",
+   "city": "Jupiter",
+   "state": "Florida",
+   "score": 0.058
+  },
+  {
+   "facility": "Nho Revive Research Institute, Llc",
+   "city": "Lincoln",
+   "state": "Nebraska",
+   "score": 0.058
+  },
+  {
+   "facility": "American Oncology Partners, P.A. Dba Midamerica Cancer Care",
+   "city": "Kansas City",
+   "state": "Missouri",
+   "score": 0.058
+  },
+  {
+   "facility": "Ohiohealth Arthur G.H. Bing, Md, Cancer Center",
+   "city": "Columbus",
+   "state": "Ohio",
+   "score": 0.058
+  },
+  {
+   "facility": "Baylor Scott & White Medical Center - Temple",
+   "city": "Temple",
+   "state": "Texas",
+   "score": 0.058
+  },
+  {
+   "facility": "Norwalk Hospital-Oncology",
+   "city": "Norwalk",
+   "state": "Connecticut",
+   "score": 0.058
+  },
+  {
+   "facility": "Gsk Investigational Site",
+   "city": "Tyler",
+   "state": "Texas",
+   "score": 0.056
+  },
+  {
+   "facility": "Augusta University",
+   "city": "Augusta",
+   "state": "Georgia",
+   "score": 0.055
+  },
+  {
+   "facility": "Poudre Valley Hospital",
+   "city": "Fort Collins",
+   "state": "Colorado",
+   "score": 0.053
+  },
+  {
+   "facility": "Medical Oncology Hematology Consultants",
+   "city": "Newark",
+   "state": "Delaware",
+   "score": 0.051
+  }
+ ]
+}

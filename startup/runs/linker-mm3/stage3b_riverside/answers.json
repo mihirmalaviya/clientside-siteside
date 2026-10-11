@@ -1,0 +1,578 @@
+{
+ "answers": [
+  {
+   "q_id": "Q1",
+   "answer": "About 22-25 per year: 25 new RRMM patients in the last 12 months had 1-4 prior lines including lenalidomide and a PI; about 22 after removing those with plasma cell leukemia, concurrent AL amyloidosis or EF <40%.",
+   "source": "patients_myeloma_2026-09.csv",
+   "confidence": "medium",
+   "needs_human": "yes",
+   "note": "Rule: new_patient_visit 2025-10-11..2026-10-11, status relapsed/refractory, prior_lines 1-4, len (VRd/Rd) and PI (V/K) exposure: 31 RRMM -> drop 4 with 5+ lines, 2 PI-naive = 25. Older questionnaires (~50/60/70 per yr) count all RRMM, superseded by export. PI should confirm.",
+   "evidence": [
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "mrn,initials,age,sex,new_patient_visit,referral,outside_records_complete,diagnosis,status_at_visit,prior_lines,prior_regimens,len_refractory,ecog,ef_pct,notes"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104233,M.O.,64,F,2025-10-14,outside,yes,multiple myeloma,relapsed/refractory,1,VRd,yes,1,60,progressed on lenalidomide maintenance"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104536,R.K.,69,M,2026-03-17,outside,yes,multiple myeloma,relapsed/refractory,2,Rd; Dara-Rd,yes,1,58,no proteasome inhibitor exposure (neuropathy)"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104329,C.M.,77,M,2025-11-18,outside,no,multiple myeloma,relapsed/refractory,5,VRd; DKd; Pd; Isa-Kd; teclistamab,yes,2,52,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104472,Z.U.,61,F,2026-02-03,internal,,multiple myeloma,relapsed/refractory,2,VRd; Pd,yes,1,57,secondary plasma cell leukemia 2026-01"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104419,Y.C.,59,M,2026-01-06,outside,no,multiple myeloma,relapsed/refractory,2,VRd; Isa-Kd,yes,1,35,echo 2025-12: reduced EF"
+    }
+   ]
+  },
+  {
+   "q_id": "Q2",
+   "answer": "60",
+   "source": "patients_myeloma_2026-09.csv",
+   "confidence": "medium",
+   "needs_human": "no",
+   "note": "15 of the 25 Q1 patients have no pomalidomide-containing regimen (Pd, KPd, EPd counted as exposed); EPd also = elotuzumab exposure.",
+   "evidence": [
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "mrn,initials,age,sex,new_patient_visit,referral,outside_records_complete,diagnosis,status_at_visit,prior_lines,prior_regimens,len_refractory,ecog,ef_pct,notes"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104302,T.V.,58,M,2025-11-03,outside,no,multiple myeloma,relapsed/refractory,3,VRd; DKd; Pd,yes,1,62,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104315,E.R.,69,F,2025-11-12,outside,yes,multiple myeloma,relapsed/refractory,2,Dara-VRd; KPd,yes,1,59,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104458,V.I.,70,M,2026-01-27,outside,yes,multiple myeloma,relapsed/refractory,3,VRd; DKd; EPd,yes,1,58,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104260,J.P.,71,M,2025-10-22,internal,,multiple myeloma,relapsed/refractory,2,VRd; DKd,yes,0,55,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q3",
+   "answer": "80",
+   "source": "patients_myeloma_2026-09.csv",
+   "confidence": "medium",
+   "needs_human": "no",
+   "note": "20 of the 25 Q1 patients have no teclistamab/elranatamab/cilta-cel/ide-cel; belantamab (BCMA ADC) counted as naive since ADCs are allowed.",
+   "evidence": [
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "mrn,initials,age,sex,new_patient_visit,referral,outside_records_complete,diagnosis,status_at_visit,prior_lines,prior_regimens,len_refractory,ecog,ef_pct,notes"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104655,B.L.,71,M,2026-07-14,outside,no,multiple myeloma,relapsed/refractory,2,VRd; teclistamab,yes,1,60,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104490,I.B.,68,M,2026-02-17,outside,no,multiple myeloma,relapsed/refractory,4,VRd; DKd; Pd; cilta-cel,yes,1,60,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104570,L.Y.,65,F,2026-04-21,outside,yes,multiple myeloma,relapsed/refractory,4,VRd; DKd; Pd; ide-cel,yes,1,58,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104555,D.Q.,72,M,2026-04-07,internal,,multiple myeloma,relapsed/refractory,3,VRd; DKd; belantamab mafodotin,yes,1,55,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q4",
+   "answer": "some",
+   "source": "patients_myeloma_2026-09.csv",
+   "confidence": "medium",
+   "needs_human": "no",
+   "note": "Outside referrals with new visits in last 12 months: 11 of 22 with a recorded value had complete records (1 blank) - about half.",
+   "evidence": [
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "mrn,initials,age,sex,new_patient_visit,referral,outside_records_complete,diagnosis,status_at_visit,prior_lines,prior_regimens,len_refractory,ecog,ef_pct,notes"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104233,M.O.,64,F,2025-10-14,outside,yes,multiple myeloma,relapsed/refractory,1,VRd,yes,1,60,progressed on lenalidomide maintenance"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104302,T.V.,58,M,2025-11-03,outside,no,multiple myeloma,relapsed/refractory,3,VRd; DKd; Pd,yes,1,62,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104402,W.J.,61,M,2025-12-30,outside,,multiple myeloma,newly diagnosed,0,,,0,65,"
+    },
+    {
+     "file": "confidential/patients_myeloma_2026-09.csv",
+     "quote": "RCC-104715,E.J.,68,M,2026-10-03,outside,no,multiple myeloma,relapsed/refractory,2,VRd; DKd,yes,1,58,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q5",
+   "answer": "45",
+   "source": "ops_log.csv",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Median of 14 iv_dose_prep_to_release entries in last 12 months (range 32-61 min); median of all 15 is also 45.",
+   "evidence": [
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "date,area,trial,metric,value,unit,logged_by,note"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2025-10-21,pharmacy,ALD-415,iv_dose_prep_to_release,38,min,DW,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2025-12-02,pharmacy,ALD-415,iv_dose_prep_to_release,61,min,DW,holiday staffing"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-07-07,pharmacy,ALD-415,iv_dose_prep_to_release,32,min,DW,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-09-01,pharmacy,ALD-415,iv_dose_prep_to_release,43,min,DW,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q6",
+   "answer": "Yes, Monday-Thursday: FedEx Priority Overnight pickup 16:30; Friday collections cannot ship same day.",
+   "source": "capabilities_2026-09.md;staff_roster_2026-09.csv",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Schedule marrow collections Mon-Thu. Packed by IATA-certified coordinators (2 certified; one cert expires 2026-12-31).",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Shipping: fresh bone marrow aspirate to central labs by FedEx Priority Overnight, pickup 16:30 Monday-Thursday. Friday collections cannot ship same day. Packed by IATA-certified coordinators."
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "name,role,start_date,fte,committed_effort,gcp_certificate_expires,iata_shipping_cert_expires,pomalidomide_rems_prescriber,notes"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Tom Reyes,Clinical Research Coordinator (hematology),2019-06-10,1.0,0.80,2026-11-30,2027-03-31,,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Priya Nair,Clinical Research Coordinator (hematology),2023-01-09,1.0,0.70,2027-01-31,2026-12-31,,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q7",
+   "answer": "Yes. Two -80 C freezers with continuous temperature monitoring, alarm and backup power.",
+   "source": "capabilities_2026-09.md;past_questionnaire_2023_alder.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "2023 questionnaire said 1 freezer; capabilities 2026-09 (most recent) says 2.",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- -80C freezers: 2 (continuous temperature monitoring, alarm, backup power). -20C freezer: 1. Refrigerated centrifuge."
+    },
+    {
+     "file": "confidential/past_questionnaire_2023_alder.md",
+     "quote": "A: 1"
+    }
+   ]
+  },
+  {
+   "q_id": "Q8",
+   "answer": "Yes. Staff hand out and collect sponsor-provided tablets at clinic visits (done on a prior trial); guest Wi-Fi in clinic.",
+   "source": "capabilities_2026-09.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Prior-trial code left out of answer per disclosure policy.",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Electronic PRO: staff hand out and collect sponsor-provided tablets at clinic visits (done on HLV-330). Guest Wi-Fi in clinic."
+    }
+   ]
+  },
+  {
+   "q_id": "Q9",
+   "answer": "usually",
+   "source": "ops_log.csv;sop_crs_icans_v2_2025-03.md;capabilities_2026-09.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Last 12 months: 10 of 12 step-up admissions on requested day (misses: 6 West full, flu bed freeze; both admitted/handled). 4 beds reserved on 6 West.",
+   "evidence": [
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "date,area,trial,metric,value,unit,logged_by,note"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2025-12-04,inpatient,MRD-088,stepup_24h_admission_on_requested_day,no,,TR,6 West full; admitted next day"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-05-21,inpatient,CRV-402,stepup_24h_admission_on_requested_day,no,,PN,flu surge; bed freeze"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-09-10,inpatient,MRD-088,stepup_24h_admission_on_requested_day,yes,,TR,"
+    },
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Inpatient oncology unit: 6 West. 4 beds reserved for research step-up dosing admissions (SOP HEM-RES-014 v2)."
+    }
+   ]
+  },
+  {
+   "q_id": "Q10",
+   "answer": "Yes. At least 2 doses per enrolled T-cell-engager patient kept on site; inpatient pharmacy open 24/7.",
+   "source": "capabilities_2026-09.md;sop_crs_icans_v2_2025-03.md;past_questionnaire_2024_corvane.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "2024 questionnaire said 'stocked on request'; superseded by SOP v2 (2025-03) and capabilities 2026-09.",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Tocilizumab: at least 2 doses per enrolled T-cell-engager patient kept on site (SOP v2). Inpatient pharmacy open 24/7, so tocilizumab can be given within 2 hours of a CRS diagnosis at any hour."
+    },
+    {
+     "file": "confidential/sop_crs_icans_v2_2025-03.md",
+     "quote": "- Tocilizumab: the investigational/inpatient pharmacy keeps a minimum of 2 doses per enrolled patient on site at all times."
+    },
+    {
+     "file": "confidential/past_questionnaire_2024_corvane.md",
+     "quote": "A: Yes, through pharmacy; stocked on request."
+    }
+   ]
+  },
+  {
+   "q_id": "Q11",
+   "answer": "Yes. 22 of 24 6 West nurses have current ICE/ICANS training (annual competency, last 2026-08); only ICE-trained nurses are assigned to step-up patients.",
+   "source": "capabilities_2026-09.md;sop_crs_icans_v2_2025-03.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Not all 24 trained, but assignment rule covers it.",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- 6 West nursing: 24 nurses, 22 with current ICE/ICANS assessment training (annual competency, last cycle 2026-08). Only ICE-trained nurses are assigned to step-up dosing patients."
+    },
+    {
+     "file": "confidential/sop_crs_icans_v2_2025-03.md",
+     "quote": "- CRS grading per ASTCT consensus; ICE score assessed by trained nursing every 12 hours during step-up dosing."
+    }
+   ]
+  },
+  {
+   "q_id": "Q12",
+   "answer": "Yes. Pharmacy is certified for pomalidomide REMS; PI and one sub-investigator are certified REMS prescribers.",
+   "source": "capabilities_2026-09.md;staff_roster_2026-09.csv",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "One sub-I (Patel) is not a REMS prescriber.",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Pomalidomide REMS: pharmacy certified."
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "name,role,start_date,fte,committed_effort,gcp_certificate_expires,iata_shipping_cert_expires,pomalidomide_rems_prescriber,notes"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Dr. Elena Marsh,Principal Investigator (hematology/oncology),2014-07-01,1.0,0.35,2027-05-31,,yes,Myeloma program lead"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Dr. Raj Patel,Sub-Investigator (hematology/oncology),2018-09-01,1.0,0.20,2025-11-30,,no,PI of MRD-088"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Dr. Lena Okafor,Sub-Investigator (hematology/oncology),2021-08-15,1.0,0.25,2026-12-15,,yes,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q13",
+   "answer": "10",
+   "source": "ops_log.csv;capabilities_2026-09.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Median of 11 weekly_chair_booking_lead entries (range 6-21; 21 during 2026-05 renovation). Infusion center now 18 chairs.",
+   "evidence": [
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "date,area,trial,metric,value,unit,logged_by,note"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2025-10-15,infusion,ALD-415,weekly_chair_booking_lead,7,days,MC,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-03-18,infusion,HLV-410,weekly_chair_booking_lead,6,days,SO,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-05-20,infusion,ALD-415,weekly_chair_booking_lead,21,days,MC,chair renovation (2 chairs out)"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2026-08-26,infusion,MRD-088,weekly_chair_booking_lead,10,days,TR,"
+    },
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Infusion center: 18 chairs (expanded from 16 in 2026-06)."
+    }
+   ]
+  },
+  {
+   "q_id": "Q14",
+   "answer": "1.0",
+   "source": "staff_roster_2026-09.csv",
+   "confidence": "medium",
+   "needs_human": "no",
+   "note": "Uncommitted effort of 4 hematology CRCs (fte - committed_effort): 0.10+0.20+0.30+0.40 = 1.0 FTE. Older questionnaires (2-3 CRCs) superseded. Lead CRC to confirm allocation.",
+   "evidence": [
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "name,role,start_date,fte,committed_effort,gcp_certificate_expires,iata_shipping_cert_expires,pomalidomide_rems_prescriber,notes"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Maya Chen,Lead Clinical Research Coordinator (hematology),2016-03-01,1.0,0.90,2027-02-28,,,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Tom Reyes,Clinical Research Coordinator (hematology),2019-06-10,1.0,0.80,2026-11-30,2027-03-31,,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Priya Nair,Clinical Research Coordinator (hematology),2023-01-09,1.0,0.70,2027-01-31,2026-12-31,,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Sam Ortiz,Clinical Research Coordinator (hematology),2025-10-06,1.0,0.60,2027-10-31,,,"
+    }
+   ]
+  },
+  {
+   "q_id": "Q15",
+   "answer": "2",
+   "source": "trial_portfolio.csv;disclosure_policy.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Two non-public CDA pipeline trials for RRMM BCMA-naive (1-4 and 1-3 prior lines) expected 2027-01 and 2027-06; post-BCMA and NDMM pipeline trials excluded. No names/sponsors/drugs per policy.",
+   "evidence": [
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "trial,sponsor,phase,population,drug_class,status,public,site_start,site_end,target_enrollment,screened,enrolled,pi,notes"
+    },
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "CRV-510,Corvane Bio,3,\"relapsed/refractory multiple myeloma, 1-4 prior lines, BCMA-naive\",BCMAxCD3 bispecific combination,pipeline (CDA),no,2027-01 (expected),,8,,,Elena Marsh,under confidentiality agreement; contract in negotiation"
+    },
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "BRW-220,Brightwater Biologics,2,\"relapsed/refractory multiple myeloma, 1-3 prior lines, BCMA-naive\",CELMoD combination,pipeline (CDA),no,2027-06 (expected),,5,,,Lena Okafor,under confidentiality agreement"
+    },
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "MRD-140,Meridian Oncology,1,relapsed/refractory multiple myeloma after prior BCMA therapy,GPRC5D CAR-T,pipeline (CDA),no,2027-02 (expected),,3,,,Raj Patel,under confidentiality agreement"
+    },
+    {
+     "file": "confidential/disclosure_policy.md",
+     "quote": "- Pipeline trials under confidentiality agreement (CDA): we may say how many are planned, never the sponsor, drug or trial code."
+    }
+   ]
+  },
+  {
+   "q_id": "Q16",
+   "answer": "11",
+   "source": "ops_log.csv;past_questionnaire_2025_halvorsen.md;past_questionnaire_2024_corvane.md",
+   "confidence": "medium",
+   "needs_human": "no",
+   "note": "Phase 3 protocol->CTA in ops_log: 16,18 (2016-19), 11,12,10 wks (2023-25); median of 3 recent = 11 (all 5 = 12). Past questionnaires said ~12 (2024) and 10 (2025).",
+   "evidence": [
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "date,area,trial,metric,value,unit,logged_by,note"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2016-01-11,contracts,ALD-110,final_protocol_received,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2016-05-02,contracts,ALD-110,cta_and_budget_executed,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2023-12-04,contracts,CRV-305,final_protocol_received,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2024-02-19,contracts,CRV-305,cta_and_budget_executed,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2024-05-06,contracts,ALD-415,final_protocol_received,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2024-07-29,contracts,ALD-415,cta_and_budget_executed,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2025-06-02,contracts,HLV-410,final_protocol_received,,,CL,"
+    },
+    {
+     "file": "confidential/ops_log.csv",
+     "quote": "2025-08-11,contracts,HLV-410,cta_and_budget_executed,,,CL,"
+    },
+    {
+     "file": "confidential/past_questionnaire_2025_halvorsen.md",
+     "quote": "A: 10 weeks"
+    }
+   ]
+  },
+  {
+   "q_id": "NOTE",
+   "answer": "Sub-investigator GCP certificate expired 2025-11-30; several other staff certificates (GCP, IATA) expire 2026-11 to 2026-12 and need renewal before study start.",
+   "source": "staff_roster_2026-09.csv",
+   "confidence": "high",
+   "needs_human": "yes",
+   "note": "Research office to renew before activation. Names kept internal.",
+   "evidence": [
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "name,role,start_date,fte,committed_effort,gcp_certificate_expires,iata_shipping_cert_expires,pomalidomide_rems_prescriber,notes"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Dr. Raj Patel,Sub-Investigator (hematology/oncology),2018-09-01,1.0,0.20,2025-11-30,,no,PI of MRD-088"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Dr. Lena Okafor,Sub-Investigator (hematology/oncology),2021-08-15,1.0,0.25,2026-12-15,,yes,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Tom Reyes,Clinical Research Coordinator (hematology),2019-06-10,1.0,0.80,2026-11-30,2027-03-31,,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Priya Nair,Clinical Research Coordinator (hematology),2023-01-09,1.0,0.70,2027-01-31,2026-12-31,,"
+    },
+    {
+     "file": "confidential/staff_roster_2026-09.csv",
+     "quote": "Chris Lam,Regulatory Specialist,2020-02-03,1.0,,2026-12-31,,,"
+    }
+   ]
+  },
+  {
+   "q_id": "NOTE",
+   "answer": "Site has recruiting public RRMM trials of a BCMA CAR-T and a GPRC5DxCD3 bispecific, plus a non-public BCMA bispecific trial for the same 1-4 prior line BCMA-naive population expected 2027-01, which would compete for patients.",
+   "source": "trial_portfolio.csv;registry_listings.md",
+   "confidence": "high",
+   "needs_human": "yes",
+   "note": "R19 competition; PI to decide prioritization. Pipeline trial not named per disclosure policy.",
+   "evidence": [
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "MRD-088,Meridian Oncology,2,relapsed/refractory multiple myeloma,BCMA CAR-T,recruiting,yes,2025-06,,4,3,2,Raj Patel,"
+    },
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "CRV-402,Corvane Bio,1,relapsed/refractory multiple myeloma,GPRC5DxCD3 bispecific antibody,recruiting,yes,2026-02,,3,2,1,Elena Marsh,"
+    },
+    {
+     "file": "confidential/trial_portfolio.csv",
+     "quote": "CRV-510,Corvane Bio,3,\"relapsed/refractory multiple myeloma, 1-4 prior lines, BCMA-naive\",BCMAxCD3 bispecific combination,pipeline (CDA),no,2027-01 (expected),,8,,,Elena Marsh,under confidentiality agreement; contract in negotiation"
+    },
+    {
+     "file": "public/registry_listings.md",
+     "quote": "| SYN-0088 | Meridian Oncology | 2 | Relapsed/refractory multiple myeloma | BCMA CAR-T | Recruiting | Raj Patel |"
+    }
+   ]
+  },
+  {
+   "q_id": "NOTE",
+   "answer": "PET-CT is not on site (referral, about 5 business days); MRD NGS is send-out; no on-site stem cell transplant program and not FACT accredited (transplant history comes from referral records).",
+   "source": "capabilities_2026-09.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Relevant to R4/R8/R9.",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- PET-CT: not on site. Referral to Valley Imaging Partners (average 5 business days)."
+    },
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- MRD testing by next-generation sequencing: not performed locally (send-out)."
+    },
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- No on-site stem cell transplant program (referral). Not FACT accredited."
+    }
+   ]
+  },
+  {
+   "q_id": "NOTE",
+   "answer": "No document shows LYNOZYFIC REMS certification of the site or prescribers.",
+   "source": "capabilities_2026-09.md",
+   "confidence": "medium",
+   "needs_human": "yes",
+   "note": "Research office/pharmacy to confirm (R14).",
+   "evidence": [
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Pomalidomide REMS: pharmacy certified."
+    }
+   ]
+  },
+  {
+   "q_id": "NOTE",
+   "answer": "Public website (2025-11) lists 16 infusion chairs; current capacity is 18 (expanded 2026-06). Indirect rate is now 29% (effective 2026-07-01), not the 28% given in 2025.",
+   "source": "website.md;capabilities_2026-09.md;contracts_budget_2026.md",
+   "confidence": "high",
+   "needs_human": "no",
+   "note": "Use current figures in budget talks.",
+   "evidence": [
+    {
+     "file": "public/website.md",
+     "quote": "- Infusion center with 16 chairs"
+    },
+    {
+     "file": "confidential/capabilities_2026-09.md",
+     "quote": "- Infusion center: 18 chairs (expanded from 16 in 2026-06)."
+    },
+    {
+     "file": "confidential/contracts_budget_2026.md",
+     "quote": "- Indirect cost (overhead) rate for industry trials: 29%, effective 2026-07-01 (FY2027). Previous rate 28% (FY2025-26)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "stage": "4",
+ "passed": true,
+ "checks": [
+  {
+   "check": "13 decisions (12 sites + Riverside)",
+   "ok": true,
+   "detail": "13"
+  },
+  {
+   "check": "Riverside reason names the expired GCP certificate",
+   "ok": true,
+   "detail": "NOTE: Sub-I Dr. Raj Patel's GCP expired 2025-11-30; GCP for Reyes, Okafor and Lam expires by 2026-12-31 (fixable)"
+  },
+  {
+   "check": "every decision cites answers",
+   "ok": true,
+   "detail": "13/13"
+  },
+  {
+   "check": "every site with open items gets a follow-up",
+   "ok": true,
+   "detail": "missing: none"
+  },
+  {
+   "check": "nothing sent (all pending approval)",
+   "ok": true,
+   "detail": "all pending"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+name,role,start_date,fte,committed_effort,gcp_certificate_expires,iata_shipping_cert_expires,pomalidomide_rems_prescriber,notes
+Dr. Elena Marsh,Principal Investigator (hematology/oncology),2014-07-01,1.0,0.35,2027-05-31,,yes,Myeloma program lead
+Dr. Raj Patel,Sub-Investigator (hematology/oncology),2018-09-01,1.0,0.20,2025-11-30,,no,PI of MRD-088
+Dr. Lena Okafor,Sub-Investigator (hematology/oncology),2021-08-15,1.0,0.25,2026-12-15,,yes,
+Maya Chen,Lead Clinical Research Coordinator (hematology),2016-03-01,1.0,0.90,2027-02-28,,,
+Tom Reyes,Clinical Research Coordinator (hematology),2019-06-10,1.0,0.80,2026-11-30,2027-03-31,,
+Priya Nair,Clinical Research Coordinator (hematology),2023-01-09,1.0,0.70,2027-01-31,2026-12-31,,
+Sam Ortiz,Clinical Research Coordinator (hematology),2025-10-06,1.0,0.60,2027-10-31,,,
+Dana Wolfe,Investigational Drug Pharmacist,2017-05-15,1.0,,2027-03-31,,,Dedicated to research pharmacy
+Chris Lam,Regulatory Specialist,2020-02-03,1.0,,2026-12-31,,,
+Jordan Bell,Data Manager,2022-04-18,1.0,,2027-04-30,,,

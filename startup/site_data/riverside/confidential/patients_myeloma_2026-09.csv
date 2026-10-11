@@ -1,0 +1,47 @@
+mrn,initials,age,sex,new_patient_visit,referral,outside_records_complete,diagnosis,status_at_visit,prior_lines,prior_regimens,len_refractory,ecog,ef_pct,notes
+RCC-100871,D.H.,72,M,2022-11-01,internal,,multiple myeloma,relapsed/refractory,2,VRd; Dara-Kd,yes,1,58,established patient; follow-up only
+RCC-102144,P.W.,68,F,2023-05-09,outside,yes,multiple myeloma,relapsed/refractory,3,VRd; DKd; Pd,yes,1,61,established patient
+RCC-103390,G.T.,74,M,2024-02-13,internal,,multiple myeloma,relapsed/refractory,2,Dara-VRd; Isa-Kd,yes,2,55,established patient
+RCC-104012,A.K.,66,F,2025-08-26,outside,no,multiple myeloma,relapsed/refractory,1,VRd,yes,1,60,
+RCC-104118,R.B.,63,M,2025-09-16,internal,,multiple myeloma,relapsed/refractory,2,VRd; DKd,yes,0,59,
+RCC-104201,L.S.,70,F,2025-09-30,outside,yes,multiple myeloma,relapsed/refractory,3,VRd; DKd; Pd,yes,1,57,
+RCC-104233,M.O.,64,F,2025-10-14,outside,yes,multiple myeloma,relapsed/refractory,1,VRd,yes,1,60,progressed on lenalidomide maintenance
+RCC-104260,J.P.,71,M,2025-10-22,internal,,multiple myeloma,relapsed/refractory,2,VRd; DKd,yes,0,55,
+RCC-104277,S.N.,59,F,2025-10-29,internal,,multiple myeloma,newly diagnosed,0,,,1,64,
+RCC-104302,T.V.,58,M,2025-11-03,outside,no,multiple myeloma,relapsed/refractory,3,VRd; DKd; Pd,yes,1,62,
+RCC-104315,E.R.,69,F,2025-11-12,outside,yes,multiple myeloma,relapsed/refractory,2,Dara-VRd; KPd,yes,1,59,
+RCC-104329,C.M.,77,M,2025-11-18,outside,no,multiple myeloma,relapsed/refractory,5,VRd; DKd; Pd; Isa-Kd; teclistamab,yes,2,52,
+RCC-104341,B.F.,75,M,2025-11-25,internal,,multiple myeloma,relapsed/refractory,1,VRd,no,1,58,relapsed 14 months after stopping lenalidomide
+RCC-104356,N.G.,62,F,2025-12-02,outside,no,multiple myeloma,relapsed/refractory,4,VRd; DKd; Pd; teclistamab,yes,1,56,
+RCC-104370,K.L.,67,M,2025-12-09,outside,yes,multiple myeloma,relapsed/refractory,2,VRd; Dara-Kd,yes,2,60,
+RCC-104388,H.A.,73,F,2025-12-16,internal,,multiple myeloma,relapsed/refractory,3,Dara-VRd; KPd; belantamab mafodotin,yes,1,54,
+RCC-104402,W.J.,61,M,2025-12-30,outside,,multiple myeloma,newly diagnosed,0,,,0,65,
+RCC-104419,Y.C.,59,M,2026-01-06,outside,no,multiple myeloma,relapsed/refractory,2,VRd; Isa-Kd,yes,1,35,echo 2025-12: reduced EF
+RCC-104431,F.D.,66,F,2026-01-13,internal,,multiple myeloma,relapsed/refractory,1,Dara-VRd,yes,0,62,
+RCC-104447,O.E.,55,F,2026-01-20,internal,,smoldering multiple myeloma,smoldering,0,,,0,63,observation
+RCC-104458,V.I.,70,M,2026-01-27,outside,yes,multiple myeloma,relapsed/refractory,3,VRd; DKd; EPd,yes,1,58,
+RCC-104472,Z.U.,61,F,2026-02-03,internal,,multiple myeloma,relapsed/refractory,2,VRd; Pd,yes,1,57,secondary plasma cell leukemia 2026-01
+RCC-104486,Q.H.,78,M,2026-02-10,outside,no,multiple myeloma,relapsed/refractory,6,VRd; DKd; Pd; KPd; elranatamab; cilta-cel,yes,2,50,
+RCC-104490,I.B.,68,M,2026-02-17,outside,no,multiple myeloma,relapsed/refractory,4,VRd; DKd; Pd; cilta-cel,yes,1,60,
+RCC-104503,U.S.,63,F,2026-02-24,internal,,multiple myeloma,newly diagnosed,0,,,1,61,
+RCC-104517,X.T.,74,F,2026-03-03,internal,,multiple myeloma,relapsed/refractory,2,VRd; Kd,yes,1,60,
+RCC-104529,E.W.,57,M,2026-03-10,outside,yes,multiple myeloma,relapsed/refractory,3,Dara-VRd; KPd; elranatamab,yes,1,59,
+RCC-104536,R.K.,69,M,2026-03-17,outside,yes,multiple myeloma,relapsed/refractory,2,Rd; Dara-Rd,yes,1,58,no proteasome inhibitor exposure (neuropathy)
+RCC-104541,A.N.,63,F,2026-03-24,outside,no,multiple myeloma,relapsed/refractory,2,VRd; DKd,yes,1,50,
+RCC-104555,D.Q.,72,M,2026-04-07,internal,,multiple myeloma,relapsed/refractory,3,VRd; DKd; belantamab mafodotin,yes,1,55,
+RCC-104562,P.M.,66,F,2026-04-14,outside,yes,AL amyloidosis,AL amyloidosis,0,,,1,48,no myeloma criteria met; cardiac involvement
+RCC-104570,L.Y.,65,F,2026-04-21,outside,yes,multiple myeloma,relapsed/refractory,4,VRd; DKd; Pd; ide-cel,yes,1,58,
+RCC-104584,S.R.,60,M,2026-05-05,internal,,multiple myeloma,relapsed/refractory,1,VRd,yes,1,59,
+RCC-104591,G.O.,79,M,2026-05-12,internal,,multiple myeloma,relapsed/refractory,5,VRd; DKd; Pd; KPd; belantamab mafodotin,yes,2,53,
+RCC-104603,T.F.,76,F,2026-05-19,outside,no,multiple myeloma,relapsed/refractory,2,VRd; Dara-Kd,yes,1,54,concurrent AL amyloidosis on biopsy
+RCC-104611,J.W.,67,F,2026-05-26,internal,,multiple myeloma,newly diagnosed,0,,,0,66,
+RCC-104620,M.B.,69,M,2026-06-02,outside,yes,multiple myeloma,relapsed/refractory,3,VRd; DKd; Pd,yes,1,61,
+RCC-104634,C.E.,64,F,2026-06-16,internal,,multiple myeloma,relapsed/refractory,2,Dara-VRd; Isa-Kd,yes,0,63,
+RCC-104641,H.P.,73,M,2026-06-23,outside,no,multiple myeloma,relapsed/refractory,1,Dara-Rd,yes,1,57,no proteasome inhibitor exposure
+RCC-104655,B.L.,71,M,2026-07-14,outside,no,multiple myeloma,relapsed/refractory,2,VRd; teclistamab,yes,1,60,
+RCC-104662,K.S.,58,M,2026-07-28,internal,,smoldering multiple myeloma,smoldering,0,,,0,64,observation
+RCC-104670,N.V.,62,F,2026-08-04,outside,yes,multiple myeloma,relapsed/refractory,5,VRd; DKd; Pd; Isa-Kd; elranatamab,yes,1,57,
+RCC-104688,O.T.,70,M,2026-08-18,internal,,multiple myeloma,newly diagnosed,0,,,1,59,
+RCC-104694,F.G.,66,F,2026-09-08,outside,yes,multiple myeloma,relapsed/refractory,1,Dara-VRd,yes,1,61,progressed on lenalidomide maintenance
+RCC-104702,W.A.,60,F,2026-09-22,internal,,multiple myeloma,newly diagnosed,0,,,0,62,
+RCC-104715,E.J.,68,M,2026-10-03,outside,no,multiple myeloma,relapsed/refractory,2,VRd; DKd,yes,1,58,

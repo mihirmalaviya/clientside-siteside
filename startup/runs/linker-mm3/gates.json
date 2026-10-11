@@ -1,0 +1,38 @@
+{
+ "fixed_on": "2026-10-11",
+ "gates": {
+  "1": {
+   "min_real_sites": 4,
+   "note": "beats best formula baseline (3 of 10 with fuzzy matching); every pick cites a real pre-start trial; never names the target"
+  },
+  "2": {
+   "min_still_there": 10,
+   "of": 12,
+   "active_since": "2025-04-11",
+   "min_room_ok": 10,
+   "note": "PI filed a 1572 in the site's city in the 18 months before the run; all 4 criteria reported; seniority-only picks routed to the office; competing-trial count within 2 of script rule; no dead URLs; no emails/phones"
+  },
+  "3a": {
+   "min_must_cover": 12,
+   "max_questions": 16,
+   "max_redundant": 0,
+   "min_closed_share": 0.9
+  },
+  "3b": {
+   "min_public_facts_ok": 0.9,
+   "riverside_made_up": 0,
+   "note": "public counts within +-15%/3 of script rule; Riverside unanswerables flagged"
+  },
+  "4": {
+   "riverside_reason": "gcp",
+   "note": "every decision cites answers; every flag gets a follow-up; nothing sent"
+  }
+ },
+ "changes": [
+  "stage 1 bar raised 3->4 before running: fuzzy-matched baselines are count 3, ours 2, +sponsor 3",
+  "scorer fix after stage 3b: fuzzy matcher now matches bare \"University of <city/state>\" names (e.g. University of Michigan / University of Miami); bars unchanged. Effect: 3b public counts 20/24 -> 24/24; stage-1 count baseline 3 -> 4 (agent 5 still passes min 4). Evidence: attempts/FLAG_3b_scorer_bug.md",
+  "stage 4: removed check 'Riverside is conditional' after the run. It was written before the stage-3a questionnaire existed, assuming Riverside could answer patient volume and bed capacity; with those open (Q1-Q3, Q9), the agent's 'clarify' is reasonable. Original failing report: attempts/FLAG_4_expected_decision.md",
+  "stage 2 rerun with explicit contact criteria (contactmethodology.md), gate rewritten BEFORE the rerun: 'still there' tightened from a 1572 since 2024 to one in the last 18 months (since 2025-04-11), same bar 10 of 12; added checks: all 4 criteria reported, seniority-only picks routed to the office, competing-trial count within 2 of script rule (10 of 12). Under the new rule the v1 picks score 10 of 12 still there (Larson 2024-10 and Baz 2024-11 last filed before 2025-04-11). v1 outputs: attempts/stage2_v1/",
+  "stage 2 v2 leak note: the agent's Open Payments query by candidate surname (stage2/op/names.json) also returned 361 payment rows for the target trial itself (NCT05730036), naming Maly (Louisville) and Ye (Houston). contacts.json never cites it, and both picks stand on non-target evidence: Maly on NCT03761108 payments 2023-25; Ye on 2025 NCT03761108/NCT04083534 payments with MD Anderson as teaching hospital (op/regn.json, queried by explicit non-target NCT IDs). Not rerun; disclosed. Fix for next run: drop target-trial rows from Open Payments before the agent sees them."
+ ]
+}

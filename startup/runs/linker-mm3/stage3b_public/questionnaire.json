@@ -1,0 +1,218 @@
+{
+ "requirements": [
+  {
+   "id": "R1",
+   "requirement": "Enough eligible RRMM patients: adults, 1-4 prior lines including lenalidomide and a proteasome inhibitor, progression per 2016 IMWG; about 410 randomized 1:1 worldwide",
+   "source": "protocol.md: Inclusion 1, 3; Phase 3, randomized 1:1, planned enrollment 410"
+  },
+  {
+   "id": "R2",
+   "requirement": "Exclude patients who have had pomalidomide or elotuzumab",
+   "source": "protocol.md: Exclusion 2"
+  },
+  {
+   "id": "R3",
+   "requirement": "Exclude patients who have had BCMA-directed immunotherapy (BCMA ADCs allowed)",
+   "source": "protocol.md: Exclusion 6"
+  },
+  {
+   "id": "R4",
+   "requirement": "Document the full prior treatment history: number of lines, lenalidomide-refractory status for 1-line patients, CD38 exposure (a stratification subgroup), last anticancer therapy date for the 28-day / 5-half-life washout, and timing of autologous or allogeneic transplant",
+   "source": "protocol.md: Inclusion 3; Exclusion 4, 5; Outcomes (CD38 antibody exposed participants)"
+  },
+  {
+   "id": "R5",
+   "requirement": "Investigator assessment of ECOG 0-1 (ECOG 2 from myeloma pain after Medical Monitor discussion), life expectancy of at least 6 months, active infection, and a neurologic history and exam to exclude PML, neurocognitive disorder or Parkinsonism",
+   "source": "protocol.md: Inclusion 2, 6; Exclusion 7, 8"
+  },
+  {
+   "id": "R6",
+   "requirement": "Lab testing for screening and response: SPEP, UPEP, immunofixation, serum free light chains for measurable disease and IMWG response; hematology, chemistry, renal function and corrected calcium within 7 days of randomization; HIV, HBV and HCV serology and viral load",
+   "source": "protocol.md: Inclusion 4, 5; Exclusion 9; Outcomes (IMWG response by investigator and IRC)"
+  },
+  {
+   "id": "R7",
+   "requirement": "Cardiac function testing: LVEF by echocardiogram or MUGA to exclude EF below 40%, plus ECG",
+   "source": "protocol.md: Inclusion 5 (adequate cardiac function); Exclusion 10 (ejection fraction <40%)"
+  },
+  {
+   "id": "R8",
+   "requirement": "Diagnostic workup to exclude plasma cell leukemia, amyloidosis, Waldenstrom and POEMS (bone marrow biopsy, pathology, peripheral smear); CNS imaging (MRI) to exclude brain or meningeal myeloma when suspected; skeletal/extramedullary imaging (CT, PET-CT or MRI) for IMWG response",
+   "source": "protocol.md: Exclusion 1, 3; Outcomes (IMWG response, PFS)"
+  },
+  {
+   "id": "R9",
+   "requirement": "Bone marrow aspirate and biopsy at screening and to confirm CR and MRD, with fresh aspirate shipped to a central MRD lab and M-protein samples sent for IRC review",
+   "source": "protocol.md: Outcomes (MRD negative status in the bone marrow; OR/PFS by Independent Review Committee)"
+  },
+  {
+   "id": "R10",
+   "requirement": "Processing (centrifuge) and frozen storage (-70 C or colder) of serum PK, ADA and neutralizing-antibody samples, with batch shipping",
+   "source": "protocol.md: Outcomes (linvoseltamab serum concentration; ADA incidence/titer; NAbs)"
+  },
+  {
+   "id": "R11",
+   "requirement": "Patient-reported outcomes collected at visits: BPI-SF Item 3 worst pain, EORTC QLQ-C30, QLQ-MY20, PGIS, PGIC, EQ-5D-5L",
+   "source": "protocol.md: Outcomes (BPI-SF, EORTC QLQ-C30, QLQ-MY20, PGIS, PGIC, EQ-5D-5L)"
+  },
+  {
+   "id": "R12",
+   "requirement": "24-hour inpatient monitoring after linvoseltamab step-up dose 1 (5 mg, Day 1) and step-up dose 2 (25 mg, Day 8), with step-up and re-hospitalization repeated after dose delays; patients need a caregiver or transport because they may not drive for 48 hours after each step-up dose",
+   "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Sections 2.2, 2.4); Section 5.2 (refrain from driving for 48 hours)"
+  },
+  {
+   "id": "R13",
+   "requirement": "CRS and neurologic toxicity/ICANS (boxed warning): trained staff for ASTCT CRS grading and ICE scoring, tocilizumab and steroids available right away, ICU and neurology backup, 24/7 investigator coverage",
+   "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Boxed Warning; Sections 2.5, 5.1, 5.2)"
+  },
+  {
+   "id": "R14",
+   "requirement": "LYNOZYFIC REMS for commercial product (certified prescribers and healthcare settings; patient wallet card and counseling); pretreatment with acetaminophen, diphenhydramine and dexamethasone 40 mg before step-up doses and the first full dose",
+   "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Sections 2.3, 5.3)"
+  },
+  {
+   "id": "R15",
+   "requirement": "Infection, neutropenia and hypogammaglobulinemia management: CBC and IgG monitoring, PJP and herpesvirus prophylaxis, IVIG",
+   "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Sections 5.4, 5.5)"
+  },
+  {
+   "id": "R16",
+   "requirement": "Long-term IV visit load: linvoseltamab weekly Weeks 4-13, every 2 weeks from Week 14, every 4 weeks for VGPR or better at Week 24+ (30-60 minute infusions); elotuzumab IV weekly in cycles 1-2 then every 4 weeks, with premedication and infusion-reaction observation",
+   "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Section 2.1); https://www.drugs.com/pro/empliciti.html"
+  },
+  {
+   "id": "R17",
+   "requirement": "EPd comparator: pomalidomide under its REMS (certified prescriber and pharmacy, pregnancy testing and contraception counseling, 28-day supply limit); weight-based elotuzumab preparation",
+   "source": "https://drugs.com/monograph/pomalidomide.html; https://www.drugs.com/pro/empliciti.html"
+  },
+  {
+   "id": "R18",
+   "requirement": "Staff capacity: research coordinators and data staff for frequent visits, PROs and long-term survival follow-up; investigational pharmacy to store, prepare and account for linvoseltamab and EPd; sub-investigators",
+   "source": "protocol.md: Outcomes (OS; DoR; duration of MRD negativity: long-term follow-up); Phase 3, enrollment 410"
+  },
+  {
+   "id": "R19",
+   "requirement": "No local competition for the same lenalidomide/PI-exposed, BCMA-naive RRMM patients",
+   "source": "protocol.md: Inclusion 3; Exclusion 6"
+  },
+  {
+   "id": "R20",
+   "requirement": "Fast start-up: contract, budget and IRB approval in time for the recruitment window",
+   "source": "protocol.md: Phase 3, planned enrollment 410"
+  }
+ ],
+ "prefill_plan": [
+  "Multiple myeloma trials recruiting now at the site, with phase and sponsor (ClinicalTrials.gov) [R1, R19]",
+  "Competing BCMA bispecific, CAR-T and other RRMM trials recruiting at the site for lenalidomide/PI-exposed patients (ClinicalTrials.gov) [R19]",
+  "Site's past MM, BCMA and T-cell-engager trial history, including earlier Regeneron linvoseltamab, REGN5459 and odronextamab studies, which shows it has managed CRS/ICANS, infection prophylaxis and IVIG in trials (ClinicalTrials.gov) [R13, R15, R16]",
+  "PI and sub-investigators' 1572 filing history and current institution, showing an experienced investigator team for ECOG, life-expectancy and neurologic assessment (FDA BMIS) [R5, R18]",
+  "PI's industry research payments by trial, showing recent bispecific trial leadership (CMS Open Payments) [R13]",
+  "PI's NPI, specialty (hematology/oncology) and practice location (NPI Registry) [R5]",
+  "CLIA certificate and CAP accreditation of the on-site lab, with test menu for SPEP/IFE, free light chains, chemistry and HBV/HCV/HIV viral load (CMS CLIA database; CAP accredited-lab directory) [R6]",
+  "FACT accreditation for immune effector cell therapy and an on-site autologous/allogeneic transplant program that documents transplant timing and GVHD status (FACT directory; CIBMTR center directory) [R4, R13]",
+  "Authorized treatment center status for commercial BCMA CAR-T (manufacturer public treatment-center locators) [R13]",
+  "Accredited on-site MRI, CT, PET-CT and echocardiography/nuclear cardiology (ACR accredited-facility search; IAC accredited-facility search) [R7, R8]",
+  "Hospital inpatient, ICU bed counts and neurology service (CMS hospital cost reports and provider data) [R12, R13]",
+  "NCI cancer center designation (NCI public list) [R18]",
+  "Research office contracting contact and published IRB of record / single-IRB reliance policy (institution research-office web pages) [R20]",
+  "LYNOZYFIC REMS certification of the site and prescribers (sponsor's own REMS records; not asked) [R14]"
+ ],
+ "questionnaire": [
+  {
+   "id": "Q1",
+   "question": "How many new patients with relapsed/refractory myeloma after 1-4 prior lines (including lenalidomide and a proteasome inhibitor) does your myeloma program see per year?",
+   "format": "number",
+   "requirement": "R1"
+  },
+  {
+   "id": "Q2",
+   "question": "Of those patients, about what percentage have never received pomalidomide?",
+   "format": "number",
+   "requirement": "R2"
+  },
+  {
+   "id": "Q3",
+   "question": "Of those patients, about what percentage have never received a BCMA-directed bispecific or CAR-T?",
+   "format": "number",
+   "requirement": "R3"
+  },
+  {
+   "id": "Q4",
+   "question": "For patients referred from outside practices, how often are complete prior-therapy records (regimens, dates, best response, progression) available at the screening visit?",
+   "format": "choice:most|some|few",
+   "requirement": "R4"
+  },
+  {
+   "id": "Q5",
+   "question": "How many minutes does your investigational pharmacy usually need to prepare and release an IV investigational dose after the order?",
+   "format": "number",
+   "requirement": "R18"
+  },
+  {
+   "id": "Q6",
+   "question": "Can your site ship fresh bone marrow aspirate to a central lab by overnight courier on the day of collection?",
+   "format": "yes/no",
+   "requirement": "R9"
+  },
+  {
+   "id": "Q7",
+   "question": "Does your research lab have a temperature-monitored freezer at -70 C or colder for study serum samples?",
+   "format": "yes/no",
+   "requirement": "R10"
+  },
+  {
+   "id": "Q8",
+   "question": "Can your staff give sponsor-provided electronic PRO tablets to patients at clinic visits?",
+   "format": "yes/no",
+   "requirement": "R11"
+  },
+  {
+   "id": "Q9",
+   "question": "How reliably can your site schedule a planned 24-hour inpatient admission for a step-up dose day?",
+   "format": "choice:always|usually|rarely",
+   "requirement": "R12"
+  },
+  {
+   "id": "Q10",
+   "question": "Is tocilizumab stocked so it can be given within 2 hours of a CRS diagnosis, 24/7?",
+   "format": "yes/no",
+   "requirement": "R13"
+  },
+  {
+   "id": "Q11",
+   "question": "Are the nurses on the unit that would admit step-up patients trained in ICE scoring for ICANS?",
+   "format": "yes/no",
+   "requirement": "R13"
+  },
+  {
+   "id": "Q12",
+   "question": "Is your pharmacy certified to dispense pomalidomide under its REMS?",
+   "format": "yes/no",
+   "requirement": "R17"
+  },
+  {
+   "id": "Q13",
+   "question": "How many days' lead time does your infusion center need to book a recurring weekly infusion chair slot?",
+   "format": "number",
+   "requirement": "R16"
+  },
+  {
+   "id": "Q14",
+   "question": "How many research coordinator FTEs could your myeloma team assign to this study?",
+   "format": "number",
+   "requirement": "R18"
+  },
+  {
+   "id": "Q15",
+   "question": "How many trials for the same population (RRMM, 1-4 prior lines, BCMA-naive) do you expect to open at your site in the next 12 months that are not yet public?",
+   "format": "number",
+   "requirement": "R19"
+  },
+  {
+   "id": "Q16",
+   "question": "How many weeks does your site typically take from receipt of the final protocol to an executed clinical trial agreement and budget for an industry Phase 3 trial?",
+   "format": "number",
+   "requirement": "R20"
+  }
+ ]
+}

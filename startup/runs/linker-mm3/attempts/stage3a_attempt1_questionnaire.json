@@ -1,0 +1,50 @@
+{
+ "requirements": [
+  {"id": "R1", "requirement": "Enough eligible RRMM patients: 1-4 prior lines including lenalidomide and a proteasome inhibitor, progressing, measurable disease, ECOG 0-1, about 410 randomized 1:1 worldwide", "source": "protocol.md: Key Inclusion Criteria 2-4; Phase 3, randomized 1:1, planned enrollment 410"},
+  {"id": "R2", "requirement": "Patients must not have had pomalidomide or elotuzumab", "source": "protocol.md: Key Exclusion Criterion 2"},
+  {"id": "R3", "requirement": "Patients must not have had BCMA-directed immunotherapy (BCMA ADCs are allowed)", "source": "protocol.md: Key Exclusion Criterion 6"},
+  {"id": "R4", "requirement": "24-hour inpatient monitoring after linvoseltamab step-up dose 1 (5 mg, Day 1) and step-up dose 2 (25 mg, Day 8); 200 mg first full dose on Day 15", "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Section 2.2: hospitalize 24 h after the first and second step-up doses)"},
+  {"id": "R5", "requirement": "Ability to recognize and treat CRS and neurologic toxicity including ICANS (boxed warning), with treatment such as tocilizumab and corticosteroids available right away", "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Boxed Warning; Sections 5.1-5.2)"},
+  {"id": "R6", "requirement": "Commercial linvoseltamab is restricted under the LYNOZYFIC REMS (certified prescribers, pharmacies and healthcare settings); experience with T-cell-engager REMS shows the site can run the safety workflow", "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Section 5.3 LYNOZYFIC REMS)"},
+  {"id": "R7", "requirement": "Frequent IV visits: linvoseltamab weekly Weeks 4-13, then every 2 weeks, then every 4 weeks for VGPR or better at Week 24+; elotuzumab IV weekly in cycles 1-2, then every 4 weeks, with premedication and infusion-reaction observation", "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Section 2.1); https://www.drugs.com/pro/empliciti.html (EPd dosing and premedication)"},
+  {"id": "R8", "requirement": "Pomalidomide in the EPd arm requires the pomalidomide REMS (certified prescriber and pharmacy, pregnancy testing and contraception counseling, 28-day supply limit)", "source": "https://drugs.com/monograph/pomalidomide.html"},
+  {"id": "R9", "requirement": "Serious infections (42% in LINKER-MM1), neutropenia and hypogammaglobulinemia: immunoglobulin monitoring, PJP and herpesvirus prophylaxis, IVIG access", "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Sections 5.4-5.5)"},
+  {"id": "R10", "requirement": "Bone marrow sampling for MRD and IRC-assessed IMWG response, so marrow samples and M-protein samples must ship to central labs on time", "source": "protocol.md: Outcomes (MRD negative status in the bone marrow; PFS/OR by Independent Review Committee)"},
+  {"id": "R11", "requirement": "Processing and frozen storage of serum PK, ADA and neutralizing-antibody samples", "source": "protocol.md: Outcomes (concentration of linvoseltamab in serum; ADAs; NAbs)"},
+  {"id": "R12", "requirement": "Patient-reported outcomes at visits: BPI-SF, EORTC QLQ-C30, QLQ-MY20, PGIS, PGIC, EQ-5D-5L", "source": "protocol.md: Outcomes (BPI-SF Item 3, EORTC QLQ-C30, QLQ-MY20, PGIS, PGIC, EQ-5D-5L)"},
+  {"id": "R13", "requirement": "No local competition for the same lenalidomide/PI-exposed, BCMA-naive RRMM patients", "source": "protocol.md: Key Inclusion Criterion 3; Key Exclusion Criterion 6"},
+  {"id": "R14", "requirement": "Fast study start-up (IRB and contract) so the site enrolls within the trial's recruitment window", "source": "protocol.md: Phase 3, planned enrollment 410"},
+  {"id": "R15", "requirement": "After each step-up dose patients must not drive for 48 hours, so they need a caregiver or transport", "source": "https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (Section 5.2 and Patient Counseling: refrain from driving for 48 hours)"}
+ ],
+ "prefill_plan": [
+  "Multiple myeloma trials recruiting now at the site, with phase and sponsor (ClinicalTrials.gov)",
+  "Competing BCMA bispecific, CAR-T and other RRMM trials recruiting at the site that target lenalidomide/PI-exposed patients (ClinicalTrials.gov)",
+  "Site's past MM and T-cell-engager trial history, including earlier Regeneron linvoseltamab, REGN5459 and odronextamab studies (ClinicalTrials.gov)",
+  "Named PI and sub-investigators' 1572 filing history and current institution (FDA BMIS)",
+  "PI's industry research payments by trial, showing recent bispecific trial leadership (CMS Open Payments)",
+  "PI's NPI, specialty and practice location (NPI Registry)",
+  "FACT accreditation for immune effector cell / cellular therapy (FACT public accredited-organization directory)",
+  "Authorized treatment center status for commercial BCMA CAR-T (manufacturer public treatment-center locators)",
+  "NCI cancer center designation (NCI public list)",
+  "Hospital inpatient and ICU bed counts (CMS hospital cost reports)",
+  "Research office / sponsor-facing contracting contact and published IRB of record policy (institution research-office web pages)"
+ ],
+ "questionnaire": [
+  {"id": "Q1", "question": "How many new patients with relapsed/refractory myeloma after 1-4 prior lines (including lenalidomide and a proteasome inhibitor) does your myeloma program see per year?", "format": "number", "requirement": "R1"},
+  {"id": "Q2", "question": "Of those patients, about what percentage have never received pomalidomide?", "format": "number", "requirement": "R2"},
+  {"id": "Q3", "question": "Of those patients, about what percentage have never received a BCMA-directed bispecific or CAR-T?", "format": "number", "requirement": "R3"},
+  {"id": "Q4", "question": "How many patients could your site realistically randomize per month in this study?", "format": "number", "requirement": "R1"},
+  {"id": "Q5", "question": "Can your site admit study patients for 24-hour inpatient monitoring on a scheduled day (Day 1 and Day 8) without bed-availability delays?", "format": "choice:always|usually|rarely", "requirement": "R4"},
+  {"id": "Q6", "question": "Is tocilizumab stocked on the unit or in the pharmacy so it can be given within 2 hours of a CRS diagnosis, 24/7?", "format": "yes/no", "requirement": "R5"},
+  {"id": "Q7", "question": "Does your institution have a written CRS/ICANS management policy for T-cell-engaging bispecific antibodies?", "format": "yes/no", "requirement": "R5"},
+  {"id": "Q8", "question": "How many commercial T-cell-engager REMS programs (e.g., TECVAYLI, ELREXFIO, TALVEY, LYNOZYFIC) is your site certified in now?", "format": "choice:0|1|2|3 or more", "requirement": "R6"},
+  {"id": "Q9", "question": "Is your pharmacy certified to dispense pomalidomide under its REMS?", "format": "yes/no", "requirement": "R8"},
+  {"id": "Q10", "question": "How many days' lead time does your infusion center typically need to book a recurring weekly infusion chair slot?", "format": "number", "requirement": "R7"},
+  {"id": "Q11", "question": "Does your site routinely give IVIG to myeloma patients receiving bispecifics when IgG is low?", "format": "yes/no", "requirement": "R9"},
+  {"id": "Q12", "question": "Can your site ship fresh bone marrow aspirate to a central lab by overnight courier on the day of collection, Monday through Thursday?", "format": "yes/no", "requirement": "R10"},
+  {"id": "Q13", "question": "Does your site have a monitored -70 C or colder freezer for research serum samples?", "format": "yes/no", "requirement": "R11"},
+  {"id": "Q14", "question": "Can your staff give sponsor-provided electronic PRO tablets to patients at clinic visits?", "format": "yes/no", "requirement": "R12"},
+  {"id": "Q15", "question": "How many trials for the same patient population (RRMM, 1-4 prior lines, BCMA-naive) do you expect to open at your site in the next 12 months that are not yet public?", "format": "number", "requirement": "R13"},
+  {"id": "Q16", "question": "What is your typical time, in weeks, from receipt of the final protocol to clinical trial agreement and budget execution for an industry Phase 3 trial?", "format": "number", "requirement": "R14"}
+ ]
+}

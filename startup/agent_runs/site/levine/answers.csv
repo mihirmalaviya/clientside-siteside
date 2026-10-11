@@ -1,0 +1,13 @@
+q_id,answer,source,confidence,needs_human,note
+L1,89,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",medium,no,"Interventional, not withdrawn, US site matching Levine Cancer/LCI-/Carolinas Medical Center/Carolinas HealthCare System/Atrium Health (Charlotte region, excl. Wake Forest, Navicent, Levine Children's, placeholders)"
+L2,36,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",medium,no,"Of the 89, start date >= 2021-10-11"
+L3,18,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",medium,no,"Of the 89, overall status RECRUITING (includes TAPUR basket NCT02693535)"
+L4,Yes,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",high,no,"e.g. teclistamab NCT03145181/NCT04557098, talquetamab, linvoseltamab, etentamig"
+L5,24,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",medium,no,Interventions incl. teclistamab/talquetamab/linvoseltamab/etentamig(TNB-383B)/JNJ-79635322 trispecific/AMG 701/LAVA-051 or 'bispecific'; includes KarMMa-2 NCT03601078 which lists talquetamab; excludes mRNA-2808
+L6,Yes,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",high,no,"e.g. cilta-cel CARTITUDE NCT03548207, ide-cel KarMMa-2 NCT03601078, anito-cel NCT05396885"
+L7,Manisha Bhutani; Cindy Varga; Reed Friend,"ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",high,no,"Only PIs listed at site on recruiting myeloma trials (NCT05722418, NCT05651932, NCT05145400); Kathryn Mileham is PI on TAPUR basket"
+L8,"Janssen Research & Development, LLC","ctg.py '{""query.cond"": ""multiple myeloma""}' --pi --max 20000",high,no,20 of 89 trials (next: AbbVie 7); 21 counting Janssen Scientific Affairs
+L9,,none (not public),low,yes,Ask LCI Hematologic Oncology research operations / clinical research manager
+L10,,none (not public),low,yes,Ask Atrium Health IRB office
+L11,,none (not public),low,yes,Ask LCI research lab / biorepository manager
+L12,,none (not public),low,yes,Ask Atrium Health research finance / contracts office

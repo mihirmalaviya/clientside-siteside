@@ -1,0 +1,26 @@
+{
+ "stage": "3b",
+ "passed": false,
+ "checks": [
+  {
+   "check": "public pre-fill counts match script rule (+-15% or 3)",
+   "ok": false,
+   "detail": "20 of 24; misses: ['#4 recruiting: agent 10 vs rule 6', '#4 t-cell engager: agent 13 vs rule 7', '#11 recruiting: agent 20 vs rule 10', '#11 t-cell engager: agent 16 vs rule 10']"
+  },
+  {
+   "check": "Riverside: made-up answers",
+   "ok": true,
+   "detail": "none"
+  },
+  {
+   "check": "Riverside: unanswerables flagged",
+   "ok": true,
+   "detail": "unflagged: none"
+  },
+  {
+   "check": "Riverside: wrong answers (reported, not gated)",
+   "ok": true,
+   "detail": "none of 21"
+  }
+ ]
+}

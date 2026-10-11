@@ -1,0 +1,6 @@
+{"graded_by": "human (Claude main session) against draft_must_cover.md, after reading outputs",
+ "must_cover": {"M1": "question", "M2": "prefill", "M3": "question", "M4": "question", "M5": "prefill", "M6": "question",
+                "M7": "question", "M8": "missing", "M9": "missing", "M10": "question", "M11": "question", "M12": "missing",
+                "M13": "prefill", "M14": "question"},
+ "notes": {"M5": "prefill: CMS ICU bed counts", "M11": "contract asked (Q16); IRB policy in prefill", "M14": "lenient: PI prefilled, Q4 asks enrollment commitment, PI interest not asked"},
+ "redundant": []}

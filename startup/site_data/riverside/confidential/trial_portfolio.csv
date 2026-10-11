@@ -1,0 +1,15 @@
+trial,sponsor,phase,population,drug_class,status,public,site_start,site_end,target_enrollment,screened,enrolled,pi,notes
+ALD-110,Alder Therapeutics,3,relapsed/refractory multiple myeloma,proteasome inhibitor combination,completed,yes,2016-06,2018-04,10,16,12,Elena Marsh,
+ALD-201,Alder Therapeutics,3,relapsed/refractory multiple myeloma,anti-CD38 combination,completed,yes,2019-03,2021-02,10,15,11,Elena Marsh,
+ALD-150,Alder Therapeutics,2,diffuse large B-cell lymphoma,CD19 antibody-drug conjugate,completed,yes,2020-05,2022-01,6,7,4,Lena Okafor,
+CRV-114,Corvane Bio,2,relapsed/refractory multiple myeloma,BCMA antibody-drug conjugate,completed,yes,2021-06,2023-05,6,8,5,Elena Marsh,
+HLV-330,Halvorsen Pharma,1/2,relapsed/refractory multiple myeloma,BCMAxCD3 bispecific antibody,completed,yes,2024-01,2025-01,6,10,7,Elena Marsh,step-up dosing inpatient from 2025-03 (SOP v2)
+CRV-305,Corvane Bio,3,relapsed/refractory multiple myeloma,anti-CD38 combination,closed to accrual,yes,2024-03,2025-12,8,13,9,Elena Marsh,
+ALD-415,Alder Therapeutics,3,newly diagnosed multiple myeloma,anti-CD38 quadruplet,recruiting,yes,2024-09,,10,8,6,Elena Marsh,
+MRD-088,Meridian Oncology,2,relapsed/refractory multiple myeloma,BCMA CAR-T,recruiting,yes,2025-06,,4,3,2,Raj Patel,
+HLV-410,Halvorsen Pharma,3,high-risk smoldering multiple myeloma,anti-CD38 monotherapy,recruiting,yes,2025-09,,6,4,3,Lena Okafor,
+CRV-402,Corvane Bio,1,relapsed/refractory multiple myeloma,GPRC5DxCD3 bispecific antibody,recruiting,yes,2026-02,,3,2,1,Elena Marsh,
+CRV-510,Corvane Bio,3,"relapsed/refractory multiple myeloma, 1-4 prior lines, BCMA-naive",BCMAxCD3 bispecific combination,pipeline (CDA),no,2027-01 (expected),,8,,,Elena Marsh,under confidentiality agreement; contract in negotiation
+BRW-220,Brightwater Biologics,2,"relapsed/refractory multiple myeloma, 1-3 prior lines, BCMA-naive",CELMoD combination,pipeline (CDA),no,2027-06 (expected),,5,,,Lena Okafor,under confidentiality agreement
+ALD-530,Alder Therapeutics,3,newly diagnosed multiple myeloma,anti-CD38 combination,pipeline (CDA),no,2027-03 (expected),,10,,,Elena Marsh,under confidentiality agreement
+MRD-140,Meridian Oncology,1,relapsed/refractory multiple myeloma after prior BCMA therapy,GPRC5D CAR-T,pipeline (CDA),no,2027-02 (expected),,3,,,Raj Patel,under confidentiality agreement

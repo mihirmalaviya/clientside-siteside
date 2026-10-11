@@ -1,0 +1,35 @@
+nct_id,start,phase,sponsor,true_sites,findable_sites,Random pick,Most past trials,Ours,Ours + same sponsor
+NCT03430011,2018-02-01,P2,"Juno Therapeutics, a Subsidiary of Celgene",20,1,0.0,0.0,0.0,0.0
+NCT03246529,2018-03-23,P3,"BioLineRx, Ltd.",10,7,0.1,2.0,3.0,3.0
+NCT03314181,2018-04-02,P2,"AbbVie",14,0,0.0,0.0,0.0,0.0
+NCT03412565,2018-04-26,P2,"Janssen Research & Development, LLC",16,9,0.1,1.0,0.0,0.0
+NCT03548207,2018-06-29,P2,"Janssen Research & Development, LLC",17,15,0.1,13.0,12.0,10.0
+NCT03539744,2018-10-22,P3,"AbbVie",19,0,0.0,0.0,0.0,0.0
+NCT03652064,2018-11-06,P3,"Janssen Research & Development, LLC",19,11,0.1,4.0,4.0,3.0
+NCT03601078,2018-12-13,P2,"Celgene",18,14,0.1,4.0,6.0,6.0
+NCT03651128,2019-04-16,P3,"Celgene",36,3,0.0,0.0,0.0,0.0
+NCT03901963,2019-04-26,P3,"Janssen Research & Development, LLC",70,42,0.4,6.0,8.0,8.0
+NCT03859427,2019-05-08,P3,"Amgen",11,5,0.0,0.0,0.0,0.0
+NCT03933735,2019-06-24,P2,"AbbVie",10,0,0.0,0.0,0.0,0.0
+NCT03915184,2019-09-25,P2,"CARsgen Therapeutics Co., Ltd.",12,7,0.1,3.0,3.0,3.0
+NCT03989414,2019-09-30,P2,"Celgene",16,2,0.0,2.0,2.0,2.0
+NCT03997968,2019-10-09,P2,"Cyteir Therapeutics, Inc.",16,8,0.1,7.0,6.0,6.0
+NCT04133636,2019-11-07,P2,"Janssen Research & Development, LLC",33,33,0.3,14.0,16.0,16.0
+NCT04181827,2020-06-12,P3,"Janssen Research & Development, LLC",19,16,0.1,6.0,9.0,7.0
+NCT04191616,2020-08-06,P2,"Amgen",12,6,0.1,0.0,0.0,1.0
+NCT04586426,2020-12-15,P2,"Janssen Research & Development, LLC",13,11,0.1,9.0,9.0,8.0
+NCT04649359,2021-02-02,P2,"Pfizer",19,8,0.1,3.0,2.0,1.0
+NCT04923893,2021-08-19,P3,"Janssen Research & Development, LLC",19,17,0.2,5.0,7.0,10.0
+NCT04782687,2021-09-10,P2,"US Oncology Research",10,4,0.0,0.0,0.0,0.0
+NCT05014412,2021-10-07,P2,"Pfizer",32,20,0.2,3.0,1.0,1.0
+NCT05083169,2021-10-14,P3,"Janssen Research & Development, LLC",18,17,0.2,3.0,4.0,6.0
+NCT05317416,2022-03-25,P3,"Pfizer",24,10,0.1,3.0,2.0,3.0
+NCT05347485,2022-05-13,P2,"Janssen Scientific Affairs, LLC",18,18,0.2,14.0,15.0,15.0
+NCT04975997,2022-06-23,P3,"Celgene",43,1,0.0,0.0,0.0,0.0
+NCT05396885,2022-07-15,P2,"Kite, A Gilead Company",18,15,0.1,8.0,9.0,9.0
+NCT05455320,2022-10-13,P3,"Janssen Research & Development, LLC",40,31,0.3,5.0,5.0,6.0
+NCT05552976,2023-01-10,P3,"Bristol-Myers Squibb",33,1,0.0,0.0,0.0,0.0
+NCT05561751,2023-02-13,P2,"GPCR Therapeutics, Inc.",10,8,0.1,2.0,2.0,2.0
+NCT05572515,2023-03-29,P3,"Janssen Research & Development, LLC",30,20,0.2,1.0,2.0,2.0
+NCT05827016,2023-06-22,P3,"Bristol-Myers Squibb",44,0,0.0,0.0,0.0,0.0
+NCT06045806,2023-10-16,P3,"Celgene",19,6,0.0,3.0,3.0,3.0

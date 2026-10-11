@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js" integrity="sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67" crossorigin="anonymous"></script>
+<style>
+html,body{margin:0;height:100%;background:#F7F6F3;color:#2F3437;font-family:'Geist','Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#2F3437}a:hover{color:#111}
+button{font-family:inherit}
+@keyframes popIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes dropIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+@keyframes pinIn{from{opacity:0;transform:translate(-50%,-50%) scale(2.2)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+</style>
+</helmet>
+<div style="height:100vh;display:grid;grid-template-rows:auto minmax(0,1fr) auto;background:#F7F6F3">
+  <header style="background:#FFFFFF;border-bottom:1px solid #EAEAEA;padding:14px 24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:12px;flex:none;flex-wrap:wrap">
+      <sc-for list="{{ steps }}" as="s" hint-placeholder-count="4">
+        <div style="display:flex;align-items:center;gap:12px">
+          <sc-if value="{{ s.notFirst }}"><span style="{{ s.arrowStyle }}">→</span></sc-if>
+          <div onClick="{{ s.go }}" style="display:flex;align-items:center;gap:8px">
+            <div style="{{ s.dotStyle }}">{{ s.mark }}</div>
+            <div style="{{ s.labelStyle }}">{{ s.label }}</div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;flex:1 1 240px;min-width:0">
+      <div style="flex:1;min-width:120px;height:10px;border-radius:5px;background:#EFEEEA;overflow:hidden">
+        <div style="{{ progressStyle }}"></div>
+      </div>
+      <div style="font-family:'Geist Mono',monospace;font-size:14px;font-weight:500;color:#111111;width:44px;text-align:right;font-variant-numeric:tabular-nums">{{ progressLabel }}</div>
+      <sc-if value="{{ notIdle }}">
+        <button onClick="{{ restart }}" style="border:1px solid #EAEAEA;background:#FFFFFF;border-radius:5px;padding:6px 10px;font-size:12.5px;cursor:pointer;color:#2F3437" style-hover="background:#F7F6F3">{{ restartLabel }}</button>
+      </sc-if>
+    </div>
+  </header>
+
+  <sc-if value="{{ isIdle }}" hint-placeholder-val="{{ false }}">
+    <div style="display:grid;place-items:center;padding:40px 24px;overflow:auto">
+      <div style="max-width:600px;width:100%;display:flex;flex-direction:column;gap:22px">
+        <div style="font-family:'Newsreader',serif;font-size:46px;line-height:1.08;letter-spacing:-0.025em;color:#111111;text-wrap:pretty">Find the sites that can run this trial.</div>
+        <div style="font-size:15px;line-height:1.6;color:#787774;text-wrap:pretty">The agent ranks every hospital with a relevant trial history, finds the right investigator, sends a feasibility questionnaire, and drafts a decision for each site. You approve before anything goes out.</div>
+        <div style="border:1px solid #EAEAEA;border-radius:12px;background:#FFFFFF;padding:20px;display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;justify-content:space-between;gap:12px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774"><span>New trial</span><span style="font-family:'Geist Mono',monospace;letter-spacing:0">LINKER-MM3</span></div>
+          <div style="font-size:15px;font-weight:500;color:#111111;line-height:1.45;text-wrap:pretty">Phase 3 study of linvoseltamab, a BCMA×CD3 bispecific, in relapsed/refractory multiple myeloma</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <span style="background:#F7F6F3;border-radius:4px;padding:4px 8px;font-size:12px">Multiple myeloma</span>
+            <span style="background:#F7F6F3;border-radius:4px;padding:4px 8px;font-size:12px">70 US sites</span>
+            <span style="background:#F7F6F3;border-radius:4px;padding:4px 8px;font-size:12px">Regeneron</span>
+          </div>
+          <button onClick="{{ startDemo }}" style="align-self:flex-start;background:#111111;color:#FFFFFF;border:none;border-radius:5px;padding:10px 16px;font-size:13.5px;font-weight:500;cursor:pointer" style-hover="background:#333333" style-active="transform:scale(0.98)">Run the agent</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ notIdle }}" hint-placeholder-val="{{ true }}">
+    <div style="display:grid;grid-template-columns:minmax(0,1.5fr) minmax(360px,1fr);min-height:0">
+      <div ref="{{ leftRef }}" style="overflow:auto;padding:28px 28px 28px;min-height:0">
+
+        <sc-if value="{{ vFind }}">
+          <div data-screen-label="1 Find" style="max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:16px">
+            <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap">
+              <div style="display:flex;flex-direction:column;gap:6px">
+                <div style="font-family:'Newsreader',serif;font-size:30px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ mapHeadline }}</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:11.5px;color:#787774">
+                <span>Best fit</span>
+                <div style="width:120px;height:8px;border-radius:2px;background:linear-gradient(90deg,#BEDEF7,#7AA0C2,#2F3B4A)"></div>
+                <span>Worst fit</span>
+              </div>
+            </div>
+            <div style="background:#FFFFFF;border:1px solid #EAEAEA;border-radius:10px;padding:20px">
+              <div style="position:relative;width:100%;aspect-ratio:975 / 610">
+                <div style="position:absolute;inset:0">
+                  <x-import component-from-global-scope="us-map" from="./us-map.js" hint-size="100%,100%"></x-import>
+                </div>
+                <sc-for list="{{ dots }}" as="d"><div style="{{ d }}"></div></sc-for>
+                <sc-for list="{{ pins }}" as="p"><div onClick="{{ p.select }}" title="{{ p.title }}" style="{{ p.style }}">{{ p.label }}</div></sc-for>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ vContact }}">
+          <div data-screen-label="2 Contact" style="max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:16px;padding-bottom:60px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-family:'Newsreader',serif;font-size:30px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ contactHeadline }}</div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              <sc-for list="{{ contactCards }}" as="c" hint-placeholder-count="4">
+                <div data-card="{{ c.i }}" style="background:#FFFFFF;border:1px solid #EAEAEA;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                  <div style="display:flex;align-items:center;gap:8px;min-width:0">
+                    <span style="font-family:'Geist Mono',monospace;font-size:11px;color:#787774">#{{ c.rank }}</span>
+                    <span style="font-size:13px;font-weight:500;color:#111111;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ c.site }}</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;gap:3px">
+                    <div style="font-family:'Newsreader',serif;font-size:21px;line-height:1.15;color:#111111">{{ c.pi }}</div>
+                    <div style="font-size:12px;color:#787774">{{ c.alts }}</div>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <div style="flex:1;height:4px;border-radius:2px;background:#BDBAB3;overflow:hidden">
+                      <div style="{{ c.confBar }}"></div>
+                    </div>
+                    <span style="font-family:'Geist Mono',monospace;font-size:11px;color:#787774;white-space:nowrap">{{ c.confLabel }}</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-start">
+                    <span style="{{ c.badgeStyle }}">{{ c.badge }}</span>
+                    <span style="font-size:12.5px;line-height:1.45;color:#2F3437;text-wrap:pretty">{{ c.ev }}</span>
+                    <sc-if value="{{ c.hasNote }}"><span style="background:#E1F3FE;color:#1F6C9F;border-radius:4px;padding:3px 8px;font-size:12px;font-weight:500">{{ c.note }}</span></sc-if>
+                  </div>
+                  <a href="#" style="display:flex;justify-content:space-between;gap:8px;border-top:1px solid #F0EFEC;padding-top:10px;font-size:12px;color:#787774;text-decoration:none" style-hover="color:#111111">
+                    <span>Contact domain</span>
+                    <span style="font-family:'Geist Mono',monospace;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ c.office }} ↗</span>
+                  </a>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ vQ }}">
+          <div data-screen-label="3 Questionnaire" style="height:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;min-height:0">
+            <div style="background:#FFFFFF;border:1px solid #EAEAEA;border-radius:10px;display:flex;flex-direction:column;min-height:0">
+              <div style="padding:14px 16px;border-bottom:1px solid #EAEAEA;display:flex;align-items:center;gap:10px">
+                <div style="width:24px;height:24px;border-radius:5px;background:#2F3B4A;color:#FFFFFF;display:grid;place-items:center;font-family:'Geist Mono',monospace;font-size:11px">S</div>
+                <div style="display:flex;flex-direction:column;gap:1px;min-width:0">
+                  <span style="font-size:13.5px;font-weight:500;color:#111111">Sponsor agent</span>
+                  <span style="font-size:11.5px;color:#787774">Regeneron · protocol + drug label</span>
+                </div>
+              </div>
+              <div ref="{{ spRef }}" style="flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:14px;min-height:0">
+                <sc-if value="{{ sp1 }}">
+                  <div style="display:flex;flex-direction:column;gap:8px;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                    <div style="font-size:13.5px;line-height:1.55;color:#2F3437;text-wrap:pretty">Read the protocol and the draft label. Writing questions for Levine Cancer Institute.</div>
+                    <div style="display:flex;gap:6px;flex-wrap:wrap">
+                      <span style="border:1px solid #EAEAEA;border-radius:4px;padding:2px 7px;font-family:'Geist Mono',monospace;font-size:10.5px;color:#57554F">LINKER-MM3 protocol</span>
+                      <span style="border:1px solid #EAEAEA;border-radius:4px;padding:2px 7px;font-family:'Geist Mono',monospace;font-size:10.5px;color:#57554F">Label · §2 §5</span>
+                    </div>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ sp2 }}">
+                  <div style="background:#F7F6F3;border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:10px;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px">
+                      <span style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Already known</span>
+                      <span style="font-family:'Newsreader',serif;font-size:24px;line-height:1;color:#111111;font-variant-numeric:tabular-nums">{{ factsN }} facts</span>
+                    </div>
+                    <div style="display:flex;flex-wrap:wrap;gap:5px">
+                      <sc-for list="{{ facts }}" as="f">
+                        <span style="display:inline-flex;align-items:center;gap:6px;background:#FFFFFF;border:1px solid #EAEAEA;border-radius:5px;padding:4px 7px;font-size:12px;animation:popIn .35s both">{{ f.t }} <span style="font-family:'Geist Mono',monospace;font-size:10px;color:#787774">{{ f.s }}</span></span>
+                      </sc-for>
+                    </div>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ sp3 }}">
+                  <div style="border:1px solid #EAEAEA;border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:8px;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px">
+                      <span style="font-size:13.5px;font-weight:500;color:#111111">Questionnaire · 16 questions</span>
+                      <span style="font-family:'Geist Mono',monospace;font-size:10.5px;color:#346538">sent →</span>
+                    </div>
+                    <sc-for list="{{ qList }}" as="q">
+                      <div style="display:grid;grid-template-columns:22px minmax(0,1fr);gap:8px;font-size:12.5px;padding:5px 0;border-top:1px solid #F0EFEC;align-items:baseline">
+                        <span style="font-family:'Geist Mono',monospace;font-size:10.5px;color:#A5A39F">{{ q.n }}</span>
+                        <span style="color:#2F3437">{{ q.q }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+              </div>
+            </div>
+            <div style="background:#FFFFFF;border:1px solid #EAEAEA;border-radius:10px;display:flex;flex-direction:column;min-height:0">
+              <div style="padding:14px 16px;border-bottom:1px solid #EAEAEA;display:flex;align-items:center;gap:10px">
+                <div style="width:24px;height:24px;border-radius:5px;background:#BEDEF7;color:#1E2833;display:grid;place-items:center;font-family:'Geist Mono',monospace;font-size:11px">H</div>
+                <div style="display:flex;flex-direction:column;gap:1px;min-width:0">
+                  <span style="font-size:13.5px;font-weight:500;color:#111111">Site agent</span>
+                  <span style="font-size:11.5px;color:#787774">Levine Cancer Institute · site records</span>
+                </div>
+              </div>
+              <div ref="{{ siRef }}" style="flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:10px;min-height:0">
+                
+                <sc-for list="{{ answers }}" as="a">
+                  <div style="{{ a.style }}">
+                    <div style="display:flex;gap:8px;align-items:baseline">
+                      <span style="font-family:'Geist Mono',monospace;font-size:10.5px;color:#A5A39F;flex:none">Q{{ a.n }}</span>
+                      <span style="font-size:12px;color:#787774">{{ a.q }}</span>
+                    </div>
+                    <sc-if value="{{ a.known }}">
+                      <div style="font-size:13.5px;font-weight:500;color:#111111;line-height:1.4">{{ a.ans }}</div>
+                      <div style="display:flex"><span style="{{ a.chipStyle }}">{{ a.src }}</span></div>
+                    </sc-if>
+                    <sc-if value="{{ a.hasNote }}"><div style="{{ a.noteStyle }}">{{ a.note }}</div></sc-if>
+                    <sc-if value="{{ a.human }}"><div style="display:flex"><span style="background:#F2D27A;color:#5C4200;border-radius:4px;padding:2px 7px;font-size:11px;font-weight:600">Needs a human</span></div></sc-if>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ vSelect }}">
+          <div data-screen-label="4 Select" style="max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:16px;padding-bottom:60px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-family:'Newsreader',serif;font-size:30px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ selectHeadline }}</div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px">
+              <sc-for list="{{ scorecards }}" as="c" hint-placeholder-count="4">
+                <div data-card="{{ c.i }}" style="background:#FFFFFF;border:1px solid #EAEAEA;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0;animation:dropIn .5s cubic-bezier(.16,1,.3,1) both">
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="{{ c.pillStyle }}">{{ c.decision }}</span>
+                    <span style="flex:1"></span>
+                    <span style="font-family:'Geist Mono',monospace;font-size:11px;color:#787774">#{{ c.rank }}</span>
+                  </div>
+                  <div style="font-size:15px;font-weight:500;color:#111111;line-height:1.3">{{ c.site }}</div>
+                  <div style="display:flex;flex-direction:column;gap:6px">
+                    <div style="display:flex;gap:3px">
+                      <sc-for list="{{ c.req }}" as="r"><div style="{{ r }}"></div></sc-for>
+                    </div>
+                  </div>
+                  <div style="display:flex;flex-direction:column;gap:6px">
+                    <sc-for list="{{ c.reasons }}" as="rs">
+                      <div style="display:flex;gap:8px;font-size:13px;line-height:1.45;color:#2F3437">
+                        <span style="{{ c.dotStyle }}"></span><span style="text-wrap:pretty">{{ rs }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                  <div style="background:#F7F6F3;border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px">
+                    <div style="display:flex;justify-content:space-between;gap:8px;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#787774"><span>Follow-ups</span></div>
+                    <sc-for list="{{ c.fu }}" as="f">
+                      <div style="font-family:'Newsreader',serif;font-size:14.5px;line-height:1.45;color:#2F3437;text-wrap:pretty">“{{ f }}”</div>
+                    </sc-for>
+                  </div>
+                  <sc-if value="{{ c.pending }}">
+                    <div style="display:flex;align-items:center;gap:10px">
+                      <button onClick="{{ c.approve }}" style="background:#111111;color:#FFFFFF;border:none;border-radius:5px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer" style-hover="background:#333333" style-active="transform:scale(0.98)">Approve</button>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{ c.isApproved }}">
+                    <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#346538;font-weight:500">
+                      <span>✓ Sent</span>
+                      <span style="flex:1"></span>
+                      <button onClick="{{ c.undo }}" style="border:none;background:none;padding:0;font-size:12px;color:#787774;cursor:pointer;text-decoration:underline;text-underline-offset:3px">Undo</button>
+                    </div>
+                  </sc-if>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+
+      <div ref="{{ panelRef }}" style="overflow:auto;background:#FFFFFF;border-left:1px solid #EAEAEA;padding:28px 24px 80px">
+        <sc-if value="{{ vFind }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 1 · Find</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ findHeadline }}</div>
+            </div>
+            <sc-if value="{{ hasWhy }}">
+              <div style="border:1px solid #D9D8D4;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:14px;box-shadow:0 2px 8px rgba(0,0,0,0.04);animation:popIn .4s cubic-bezier(.16,1,.3,1) both">
+                <div style="display:flex;align-items:center;gap:10px">
+                  <div style="{{ why.swatch }}">{{ why.rank }}</div>
+                  <div style="display:flex;flex-direction:column;gap:1px;min-width:0">
+                    <span style="font-size:14.5px;font-weight:500;color:#111111;line-height:1.3">{{ why.name }}</span>
+                    <span style="font-size:12px;color:#787774">{{ why.city }} · fit {{ why.fit }}</span>
+                  </div>
+                </div>
+                <sc-if value="{{ why.hasReason }}"><div style="font-size:13px;line-height:1.5;color:#2F3437;text-wrap:pretty">{{ why.reason }}</div></sc-if>
+                <div style="display:flex;flex-direction:column">
+                  <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774;padding-bottom:8px">Past trials</div>
+                  <sc-for list="{{ why.trials }}" as="tr">
+                    <div style="display:flex;flex-direction:column;gap:3px;padding:9px 0;border-top:1px solid #F0EFEC">
+                      <div style="display:flex;justify-content:space-between;gap:8px;align-items:baseline">
+                        <span style="font-family:'Geist Mono',monospace;font-size:12.5px;font-weight:500;color:#111111">{{ tr.nct }}</span>
+                        <span style="{{ tr.pctStyle }}">{{ tr.pct }}</span>
+                      </div>
+                      <span style="font-size:12.5px;color:#2F3437">{{ tr.drug }} · {{ tr.sponsor }}</span>
+                      <span style="font-size:12px;color:#787774">{{ tr.meta }}</span>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-if>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <div style="display:grid;grid-template-columns:repeat(24,minmax(0,1fr));gap:2px">
+                <sc-for list="{{ cands }}" as="c" hint-placeholder-count="96"><div onClick="{{ c.select }}" style="{{ c.style }}"></div></sc-for>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ vContact }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 2 · Contact</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ matrixHeadline }}</div>
+            </div>
+            <div style="display:grid;grid-template-columns:minmax(0,1fr) repeat(5,40px);gap:3px;align-items:center">
+              <div></div>
+              <sc-for list="{{ srcShort }}" as="s"><div style="font-family:'Geist Mono',monospace;font-size:9.5px;color:#787774;text-align:center">{{ s }}</div></sc-for>
+              <sc-for list="{{ matrix }}" as="row" hint-placeholder-count="12">
+                <div style="display:contents">
+                  <div style="font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#2F3437;padding-right:6px">{{ row.label }}</div>
+                  <sc-for list="{{ row.cells }}" as="cell"><div style="{{ cell.style }}">{{ cell.mark }}</div></sc-for>
+                </div>
+              </sc-for>
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:#787774">
+              <span style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:2px;background:#D3E5F5"></span>Confirms</span>
+              <span style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:2px;background:#FBF3DB"></span>Changed or stale</span>
+              <span style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:2px;background:#EFEEEA"></span>Nothing found</span>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ vQ }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 3 · Questionnaire</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ qHeadline }}</div>
+            </div>
+            <div style="display:grid;grid-template-columns:minmax(96px,1.4fr) repeat(16,minmax(0,1fr));gap:3px;align-items:center">
+              <div></div>
+              <sc-for list="{{ qNums }}" as="n"><div style="font-family:'Geist Mono',monospace;font-size:8.5px;color:#A5A39F;text-align:center">{{ n }}</div></sc-for>
+              <sc-for list="{{ qGrid }}" as="row" hint-placeholder-count="12">
+                <div style="display:contents">
+                  <div style="font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#2F3437;padding-right:6px">{{ row.label }}</div>
+                  <sc-for list="{{ row.cells }}" as="cell"><div style="{{ cell }}"></div></sc-for>
+                </div>
+              </sc-for>
+            </div>
+            <div style="display:flex;gap:6px;flex-wrap:wrap">
+              <span style="background:#D3E5F5;color:#1F4E73;border-radius:9999px;padding:3px 9px;font-size:10.5px;letter-spacing:0.06em;text-transform:uppercase;font-weight:500">{{ qAnswered }} answered with source</span>
+              <span style="background:#F2D27A;color:#5C4200;border-radius:9999px;padding:3px 9px;font-size:10.5px;letter-spacing:0.06em;text-transform:uppercase;font-weight:500">{{ qHuman }} need a human</span>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ vSelect }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 4 · Select</div>
+              <div style="display:flex;gap:6px;flex-wrap:wrap">
+                <sc-for list="{{ decCounts }}" as="d"><span style="{{ d.style }}">{{ d.label }}</span></sc-for>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px">
+              <sc-for list="{{ decSquares }}" as="d" hint-placeholder-count="12">
+                <div onClick="{{ d.go }}" title="{{ d.title }}" style="{{ d.style }}">{{ d.rank }}</div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <footer style="background:#FFFFFF;border-top:1px solid #EAEAEA;padding:10px 24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#787774">
+    <span style="font-family:'Geist Mono',monospace;font-size:12.5px;color:#2F3437;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1 1 240px">{{ ticker }}</span>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;speed&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;0.5&quot;,&quot;1&quot;,&quot;2&quot;,&quot;4&quot;],&quot;default&quot;:&quot;1&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;autostart&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showReplayTag&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+const mono = "'Geist Mono',monospace";
+const rnd = seed => () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+const STOPS = [[190, 222, 247], [122, 160, 194], [47, 59, 74]];
+const fitColor = fit => { const f = Math.max(0, Math.min(1, (0.97 - fit) / 0.92)); const [a, b, k] = f < .5 ? [STOPS[0], STOPS[1], f * 2] : [STOPS[1], STOPS[2], (f - .5) * 2]; return 'rgb(' + a.map((v, i) => Math.round(v + (b[i] - v) * k)).join(',') + ')'; };
+const CITIES = [['New York','NY',40.71,-74.01],['Boston','MA',42.36,-71.06],['Philadelphia','PA',39.95,-75.17],['Baltimore','MD',39.29,-76.61],['Washington','DC',38.9,-77.04],['Pittsburgh','PA',40.44,-80.0],['Cleveland','OH',41.5,-81.69],['Columbus','OH',39.96,-83.0],['Detroit','MI',42.33,-83.05],['Chicago','IL',41.88,-87.63],['Milwaukee','WI',43.04,-87.91],['Minneapolis','MN',44.98,-93.27],['St. Louis','MO',38.63,-90.2],['Kansas City','MO',39.1,-94.58],['Omaha','NE',41.26,-95.94],['Nashville','TN',36.16,-86.78],['Atlanta','GA',33.75,-84.39],['Charlotte','NC',35.23,-80.84],['Raleigh','NC',35.78,-78.64],['Richmond','VA',37.54,-77.44],['Tampa','FL',27.95,-82.46],['Orlando','FL',28.54,-81.38],['Jacksonville','FL',30.33,-81.66],['New Orleans','LA',29.95,-90.07],['Houston','TX',29.76,-95.37],['San Antonio','TX',29.42,-98.49],['Austin','TX',30.27,-97.74],['Oklahoma City','OK',35.47,-97.52],['Denver','CO',39.74,-104.99],['Phoenix','AZ',33.45,-112.07],['Albuquerque','NM',35.08,-106.65],['Las Vegas','NV',36.17,-115.14],['Los Angeles','CA',34.05,-118.24],['Sacramento','CA',38.58,-121.49],['Seattle','WA',47.61,-122.33],['Indianapolis','IN',39.77,-86.16],['Louisville','KY',38.25,-85.76],['Birmingham','AL',33.52,-86.8],['Cincinnati','OH',39.1,-84.51],['Buffalo','NY',42.89,-78.88],['Hartford','CT',41.76,-72.67],['Memphis','TN',35.15,-90.05],['Boise','ID',43.62,-116.2],['Iowa City','IA',41.66,-91.53],['Madison','WI',43.07,-89.4],['Charleston','SC',32.78,-79.93],['Little Rock','AR',34.75,-92.29],['Spokane','WA',47.66,-117.43],['Tucson','AZ',32.22,-110.97]];
+const TOP12 = [
+  { name: 'Dana-Farber Cancer Institute', short: 'Dana-Farber', city: 'Boston, MA', lat: 42.337, lon: -71.107, office: 'dfci.harvard.edu', reason: 'Highest score; on Janssen AQUILA/daratumumab trials and most transplant/maintenance trials' },
+  { name: 'Memorial Sloan Kettering', short: 'MSK', city: 'New York, NY', lat: 40.764, lon: -73.956, office: 'mskcc.org', reason: 'Heavy daratumumab/MRD work; in a GRIFFIN city' },
+  { name: 'Mayo Clinic', short: 'Mayo', city: 'Rochester, MN', lat: 44.022, lon: -92.467, office: 'mayo.edu', reason: 'Top-3 myeloma site; on Janssen AQUILA; big transplant volume' },
+  { name: 'Levine Cancer Institute', short: 'Levine', city: 'Charlotte, NC', lat: 35.205, lon: -80.839, office: 'atriumhealth.org', reason: 'On GRIFFIN-city, AQUILA, ANDROMEDA and CEPHEUS; top Janssen partner' },
+  { name: 'Emory Winship Cancer Institute', short: 'Emory Winship', city: 'Atlanta, GA', lat: 33.792, lon: -84.322, office: 'winshipcancer.emory.edu', reason: 'Mezigdomide Phase 1 trials; strong CEPHEUS enrollment' },
+  { name: 'Massachusetts General Hospital', short: 'Mass General', city: 'Boston, MA', lat: 42.363, lon: -71.069, office: 'mgb.org', reason: 'Early-phase bispecific unit; in a GRIFFIN city' },
+  { name: 'MD Anderson Cancer Center', short: 'MD Anderson', city: 'Houston, TX', lat: 29.707, lon: -95.397, office: 'mdanderson.org', reason: 'Most relapsed/refractory myeloma trials of any US site' },
+  { name: 'Fred Hutch Cancer Center', short: 'Fred Hutch', city: 'Seattle, WA', lat: 47.627, lon: -122.331, office: 'fredhutch.org', reason: 'On 2 Janssen myeloma trials; strong transplant program' },
+  { name: 'Moffitt Cancer Center', short: 'Moffitt', city: 'Tampa, FL', lat: 28.064, lon: -82.421, office: 'moffitt.org', reason: 'Fast enrollment on ANDROMEDA; large referral network' },
+  { name: 'City of Hope', short: 'City of Hope', city: 'Duarte, CA', lat: 34.13, lon: -117.97, office: 'coh.org', reason: 'BCMA bispecific and CAR-T experience' },
+  { name: 'University of Chicago Medicine', short: 'UChicago', city: 'Chicago, IL', lat: 41.789, lon: -87.604, office: 'uchicagomedicine.org', reason: 'Long myeloma trial record, fewer studies since 2023' },
+  { name: 'Huntsman Cancer Institute', short: 'Huntsman', city: 'Salt Lake City, UT', lat: 40.77, lon: -111.837, office: 'huntsmancancer.org', reason: 'Only high-fit myeloma site in the Mountain West' }
+];
+const CONTACTS = [
+  { pi: 'Paul Richardson', alts: 'Omar Nadeem · Shonali Midha', conf: .89, ok: true, badge: '1572 filing, Aug 2026', ev: 'Richardson was PI on mezigdomide trials MM-001/002 (Open Payments)', src: 'ooooo', n: 9 },
+  { pi: 'Rachel Hendry', alts: 'Tomas Lindqvist · Aisha Bello', conf: .88, ok: true, badge: '1572 filing, Jul 2026', ev: 'Listed PI on 3 daratumumab MRD trials (CT.gov)', note: 'Moved from NYU in 2025', src: 'oowow', n: 5 },
+  { pi: 'Laura Feld', alts: 'Peter Wainwright · Grace Huang', conf: .91, ok: true, badge: '1572 filing, Aug 2026', ev: 'Site PI on AQUILA and 2 maintenance trials (CT.gov)', src: 'ooooo', n: 7 },
+  { pi: 'Elena Marsh', alts: 'Daniel Patel · Ruth Okafor', conf: .93, ok: true, badge: '1572 filing, Aug 2026', ev: 'Site PI on ANDROMEDA and CEPHEUS (CT.gov, Open Payments 2024)', src: 'ooooo', n: 8 },
+  { pi: 'Sagar Lonial', alts: 'Nisha Joseph · Craig Hofmeister', conf: .94, ok: true, badge: '1572 filing, Aug 2026', ev: 'Lonial was PI on mezigdomide Phase 1 trials at Emory (Open Payments 2023–25)', src: 'ooooo', n: 9 },
+  { pi: 'Andrew Yee', alts: "Noopur Raje · Elizabeth O'Donnell", conf: .9, ok: true, badge: '1572 filing, Jun 2026', ev: 'Yee was PI on a 2025 Phase 1 of mezigdomide + talquetamab at MGH', src: 'ooooo', n: 6 },
+  { pi: 'Hannah Cho', alts: 'Victor Ramos · Lena Fischer', conf: .9, ok: true, badge: '1572 filing, Jun 2026', ev: 'Site PI on 2 BCMA bispecific trials since 2023 (CT.gov)', src: 'ooooo', n: 5 },
+  { pi: 'Samuel Ortiz', alts: 'Mei Tanaka · Jonah Weiss', conf: .84, ok: true, badge: '1572 filing, Apr 2026', ev: 'Paid as PI on a teclistamab study, 2025 (Open Payments)', src: 'oooo-', n: 3 },
+  { pi: 'Priya Raman', alts: 'Carlos Mendez · Ivy Chen', conf: .92, ok: true, badge: '1572 filing, Aug 2026', ev: 'Site PI on ANDROMEDA (CT.gov)', src: 'ooooo', n: 6 },
+  { pi: 'Andrés Villalobos', alts: 'Nina Patel · Henry Shaw', conf: .79, ok: true, badge: '1572 filing, Feb 2026', ev: 'Listed PI on a BCMA CAR-T trial, 2024 (CT.gov)', note: 'Co-PI listed: Dr. Nina Patel', src: 'ooowo', n: 4 },
+  { pi: 'Kevin Lowell', alts: 'Sara Kim · Ben Adler', conf: .58, ok: false, badge: 'No 1572 since Mar 2023', ev: 'Last listed as PI on a 2022 trial; no recent payments', src: 'oo-w-', n: 3 },
+  { pi: 'Julia Brandt', alts: 'Marcus Greene · Leah Novak', conf: .87, ok: true, badge: '1572 filing, Jul 2026', ev: 'Site PI on 2 daratumumab trials (CT.gov)', note: 'Moved from Cedars-Sinai in 2024', src: 'o-ooo', n: 4 }
+];
+const DEC = [
+  { d: 'y', reasons: ['Two BCMA bispecific trials enrolling the same patients', 'One sub-I GCP certificate expired Nov 2025'], fu: ['Can LINKER-MM3 get priority referrals over your other BCMA trials?', 'Can the sub-I renew GCP before initiation?'], fails: { 13: 'y', 3: 'y' } },
+  { d: 'g', reasons: ['Meets every answered requirement', 'PI moved from NYU in 2025; active 1572 at MSK'], fu: ['What is your earliest site initiation date?'], fails: {} },
+  { d: 'g', reasons: ['Meets every answered requirement', 'Largest transplant volume on the shortlist'], fu: ['Please confirm your overhead rate for the budget.'], fails: {} },
+  { d: 'y', reasons: ["Dr. Patel's GCP certificate expired 2025-11-30", 'No Spanish-language consent on file', 'PI should confirm 7–14 eligible patients per year'], fu: ['Can Dr. Patel renew GCP before initiation?', 'Can regulatory (Chris Lam) confirm a Spanish consent?', 'Can Dr. Marsh confirm eligible patients per year?'], fails: { 3: 'y', 4: 'y', 0: 'y' } },
+  { d: 'g', reasons: ['Meets every answered requirement'], fu: ['What is your earliest site initiation date?'], fails: {} },
+  { d: 'y', reasons: ['Tocilizumab held offsite: 4 h to the floor misses the 2 h CRS window'], fu: ['Can tocilizumab be stocked on the inpatient unit?'], fails: { 7: 'y' } },
+  { d: 'g', reasons: ['Meets every answered requirement'], fu: ['Please confirm your overhead rate for the budget.'], fails: {} },
+  { d: 'y', reasons: ['Step-up dosing outpatient only: no 24 h admission beds'], fu: ['Can you admit participants for 24 h after the first two step-up doses?'], fails: { 1: 'y', 6: 'y' } },
+  { d: 'g', reasons: ['Meets every answered requirement'], fu: ['What is your earliest site initiation date?'], fails: {} },
+  { d: 'y', reasons: ['Central IRB not accepted: local review adds about 8 weeks'], fu: ['Would your IRB rely on WCG for this study?'], fails: { 8: 'y' } },
+  { d: 'r', reasons: ['PI not verified active: no 1572 filed since Mar 2023', 'Pharmacy not certified in the PS-Pomalidomide REMS'], fu: ['Who is the current myeloma PI for industry trials?'], fails: { 9: 'r' } },
+  { d: 'g', reasons: ['Meets every answered requirement', 'PI moved from Cedars-Sinai in 2024; 1572 current'], fu: ['What is your earliest site initiation date?'], fails: {} }
+];
+const DCOL = { g: { label: 'Select', sq: '#A9CFA8', fg: '#346538', bg: '#EDF3EC' }, y: { label: 'Select with conditions', sq: '#F2D27A', fg: '#956400', bg: '#FBF3DB' }, r: { label: "Don't select", sq: '#E8A3A1', fg: '#9F2F2D', bg: '#FDEBEC' } };
+const SRC = ['CT.gov', 'Open Payments', 'NPI', 'BMIS', 'Hospital page'];
+const SRC_SHORT = ['CT.gov', 'Payments', 'NPI', 'BMIS', 'Web'];
+const FACTS = [['Already on this trial: listed on NCT05730036', 'CT.gov'], ['Other linvoseltamab trial: NCT05828511, recruiting', 'CT.gov'], ['22 bispecific myeloma trials', 'CT.gov'], ['On ANDROMEDA and CEPHEUS', 'CT.gov'], ['On AQUILA', 'CT.gov'], ['108% of enrollment target', 'CT.gov'], ['38 days to first patient', 'CT.gov'], ['Last trial closed Mar 2026', 'CT.gov'], ['PI board-certified, hematology/oncology', 'NPI'], ['Practice address unchanged', 'NPI'], ['PI 1572 filed Aug 2026', 'BMIS'], ['Sub-I Dr. Daniel Patel active', 'BMIS'], ['No FDA warning letters', 'BMIS'], ['$84k research payments, 2025', 'Open Payments'], ['Janssen top partner since 2021', 'Open Payments'], ['Uses WCG central IRB', 'Hospital page'], ['Inpatient oncology unit, 6 West', 'Hospital page'], ['Phase 1–3 capable', 'Hospital page'], ['Transplant and cellular therapy program', 'Hospital page'], ['Research pharmacy, 24/7', 'Hospital page']];
+const QS = [
+  ['Eligible patients per year?', '7–14 (estimate)', '20-trial history', 'Protocol §5.1', 'PI Elena Marsh should confirm'],
+  ['Inpatient step-up dosing?', 'Yes · inpatient on the 6 West oncology unit', 'SOP v2 (2025)', 'Protocol §6.2', '⚠ Conflict: the 2023 questionnaire said outpatient only; the 2025 SOP replaces it'],
+  ['How many coordinators?', '4 · Chen, Reyes, Nair, Ortiz', 'Roster', 'Protocol §4.1', '⚠ Conflict: earlier forms said 2 (2023) and 3 (2024); the roster is newest'],
+  ['All GCP certificates current?', "No · Dr. Patel's expired 2025-11-30", 'Roster', 'ICH E6', "Okafor's expires soon (2026-12-15)"],
+  ['Spanish-language consent?', null, '—', 'Protocol §11', 'No document on file; ask regulatory (Chris Lam)'],
+  ['Centrifuge and −80 °C storage for PK?', 'Yes · 2 monitored −80 °C freezers', 'Equipment list', 'Protocol §9.3'],
+  ["Can you admit participants for 24 h after each of the first two step-up doses with less than 1 week's notice?", 'Yes · 6 West holds 2 research beds', 'SOP v2 (2025)', 'Protocol §6.2'],
+  ['Is tocilizumab stocked on site and available within 2 hours of a CRS order?', 'Yes · stocked in inpatient pharmacy', 'Pharmacy formulary', 'Label §5.1'],
+  ['Central IRB accepted?', 'Yes · WCG, used in 2025', 'Past questionnaire 2025', 'Protocol §11'],
+  ['Are your prescribers and pharmacy certified in the PS-Pomalidomide REMS?', 'Yes · certified 2024', 'REMS portal', 'Protocol §6.4'],
+  ['Staff trained in ICANS grading (ICE score)?', 'Yes · all 6 West nurses trained', 'Training records', 'Label §5.2'],
+  ['IRT randomization experience?', 'Yes · 4 trials since 2021', 'Past questionnaire 2024', 'Protocol §6.3'],
+  ['Bone marrow biopsy at screening and MRD visits?', 'Yes · same-week scheduling', 'Procedure schedule', 'Protocol §8.2'],
+  ['Competing BCMA bispecific trials enrolling now?', null, 'Not in site records', 'Feasibility'],
+  ['Overhead rate for the budget?', null, 'Set by finance office', 'Budget'],
+  ['Earliest site initiation date?', null, 'Depends on contract review', 'Feasibility']
+];
+const Q_SITE = 3;
+const HUMAN = TOP12.map((_, s) => { if (s === Q_SITE) return [0, 4, 13, 14, 15]; const r = rnd(s * 13 + 3), base = [14, 15]; [13, 4, 0, 12, 2].forEach(i => { if (r() < .28) base.push(i); }); return base; });
+const DRUGS = [['daratumumab', 'anti-CD38', 'Janssen'], ['teclistamab', 'BCMA×CD3 bispecific', 'Janssen'], ['mezigdomide', 'CELMoD', 'Bristol Myers Squibb'], ['linvoseltamab', 'BCMA×CD3 bispecific', 'Regeneron'], ['elranatamab', 'BCMA×CD3 bispecific', 'Pfizer'], ['isatuximab', 'anti-CD38', 'Sanofi']];
+const IND = ['Newly diagnosed myeloma', 'Relapsed/refractory myeloma', 'Myeloma maintenance', 'Transplant-eligible myeloma', 'Smoldering myeloma'];
+
+const ALL = (() => {
+  const r = rnd(7), used = ['Boston', 'New York', 'Charlotte', 'Atlanta', 'Houston', 'Seattle', 'Tampa', 'Los Angeles', 'Chicago'];
+  const out = TOP12.map((s, i) => ({ ...s, fit: [.97, .95, .94, .92, .91, .9, .88, .87, .86, .85, .84, .83][i] }));
+  const pool = CITIES.filter(c => !used.includes(c[0])).sort(() => r() - .5);
+  const SUF = ['Oncology Research', 'Clinical Research Center', 'Cancer Institute', 'Hematology Associates', 'Research Partners'];
+  for (let i = 0; i < 38; i++) { const c = pool[i % pool.length]; out.push({ name: c[0] + ' ' + SUF[i % 5], city: c[0] + ', ' + c[1], lat: c[2] + (r() - .5) * .5, lon: c[3] + (r() - .5) * .5, fit: .825 - i * .0055 }); }
+  const TYP = ['Medical Center', 'Regional Hospital', 'Cancer Clinic', 'Health System', 'University Hospital', 'Research Clinic'];
+  const rest = [];
+  for (let i = 0; i < 430; i++) { const c = CITIES[Math.floor(r() * CITIES.length)]; rest.push({ name: c[0] + ' ' + TYP[Math.floor(r() * TYP.length)], city: c[0] + ', ' + c[1], lat: c[2] + (r() - .5) * 1.6, lon: c[3] + (r() - .5) * 1.6, fit: .03 + .58 * Math.pow(r(), .9) }); }
+  rest.sort((a, b) => b.fit - a.fit);
+  return out.concat(rest);
+})();
+const ORDER = (() => { const r = rnd(42), o = ALL.map((_, i) => i); for (let i = o.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [o[i], o[j]] = [o[j], o[i]]; } return o; })();
+const POS = []; ORDER.forEach((idx, p) => { POS[idx] = p; });
+const TRIALS = {};
+const trialsFor = rank => {
+  if (TRIALS[rank]) return TRIALS[rank];
+  const r = rnd(rank * 31 + 5), fit = ALL[rank].fit, n = rank < 12 ? 4 : rank < 30 ? 3 : 2;
+  const list = Array.from({ length: n }, (_, k) => {
+    const d = k === 0 ? DRUGS[rank % 2] : DRUGS[Math.floor(r() * DRUGS.length)];
+    const y = 2018 + Math.floor(r() * 6), target = 8 + Math.floor(r() * 16), pct = Math.round((0.7 + fit * 0.5 + (r() - .5) * .2) * 100);
+    return { nct: 'NCT0' + (4000000 + Math.floor(r() * 2800000)), drug: d[0] + ' (' + d[1] + ')', sponsor: d[2], meta: (k === 0 ? 'Multiple myeloma' : IND[Math.floor(r() * IND.length)]) + ' · Phase ' + (r() < .6 ? 2 : 3) + ' · ' + y + '–' + (y + 2), pct: pct + '% of target', good: pct >= 100 };
+  });
+  return (TRIALS[rank] = list);
+};
+const T = { scoreEnd: 7, pinsEnd: 11, contact: 12, q: 21, sent: 25, ans: 26.4, qDone: 32.9, select: 34, end: 41 };
+const stageOf = t => t < T.contact ? 0 : t < T.q ? 1 : t < T.select ? 2 : 3;
+const nScored = t => Math.min(480, Math.floor(t / T.scoreEnd * 480));
+const nPins = t => t < T.scoreEnd ? 0 : Math.min(50, Math.floor((t - T.scoreEnd) / ((T.pinsEnd - T.scoreEnd) / 50)) + 1);
+const nCells = t => t < T.contact + .3 ? 0 : Math.min(60, Math.floor((t - T.contact - .3) / .125) + 1);
+const nFacts = t => t < T.q + .5 ? 0 : Math.min(20, Math.floor((t - T.q - .5) / .15) + 1);
+const ansAt = (s, i) => T.ans + i * .37 + s * .045;
+const nScore = t => t < T.select ? 0 : Math.min(12, Math.floor((t - T.select) / .5) + 1);
+const KEY = 'siteagent.run.v1';
+const logText = (s, k) => {
+  const c = CONTACTS[s], st = c.src[k];
+  if (k === 0) return c.pi + ' listed as site PI on ' + c.n + ' trials';
+  if (k === 1) return st === 'o' ? c.pi + ' paid as PI on finished industry trials, 2025' : 'No industry research payments since 2023';
+  if (k === 2) return st === 'o' ? 'Active NPI, practice address matches' : st === 'w' ? 'Practice address changed in ' + (s === 1 ? '2025' : '2024') : 'No NPI match';
+  if (k === 3) return st === 'o' ? c.badge : st === 'w' ? 'No 1572 filed since Mar 2023' : 'No 1572 on file';
+  return st === 'o' ? 'Research office page lists ' + c.pi : st === 'w' ? 'Page still lists PI at previous hospital' : 'Not on research office page';
+};
+
+class Component extends DCLogic {
+  state = { phase: 'idle', t: 0, sel: null, viewStage: null, approved: {}, xy: null };
+  leftRef = React.createRef(); panelRef = React.createRef(); spRef = React.createRef(); siRef = React.createRef();
+
+  componentDidMount() {
+    let restored = false;
+    try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && s.phase !== 'idle') { restored = true; this.setState({ phase: s.phase, t: s.t, approved: s.approved || {}, sel: s.t >= T.pinsEnd ? 0 : null }); } } catch (e) {}
+    this._last = performance.now();
+    this._iv = setInterval(() => this.tick(), 50);
+    const geo = () => { if (window.d3 && window.d3.geoAlbersUsa) { const pr = d3.geoAlbersUsa().scale(1300).translate([487.5, 305]); this.setState({ xy: ALL.map(s => pr([s.lon, s.lat])) }); } else this._gt = setTimeout(geo, 80); };
+    geo();
+    if (!restored && (this.props.autostart ?? true)) setTimeout(() => this.state.phase === 'idle' && this.start(), 500);
+  }
+  componentWillUnmount() { clearInterval(this._iv); clearTimeout(this._gt); }
+  speed() { return Number(this.props.speed ?? 1) || 1; }
+  persist(s) { try { localStorage.setItem(KEY, JSON.stringify({ phase: s.phase, t: s.t, approved: s.approved })); } catch (e) {} }
+
+  tick() {
+    const now = performance.now(), dt = Math.min(.2, (now - this._last) / 1000); this._last = now;
+    if (this.state.phase !== 'running') return;
+    let t = this.state.t + dt * this.speed(), phase = 'running', extra = {};
+    if (t >= T.end) { t = T.end; phase = 'done'; }
+    if (t >= T.pinsEnd && this.state.sel == null) extra.sel = 0;
+    this.setState({ t, phase, ...extra }, () => this.autoScroll());
+    if (!this._lp || now - this._lp > 800 || phase === 'done') { this._lp = now; this.persist({ phase, t, approved: this.state.approved }); }
+  }
+
+  autoScroll() {
+    const t = this.state.t, st = stageOf(t);
+    if (st !== this._st) { this._st = st; this._lastCard = null; [this.leftRef, this.panelRef].forEach(r => { if (r.current) r.current.scrollTop = 0; }); }
+    if (st === 1 || st === 3) {
+      const n = st === 1 ? Math.floor(nCells(t) / 5) : nScore(t);
+      if (n > 2 && n !== this._lastCard) { this._lastCard = n; const v = this.leftRef.current, el = v && v.querySelector('[data-card="' + (n - 1) + '"]'); if (el) this.animScroll(v, el.offsetTop + el.offsetHeight - v.clientHeight + 40, 400); }
+    }
+    if (st === 2) [this.spRef, this.siRef].forEach(r => { const v = r.current; if (v && v.scrollHeight !== v._h) { v._h = v.scrollHeight; this.animScroll(v, v.scrollHeight, 350); } });
+  }
+  flashCard(el) {
+    if (this._flashEl && this._flashEl !== el) { this._flashEl.style.boxShadow = ''; this._flashEl.style.borderColor = ''; }
+    clearTimeout(this._flashT);
+    this._flashEl = el;
+    el.style.transition = 'box-shadow .25s ease, border-color .25s ease';
+    el.style.borderColor = '#111111';
+    el.style.boxShadow = '0 0 0 3px rgba(17,17,17,.12)';
+    this._flashT = setTimeout(() => { el.style.boxShadow = ''; el.style.borderColor = ''; this._flashEl = null; }, 1600);
+  }
+  animScroll(v, to, dur = 260) {
+    to = Math.max(0, Math.min(to, v.scrollHeight - v.clientHeight));
+    const from = v.scrollTop, t0 = performance.now();
+    if (v._raf) cancelAnimationFrame(v._raf);
+    const step = now => { const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3); v.scrollTop = from + (to - from) * e; if (k < 1) v._raf = requestAnimationFrame(step); };
+    v._raf = requestAnimationFrame(step);
+  }
+  start() {
+    this._st = null;
+    this.setState({ phase: 'running', t: 0, sel: null, viewStage: null, approved: {} });
+  }
+  setApproved(fn) { this.setState(s => { const approved = fn(s.approved); this.persist({ phase: s.phase, t: s.t, approved }); return { approved }; }); }
+
+  renderVals() {
+    const { phase, t, sel, approved, xy } = this.state;
+    const idle = phase === 'idle', done = phase === 'done';
+    const stage = idle ? -1 : stageOf(t);
+    const view = done && this.state.viewStage != null ? this.state.viewStage : stage;
+    const ns = nScored(t), np = nPins(t), nc = nCells(t), nf = nFacts(t), nsc = nScore(t);
+
+    const ease = x => 1 - Math.pow(1 - Math.max(0, Math.min(1, x)), 1.5);
+    let prog = 0;
+    if (done) prog = 100;
+    else if (!idle) { const R = [[0, T.contact, 0, 25], [T.contact, T.q, 25, 50], [T.q, T.select, 50, 75], [T.select, T.end, 75, 97]]; const r = R.find(r => t < r[1]) || R[3]; prog = r[2] + (r[3] - r[2]) * ease((t - r[0]) / (r[1] - r[0])); }
+
+    const steps = ['Find', 'Contact', 'Questionnaire', 'Select'].map((label, i) => {
+      const isDone = done || i < stage, active = !done && i === stage, viewing = done && view === i;
+      return {
+        label, notFirst: i > 0, mark: isDone ? '✓' : String(i + 1),
+        go: done ? () => this.setState({ viewStage: i }) : undefined,
+        arrowStyle: { fontSize: 13, color: i <= stage || done ? '#2F3437' : '#C9C8C4', transition: 'color .4s' },
+        dotStyle: { width: 22, height: 22, borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 11, fontFamily: mono, background: isDone ? '#111111' : '#FFFFFF', color: isDone ? '#FFFFFF' : active ? '#111111' : '#A5A39F', border: '1px solid ' + (isDone || active ? '#111111' : '#DDDCD8'), boxShadow: active ? '0 0 0 3px #E1F3FE' : 'none', cursor: done ? 'pointer' : 'default', transition: 'all .3s' },
+        labelStyle: { fontSize: 13, fontWeight: active || viewing ? 600 : 500, color: isDone || active ? '#2F3437' : '#A5A39F', cursor: done ? 'pointer' : 'default', textDecorationLine: viewing ? 'underline' : 'none', textUnderlineOffset: '4px' }
+      };
+    });
+
+    const vFind = view === 0, vContact = view === 1, vQ = view === 2, vSelect = view === 3;
+    const selSite = i => () => this.setState({ sel: i });
+
+    // Stage 1
+    let dots = [], pins = [], cands = [], why = null;
+    if (vFind) {
+      const pinned = np >= 50;
+      if (xy) {
+        for (let i = 0; i < ALL.length; i++) {
+          const p = xy[i]; if (!p || POS[i] >= ns) continue; if (i < np) continue;
+          dots.push({ position: 'absolute', left: (p[0] / 9.75) + '%', top: (p[1] / 6.1) + '%', width: 5, height: 5, marginLeft: -2.5, marginTop: -2.5, borderRadius: 1, background: fitColor(ALL[i].fit), opacity: np > 0 ? .35 : .9, transition: 'opacity .5s' });
+        }
+        for (let i = Math.min(np, 50) - 1; i >= 0; i--) {
+          const p = xy[i]; if (!p) continue;
+          const big = i < 12, isSel = sel === i, s = big ? 18 : 11;
+          pins.push({
+            label: big ? String(i + 1) : '', title: '#' + (i + 1) + ' ' + ALL[i].name + ' · fit ' + ALL[i].fit.toFixed(2), select: selSite(i),
+            style: { position: 'absolute', left: (p[0] / 9.75) + '%', top: (p[1] / 6.1) + '%', transform: 'translate(-50%,-50%)', width: s, height: s, borderRadius: 3, background: fitColor(ALL[i].fit), color: '#1E2833', fontFamily: mono, fontSize: 9.5, fontWeight: 500, display: 'grid', placeItems: 'center', cursor: 'pointer', zIndex: isSel ? 60 : 50 - i, boxShadow: isSel ? '0 0 0 2px #FFFFFF, 0 0 0 4px #111111' : '0 0 0 1px rgba(47,59,74,.5), 0 1px 3px rgba(0,0,0,.18)', animation: 'pinIn .45s cubic-bezier(.16,1,.3,1) both', transition: 'box-shadow .2s' }
+          });
+        }
+      }
+      const sorted = ns >= 480;
+      for (let p = 0; p < 480; p++) {
+        const idx = sorted ? p : ORDER[p], scored = sorted || p < ns, cur = !sorted && p === ns, top = idx < 50;
+        const isSel = sel === idx && pinned;
+        cands.push({
+          select: pinned && top ? selSite(idx) : undefined,
+          style: { aspectRatio: '1', borderRadius: 1.5, background: cur ? '#111111' : scored ? fitColor(ALL[idx].fit) : '#F1F0EC', opacity: sorted && !top && np > 0 ? .45 : 1, cursor: pinned && top ? 'pointer' : 'default', boxShadow: isSel ? '0 0 0 1.5px #111111' : 'none', transition: 'background .25s, opacity .5s' }
+        });
+      }
+      if (sel != null && pinned) {
+        const s = ALL[sel], r = rnd(sel * 7 + 1), cl = v => Math.max(.2, Math.min(.99, v));
+        const factors = [['Indication experience', cl(s.fit + .02 + (r() - .5) * .06)], ['Enrollment record', cl(s.fit - .03 + (r() - .5) * .1)], ['Drug-class experience', cl(s.fit - .05 + (r() - .5) * .14)], ['Recency', cl(s.fit + (r() - .5) * .1)]];
+        const trials = trialsFor(sel);
+        why = {
+          name: s.name, city: s.city, fit: s.fit.toFixed(2), rank: sel + 1, reason: s.reason, hasReason: !!s.reason, nTrials: trials.length,
+          swatch: { width: 30, height: 30, borderRadius: 5, background: fitColor(s.fit), color: '#1E2833', display: 'grid', placeItems: 'center', fontFamily: mono, fontSize: 12, fontWeight: 500, flex: 'none', boxShadow: '0 0 0 1px rgba(47,59,74,.3)' },
+          factors: factors.map(([label, v]) => ({ label, v: v.toFixed(2), bar: { height: '100%', width: (v * 100) + '%', background: fitColor(v), borderRadius: 2 } })),
+          trials: trials.map(tr => ({ ...tr, pctStyle: { fontFamily: mono, fontSize: 11, color: tr.good ? '#346538' : '#787774', whiteSpace: 'nowrap' } }))
+        };
+      }
+    }
+
+    // Stage 2
+    const rowsDone = done ? 12 : Math.floor(nc / 5);
+    const contactCards = TOP12.slice(0, rowsDone).map((s, i) => {
+      const c = CONTACTS[i], filled = Math.round(c.conf * 10);
+      return {
+        i, rank: i + 1, site: s.name, pi: c.pi, alts: 'Also ' + c.alts, ev: c.ev, office: s.office,
+        swatch: { width: 12, height: 12, borderRadius: 2, background: fitColor(ALL[i].fit), boxShadow: '0 0 0 1px rgba(47,59,74,.3)', flex: 'none' },
+        confBar: { height: '100%', width: Math.round(c.conf * 100) + '%', background: '#4C6177', borderRadius: 2 },
+        confLabel: Math.round(c.conf * 100) + '% confidence',
+        badge: c.ok ? '✓ NPI verified' : '! Not verified · ' + c.badge,
+        badgeStyle: { background: c.ok ? '#EDF3EC' : '#FBF3DB', color: c.ok ? '#346538' : '#956400', borderRadius: 4, padding: '3px 8px', fontSize: 12, fontWeight: 500 },
+        hasNote: !!c.note, note: c.note
+      };
+    });
+    const cellsN = done || t >= T.q ? 60 : nc;
+    const matrix = TOP12.map((s, si) => ({
+      label: (si + 1) + '  ' + s.short,
+      cells: SRC.map((_, k) => {
+        const idx = si * 5 + k, st = CONTACTS[si].src[k], filled = idx < cellsN, cur = idx === cellsN && stage === 1;
+        const base = { height: 22, borderRadius: 3, display: 'grid', placeItems: 'center', fontFamily: mono, fontSize: 10.5, transition: 'background .2s' };
+        if (cur) return { mark: '', style: { ...base, background: '#E1F3FE', boxShadow: 'inset 0 0 0 1px #9CC9E8' } };
+        if (!filled) return { mark: '', style: { ...base, background: '#F7F6F3' } };
+        if (st === 'o') return { mark: '✓', style: { ...base, background: '#D3E5F5', color: '#1F4E73' } };
+        if (st === 'w') return { mark: '!', style: { ...base, background: '#FBF3DB', color: '#956400', fontWeight: 600 } };
+        return { mark: '–', style: { ...base, background: '#EFEEEA', color: '#A5A39F' } };
+      })
+    }));
+    const checkLog = [];
+    for (let i = cellsN - 1; i >= 0 && checkLog.length < 5; i--) { const s = Math.floor(i / 5), k = i % 5; checkLog.push({ src: SRC_SHORT[k] + ' · ' + (s + 1), text: logText(s, k) }); }
+    const verified = CONTACTS.slice(0, rowsDone).filter(c => c.ok).length;
+
+    // Stage 3
+    const tq = done ? T.end : t;
+    const facts = FACTS.slice(0, done ? 20 : nf).map(([t2, s]) => ({ t: t2, s }));
+    const answers = [];
+    QS.forEach((q, i) => {
+      if (tq < ansAt(0, i)) return;
+      const human = HUMAN[Q_SITE].includes(i), note = q[4] || '';
+      answers.push({
+        n: i + 1, q: q[0], ans: q[1], src: q[2], human, known: !!q[1], note, hasNote: !!note, noteStyle: { fontSize: 12, lineHeight: 1.45, color: note[0] === '⚠' ? '#956400' : '#787774', textWrap: 'pretty' },
+        style: { borderRadius: 8, padding: '10px 12px', display: 'flex', flexDirection: 'column', gap: 5, background: human ? '#FBF3DB' : '#FFFFFF', border: '1px solid ' + (human ? '#F2D27A' : '#EAEAEA'), animation: 'popIn .35s cubic-bezier(.16,1,.3,1) both' },
+        chipStyle: { border: '1px solid ' + (human ? '#E8CF8A' : '#D3E5F5'), background: human ? 'transparent' : '#EEF5FC', color: human ? '#956400' : '#1F4E73', borderRadius: 4, padding: '2px 7px', fontFamily: mono, fontSize: 10.5 }
+      });
+    });
+    let qAnswered = 0, qHuman = 0;
+    const qGrid = TOP12.map((s, si) => ({
+      label: (si + 1) + '  ' + s.short,
+      cells: QS.map((_, i) => {
+        const filled = tq >= ansAt(si, i), human = HUMAN[si].includes(i);
+        if (filled) { if (human) qHuman++; else qAnswered++; }
+        return { aspectRatio: '1', maxHeight: 16, borderRadius: 2, background: !filled ? '#F1F0EC' : human ? '#F2D27A' : '#BEDEF7', transition: 'background .2s' };
+      })
+    }));
+
+    // Stage 4
+    const nCardsSel = done ? 12 : nsc;
+    const scorecards = TOP12.slice(0, nCardsSel).map((s, i) => {
+      const dc = DEC[i], col = DCOL[dc.d], isApproved = !!approved[i];
+      const req = QS.map((_, q) => dc.fails[q] || (HUMAN[i].includes(q) ? 'u' : 'g'));
+      const met = req.filter(x => x === 'g').length, open = req.filter(x => x === 'u').length;
+      return {
+        i, rank: i + 1, site: s.name, decision: col.label, reasons: dc.reasons, fu: dc.fu, isApproved, pending: !isApproved,
+        draftState: isApproved ? 'Sent' : 'Draft · not sent',
+        sentLabel: dc.fu.length + ' follow-up' + (dc.fu.length > 1 ? 's' : '') + ' sent to ' + CONTACTS[i].pi,
+        approve: () => this.setApproved(a => ({ ...a, [i]: true })),
+        undo: () => this.setApproved(a => { const n = { ...a }; delete n[i]; return n; }),
+        pillStyle: { background: col.bg, color: col.fg, borderRadius: 9999, padding: '3px 10px', fontSize: 11, letterSpacing: '0.04em', textTransform: 'uppercase', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 6 },
+        dotStyle: { width: 8, height: 8, borderRadius: 2, background: col.sq, flex: 'none', marginTop: 6 },
+        req: req.map(x => ({ flex: 1, height: 12, borderRadius: 2, background: x === 'g' ? '#A9CFA8' : x === 'y' ? '#F2D27A' : x === 'r' ? '#E8A3A1' : '#E6E5E1' })),
+        reqLabel: met + ' of 16 met · ' + open + ' open' + (Object.keys(dc.fails).length ? ' · ' + Object.keys(dc.fails).length + ' flagged' : '')
+      };
+    });
+    const shownDec = DEC.slice(0, nCardsSel);
+    const cnt = k => shownDec.filter(d => d.d === k).length;
+    const pill = (bg, fg) => ({ background: bg, color: fg, borderRadius: 9999, padding: '3px 9px', fontSize: 10.5, letterSpacing: '0.06em', textTransform: 'uppercase', fontWeight: 500, whiteSpace: 'nowrap' });
+    const decCounts = [['g', 'Green'], ['y', 'Yellow'], ['r', 'Red']].map(([k, l]) => ({ label: cnt(k) + ' ' + l, style: pill(DCOL[k].bg, DCOL[k].fg) }));
+    const decSquares = TOP12.map((s, i) => {
+      const shown = i < nCardsSel, d = DEC[i].d, ap = !!approved[i];
+      return {
+        rank: String(i + 1), title: s.name, go: shown ? () => { const v = this.leftRef.current, el = v && v.querySelector('[data-card="' + i + '"]'); if (el) { this.animScroll(v, el.offsetTop - 20); this.flashCard(el); } } : undefined,
+        style: { aspectRatio: '1', borderRadius: 5, display: 'grid', placeItems: 'center', fontFamily: mono, fontSize: 12, fontWeight: 500, background: shown ? DCOL[d].sq : '#F1F0EC', color: shown ? '#1E2833' : '#C9C8C4', boxShadow: ap ? 'inset 0 0 0 2px #111111' : 'none', cursor: shown ? 'pointer' : 'default', transition: 'background .3s, box-shadow .2s' }
+      };
+    });
+    const nAp = Object.keys(approved).length;
+    const greenPending = TOP12.map((_, i) => i).filter(i => i < nCardsSel && DEC[i].d === 'g' && !approved[i]);
+
+    // ticker
+    let ticker = 'Waiting to start';
+    if (!idle) {
+      if (done) ticker = '';
+      else if (stage === 0) {
+        if (t < T.scoreEnd) { const s = ALL[ORDER[Math.max(0, ns - 1)]]; ticker = 'Scoring ' + s.name + ' · fit ' + s.fit.toFixed(2); }
+        else if (np < 50) { const s = ALL[np - 1]; ticker = 'Pinning #' + np + ' ' + s.name; }
+        else ticker = '50 sites shortlisted from 480';
+      } else if (stage === 1) { const i = Math.max(0, nc - 1), s = Math.floor(i / 5), k = i % 5; ticker = SRC[k] + ' · ' + TOP12[s].short + ': ' + logText(s, k); }
+      else if (stage === 2) {
+        if (t < T.sent) ticker = 'Sponsor agent: listing what public records already answer';
+        else if (t < T.ans) ticker = 'Sending 16 questions to 12 sites';
+        else if (t < T.qDone) { const i = Math.min(15, Math.floor((t - T.ans) / .37)); ticker = 'Site agents answering Q' + (i + 1) + ': ' + QS[i][0]; }
+        else ticker = 'Questionnaires back from 12 sites';
+      } else { const i = Math.max(0, nsc - 1); ticker = 'Checking ' + TOP12[i].short + ' against protocol requirements'; }
+    }
+
+    return {
+      isIdle: idle, notIdle: !idle, steps, ticker,
+      progressStyle: { height: '100%', width: prog.toFixed(1) + '%', background: done ? '#346538' : '#111111', borderRadius: 5, transition: 'width .25s linear, background .4s' },
+      progressLabel: Math.floor(prog) + '%',
+      restartLabel: done ? 'Run again' : 'Restart', restart: () => this.start(), startDemo: () => this.start(),
+      leftRef: this.leftRef, panelRef: this.panelRef, spRef: this.spRef, siRef: this.siRef,
+      vFind, vContact, vQ, vSelect,
+      mapHeadline: 'Top 50 sites',
+      mapHint: np >= 50 ? 'Click a pin to see the past trials behind it.' : 'Faint squares are sites scored so far.',
+      dots, pins, cands, hasWhy: !!why, why: why || {},
+      findHeadline: '480 candidates',
+      gridLabel: ns < 480 ? 'In scoring order' : 'Sorted by fit',
+      scoredLabel: ns + ' / 480',
+      contactHeadline: '12 contacts',
+      contactCards, srcShort: SRC_SHORT, matrix, checkLog,
+      matrixHeadline: 'Sources',
+      sp1: tq >= T.q, sp2: tq >= T.q + .4, sp3: tq >= T.sent, sp4: tq >= T.qDone + .3,
+      si1: tq >= T.ans - .3, si3: tq >= T.qDone,
+      factsN: facts.length, facts,
+      qList: QS.map((q, i) => ({ n: i + 1, q: q[0], o: q[3] })),
+      answers, qGrid, qAnswered, qHuman, qNums: QS.map((_, i) => String(i + 1)),
+      qHeadline: '12 sites',
+      selectHeadline: '12 decisions',
+      scorecards, decCounts, decSquares,
+      decHeadline: nCardsSel < 12 ? 'Drafting decisions…' : cnt('g') + ' ready, ' + cnt('y') + ' with conditions',
+      approvedLabel: nAp ? nAp + ' of 12 approved. Follow-ups went to those sites only.' : 'Nothing sent yet. 0 of 12 approved.',
+      canApproveGreen: greenPending.length > 0 && nCardsSel === 12,
+      approveGreenLabel: 'Approve all green',
+      approveGreen: () => this.setApproved(a => { const n = { ...a }; greenPending.forEach(i => { n[i] = true; }); return n; }),
+      showReplayTag: (this.props.showReplayTag ?? true) && !idle,
+      replayTag: 'Replay · LINKER-MM3 · ' + this.speed() + '×'
+    };
+  }
+}
+</script>
+</body>
+</html>

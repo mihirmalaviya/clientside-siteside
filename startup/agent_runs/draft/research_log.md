@@ -1,0 +1,23 @@
+# Research log
+- Read protocol.md, brief.md, ctg.py, ctg_config.json (cutoff 2026-10-12, hidden=none).
+- ctg.py '{"query.cond":"multiple myeloma","query.locn":"Levine Cancer Institute"}' --pi --max 5000 (88 rows)
+- ctg.py '{"query.cond":"multiple myeloma","query.locn":"Carolinas Medical Center"}' --pi --max 5000 (30 rows)
+- ctg.py '{"query.cond":"multiple myeloma","query.locn":"Atrium Health"}' --pi --max 5000 (41 rows); merged into 127 unique trials, 98 with a Charlotte LCI/Atrium/CMC location
+- ctg.py '{"query.term":"linvoseltamab"}' --max 200 (all linvoseltamab trials)
+- ctg.py '{"query.term":"linvoseltamab"}' --pi --max 200 (Charlotte sites on linvoseltamab trials: NCT05730036, NCT05828511, NCT07053436)
+- WebSearch: "Lynozyfic linvoseltamab prescribing information step-up dosing hospitalization 24 hours REMS"
+- WebSearch: "LINKER-MM3 linvoseltamab phase 3 step-up dosing hospitalization tocilizumab"
+- WebSearch: "Levine Cancer Institute multiple myeloma plasma cell disorders program bispecific CAR-T FACT accreditation"
+- WebSearch: "Empliciti elotuzumab pomalidomide dexamethasone dosing infusion premedication Pomalyst REMS certification"
+- WebFetch: https://www.drugs.com/pro/lynozyfic.html (HTTP 403, no data)
+- WebFetch: https://www.regeneron.com/downloads/lynozyfic_fpi.pdf (LYNOZYFIC USPI, text extracted locally with pdftotext; sections 2.1-2.6, 5.2-5.4, 6.1)
+- WebSearch: "Pomalyst REMS prescriber pharmacy certification requirements pregnancy testing"
+- WebFetch: https://atriumhealth.org/medical-services/specialty-care/cancer-care/multiple-myeloma
+- WebFetch: https://bmtinfonet.org/car-t-cell-therapy-center-directory-search-details/42572
+- WebSearch: "Atrium Health Levine Cancer Institute teclistamab elranatamab bispecific outpatient step-up dosing myeloma"
+- WebSearch: "Atrium Health research IRB reliance central IRB WCG Levine Cancer Institute clinical trials office"
+- WebSearch: "Levine Cancer Institute linvoseltamab LINKER-MM Bhutani Voorhees"
+- WebSearch: "Atrium Health Carolinas Medical Center bed count Level I trauma Charlotte Advocate Health"
+- WebSearch: "LINKER-MM3 trial in progress abstract linvoseltamab EPd Voorhees design hospitalization premedication" (EU CTIS: 380 planned, 65 sites, 7 countries, recruitment ended in EU)
+- WebFetch: https://www.vjhemonc.com/speaker/peter-voorhees/
+- Total web calls: 10 searches + 5 fetches = 15

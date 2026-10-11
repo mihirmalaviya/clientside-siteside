@@ -1,0 +1,48 @@
+[
+ {
+  "stage": "stage1",
+  "duration_s": 166.2,
+  "tokens": 91098,
+  "model": "claude-opus-5-5 (medium)",
+  "reruns": 0
+ },
+ {
+  "stage": "stage2",
+  "duration_s": 711.3,
+  "tokens": 132598,
+  "model": "claude-opus-5-5 (medium)",
+  "reruns": 1,
+  "note": "v2 rerun with explicit contact criteria (v1: attempts/stage2_v1, 608 s / 74K). ~75 web calls vs ~50 budget"
+ },
+ {
+  "stage": "stage3a",
+  "duration_s": 196.8,
+  "tokens": 31709,
+  "model": "claude-opus-5-5 (medium)",
+  "reruns": 1,
+  "note": "attempt 1 failed must-cover 11/14; rerun with a generic coverage checklist passed 13/14"
+ },
+ {
+  "stage": "stage3b_riverside",
+  "duration_s": 60.5,
+  "tokens": 53150,
+  "model": "claude-opus-5-5 (medium)",
+  "reruns": 0
+ },
+ {
+  "stage": "stage3b_public",
+  "duration_s": 297.3,
+  "tokens": 107462,
+  "model": "claude-opus-5-5 (medium)",
+  "reruns": 0,
+  "note": "web budget ran out; several prefill sources marked not found"
+ },
+ {
+  "stage": "stage4",
+  "duration_s": 53.9,
+  "tokens": 18835,
+  "model": "claude-opus-5-5 (medium)",
+  "reruns": 0,
+  "gate": "FAILED"
+ }
+]

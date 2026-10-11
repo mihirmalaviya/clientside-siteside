@@ -1,0 +1,1 @@
+{"message":"JSON Schema validation failed.","status":400,"timestamp":"2026-10-11T10:10:59+00:00","data":{"keyword":"maximum","pointer":"limit","message":"Number must be lower than or equal to 500"}}
