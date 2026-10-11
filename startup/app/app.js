@@ -34,6 +34,7 @@ function init() {
   $('#q0').onkeydown = e => { if (e.key === 'Enter') run($('#q0').value); };
   initDrop();
   initClientDrop();
+  $('#toclient').onclick = () => openClient((RUN.stage3.sites.find(x => x.kind === 'synthetic') || RUN.stage3.sites[0]).key);   // shortcut: straight to the site side, run or not
   setTimeout(() => $('#q0').focus(), 0);
   $('#filter').oninput = e => { S.filter = e.target.value.toLowerCase(); draw(); };
   $('#backtest').onchange = e => { S.backtest = e.target.checked; draw(); };
@@ -291,12 +292,14 @@ function mailText(r) {
   return 'Subject: Feasibility questionnaire: ' + RUN.trial.name + ' (' + RUN.trial.nct + ')\n\nHello ' + to + ',\n\nPlease answer the ' + qs.length + ' questions below for ' + RUN.trial.name + ' (' + RUN.trial.nct + ').\n\n' +
     qs.map((q, i) => (i + 1) + '. ' + q.question).join('\n') + '\n\nThank you,\n' + RUN.trial.sponsor + '\n';
 }
-function copyMail(btn) {
-  const r = ROWS.find(x => x.key === btn.dataset.copymail), text = mailText(r), label = btn.querySelector('span');
-  const done = ok => { label.textContent = ok ? 'Copied' : 'Copy failed'; btn.classList.toggle('ok', ok); setTimeout(() => { label.textContent = 'Copy email'; btn.classList.remove('ok'); }, 1600); };
+function copyText(text, done) {
   const fallback = () => { const ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select();
     let ok = false; try { ok = document.execCommand('copy'); } catch (e) {} ta.remove(); done(ok); };
   navigator.clipboard && window.isSecureContext ? navigator.clipboard.writeText(text).then(() => done(true), fallback) : fallback();
+}
+function copyMail(btn) {
+  const r = ROWS.find(x => x.key === btn.dataset.copymail), label = btn.querySelector('span');
+  copyText(mailText(r), ok => { label.textContent = ok ? 'Copied' : 'Copy failed'; btn.classList.toggle('ok', ok); setTimeout(() => { label.textContent = 'Copy email'; btn.classList.remove('ok'); }, 1600); });
 }
 function sideQuest(r) {
   const qs = RUN.stage3.questionnaire, notes = r.answers.filter(a => a.q_id === 'NOTE');
@@ -370,8 +373,24 @@ function openClient(key) {
   let n = 0; clearTimeout(cTimer);
   const step = () => { C.n = n; drawDraft(); if (n < RUN.stage3.questionnaire.length) { n++; cTimer = setTimeout(step, 250 + Math.random() * 450); } };
   step();
-  $('#cgo').onclick = closeClient;
+  $('#cgo').onclick = sendReply;
   $('#track').classList.add('client-on');
+}
+// the drafted reply as plain text: answers only (evidence and internal notes never leave the site)
+function replyText() {
+  const qs = RUN.stage3.questionnaire, notes = C.ans.filter(a => a.q_id === 'NOTE' && a.answer && !needsHuman(a));
+  return 'Subject: Re: Feasibility questionnaire: ' + RUN.trial.name + ' (' + RUN.trial.nct + ')\n\nHello,\n\nOur answers to your ' + qs.length + ' questions are below.\n\n' +
+    qs.map((q, i) => { const a = C.ans.find(x => x.q_id === q.id) || {};
+      return (i + 1) + '. ' + q.question + '\n' + (a.answer && !needsHuman(a) ? a.answer : 'To follow: our team is confirming this one.'); }).join('\n\n') +
+    (notes.length ? '\n\nAlso worth knowing:\n' + notes.map(a => '- ' + a.answer).join('\n') : '') + '\n\nBest,\n' + C.site.name + ' research office\n';
+}
+// Send = copy the reply to the clipboard, say so, then hand back to the sponsor side
+function sendReply() {
+  const btn = $('#cgo'), tip = $('#cgotip');
+  copyText(replyText(), ok => {
+    tip.textContent = ok ? 'Copied to clipboard' : 'Couldn\'t copy'; tip.classList.add('show');
+    setTimeout(() => { tip.classList.remove('show'); if (ok) closeClient(); }, ok ? 1100 : 1800);
+  });
 }
 function closeClient() { clearTimeout(cTimer); $('#track').classList.remove('client-on'); }
 function drawDraft() {
@@ -419,9 +438,11 @@ function drawLeft() {
   const m = $('#cleft mark'); if (m) m.scrollIntoView({ block: 'center' });
 }
 // a log file shown as the plain text file it is: one size, one spacing, lines as written
+// display only (the file is untouched): no em dashes, each "|" field on its own line, a blank line between original lines
+const logDisplay = text => text.trim().replace(/\s*\u2014\s*/g, ' ').split('\n').map(l => l.split(/\s*\|\s*/).join('\n')).join('\n\n').replace(/\n{3,}/g, '\n\n');
 function textFileHTML(path, text) {
   return '<div class="tf"><div class="tf-h"><span class="mono">' + esc(path) + '</span><span>' + (new Blob([text]).size / 1024).toFixed(1) + ' KB · ' + text.split('\n').filter(l => /^\d{4}-\d\d-\d\d/.test(l)).length + ' entries</span></div>' +
-    '<div class="tf-body">' + text.trim().split('\n').map(l => '<div class="tf-l">' + (esc(l) || '&nbsp;') + '</div>').join('') + '</div></div>';
+    '<div class="tf-body">' + esc(logDisplay(text)) + '</div></div>';
 }
 function drawCFiles(flash) {
   $('#cfiles').innerHTML = CFILES.concat(CDROP.filter(f => !CFILES.includes(f))).map(f => '<li data-cdoc="' + esc(f) + '"' + (f === flash ? ' class="flash"' : '') + ' title="' + esc(f) + '">' + esc(f) + '</li>').join('');
