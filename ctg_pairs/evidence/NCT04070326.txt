@@ -1,0 +1,38 @@
+NCT04070326 — A Study of Lanadelumab to Prevent Hereditary Angioedema (HAE) Attacks in Children
+Sponsor: Shire  Phases: PHASE3  Start: 2019-08-19
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Original Protocol",
+  "date": "2019-05-06",
+  "uploadDate": "2022-04-28T13:04",
+  "typeAbbrev": "Prot",
+  "size": 3596890
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Amendment 1",
+  "date": "2019-08-12",
+  "uploadDate": "2022-04-28T13:06",
+  "typeAbbrev": "Prot",
+  "size": 3349175
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Amendment 2",
+  "date": "2021-06-22",
+  "uploadDate": "2022-04-28T13:18",
+  "typeAbbrev": "Prot",
+  "size": 3428558
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT04070326_Prot_001.pdf p10 (Study Protocol: Amendment 1): 8.1.5 Early Termination ........................................................................................76
+[AVOIDABLE?] NCT04070326_Prot_001.pdf p11 (Study Protocol: Amendment 1): Handling of Missing Data ............................................................................96
+[AVOIDABLE?] NCT04070326_Prot_001.pdf p11 (Study Protocol: Amendment 1): Appendix 1 Regulatory , Ethical, and Study Oversight Considerations...........................99
+[AVOIDABLE?] NCT04070326_Prot_001.pdf p12 (Study Protocol: Amendment 1): Appendix 3.9 Abuse, Misuse, Overdose and Medication Error.............................115
+[UNAVOIDABLE?] NCT04070326_Prot_001.pdf p12 (Study Protocol: Amendment 1): Appendix 3.11 Regulatory Agency, Institutional Review Board, Ethics
+[UNAVOIDABLE?] NCT04070326_Prot_002.pdf p9 (Study Protocol: Amendment 2): 8.1.5 Early Termination ..................................................................................................73
+[AVOIDABLE?] NCT04070326_Prot_002.pdf p10 (Study Protocol: Amendment 2): Handling of Missing Data......................................................................................92
+[AVOIDABLE?] NCT04070326_Prot_002.pdf p11 (Study Protocol: Amendment 2): Appendix 1 Regulatory , Ethical, and Study Oversight Considerations ..........................100

@@ -1,0 +1,40 @@
+NCT02466386 — Safety and Tolerability Study of SPD489 in Preschool Children Aged 4-5 Years, Diagnosed With Attention-deficit/Hyperactivity Disorder
+Sponsor: Shire  Phases: PHASE3  Start: 2015-08-21
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2014-10-21",
+  "uploadDate": "2020-12-21T05:17",
+  "typeAbbrev": "Prot",
+  "size": 1215400
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Amendment 1",
+  "date": "2017-06-28",
+  "uploadDate": "2020-12-21T05:18",
+  "typeAbbrev": "Prot",
+  "size": 2457180
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Amendment 2",
+  "date": "2017-10-20",
+  "uploadDate": "2020-12-21T05:20",
+  "typeAbbrev": "Prot",
+  "size": 2152183
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT02466386_Prot_001.pdf p8 (Study Protocol: Amendment 1): 7.1.2.3 End-of-Study Visit (Visit 18/Early Termination)......................................42
+[AVOIDABLE?] NCT02466386_Prot_001.pdf p9 (Study Protocol: Amendment 1): 8.1.6 Abuse, Misuse, Overdose, and Medication Error
+[UNAVOIDABLE?] NCT02466386_Prot_001.pdf p9 (Study Protocol: Amendment 1): 8.2.1 Reference Safety Information....................................................................54
+[UNAVOIDABLE?] NCT02466386_Prot_001.pdf p9 (Study Protocol: Amendment 1): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee,
+[UNAVOIDABLE?] NCT02466386_Prot_001.pdf p10 (Study Protocol: Amendment 1): 10.1.4 Study Suspension, Termination, and Completion
+[UNAVOIDABLE?] NCT02466386_Prot_002.pdf p7 (Study Protocol: Amendment 2): -of-Study Visit (Visit 18/Early Termination)......................................42
+[AVOIDABLE?] NCT02466386_Prot_002.pdf p8 (Study Protocol: Amendment 2): 8.1.6 Abuse, Misuse, Overdose, and Medication Error......................................54
+[UNAVOIDABLE?] NCT02466386_Prot_002.pdf p8 (Study Protocol: Amendment 2): 8.2.1 Reference Safety Information....................................................................54
+[UNAVOIDABLE?] NCT02466386_Prot_002.pdf p8 (Study Protocol: Amendment 2): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee,
+[UNAVOIDABLE?] NCT02466386_Prot_002.pdf p9 (Study Protocol: Amendment 2): 10.1.4 Study Suspension, Termination, and Completion

@@ -1,0 +1,4 @@
+ctg_*/pdfs/
+*.log
+__pycache__/
+ctg_*/text/

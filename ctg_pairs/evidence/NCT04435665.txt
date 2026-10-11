@@ -1,0 +1,41 @@
+NCT04435665 — NFX-179 Topical Gel Treatment in Adults With Neurofibromatosis 1 (NF1) and Cutaneous Neurofibromas (cNF)
+Sponsor: NFlection Therapeutics, Inc.  Phases: PHASE2  Start: 2020-08-21
+Protocol docs: [
+ {
+  "filename": "Prot_SAP_000.pdf",
+  "label": "Study Protocol and Statistical Analysis Plan: Full Protocol",
+  "date": "2020-07-24",
+  "uploadDate": "2021-08-25T12:27",
+  "typeAbbrev": "Prot_SAP",
+  "size": 1616221
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Amendment 1",
+  "date": "2020-07-20",
+  "uploadDate": "2021-08-25T12:29",
+  "typeAbbrev": "Prot",
+  "size": 1075112
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Amendment 2",
+  "date": "2021-03-25",
+  "uploadDate": "2021-08-25T12:29",
+  "typeAbbrev": "Prot",
+  "size": 1229277
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Amendment 3",
+  "date": "2021-04-01",
+  "uploadDate": "2021-08-25T12:30",
+  "typeAbbrev": "Prot",
+  "size": 614833
+ }
+]
+Registry changes after start: []
+
+[AVOIDABLE?] NCT04435665_Prot_001.pdf p5 (Study Protocol: Amendment 1):  Correct a typographic error to the protocol number on the PROTOCOL APPROAL PAGE
+[AVOIDABLE?] NCT04435665_Prot_001.pdf p5 (Study Protocol: Amendment 1):  Correct an error which instructs the investigator to take standardized photographs at Visits
+[AVOIDABLE?] NCT04435665_Prot_001.pdf p5 (Study Protocol: Amendment 1):  Correct a typographic error; changes to section 6.3.1.

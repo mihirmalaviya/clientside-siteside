@@ -1,0 +1,28 @@
+NCT03585270 — Clinical Research Study With Clazosentan to Evaluate Its Effects on Preventing Complications Due to the Narrowing of the Blood Vessels (Vasospasm) in the Brain, Caused by Bleeding Onto the Surface of the Brain
+Sponsor: Idorsia Pharmaceuticals Ltd.  Phases: PHASE3  Start: 2019-02-03
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2022-02-18",
+  "uploadDate": "2023-06-29T10:45",
+  "typeAbbrev": "Prot",
+  "size": 1940219
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Addendum to protocol",
+  "date": "2020-05-12",
+  "uploadDate": "2023-12-13T08:29",
+  "typeAbbrev": "Prot",
+  "size": 192225
+ }
+]
+Registry changes after start: []
+
+[AVOIDABLE?] NCT03585270_Prot_000.pdf p17 (Study Protocol: Protocol): template, and typographical errors have been corrected.
+[AVOIDABLE?] NCT03585270_Prot_000.pdf p18 (Study Protocol: Protocol): 10.3.2.3 Handling of missing data
+[UNAVOIDABLE?] NCT03585270_Prot_000.pdf p19 (Study Protocol: Protocol): the US FDA review for the Clinical Trial Application,
+[UNAVOIDABLE?] NCT03585270_Prot_000.pdf p19 (Study Protocol: Protocol): Investigator’s Brochure (IB) Version 14 which had
+[UNAVOIDABLE?] NCT03585270_Prot_000.pdf p19 (Study Protocol: Protocol): US FDA on 30 October 2018, following their review
+[UNAVOIDABLE?] NCT03585270_Prot_000.pdf p19 (Study Protocol: Protocol): of the IB Version 13:

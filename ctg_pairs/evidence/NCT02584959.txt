@@ -1,0 +1,75 @@
+NCT02584959 — Study to Evaluate the Clinical Efficacy and Safety of Subcutaneously Administered C1 Esterase Inhibitor for the Prevention of Angioedema Attacks in Adolescents and Adults With Hereditary Angioedema
+Sponsor: Shire  Phases: PHASE3  Start: 2015-11-01
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2015-05-28",
+  "uploadDate": "2018-07-17T07:17",
+  "typeAbbrev": "Prot",
+  "size": 1094178
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Amendment1",
+  "date": "2015-07-22",
+  "uploadDate": "2018-07-17T07:18",
+  "typeAbbrev": "Prot",
+  "size": 1223145
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Amendment2",
+  "date": "2015-09-03",
+  "uploadDate": "2018-07-17T07:20",
+  "typeAbbrev": "Prot",
+  "size": 1210855
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Amendment3",
+  "date": "2016-01-11",
+  "uploadDate": "2018-07-17T07:20",
+  "typeAbbrev": "Prot",
+  "size": 1562709
+ },
+ {
+  "filename": "Prot_004.pdf",
+  "label": "Study Protocol: Amendment4",
+  "date": "2017-02-08",
+  "uploadDate": "2018-07-17T07:21",
+  "typeAbbrev": "Prot",
+  "size": 1226704
+ }
+]
+Registry changes after start: []
+
+[AVOIDABLE?] NCT02584959_Prot_001.pdf p3 (Study Protocol: Amendment1): Corrected the secondary efficacy endpoint for the Angioedema Activity
+[AVOIDABLE?] NCT02584959_Prot_001.pdf p10 (Study Protocol: Amendment1): 8.1.7 Abuse, Misuse, Overdose, and Medication Error..................................................79
+[UNAVOIDABLE?] NCT02584959_Prot_001.pdf p10 (Study Protocol: Amendment1): 8.2.1 Reference Safety Information................................................................................80
+[UNAVOIDABLE?] NCT02584959_Prot_001.pdf p10 (Study Protocol: Amendment1): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee, and Site
+[UNAVOIDABLE?] NCT02584959_Prot_001.pdf p11 (Study Protocol: Amendment1): 10.1.4 Study Suspension, Termination, and Completion .................................................91
+[AVOIDABLE?] NCT02584959_Prot_001.pdf p12 (Study Protocol: Amendment1): Figure 5: Individual and Mean (±SD) Baseline-corrected Cmax Across Treatments for
+[AVOIDABLE?] NCT02584959_Prot_001.pdf p12 (Study Protocol: Amendment1): Figure 6: Individual and Mean (±SD) Baseline-corrected AUClast Across Treatments
+[AVOIDABLE?] NCT02584959_Prot_002.pdf p10 (Study Protocol: Amendment2): 8.1.7 Abuse, Misuse, Overdose, and Medication Error..................................................77
+[UNAVOIDABLE?] NCT02584959_Prot_002.pdf p10 (Study Protocol: Amendment2): 8.2.1 Reference Safety Information................................................................................78
+[UNAVOIDABLE?] NCT02584959_Prot_002.pdf p10 (Study Protocol: Amendment2): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee, and Site
+[UNAVOIDABLE?] NCT02584959_Prot_002.pdf p11 (Study Protocol: Amendment2): 10.1.4 Study Suspension, Termination, and Completion .................................................87
+[AVOIDABLE?] NCT02584959_Prot_002.pdf p12 (Study Protocol: Amendment2): Figure 5: Individual and Mean (±SD) Baseline-corrected Cmax Across Treatments for
+[AVOIDABLE?] NCT02584959_Prot_002.pdf p12 (Study Protocol: Amendment2): Figure 6: Individual and Mean (±SD) Baseline-corrected AUClast Across Treatments
+[AVOIDABLE?] NCT02584959_Prot_003.pdf p3 (Study Protocol: Amendment3): • In order to prevent subjects from missing a scheduled dose of investigational product,
+[AVOIDABLE?] NCT02584959_Prot_003.pdf p4 (Study Protocol: Amendment3): In order to prevent subjects from missing a dose of investigational
+[AVOIDABLE?] NCT02584959_Prot_003.pdf p10 (Study Protocol: Amendment3): 8.1.7 Abuse, Misuse, Overdose, and Medication Error..................................................78
+[UNAVOIDABLE?] NCT02584959_Prot_003.pdf p10 (Study Protocol: Amendment3): 8.2.1 Reference Safety Information................................................................................79
+[UNAVOIDABLE?] NCT02584959_Prot_003.pdf p10 (Study Protocol: Amendment3): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee, and Site
+[UNAVOIDABLE?] NCT02584959_Prot_003.pdf p11 (Study Protocol: Amendment3): 10.1.4 Study Suspension, Termination, and Completion .................................................88
+[AVOIDABLE?] NCT02584959_Prot_003.pdf p12 (Study Protocol: Amendment3): Figure 5: Individual and Mean (±SD) Baseline-corrected Cmax Across Treatments for
+[AVOIDABLE?] NCT02584959_Prot_003.pdf p12 (Study Protocol: Amendment3): Figure 6: Individual and Mean (±SD) Baseline-corrected AUClast Across Treatments
+[AVOIDABLE?] NCT02584959_Prot_004.pdf p4 (Study Protocol: Amendment4): considerations. Corrected typographical errors.
+[UNAVOIDABLE?] NCT02584959_Prot_004.pdf p4 (Study Protocol: Amendment4): Clarified that the sponsor may suspend or terminate the study if
+[AVOIDABLE?] NCT02584959_Prot_004.pdf p9 (Study Protocol: Amendment4): 8.1.7 Abuse, Misuse, Overdose, and Medication Error..................................................75
+[UNAVOIDABLE?] NCT02584959_Prot_004.pdf p9 (Study Protocol: Amendment4): 8.2.1 Reference Safety Information................................................................................76
+[UNAVOIDABLE?] NCT02584959_Prot_004.pdf p10 (Study Protocol: Amendment4): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee, and Site
+[UNAVOIDABLE?] NCT02584959_Prot_004.pdf p10 (Study Protocol: Amendment4): 10.1.4 Study Suspension, Termination, and Completion
+[AVOIDABLE?] NCT02584959_Prot_004.pdf p12 (Study Protocol: Amendment4): Figure 5 Individual and Mean (±SD) Baseline-corrected Cmax Across Treatments
+[AVOIDABLE?] NCT02584959_Prot_004.pdf p12 (Study Protocol: Amendment4): Figure 6 Individual and Mean (±SD) Baseline-corrected AUClast Across

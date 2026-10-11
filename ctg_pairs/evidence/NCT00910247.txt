@@ -1,0 +1,26 @@
+NCT00910247 — Eslicarbazepine Acetate Monotherapy Long Term Study
+Sponsor: Sumitomo Pharma America, Inc.  Phases: PHASE3  Start: 2009-08
+Protocol docs: [
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Final",
+  "date": "2013-06-07",
+  "uploadDate": "2018-04-12T10:54",
+  "typeAbbrev": "Prot",
+  "size": 3266938
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Amendment history",
+  "date": "2013-11-15",
+  "uploadDate": "2018-05-14T12:22",
+  "typeAbbrev": "Prot",
+  "size": 265263
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT00910247_Prot_002.pdf p2 (Study Protocol: Amendment history): FDA feedback received from a Special Protocol Assessment (SPA) request necessitated an
+[UNAVOIDABLE?] NCT00910247_Prot_002.pdf p3 (Study Protocol: Amendment history): the USA (3-5 June 2009). Based on feedback received from the regulatory authority and by US
+[UNAVOIDABLE?] NCT00910247_Prot_002.pdf p5 (Study Protocol: Amendment history): available in the subject’s locale, or the sponsor terminates the study drug clinical
+[UNAVOIDABLE?] NCT00910247_Prot_002.pdf p6 (Study Protocol: Amendment history): Sections 11.1 (ECGs); 11.4.9 (End of Study/Early Termination); Appendix III (Cardiac

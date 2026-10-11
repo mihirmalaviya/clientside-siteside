@@ -1,0 +1,60 @@
+NCT01945593 — BAX 855 Continuation
+Sponsor: Baxalta now part of Shire  Phases: PHASE3  Start: 2013-10-15
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2013-06-18",
+  "uploadDate": "2019-02-27T09:12",
+  "typeAbbrev": "Prot",
+  "size": 372302
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Protocol Amendment 1",
+  "date": "2013-10-02",
+  "uploadDate": "2019-02-27T09:13",
+  "typeAbbrev": "Prot",
+  "size": 386345
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Protocol Amendment 4",
+  "date": "2014-05-23",
+  "uploadDate": "2019-02-27T09:13",
+  "typeAbbrev": "Prot",
+  "size": 861080
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Protocol Amendment 7",
+  "date": "2015-03-20",
+  "uploadDate": "2019-02-27T09:14",
+  "typeAbbrev": "Prot",
+  "size": 818534
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT01945593_Prot_001.pdf p16 (Study Protocol: Protocol Amendment 1): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01945593_Prot_001.pdf p17 (Study Protocol: Protocol Amendment 1): IB Investigator Brochure
+[UNAVOIDABLE?] NCT01945593_Prot_001.pdf p19 (Study Protocol: Protocol Amendment 1): BAX 855 Investigator Brochure (IB).
+[UNAVOIDABLE?] NCT01945593_Prot_001.pdf p20 (Study Protocol: Protocol Amendment 1): from use of ADVATE (additional information can be found in the ADVATE IB). The
+[UNAVOIDABLE?] NCT01945593_Prot_001.pdf p20 (Study Protocol: Protocol Amendment 1): recommendations in the EMA/CHMP/BPWP/144533/2009 guideline.6 Doses as high as
+[UNAVOIDABLE?] NCT01945593_Prot_001.pdf p20 (Study Protocol: Protocol Amendment 1): Overall exposure is based on the guideline EMA/CHMP/BPWP/144533/2009 for market
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p18 (Study Protocol: Protocol Amendment 4): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p18 (Study Protocol: Protocol Amendment 4): FDA US Food and Drug Administration
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p19 (Study Protocol: Protocol Amendment 4): IB Investigator Brochure
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p19 (Study Protocol: Protocol Amendment 4): PMDA Pharmaceuticals and Medical Devices Agency
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p21 (Study Protocol: Protocol Amendment 4): Investigator Brochure (IB).
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p21 (Study Protocol: Protocol Amendment 4): (EMA) guidance outlined in EMA/CHMP/BPWP/144533/20096 and consists of
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p113 (Study Protocol: Protocol Amendment 4): c) To comply with a regulatory request from Germany.
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p113 (Study Protocol: Protocol Amendment 4): Description of Change: Description that sample size is only based on EMA
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p113 (Study Protocol: Protocol Amendment 4): : To clarify that the sample size is based on EMA guidance.
+[UNAVOIDABLE?] NCT01945593_Prot_002.pdf p114 (Study Protocol: Protocol Amendment 4): performed for the license submission to the EMA and the second may be
+[UNAVOIDABLE?] NCT01945593_Prot_003.pdf p18 (Study Protocol: Protocol Amendment 7): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01945593_Prot_003.pdf p18 (Study Protocol: Protocol Amendment 7): FDA US Food and Drug Administration
+[UNAVOIDABLE?] NCT01945593_Prot_003.pdf p19 (Study Protocol: Protocol Amendment 7): IB Investigator Brochure
+[UNAVOIDABLE?] NCT01945593_Prot_003.pdf p19 (Study Protocol: Protocol Amendment 7): PMDA Pharmaceuticals and Medical Devices Agency
+[UNAVOIDABLE?] NCT01945593_Prot_003.pdf p21 (Study Protocol: Protocol Amendment 7): Investigator Brochure (IB).
+[UNAVOIDABLE?] NCT01945593_Prot_003.pdf p21 (Study Protocol: Protocol Amendment 7): (EMA) guidance outlined in EMA/CHMP/BPWP/144533/20096 and consists of

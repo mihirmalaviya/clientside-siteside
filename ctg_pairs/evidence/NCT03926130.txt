@@ -1,0 +1,106 @@
+NCT03926130 — A Study of Mirikizumab (LY3074828) in Participants With Crohn's Disease
+Sponsor: Eli Lilly and Company  Phases: PHASE3  Start: 2019-07-23
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Main",
+  "date": "2022-02-23",
+  "uploadDate": "2024-07-15T12:31",
+  "typeAbbrev": "Prot",
+  "size": 1796566
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Addendum",
+  "date": "2022-10-07",
+  "uploadDate": "2024-07-15T12:36",
+  "typeAbbrev": "Prot",
+  "size": 1465073
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p3 (Study Protocol: Main): objectives and endpoints in response to Food and Drug Administration (FDA) feedback.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p3 (Study Protocol: Main): table. Other minor typographical corrections not affecting content have also been made in the
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p3 (Study Protocol: Main): 1.1. Synopsis Updated objectives and endpoints Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p4 (Study Protocol: Main): Replaced assessment by PRO to CDAI  Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p4 (Study Protocol: Main): Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p4 (Study Protocol: Main): Alignment to FDA
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p4 (Study Protocol: Main): Alignment to FDA
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p5 (Study Protocol: Main): Alignment to FDA
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p5 (Study Protocol: Main): Correction
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p5 (Study Protocol: Main): Alignment to FDA
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p6 (Study Protocol: Main): Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p6 (Study Protocol: Main): Determination
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p6 (Study Protocol: Main): Address FDA feedback
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p6 (Study Protocol: Main): 9.4.1.3. Missing Data
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p7 (Study Protocol: Main): Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p10 (Study Protocol: Main): 9.2 Sample Size Determination ............................................................................................86
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p10 (Study Protocol: Main): 9.4.1.3 Missing Data Imputation ................................................................................................89
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p11 (Study Protocol: Main): 10.1 Appendix 1:  Regulatory, Ethical, and Study Oversight
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p14 (Study Protocol: Main): ‘graphical multiple testing procedure’ to control the overall family-wise type I error rate at a 2-sided alpha level
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p123 (Study Protocol: Main): clarity to specific sections or items, to better fit the protocol to the clinical reality and to correct
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p123 (Study Protocol: Main): errors.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p123 (Study Protocol: Main): The following global changes in terminology or corrected errors were made throughout the
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p123 (Study Protocol: Main):  Corrected “>50% reduction” to “≥50% reduction” for the Endoscopic Response definition
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p123 (Study Protocol: Main): throughout document to correct a preexisting error.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p123 (Study Protocol: Main): Other minor typographical corrections and clarifications or semantic changes not affecting
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p125 (Study Protocol: Main): Correction of error
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p125 (Study Protocol: Main): Size Determination
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p127 (Study Protocol: Main): include pandemics or natural disasters.  These disruptions may limit the ability of the
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p127 (Study Protocol: Main): Other minor typographical corrections and clarifications or semantic changes not affecting
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p127 (Study Protocol: Main): COVID-19 pandemic,
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p128 (Study Protocol: Main):  Correction of error
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p130 (Study Protocol: Main):  Criterion [28]:  Correct
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p130 (Study Protocol: Main): omission and improve
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p131 (Study Protocol: Main):  Correction of error.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p131 (Study Protocol: Main): 6.5 Concomitant Therapy  Renumbered from 6.5.1 to 6.5.    Correction/Clarification.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p131 (Study Protocol: Main):  Correction/Clarification.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p132 (Study Protocol: Main):  Correction/Clarification.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p132 (Study Protocol: Main):  Corrected to align with
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p132 (Study Protocol: Main): Determination
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p132 (Study Protocol: Main): 9.4.1.3 Missing Data
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p132 (Study Protocol: Main): missing data imputation.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p135 (Study Protocol: Main): Alignment with Section 3.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p135 (Study Protocol: Main): Correction.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): count, and corrected unit for
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): Correction of errors.
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): Determination
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): sample size determination.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): Correction: analysis is not
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): 9.4.1.3 Missing Data
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p137 (Study Protocol: Main): Correction: alignment with
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p138 (Study Protocol: Main): Alignment with Section 3.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p138 (Study Protocol: Main): 9.4.7.1 Health Economics Added “FACIT-Fatigue.” Correction.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p138 (Study Protocol: Main): Correction.
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p139 (Study Protocol: Main): objectives and endpoints in response to Food and Drug Administration (FDA) feedback.
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p139 (Study Protocol: Main): table. Other minor typographical corrections not affecting content have also been made in the
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p139 (Study Protocol: Main): 1.1. Synopsis Updated objectives and endpoints Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p139 (Study Protocol: Main): Replaced assessment by PRO to CDAI  Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p139 (Study Protocol: Main): Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p140 (Study Protocol: Main): Alignment to FDA
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p140 (Study Protocol: Main): Alignment to FDA
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p140 (Study Protocol: Main): Alignment to FDA
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p141 (Study Protocol: Main): Correction
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p141 (Study Protocol: Main): Alignment to FDA
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p142 (Study Protocol: Main): Address FDA feedback
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p142 (Study Protocol: Main): Determination
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p142 (Study Protocol: Main): Address FDA feedback
+[AVOIDABLE?] NCT03926130_Prot_000.pdf p142 (Study Protocol: Main): 9.4.1.3. Missing Data
+[UNAVOIDABLE?] NCT03926130_Prot_000.pdf p142 (Study Protocol: Main): Address FDA feedback
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p7 (Study Protocol: Addendum): Alignment with the Schedule of
+[UNAVOIDABLE?] NCT03926130_Prot_001.pdf p7 (Study Protocol: Addendum): Determination
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p7 (Study Protocol: Addendum): 9.4.1.3. Missing Data
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p8 (Study Protocol: Addendum): Throughout Minor editorial changes. Correction
+[UNAVOIDABLE?] NCT03926130_Prot_001.pdf p11 (Study Protocol: Addendum): 9.2. Sample Size Determination ............................................................................................81
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p11 (Study Protocol: Addendum): 9.4.1.3. Missing Data Imputation ....................................................................................83
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p12 (Study Protocol: Addendum): 10.1. Appendix 1:  Regulatory, Ethical, and Study Oversight
+[UNAVOIDABLE?] NCT03926130_Prot_001.pdf p125 (Study Protocol: Addendum): include pandemics or natural disasters.  These disruptions may limit the ability of the
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p125 (Study Protocol: Addendum): Other minor typographical corrections and clarifications or semantic changes not affecting
+[UNAVOIDABLE?] NCT03926130_Prot_001.pdf p125 (Study Protocol: Addendum): disease 2019 pandemic,
+[UNAVOIDABLE?] NCT03926130_Prot_001.pdf p127 (Study Protocol: Addendum): To reflect the safety data
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p130 (Study Protocol: Addendum): Correction/clarification.
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p130 (Study Protocol: Addendum): Correct prior inadvertent
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p130 (Study Protocol: Addendum): errors in original protocol.
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p130 (Study Protocol: Addendum): Clarification/correction.
+[AVOIDABLE?] NCT03926130_Prot_001.pdf p130 (Study Protocol: Addendum): Correction to be consistent

@@ -1,0 +1,83 @@
+NCT01297309 — A Open-label Study Investigating the Safety and Tolerability of NPSP558, a Recombinant Human Parathyroid Hormone (rhPTH [1-84]), for the Treatment of Adults With Hypoparathyroidism - A Clinical Extension Study (RACE)
+Sponsor: Shire  Phases: PHASE3  Start: 2011-04-06
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Original Protocol",
+  "date": "2010-12-30",
+  "uploadDate": "2019-07-03T06:37",
+  "typeAbbrev": "Prot",
+  "size": 2234637
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Protocol Amendment 1",
+  "date": "2011-06-29",
+  "uploadDate": "2019-07-03T06:38",
+  "typeAbbrev": "Prot",
+  "size": 2454775
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Protocol Amendment 2",
+  "date": "2011-10-05",
+  "uploadDate": "2019-07-03T07:35",
+  "typeAbbrev": "Prot",
+  "size": 2375142
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Protocol Amendment 3",
+  "date": "2012-03-15",
+  "uploadDate": "2019-07-03T07:38",
+  "typeAbbrev": "Prot",
+  "size": 2348469
+ },
+ {
+  "filename": "Prot_004.pdf",
+  "label": "Study Protocol: Protocol Amendment 5",
+  "date": "2016-05-03",
+  "uploadDate": "2019-07-03T07:39",
+  "typeAbbrev": "Prot",
+  "size": 2109208
+ },
+ {
+  "filename": "Prot_005.pdf",
+  "label": "Study Protocol: Protocol Amendment 6",
+  "date": "2016-10-24",
+  "uploadDate": "2019-07-03T07:39",
+  "typeAbbrev": "Prot",
+  "size": 2755329
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p19 (Study Protocol: Protocol Amendment 5): FDA Food and Drug Administration
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p19 (Study Protocol: Protocol Amendment 5): IB Investigator Brochure
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p81 (Study Protocol: Protocol Amendment 5): New safety endpoints
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p81 (Study Protocol: Protocol Amendment 5): Treatment or early termination visit), subjects will have
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p81 (Study Protocol: Protocol Amendment 5):  Subjects who terminate or complete the study and opt to
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p81 (Study Protocol: Protocol Amendment 5): Figure 3-2 * Subjects who terminate or complete the study and opt to
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p83 (Study Protocol: Protocol Amendment 5): terminated. If at the end of 6 months the subject
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): added as a correction.
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): Abuse, misuse, overdose, or medication error (as defined
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): misuse, overdose, or medication errors unless these result in
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5):  Medication Error – An error made in prescribing,
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): investigational product.  For studies, medication errors
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): Medication errors should be collected/reported for NPSP558
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): reportable as medication errors. The administration and/or use
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p84 (Study Protocol: Protocol Amendment 5): a reportable medication error.
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p90 (Study Protocol: Protocol Amendment 5): New safety endpoints
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p91 (Study Protocol: Protocol Amendment 5): Treatment or early termination visit), subjects will have
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p91 (Study Protocol: Protocol Amendment 5):  Subjects who terminate or complete the study and opt to
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p91 (Study Protocol: Protocol Amendment 5): Figure 3-2 * Subjects who terminate or complete the study and opt to
+[UNAVOIDABLE?] NCT01297309_Prot_004.pdf p93 (Study Protocol: Protocol Amendment 5): terminated. If at the end of 6 months the subject
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p93 (Study Protocol: Protocol Amendment 5): added as a correction.
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): Medication Error
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): Abuse, misuse, overdose, or medication error (as defined
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): misuse, overdose, or medication errors unless these result in
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5):  Medication Error – An error made in prescribing,
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): investigational product.  For studies, medication errors
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): Medication errors should be collected/reported for NPSP558
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): reportable as medication errors. The administration and/or use
+[AVOIDABLE?] NCT01297309_Prot_004.pdf p94 (Study Protocol: Protocol Amendment 5): a reportable medication error.

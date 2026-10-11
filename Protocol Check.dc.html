@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;height:100%;background:#F7F6F3;color:#2F3437;font-family:'Geist','Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#2F3437}a:hover{color:#111}
+button{font-family:inherit}
+@keyframes popIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes dropIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+</style>
+</helmet>
+<div onDragOver="{{ onDragOver }}" onDrop="{{ onDrop }}" style="height:100vh;display:grid;grid-template-rows:auto minmax(0,1fr) auto;background:#F7F6F3">
+  <header style="background:#FFFFFF;border-bottom:1px solid #EAEAEA;padding:14px 24px;display:flex;flex-direction:column;gap:10px">
+    <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:18px;flex:none">
+        <sc-for list="{{ steps }}" as="s" hint-placeholder-count="4">
+          <div onClick="{{ s.go }}" style="display:flex;align-items:center;gap:8px">
+            <div style="{{ s.dotStyle }}">{{ s.mark }}</div>
+            <div style="{{ s.labelStyle }}">{{ s.label }}</div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;flex:1 1 240px;min-width:0">
+        <div style="flex:1;min-width:120px;height:10px;border-radius:5px;background:#EFEEEA;overflow:hidden">
+          <div style="{{ progressStyle }}"></div>
+        </div>
+        <div style="font-family:'Geist Mono',monospace;font-size:14px;font-weight:500;color:#111111;width:44px;text-align:right;font-variant-numeric:tabular-nums">{{ progressLabel }}</div>
+        <sc-if value="{{ notIdle }}">
+          <div style="display:flex;gap:6px">
+            <button onClick="{{ restart }}" style="border:1px solid #EAEAEA;background:#FFFFFF;border-radius:5px;padding:6px 10px;font-size:12.5px;cursor:pointer;color:#2F3437" style-hover="background:#F7F6F3">{{ restartLabel }}</button>
+            <button onClick="{{ reset }}" style="border:1px solid #EAEAEA;background:#FFFFFF;border-radius:5px;padding:6px 10px;font-size:12.5px;cursor:pointer;color:#2F3437" style-hover="background:#F7F6F3">New file</button>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </header>
+
+  <sc-if value="{{ isIdle }}" hint-placeholder-val="{{ false }}">
+    <div style="display:grid;place-items:center;padding:40px 24px;overflow:auto">
+      <div style="max-width:580px;width:100%;display:flex;flex-direction:column;gap:22px">
+        <div style="font-family:'Newsreader',serif;font-size:46px;line-height:1.08;letter-spacing:-0.025em;color:#111111;text-wrap:pretty">Check a protocol before it goes to review.</div>
+        <div style="font-size:15px;line-height:1.6;color:#787774;text-wrap:pretty">It reads every page, lists the numbers, procedures, eligibility criteria and endpoints, compares sections against each other, and flags what doesn't match.</div>
+        <div style="{{ dropStyle }}">
+          <div style="font-size:15px;font-weight:500;color:#111111">Drop a PDF or .docx here</div>
+          <div style="font-size:13px;color:#787774">A .docx is converted to PDF so it displays the same way.</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:8px">
+            <button onClick="{{ pickFile }}" style="background:#111111;color:#FFFFFF;border:none;border-radius:5px;padding:10px 16px;font-size:13.5px;font-weight:500;cursor:pointer" style-hover="background:#333333" style-active="transform:scale(0.98)">Choose file</button>
+            <button onClick="{{ startDemo }}" style="background:#FFFFFF;color:#2F3437;border:1px solid #EAEAEA;border-radius:5px;padding:10px 16px;font-size:13.5px;font-weight:500;cursor:pointer" style-hover="background:#F7F6F3" style-active="transform:scale(0.98)">Replay recorded run · MRX-204</button>
+          </div>
+          <input ref="{{ fileRef }}" type="file" accept=".pdf,.docx" onChange="{{ onFile }}" style="display:none">
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ notIdle }}" hint-placeholder-val="{{ true }}">
+    <div style="display:grid;grid-template-columns:minmax(0,1.45fr) minmax(360px,1fr);min-height:0">
+      <div ref="{{ viewerRef }}" style="overflow:auto;position:relative;padding:32px 24px 120px">
+        <div style="max-width:620px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
+          <sc-for list="{{ pages }}" as="page" hint-placeholder-count="2">
+            <div data-page="{{ page.n }}" style="{{ page.style }}">
+              <div style="display:flex;justify-content:space-between;font-family:'Geist Mono',monospace;font-size:10px;color:#A5A39F;letter-spacing:0.04em;margin-bottom:28px">
+                <span>MRX-204 · CLINICAL STUDY PROTOCOL v3.0</span>
+                <span>PAGE {{ page.n }} OF 24</span>
+              </div>
+              <sc-for list="{{ page.blocks }}" as="b">
+                <sc-if value="{{ b.isH }}"><div style="font-size:15px;font-weight:600;color:#111111;margin:0 0 14px">{{ b.t }}</div></sc-if>
+                <sc-if value="{{ b.isP }}"><div style="font-family:'Newsreader',serif;font-size:15.5px;line-height:1.65;color:#2F3437;margin:0 0 14px;text-wrap:pretty"><sc-for list="{{ b.segs }}" as="sg"><span data-seg="{{ sg.id }}" onClick="{{ sg.onClick }}" style="{{ sg.style }}">{{ sg.t }}</span></sc-for></div></sc-if>
+                <sc-if value="{{ b.isSoa }}">
+                  <div style="display:grid;grid-template-columns:120px repeat(8,minmax(0,1fr));font-size:11px;margin:4px 0 16px;border-top:1px solid #2F3437">
+                    <div style="padding:6px 0;font-weight:600;border-bottom:1px solid #2F3437">Procedure</div>
+                    <sc-for list="{{ visits }}" as="v"><div style="padding:6px 0;text-align:center;font-weight:600;border-bottom:1px solid #2F3437;font-family:'Geist Mono',monospace;font-size:10px">{{ v }}</div></sc-for>
+                    <sc-for list="{{ docSoa }}" as="r">
+                      <div style="display:contents">
+                        <div style="padding:5px 0;border-bottom:1px solid #EFEEEA;white-space:nowrap">{{ r.label }}</div>
+                        <sc-for list="{{ r.cells }}" as="c"><div data-seg="{{ c.seg }}" onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.mark }}</div></sc-for>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ b.isBars }}">
+                  <div style="display:flex;flex-direction:column;gap:8px;padding-top:4px">
+                    <sc-for list="{{ b.bars }}" as="bar"><div style="{{ bar }}"></div></sc-for>
+                  </div>
+                </sc-if>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div ref="{{ panelRef }}" style="overflow:auto;background:#FFFFFF;border-left:1px solid #EAEAEA;padding:28px 24px 80px">
+        <sc-if value="{{ panelRead }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 1 · Read</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ readHeadline }}</div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px 8px">
+              <sc-for list="{{ thumbs }}" as="th" hint-placeholder-count="24">
+                <div onClick="{{ th.go }}" style="display:flex;flex-direction:column;gap:5px;align-items:center;cursor:pointer">
+                  <div style="{{ th.style }}">
+                    <div style="height:3px;width:70%;background:#DDDCD8;border-radius:1px"></div>
+                    <div style="height:2px;width:100%;background:#E6E5E1;border-radius:1px"></div>
+                    <div style="height:2px;width:100%;background:#E6E5E1;border-radius:1px"></div>
+                    <div style="height:2px;width:60%;background:#E6E5E1;border-radius:1px"></div>
+                    <div style="height:2px;width:100%;background:#E6E5E1;border-radius:1px"></div>
+                  </div>
+                  <div style="{{ th.numStyle }}">{{ th.n }}</div>
+                </div>
+              </sc-for>
+            </div>
+            <div style="display:flex;flex-direction:column">
+              <sc-for list="{{ readLog }}" as="r">
+                <div style="display:flex;gap:14px;font-size:13px;padding:9px 0;border-top:1px solid #EAEAEA;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                  <span style="font-family:'Geist Mono',monospace;color:#787774;width:30px">p{{ r.n }}</span>
+                  <span>{{ r.title }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ panelList }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 2 · List</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ listHeadline }}</div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px">
+              <sc-for list="{{ cards }}" as="c" hint-placeholder-count="4">
+                <div style="border:1px solid #EAEAEA;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0">
+                  <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px">
+                    <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">{{ c.label }}</div>
+                    <div style="font-family:'Newsreader',serif;font-size:30px;line-height:1;color:#111111;font-variant-numeric:tabular-nums">{{ c.count }}</div>
+                  </div>
+                  <div style="display:flex;flex-direction:column">
+                    <sc-for list="{{ c.rows }}" as="r">
+                      <div style="display:flex;flex-direction:column;gap:1px;padding:7px 0;border-top:1px solid #F0EFEC;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                        <div style="display:flex;justify-content:space-between;gap:8px"><span style="font-size:13px;font-weight:500;color:#111111">{{ r.v }}</span><span style="font-family:'Geist Mono',monospace;font-size:11px;color:#787774">p{{ r.p }}</span></div>
+                        <span style="font-size:12px;color:#787774">{{ r.ctx }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ panelCompare }}">
+          <div style="display:flex;flex-direction:column;gap:22px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 3 · Compare</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ compareHeadline }}</div>
+            </div>
+            <div style="border:1px solid #EAEAEA;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px">
+              <div style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774"><span>Schedule of Activities × Sections 8–9</span><span style="font-family:'Geist Mono',monospace;letter-spacing:0">p20</span></div>
+              <div style="display:grid;grid-template-columns:92px repeat(8,minmax(0,1fr));gap:3px;font-size:11.5px;align-items:center">
+                <div></div>
+                <sc-for list="{{ visits }}" as="v"><div style="font-family:'Geist Mono',monospace;font-size:10px;color:#787774;text-align:center">{{ v }}</div></sc-for>
+                <sc-for list="{{ gridRows }}" as="gr" hint-placeholder-count="8">
+                  <div style="display:contents">
+                    <div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#2F3437">{{ gr.label }}</div>
+                    <sc-for list="{{ gr.cells }}" as="cell"><div onClick="{{ cell.onClick }}" style="{{ cell.style }}">{{ cell.mark }}</div></sc-for>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+            <div style="display:flex;flex-direction:column">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774;padding-bottom:10px">Conflicts · {{ conflictCount }}</div>
+              <sc-for list="{{ conflictsShown }}" as="cf">
+                <div style="display:flex;flex-direction:column;gap:6px;padding:11px 0;border-top:1px solid #EAEAEA;animation:popIn .45s cubic-bezier(.16,1,.3,1) both">
+                  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+                    <button onClick="{{ cf.goA }}" style="border:none;background:#FBF3DB;color:#956400;border-radius:4px;padding:3px 8px;font-size:13px;font-weight:500;cursor:pointer">{{ cf.a }} <span style="font-family:'Geist Mono',monospace;font-size:11px;opacity:.8">p{{ cf.ap }}</span></button>
+                    <span style="font-size:15px;color:#787774">≠</span>
+                    <button onClick="{{ cf.goB }}" style="border:none;background:#FBF3DB;color:#956400;border-radius:4px;padding:3px 8px;font-size:13px;font-weight:500;cursor:pointer">{{ cf.b }} <span style="font-family:'Geist Mono',monospace;font-size:11px;opacity:.8">p{{ cf.bp }}</span></button>
+                  </div>
+                  <div style="font-size:12px;color:#787774">{{ cf.label }}</div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ panelFlag }}">
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#787774">Stage 4 · Flag</div>
+              <div style="font-family:'Newsreader',serif;font-size:28px;letter-spacing:-0.02em;line-height:1.1;color:#111111">{{ flagHeadline }}</div>
+              <div style="display:flex;gap:6px;flex-wrap:wrap">
+                <sc-for list="{{ sevCounts }}" as="sc"><span style="{{ sc.style }}">{{ sc.label }}</span></sc-for>
+              </div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <sc-for list="{{ issuesShown }}" as="is">
+                <div data-issue="{{ is.id }}" onClick="{{ is.select }}" style="{{ is.cardStyle }}">
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#787774">{{ is.sevLabel }} · {{ is.cat }}</span>
+                    <span style="flex:1"></span>
+                    <span style="{{ is.rankStyle }}">{{ is.rank }}</span>
+                  </div>
+                  <div style="{{ is.titleStyle }}">{{ is.title }}</div>
+                  <sc-if value="{{ is.open }}">
+                    <div style="display:flex;flex-direction:column;gap:12px">
+                      <div style="font-size:13px;color:#57554F;line-height:1.6;text-wrap:pretty">{{ is.body }}</div>
+                      <div style="display:flex;flex-direction:column;gap:6px">
+                        <sc-for list="{{ is.ev }}" as="e">
+                          <button onClick="{{ e.go }}" style="display:flex;justify-content:space-between;gap:10px;align-items:center;text-align:left;border:1px solid #EAEAEA;border-radius:6px;background:#FBFBFA;padding:9px 11px;font-size:13px;cursor:pointer;color:#2F3437" style-hover="border-color:#D5D4D0">
+                            <span style="font-family:'Newsreader',serif;font-size:14px">“{{ e.q }}”</span>
+                            <span style="font-family:'Geist Mono',monospace;font-size:11px;color:#787774;white-space:nowrap">p{{ e.p }} →</span>
+                          </button>
+                        </sc-for>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:8px">
+                        <button onClick="{{ is.dismiss }}" style="border:1px solid #EAEAEA;background:#FFFFFF;border-radius:5px;padding:6px 10px;font-size:12.5px;cursor:pointer;color:#2F3437" style-hover="background:#F7F6F3">Dismiss</button>
+                        <span style="flex:1"></span>
+                        <span style="font-size:11.5px;color:#A5A39F">The author decides the fix</span>
+                      </div>
+                    </div>
+                  </sc-if>
+                </div>
+              </sc-for>
+            </div>
+            <sc-if value="{{ hasDismissed }}">
+              <button onClick="{{ restoreDismissed }}" style="align-self:flex-start;border:none;background:none;padding:0;font-size:12.5px;color:#787774;cursor:pointer;text-decoration:underline;text-underline-offset:3px">Restore {{ dismissedCount }} dismissed</button>
+            </sc-if>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <footer style="background:#FFFFFF;border-top:1px solid #EAEAEA;padding:10px 24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#787774">
+    <span style="font-family:'Geist Mono',monospace;font-size:12.5px;color:#2F3437;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1 1 240px">{{ ticker }}</span>
+    <span>Assists protocol authors. Does not approve protocols.</span>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;font-family:'Geist Mono',monospace;font-size:11.5px"><span>{{ fileLabel }}</span><sc-if value="{{ showReplayTag }}"><span>{{ replayTag }}</span></sc-if></div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;speed&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;0.5&quot;,&quot;1&quot;,&quot;2&quot;,&quot;4&quot;],&quot;default&quot;:&quot;1&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;autostart&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showReplayTag&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+const h = t => ({ k: 'h', t });
+const p = (...s) => ({ k: 'p', segs: s.map(x => typeof x === 'string' ? { t: x } : { t: x[0], f: x[1] }) });
+const SOA_BLOCK = { k: 'soa' };
+const RAW = [
+  [1, 'Title page', [h('Clinical Study Protocol'), p('A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study of Tolsiprant in Adults with Moderate-to-Severe Plaque Psoriasis'), p('Protocol MRX-204 · Version 3.0 · 14 August 2026'), p('Sponsor: Harrow Bay Therapeutics, Cambridge, MA')]],
+  [2, 'Sponsor signature page', [h('Sponsor Signature Page'), p('I have read this protocol and agree that it contains all information necessary to conduct the study as described.')]],
+  [3, 'Synopsis', [h('Synopsis'), p('Population: adults aged ', ['18 to 65 years', 'age3'], ' with chronic plaque psoriasis for at least 6 months before screening.'), p('Planned enrollment: approximately ', ['240 participants', 'n3'], ' at 38 sites in North America and Europe.')]],
+  [4, 'Table of contents', [h('Table of Contents')]],
+  [5, 'Objectives and endpoints', [h('3. Objectives and Endpoints'), p('The primary endpoint is the proportion of participants achieving PASI 75 at ', ['Week 16', 'ep5'], ' relative to baseline.'), p('Secondary endpoints include sIGA 0/1 at Week 16 and change from baseline in DLQI.')]],
+  [6, 'Background', [h('1. Background'), p('Plaque psoriasis affects roughly 2–3% of adults. Many patients with moderate-to-severe disease remain inadequately controlled on topical therapy.')]],
+  [7, 'Study rationale', [h('2. Study Rationale'), p('Tolsiprant is an oral, selective TYK2 inhibitor. Phase 1 data support once-daily dosing at 6 mg.')]],
+  [8, 'Study population', [h('5. Study Population'), p('Participants must meet all inclusion criteria and none of the exclusion criteria at screening and on Day 1.')]],
+  [9, 'Inclusion criteria', [h('5.1 Inclusion Criteria'), p('1. Age ', ['18 to 75 years', 'age9'], ' at the time of signing informed consent.'), p('2. BSA involvement ≥10%, PASI ≥12 and sIGA ≥3 at screening and Day 1.')]],
+  [10, 'Exclusion criteria', [h('5.2 Exclusion Criteria'), p('7. Use of any biologic therapy within ', ['4 weeks', 'wash10'], ' before Day 1.'), p('8. Active or latent tuberculosis without documented completed treatment.')]],
+  [11, 'Withdrawal', [h('5.4 Discontinuation and Withdrawal')]],
+  [12, 'Study intervention', [h('6. Study Intervention'), p('Tolsiprant 6 mg or matching placebo, taken orally once daily with water.')]],
+  [13, 'Prohibited medications', [h('6.5 Prohibited Medications'), p('Biologic therapies are prohibited within ', ['12 weeks', 'wash13'], ' before Day 1 and throughout the study.')]],
+  [14, 'Randomization and blinding', [h('6.3 Randomization and Blinding'), p('Participants are randomized 2:1 to tolsiprant or placebo using an interactive response system, stratified by region.')]],
+  [15, 'Overall design', [h('4.1 Overall Design'), p('After a screening period of up to 28 days, participants enter a ', ['14-week', 'dur15'], ' double-blind treatment period followed by a 4-week safety follow-up.')]],
+  [16, 'Dose modification', [h('6.6 Dose Modification')]],
+  [17, 'Safety monitoring', [h('8. Safety Monitoring')]],
+  [18, 'Treatment period', [h('6.2 Treatment Period'), p('Study intervention is administered daily for ', ['196 days', 'dur18'], ' from Day 1, with the final dose taken the day before the End of Treatment visit.')]],
+  [19, 'Visit windows', [h('7.2 Visit Windows'), p('Visits after Day 1 should occur within ', ['±3 days', 'win19'], ' of the scheduled study day.')]],
+  [20, 'Schedule of Activities', [h('1.3 Schedule of Activities'), SOA_BLOCK, p(['Visit window ±5 days unless otherwise stated.', 'win20'])]],
+  [21, 'Pharmacokinetics', [h('9.3 Pharmacokinetics'), p('A ', ['pre-dose PK sample at Week 4', 'pk21'], ' and Week 12 is collected from all participants.')]],
+  [22, 'Sample size', [h('10.1 Sample Size Determination'), p('Assuming PASI 75 response of 55% vs 20%, ', ['150 participants on tolsiprant and 75 on placebo', 'n22'], ' provide >95% power at two-sided α = 0.05.')]],
+  [23, 'Primary analysis', [h('10.3 Primary Analysis'), p('The primary endpoint, PASI 75 at ', ['Week 12', 'ep23'], ', is analyzed with a Cochran–Mantel–Haenszel test stratified by region.')]],
+  [24, 'References', [h('11. References')]]
+];
+const mkBars = seed => Array.from({ length: 44 }, (_, i) => ({
+  height: 6, borderRadius: 2, background: '#EFEEEA', flex: 'none',
+  width: (i % 5 === 4 ? 40 + ((seed * 7 + i * 13) % 35) : 90 + ((seed * 3 + i * 11) % 10)) + '%',
+  marginTop: i > 0 && i % 5 === 0 ? 10 : 0
+}));
+const PAGES = RAW.map(([n, title, blocks]) => ({ n, title, blocks: [...blocks, { k: 'bars', bars: mkBars(n) }] }));
+const VISITS = ['Scr', 'D1', 'W2', 'W4', 'W8', 'W12', 'W16', 'FU'];
+const SOA = [['Informed consent', '10000000'], ['Physical exam', '11000111'], ['Vital signs', '11111111'], ['PASI / sIGA', '11111110'], ['DLQI', '01010110'], ['Safety labs', '11011111'], ['ECG', '11000110'], ['PK sample', '000g0100']];
+const SEV = { critical: { label: 'Critical', fg: '#9F2F2D', bg: '#FDEBEC' }, major: { label: 'Major', fg: '#956400', bg: '#FBF3DB' }, minor: { label: 'Minor', fg: '#1F6C9F', bg: '#E1F3FE' } };
+const ISSUES = [
+  { id: 'i1', sev: 'critical', cat: 'Numbers', title: 'Treatment duration doesn’t match', body: 'Section 4.1 describes a 14-week treatment period. Section 6.2 says 196 days, which is 28 weeks. Visit schedule, drug supply and the primary timepoint all depend on which is correct.', ev: [{ seg: 'dur15', p: 15, q: '14-week double-blind treatment period' }, { seg: 'dur18', p: 18, q: 'administered daily for 196 days' }] },
+  { id: 'i2', sev: 'critical', cat: 'Schedule', title: 'Week 4 PK sample missing from Schedule of Activities', body: 'Section 9.3 requires a pre-dose PK sample at Week 4, but the Week 4 column in the Schedule of Activities has no PK entry. Sites work from the schedule, so the sample would likely be missed.', ev: [{ seg: 'pk21', p: 21, q: 'pre-dose PK sample at Week 4' }, { seg: 'pkSoa', p: 20, q: 'PK sample · Week 4 — blank' }] },
+  { id: 'i3', sev: 'major', cat: 'Eligibility', title: 'Age range differs between synopsis and criteria', body: 'The synopsis limits enrollment to 18–65. Inclusion criterion 1 allows up to 75. Screening will follow the criteria; the synopsis is what reviewers read first.', ev: [{ seg: 'age3', p: 3, q: 'adults aged 18 to 65 years' }, { seg: 'age9', p: 9, q: 'Age 18 to 75 years' }] },
+  { id: 'i4', sev: 'major', cat: 'Endpoints', title: 'Primary endpoint timepoint is inconsistent', body: 'Objectives define PASI 75 at Week 16 as primary. The statistical analysis section analyzes PASI 75 at Week 12.', ev: [{ seg: 'ep5', p: 5, q: 'PASI 75 at Week 16' }, { seg: 'ep23', p: 23, q: 'PASI 75 at Week 12' }] },
+  { id: 'i5', sev: 'major', cat: 'Eligibility', title: 'Biologic washout periods conflict', body: 'Exclusion criterion 7 requires a 4-week washout from biologics. The prohibited medications section requires 12 weeks.', ev: [{ seg: 'wash10', p: 10, q: 'biologic therapy within 4 weeks' }, { seg: 'wash13', p: 13, q: 'prohibited within 12 weeks' }] },
+  { id: 'i6', sev: 'minor', cat: 'Numbers', title: 'Arm sizes don’t add up to planned enrollment', body: 'The synopsis plans about 240 participants. The sample size section gives 150 + 75 = 225. The difference may be dropout allowance, but it isn’t stated.', ev: [{ seg: 'n3', p: 3, q: 'approximately 240 participants' }, { seg: 'n22', p: 22, q: '150 on tolsiprant and 75 on placebo' }] },
+  { id: 'i7', sev: 'minor', cat: 'Schedule', title: 'Visit window stated two ways', body: 'Section 7.2 sets a ±3 day window. The Schedule of Activities footnote says ±5 days.', ev: [{ seg: 'win19', p: 19, q: 'within ±3 days' }, { seg: 'win20', p: 20, q: 'Visit window ±5 days' }] }
+];
+const SEG_ISSUE = {}; ISSUES.forEach((is, i) => is.ev.forEach(e => { SEG_ISSUE[e.seg] = { is, i }; }));
+const CONFLICTS = [
+  ['i1', '14 weeks', 15, '196 days', 18, 'Treatment duration'],
+  ['i3', '18–65', 3, '18–75', 9, 'Age range'],
+  ['i4', 'Week 16', 5, 'Week 12', 23, 'Primary endpoint timepoint'],
+  ['i5', '4 weeks', 10, '12 weeks', 13, 'Biologic washout'],
+  ['i6', '240', 3, '150 + 75 = 225', 22, 'Enrollment vs. arm sizes'],
+  ['i7', '±3 days', 19, '±5 days', 20, 'Visit window']
+];
+const CARDS = [
+  { label: 'Numbers', total: 41, rows: [['14 weeks', 'treatment period', 15], ['196 days', 'treatment period', 18], ['240', 'planned enrollment', 3], ['150 / 75', 'participants per arm', 22], ['±3 days', 'visit window', 19], ['±5 days', 'visit window, SoA footnote', 20], ['28 days', 'screening period', 15]] },
+  { label: 'Procedures', total: 18, rows: [['PASI / sIGA', '7 visits', 20], ['PK sample', 'Week 4, Week 12', 21], ['Safety labs', '7 visits', 20], ['ECG', '4 visits', 20], ['DLQI', '4 visits', 20], ['Physical exam', '5 visits', 20]] },
+  { label: 'Eligibility', total: 23, rows: [['Age 18–65', 'synopsis', 3], ['Age 18–75', 'inclusion 1', 9], ['BSA ≥10%, PASI ≥12', 'inclusion 2', 9], ['Biologics · 4 wk', 'exclusion 7', 10], ['Biologics · 12 wk', 'prohibited meds', 13], ['Latent TB', 'exclusion 8', 10]] },
+  { label: 'Endpoints', total: 7, rows: [['PASI 75 · Wk 16', 'primary, objectives', 5], ['PASI 75 · Wk 12', 'primary, analysis', 23], ['sIGA 0/1 · Wk 16', 'secondary', 5], ['DLQI change', 'secondary', 5]] }
+];
+const FACTS = []; for (let r = 0; r < 7; r++) CARDS.forEach((c, ci) => { if (c.rows[r]) FACTS.push({ ci, r }); });
+const T = { read: 7.2, list: 17, grid: 17, gridEnd: 22.8, conf: 23, cmp: 28, flag: 34, end: 36 };
+const PER_PAGE = 0.3, PER_FACT = 0.4, PER_CELL = 0.09, PER_CONF = 0.8, PER_ISSUE = 0.8;
+const KEY = 'protocheck.run.v1';
+const mono = "'Geist Mono',monospace";
+
+class Component extends DCLogic {
+  state = { phase: 'idle', t: 0, fileName: '', selected: null, dismissed: {}, viewStage: null, dragging: false };
+  viewerRef = React.createRef();
+  panelRef = React.createRef();
+  fileRef = React.createRef();
+
+  componentDidMount() {
+    try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && s.phase !== 'idle') this.setState({ phase: s.phase, t: s.t, fileName: s.fileName }); } catch (e) {}
+    this._last = performance.now();
+    this._iv = setInterval(() => this.tick(), 50);
+    if (this.props.autostart && this.state.phase === 'idle') setTimeout(() => this.state.phase === 'idle' && this.start('MRX-204_Protocol_v3.0.pdf'), 400);
+  }
+  componentWillUnmount() { clearInterval(this._iv); }
+
+  speed() { return Number(this.props.speed ?? 1) || 1; }
+  persist(s) { try { localStorage.setItem(KEY, JSON.stringify({ phase: s.phase, t: s.t, fileName: s.fileName })); } catch (e) {} }
+
+  tick() {
+    const now = performance.now(), dt = Math.min(0.2, (now - this._last) / 1000); this._last = now;
+    if (this.state.phase !== 'running') return;
+    let t = this.state.t + dt * this.speed(), phase = 'running', extra = {};
+    if (t >= T.end) { t = T.end; phase = 'done'; if (!this.state.selected) extra.selected = 'i1'; }
+    this.setState({ t, phase, ...extra }, () => this.autoScroll());
+    if (!this._lp || now - this._lp > 800 || phase === 'done') { this._lp = now; this.persist({ phase, t, fileName: this.state.fileName }); }
+  }
+
+  autoScroll() {
+    const t = this.state.t; let key = null;
+    if (t < T.read) key = '[data-page="' + (Math.floor(t / PER_PAGE) + 1) + '"]';
+    else if (t >= T.gridEnd - 1.5 && t < T.conf) key = '[data-page="20"]';
+    else if (t >= T.conf && t < T.cmp) { const k = Math.min(5, Math.floor((t - T.conf) / PER_CONF)); key = '[data-seg="' + ISSUES.find(i => i.id === CONFLICTS[k][0]).ev[0].seg + '"]'; }
+    else if (t >= T.cmp && t < T.flag) { const k = Math.min(6, Math.floor((t - T.cmp) / PER_ISSUE)); key = '[data-seg="' + ISSUES[k].ev[0].seg + '"]'; }
+    if (key && key !== this._lastKey) { this._lastKey = key; this.scrollViewer(key, key.includes('page') ? 24 : 180); }
+  }
+
+  scrollViewer(sel, offset = 180) {
+    const v = this.viewerRef.current; if (!v) return; const el = v.querySelector(sel); if (!el) return;
+    const top = el.getBoundingClientRect().top - v.getBoundingClientRect().top + v.scrollTop - offset;
+    this.animScroll(v, top);
+  }
+  scrollPanel(id) {
+    const v = this.panelRef.current; if (!v) return; const el = v.querySelector('[data-issue="' + id + '"]'); if (!el) return;
+    const top = el.getBoundingClientRect().top - v.getBoundingClientRect().top + v.scrollTop - 120;
+    this.animScroll(v, top);
+  }
+  animScroll(v, to, dur = 220) {
+    to = Math.max(0, Math.min(to, v.scrollHeight - v.clientHeight));
+    const from = v.scrollTop, t0 = performance.now();
+    if (v._raf) cancelAnimationFrame(v._raf);
+    const step = now => { const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3); v.scrollTop = from + (to - from) * e; if (k < 1) v._raf = requestAnimationFrame(step); };
+    v._raf = requestAnimationFrame(step);
+  }
+
+  start(fileName) {
+    this._lastKey = null;
+    this.setState({ phase: 'running', t: 0, fileName, selected: null, dismissed: {}, viewStage: null, dragging: false }, () => { const v = this.viewerRef.current; if (v) v.scrollTop = 0; });
+  }
+  select(id, { seg, panel } = {}) {
+    this.setState({ selected: id, viewStage: null }, () => {
+      if (seg) this.scrollViewer('[data-seg="' + seg + '"]');
+      if (panel) setTimeout(() => this.scrollPanel(id), 30);
+    });
+  }
+
+  renderVals() {
+    const { phase, t, selected, dismissed, fileName } = this.state;
+    const idle = phase === 'idle', done = phase === 'done';
+    const stage = idle ? -1 : t < T.read ? 0 : t < T.list ? 1 : t < T.cmp ? 2 : 3;
+    const panelStage = done && this.state.viewStage != null ? this.state.viewStage : stage;
+
+    const curPage = t < T.read ? Math.floor(t / PER_PAGE) : -1;
+    const pagesRead = idle ? 0 : t < T.read ? curPage : 24;
+    const factsShown = t < T.read ? 0 : Math.min(FACTS.length, Math.floor((t - T.read) / PER_FACT) + 1);
+    const cellsFilled = t < T.grid ? 0 : Math.min(64, Math.floor((t - T.grid) / PER_CELL));
+    const confShown = t < T.conf ? 0 : Math.min(6, Math.floor((t - T.conf) / PER_CONF) + 1);
+    const issuesN = t < T.cmp ? 0 : Math.min(7, Math.floor((t - T.cmp) / PER_ISSUE) + 1);
+    const gapFound = cellsFilled > 59;
+    const confIds = new Set(CONFLICTS.slice(0, confShown).map(c => c[0])); if (gapFound) confIds.add('i2');
+
+    // progress (estimated, holds before finish)
+    const ease = x => 1 - Math.pow(1 - Math.max(0, Math.min(1, x)), 1.7);
+    let prog = 0;
+    if (done) prog = 100;
+    else if (!idle) {
+      const R = [[0, T.read, 0, 24], [T.read, T.list, 24, 50], [T.list, T.cmp, 50, 78], [T.cmp, T.flag, 78, 95], [T.flag, T.end, 95, 97]];
+      const r = R.find(r => t < r[1]) || R[4]; prog = r[2] + (r[3] - r[2]) * ease((t - r[0]) / (r[1] - r[0]));
+    }
+
+    const isVisibleIssue = i => i < issuesN && !dismissed[ISSUES[i].id];
+    const segStyle = id => {
+      const m = SEG_ISSUE[id]; if (!m) return null;
+      const sv = SEV[m.is.sev];
+      if (isVisibleIssue(m.i)) {
+        const sel = selected === m.is.id;
+        return { textDecorationLine: 'underline', textDecorationColor: sv.fg, textDecorationThickness: '2px', textUnderlineOffset: '4px', background: sel ? sv.bg : 'transparent', boxShadow: sel ? '0 0 0 3px ' + sv.bg : 'none', borderRadius: 2, cursor: 'pointer', transition: 'background .25s, box-shadow .25s' };
+      }
+      if (confIds.has(m.is.id) && t < T.cmp) return { background: '#FBF3DB', borderRadius: 2, transition: 'background .4s' };
+      return {};
+    };
+    const segClick = id => { const m = SEG_ISSUE[id]; return m && isVisibleIssue(m.i) ? () => this.select(m.is.id, { panel: true }) : undefined; };
+
+    const pages = PAGES.map((pg, pi) => {
+      const reading = pi === curPage, read = pi < pagesRead;
+      return {
+        n: pg.n,
+        style: { background: '#FFFFFF', border: '1px solid ' + (reading ? '#9CC9E8' : '#EAEAEA'), borderRadius: 4, padding: '36px 52px', aspectRatio: '8.5 / 11', overflow: 'hidden', boxShadow: reading ? '0 0 0 4px #E1F3FE' : '0 1px 2px rgba(0,0,0,0.03)', opacity: idle || read || reading || t >= T.read ? 1 : 0.55, transition: 'box-shadow .3s, border-color .3s, opacity .4s' },
+        blocks: pg.blocks.map((b, bi) => ({
+          isH: b.k === 'h', isP: b.k === 'p', isBars: b.k === 'bars', isSoa: b.k === 'soa', t: b.t, bars: b.bars,
+          segs: b.segs && b.segs.map((s, si) => ({ t: s.t, id: s.f || pg.n + '-' + bi + '-' + si, style: s.f ? segStyle(s.f) : null, onClick: s.f ? segClick(s.f) : undefined }))
+        }))
+      };
+    });
+    const docSoa = SOA.map(([label, cells]) => ({
+      label, cells: cells.split('').map(c => {
+        const base = { padding: '5px 0', textAlign: 'center', borderBottom: '1px solid #EFEEEA', fontFamily: mono, fontSize: 11, minHeight: 25 };
+        if (c !== 'g') return { mark: c === '1' ? 'X' : '', style: base };
+        const ss = segStyle('pkSoa'), flagged = ss && ss.textDecorationLine;
+        return { mark: '', seg: 'pkSoa', onClick: segClick('pkSoa'), style: { ...base, background: flagged ? (selected === 'i2' ? SEV.critical.bg : 'transparent') : (gapFound && t < T.cmp ? '#FBF3DB' : 'transparent'), boxShadow: flagged ? 'inset 0 0 0 2px ' + SEV.critical.fg : 'none', cursor: flagged ? 'pointer' : 'default' } };
+      })
+    }));
+
+    const labels = ['Read', 'List', 'Compare', 'Flag'];
+    const steps = labels.map((label, i) => {
+      const isDone = done || i < stage, active = !done && i === stage, viewing = done && panelStage === i;
+      return {
+        label, notFirst: i > 0, mark: isDone ? '✓' : String(i + 1),
+        go: done ? () => this.setState({ viewStage: i === 3 ? null : i }) : undefined,
+        lineStyle: { width: 16, height: 1, background: i <= stage || done ? '#111111' : '#DDDCD8', transition: 'background .4s' },
+        dotStyle: { width: 22, height: 22, borderRadius: '50%', display: 'grid', placeItems: 'center', fontSize: 11, fontFamily: mono, background: isDone ? '#111111' : '#FFFFFF', color: isDone ? '#FFFFFF' : active ? '#111111' : '#A5A39F', border: '1px solid ' + (isDone || active ? '#111111' : '#DDDCD8'), boxShadow: active ? '0 0 0 3px #E1F3FE' : 'none', cursor: done ? 'pointer' : 'default', transition: 'all .3s' },
+        labelStyle: { fontSize: 13, fontWeight: active || viewing ? 600 : 500, color: isDone || active ? '#2F3437' : '#A5A39F', cursor: done ? 'pointer' : 'default', textDecorationLine: viewing ? 'underline' : 'none', textUnderlineOffset: '4px' }
+      };
+    });
+
+    const isDocx = /\.docx$/i.test(fileName);
+    let ticker = 'Waiting for a protocol';
+    if (!idle) {
+      if (done) ticker = 'Done';
+      else if (isDocx && t < 1.2) ticker = 'Converting .docx to PDF';
+      else if (stage === 0) { const pg = PAGES[curPage]; ticker = 'Reading p' + pg.n + ', ' + pg.title; }
+      else if (stage === 1) { const f = FACTS[factsShown - 1]; if (f) { const r = CARDS[f.ci].rows[f.r]; ticker = 'Listing facts from p' + r[2]; } else ticker = 'Listing facts…'; }
+      else if (stage === 2) ticker = t < T.conf ? 'Checking the schedule against Sections 8–9' : 'Comparing numbers across sections';
+      else ticker = t < T.flag ? 'Ranking flags by impact' : 'Re-checking page references';
+    }
+
+    const thumbs = PAGES.map((pg, i) => {
+      const reading = i === curPage, read = i < pagesRead;
+      return {
+        n: pg.n, go: () => this.scrollViewer('[data-page="' + pg.n + '"]', 24),
+        style: { width: '100%', aspectRatio: '8.5 / 11', borderRadius: 3, padding: '18% 14%', display: 'flex', flexDirection: 'column', gap: 4, background: reading ? '#E1F3FE' : '#FFFFFF', border: '1px solid ' + (reading ? '#9CC9E8' : read ? '#2F3437' : '#EAEAEA'), opacity: read || reading ? 1 : 0.45, transition: 'all .3s' },
+        numStyle: { fontFamily: mono, fontSize: 10, color: reading ? '#1F6C9F' : read ? '#2F3437' : '#A5A39F' }
+      };
+    });
+    const readLog = [];
+    for (let i = Math.min(pagesRead, 23); i >= 0 && readLog.length < 6; i--) if (i <= curPage || t >= T.read) readLog.push({ n: PAGES[i].n, title: PAGES[i].title });
+
+    const cards = CARDS.map((c, ci) => {
+      const rows = FACTS.slice(0, factsShown).filter(f => f.ci === ci).map(f => ({ v: c.rows[f.r][0], ctx: c.rows[f.r][1], p: c.rows[f.r][2] }));
+      return { label: c.label, count: Math.round(c.total * rows.length / c.rows.length), rows };
+    });
+    const listTotal = cards.reduce((a, c) => a + c.count, 0);
+
+    let ci = 0;
+    const gridRows = SOA.map(([label, cells]) => ({
+      label, cells: cells.split('').map(c => {
+        const idx = ci++, filled = idx < cellsFilled, current = idx === cellsFilled && stage === 2 && t < T.gridEnd;
+        const base = { height: 20, borderRadius: 3, display: 'grid', placeItems: 'center', fontFamily: mono, fontSize: 10.5, transition: 'background .2s' };
+        if (current) return { mark: '', style: { ...base, background: '#E1F3FE' } };
+        if (!filled) return { mark: '', style: { ...base, background: '#F7F6F3' } };
+        if (c === 'g') return { mark: '!', onClick: () => this.scrollViewer('[data-page="20"]', 24), style: { ...base, background: '#FDEBEC', color: '#9F2F2D', fontWeight: 600, boxShadow: 'inset 0 0 0 1px #E8B4B3', cursor: 'pointer', animation: 'popIn .4s both' } };
+        if (c === '1') return { mark: '×', style: { ...base, background: '#ECEBE7', color: '#2F3437' } };
+        return { mark: '', style: { ...base, background: '#FFFFFF', boxShadow: 'inset 0 0 0 1px #F0EFEC' } };
+      })
+    }));
+    const conflictsShown = CONFLICTS.slice(0, confShown).map(([id, a, ap, b, bp, label]) => {
+      const is = ISSUES.find(x => x.id === id);
+      return { a, ap, b, bp, label, goA: () => this.scrollViewer('[data-seg="' + is.ev[0].seg + '"]'), goB: () => this.scrollViewer('[data-seg="' + is.ev[1].seg + '"]') };
+    });
+
+    const visibleIssues = ISSUES.map((is, i) => ({ is, i })).filter(({ i }) => isVisibleIssue(i));
+    const issuesShown = visibleIssues.map(({ is, i }) => {
+      const sv = SEV[is.sev], open = selected === is.id;
+      return {
+        id: is.id, rank: i + 1, cat: is.cat, sevLabel: sv.label, title: is.title, body: is.body, open,
+        select: () => this.select(is.id, { seg: is.ev[0].seg }),
+        dismiss: e => { e.stopPropagation(); this.setState(s => ({ dismissed: { ...s.dismissed, [is.id]: true }, selected: null })); },
+        ev: is.ev.map(e => ({ q: e.q, p: e.p, go: ev => { ev.stopPropagation(); this.select(is.id, { seg: e.seg }); } })),
+        titleStyle: { fontSize: 14.5, fontWeight: 500, color: '#111111', lineHeight: 1.4 },
+        rankStyle: { width: 22, height: 22, borderRadius: 4, background: sv.bg, color: sv.fg, display: 'grid', placeItems: 'center', fontFamily: mono, fontSize: 11, fontWeight: 500, flex: 'none' },
+        cardStyle: { border: '1px solid ' + (open ? '#D9D8D4' : '#EAEAEA'), borderRadius: 10, padding: open ? '16px 16px 14px' : '13px 16px', display: 'flex', flexDirection: 'column', gap: open ? 10 : 6, background: '#FFFFFF', boxShadow: open ? '0 2px 8px rgba(0,0,0,0.04)' : 'none', cursor: 'pointer', transition: 'box-shadow .2s, border-color .2s', animation: 'dropIn .5s cubic-bezier(.16,1,.3,1) both' }
+      };
+    });
+    const pill = (bg, fg) => ({ background: bg, color: fg, borderRadius: 9999, padding: '3px 9px', fontSize: 10.5, letterSpacing: '0.06em', textTransform: 'uppercase', fontWeight: 500, whiteSpace: 'nowrap', flex: 'none' });
+    const sevCounts = ['critical', 'major', 'minor'].map(k => ({ label: visibleIssues.filter(x => x.is.sev === k).length + ' ' + SEV[k].label, style: pill(SEV[k].bg, SEV[k].fg) }));
+    const dismissedCount = Object.keys(dismissed).length;
+
+    return {
+      isIdle: idle, notIdle: !idle,
+      fileLabel: idle ? '' : (fileName || 'MRX-204_Protocol_v3.0.pdf') + ' · 24 pages',
+      steps, ticker,
+      tickerDotStyle: { width: 7, height: 7, borderRadius: '50%', flex: 'none', background: done ? '#346538' : idle ? '#DDDCD8' : '#1F6C9F', animation: phase === 'running' ? 'pulse 1.2s ease-in-out infinite' : 'none' },
+      progressStyle: { height: '100%', width: prog.toFixed(1) + '%', background: done ? '#346538' : '#111111', borderRadius: 5, transition: 'width .25s linear, background .4s' },
+      progressLabel: Math.floor(prog) + '%',
+      restartLabel: done ? 'Run again' : 'Restart',
+      restart: () => this.start(fileName),
+      reset: () => { this.setState({ phase: 'idle', t: 0, fileName: '', selected: null, dismissed: {}, viewStage: null }); this.persist({ phase: 'idle', t: 0, fileName: '' }); },
+      dropStyle: { border: '1px dashed ' + (this.state.dragging ? '#2F3437' : '#D5D4D0'), borderRadius: 12, background: this.state.dragging ? '#FFFFFF' : '#FBFBFA', padding: '40px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, textAlign: 'center', transition: 'all .2s' },
+      onDragOver: e => { e.preventDefault(); if (idle && !this.state.dragging) this.setState({ dragging: true }); },
+      onDrop: e => { e.preventDefault(); const f = e.dataTransfer.files && e.dataTransfer.files[0]; if (f) this.start(f.name); else this.setState({ dragging: false }); },
+      pickFile: () => this.fileRef.current && this.fileRef.current.click(),
+      onFile: e => { const f = e.target.files && e.target.files[0]; if (f) this.start(f.name); },
+      startDemo: () => this.start('MRX-204_Protocol_v3.0.pdf'),
+      fileRef: this.fileRef, viewerRef: this.viewerRef, panelRef: this.panelRef,
+      pages, visits: VISITS, docSoa,
+      panelRead: panelStage === 0, panelList: panelStage === 1, panelCompare: panelStage === 2, panelFlag: panelStage === 3,
+      readHeadline: pagesRead >= 24 ? 'Read all 24 pages' : 'Reading page ' + (curPage + 1) + ' of 24',
+      thumbs, readLog,
+      listHeadline: (t >= T.cmp || done ? 89 : listTotal) + ' facts listed',
+      cards,
+      compareHeadline: t < T.conf ? 'Cross-checking the schedule' : confShown + ' conflicts, 1 schedule gap',
+      gridRows, conflictsShown, conflictCount: confShown,
+      flagHeadline: done ? visibleIssues.length + ' flags for author review' : 'Ranking flags…',
+      sevCounts, issuesShown,
+      hasDismissed: dismissedCount > 0, dismissedCount,
+      restoreDismissed: () => this.setState({ dismissed: {} }),
+      showReplayTag: (this.props.showReplayTag ?? true) && !idle,
+      replayTag: 'Replay of recorded run · MRX-204 v3.0 · ' + this.speed() + '×'
+    };
+  }
+}
+</script>
+</body>
+</html>

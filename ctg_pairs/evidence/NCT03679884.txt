@@ -1,0 +1,28 @@
+NCT03679884 — Study to Assess the Long Term Safety and Tolerability of ACT-541468 (Daridorexant) in Adult and Elderly Subjects Suffering From Difficulties to Sleep
+Sponsor: Idorsia Pharmaceuticals Ltd.  Phases: PHASE3  Start: 2018-10-09
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Study Protocol",
+  "date": "2020-02-17",
+  "uploadDate": "2022-01-07T09:38",
+  "typeAbbrev": "Prot",
+  "size": 1999620
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Study Protocol Addendum",
+  "date": "2020-04-08",
+  "uploadDate": "2022-01-07T09:43",
+  "typeAbbrev": "Prot",
+  "size": 285253
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT03679884_Prot_000.pdf p15 (Study Protocol: Study Protocol): A second interim analysis may be performed to fulfill th e FDA requirement to submit
+[UNAVOIDABLE?] NCT03679884_Prot_000.pdf p15 (Study Protocol: Study Protocol): updated safety data from ongoing studies 120 days after NDA submission, in case the study
+[AVOIDABLE?] NCT03679884_Prot_000.pdf p15 (Study Protocol: Study Protocol): treatment error as an adverse event.
+[AVOIDABLE?] NCT03679884_Prot_000.pdf p16 (Study Protocol: Study Protocol): Furthermore, minor editorial changes have been made and typographical errors have been
+[AVOIDABLE?] NCT03679884_Prot_000.pdf p16 (Study Protocol: Study Protocol): corrected.
+[UNAVOIDABLE?] NCT03679884_Prot_000.pdf p19 (Study Protocol: Study Protocol): 150 centers in 17  countries), depending on health authority /

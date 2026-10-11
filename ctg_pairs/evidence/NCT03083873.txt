@@ -1,0 +1,44 @@
+NCT03083873 — Study of LN-145/LN-145-S1 Autologous Tumor Infiltrating Lymphocytes in the Treatment of Squamous Cell Carcinoma of the Head & Neck
+Sponsor: Iovance Biotherapeutics, Inc.  Phases: PHASE2  Start: 2017-01-09
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Version 1",
+  "date": "2016-08-16",
+  "uploadDate": "2023-08-03T09:08",
+  "typeAbbrev": "Prot",
+  "size": 2183790
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Version 2",
+  "date": "2017-08-30",
+  "uploadDate": "2023-08-03T09:26",
+  "typeAbbrev": "Prot",
+  "size": 1980695
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Version 3",
+  "date": "2018-08-17",
+  "uploadDate": "2023-08-03T09:33",
+  "typeAbbrev": "Prot",
+  "size": 1625850
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Version 4",
+  "date": "2019-11-25",
+  "uploadDate": "2023-08-03T09:36",
+  "typeAbbrev": "Prot",
+  "size": 1087548
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT03083873_Prot_001.pdf p13 (Study Protocol: Version 2): ETV Early Termination visit
+[UNAVOIDABLE?] NCT03083873_Prot_001.pdf p13 (Study Protocol: Version 2): FDA Food and Drug Administration
+[AVOIDABLE?] NCT03083873_Prot_001.pdf p85 (Study Protocol: Version 2): Arrhythmia  3 Correction of fluid and electrolyte
+[AVOIDABLE?] NCT03083873_Prot_001.pdf p86 (Study Protocol: Version 2): • Numerous typographical changes were made for clarity and consistency
+[UNAVOIDABLE?] NCT03083873_Prot_002.pdf p15 (Study Protocol: Version 3): FDA Food and Drug Administration
+[AVOIDABLE?] NCT03083873_Prot_002.pdf p93 (Study Protocol: Version 3): • Numerous typographical changes were made for clarity and consistency

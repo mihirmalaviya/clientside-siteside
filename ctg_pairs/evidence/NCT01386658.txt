@@ -1,0 +1,71 @@
+NCT01386658 — A Pharmacokinetic, Tolerability and Safety Study of Icatibant in Children and Adolescents With Hereditary Angioedema
+Sponsor: Shire  Phases: PHASE3  Start: 2012-01-27
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol Original",
+  "date": "2011-06-14",
+  "uploadDate": "2019-02-14T06:17",
+  "typeAbbrev": "Prot",
+  "size": 1461362
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Protocol Amendment 1",
+  "date": "2011-08-05",
+  "uploadDate": "2019-02-14T06:18",
+  "typeAbbrev": "Prot",
+  "size": 2313237
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Protocol Amendment 2",
+  "date": "2012-03-06",
+  "uploadDate": "2019-02-14T06:20",
+  "typeAbbrev": "Prot",
+  "size": 5124321
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Protocol Amendment 3",
+  "date": "2013-06-19",
+  "uploadDate": "2019-02-14T06:21",
+  "typeAbbrev": "Prot",
+  "size": 5311071
+ },
+ {
+  "filename": "Prot_004.pdf",
+  "label": "Study Protocol: Protocol Amendment 4",
+  "date": "2016-03-18",
+  "uploadDate": "2019-02-14T06:22",
+  "typeAbbrev": "Prot",
+  "size": 1739913
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT01386658_Prot_001.pdf p12 (Study Protocol: Protocol Amendment 1): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01386658_Prot_001.pdf p12 (Study Protocol: Protocol Amendment 1): FDA United States Food and Drug Administration
+[UNAVOIDABLE?] NCT01386658_Prot_001.pdf p68 (Study Protocol: Protocol Amendment 1): recommendations made by EMA/PDCO on 15 July 2011 and outlined in the EMA/PDCO
+[AVOIDABLE?] NCT01386658_Prot_001.pdf p70 (Study Protocol: Protocol Amendment 1): Analysis, 10.10 Handling of Missing Data
+[UNAVOIDABLE?] NCT01386658_Prot_001.pdf p73 (Study Protocol: Protocol Amendment 1): This study will be stopped and safety data reviewed if any subject experiences a life threatening (Grade 4)
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p13 (Study Protocol: Protocol Amendment 2): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p13 (Study Protocol: Protocol Amendment 2): FDA United States Food and Drug Administration
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p78 (Study Protocol: Protocol Amendment 2): • Determination of Tanner stage was eliminated in favor of simply stratifying subjects by
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p78 (Study Protocol: Protocol Amendment 2): interferes with pubertal status determination.
+[AVOIDABLE?] NCT01386658_Prot_002.pdf p81 (Study Protocol: Protocol Amendment 2): through Day 90) of a subsequent attack, this prescheduled contact may be omitted.
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p82 (Study Protocol: Protocol Amendment 2): 9. A physical condition that interferes with pubertal status determination.
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p83 (Study Protocol: Protocol Amendment 2): To assist in this determination, investigators should obtain the following information and document in
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p83 (Study Protocol: Protocol Amendment 2): Blood samples for determination of plasma concentrations of icatibant in pubertal/postpubertal
+[UNAVOIDABLE?] NCT01386658_Prot_002.pdf p83 (Study Protocol: Protocol Amendment 2): Blood samples for determination of plasma concentrations of icatibant in prepubertal subjects will be
+[UNAVOIDABLE?] NCT01386658_Prot_003.pdf p14 (Study Protocol: Protocol Amendment 3): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01386658_Prot_003.pdf p14 (Study Protocol: Protocol Amendment 3): FDA United States Food and Drug Administration
+[UNAVOIDABLE?] NCT01386658_Prot_003.pdf p90 (Study Protocol: Protocol Amendment 3): determination, vital signs, ECG, and a urine pregnancy test in female pubertal/postpubertal subjects, and blood
+[UNAVOIDABLE?] NCT01386658_Prot_003.pdf p91 (Study Protocol: Protocol Amendment 3): with icatibant for up to 2 subsequent attacks of acute HAE). Except for PK determinations, all primary and
+[AVOIDABLE?] NCT01386658_Prot_003.pdf p91 (Study Protocol: Protocol Amendment 3): contact may be omitted.
+[UNAVOIDABLE?] NCT01386658_Prot_004.pdf p14 (Study Protocol: Protocol Amendment 4): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT01386658_Prot_004.pdf p14 (Study Protocol: Protocol Amendment 4): FDA Food and Drug Administration
+[UNAVOIDABLE?] NCT01386658_Prot_004.pdf p18 (Study Protocol: Protocol Amendment 4): icatibant in adult HAE subjects.  No new safety signals were identified.
+[UNAVOIDABLE?] NCT01386658_Prot_004.pdf p91 (Study Protocol: Protocol Amendment 4): Except for PK determinations, all primary and secondary endpoints as above (including anti icatibant
+[UNAVOIDABLE?] NCT01386658_Prot_004.pdf p93 (Study Protocol: Protocol Amendment 4): Except for PK determinations, all primary and secondary outcomes, including immunogenicity, endpoints are to be
+[AVOIDABLE?] NCT01386658_Prot_004.pdf p93 (Study Protocol: Protocol Amendment 4): contact may be omitted.

@@ -1,0 +1,43 @@
+NCT05048719 — A Study of LY3502970 in Participants With Type 2 Diabetes Mellitus
+Sponsor: Eli Lilly and Company  Phases: PHASE2  Start: 2021-09-15
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol",
+  "date": "2021-10-27",
+  "uploadDate": "2023-09-06T05:44",
+  "typeAbbrev": "Prot",
+  "size": 5611925
+ }
+]
+Registry changes after start: ['2023-09-28:primary_outcome']
+
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): Typographical error. It was always
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): Corrected the visit numbers
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): Typographical error.
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): Corrected visit number for
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): Typographical error. Dose
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): To address a regulatory agency
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p4 (Study Protocol): Oversight in original protocol.
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p5 (Study Protocol): To address regulatory agency
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p5 (Study Protocol): To address regulatory agency
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p5 (Study Protocol): Typographical errors. There is no
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p5 (Study Protocol): Oversight in original protocol.
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): regression with missing values
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Corrected visit number for
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Typographical error. Visit number
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): regression with missing values
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Corrected “efficacy stand”
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Typographical error.
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Corrected visit numbers that
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Typographical error. Visits 3, 10,
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Corrected table with
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Typographical error.
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p6 (Study Protocol): Correction.
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p8 (Study Protocol): 9.5. Sample Size Determination......................................................................................... 75
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p8 (Study Protocol): 10.1. Appendix 1: Regulatory, Ethical, and Study Oversight
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p13 (Study Protocol): participants whose participation in this study is affected by exceptional circumstances (such as pandemics or natural disasters), please
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p13 (Study Protocol): For early terminations that occur before the last visit in treatment period, see the activities
+[UNAVOIDABLE?] NCT05048719_Prot_000.pdf p14 (Study Protocol): For early terminations that occur before the last visit in treatment period, see the activities
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p114 (Study Protocol): There was a typographical error in the Section 2.3 Benefit/Risk assessment. The section referred
+[AVOIDABLE?] NCT05048719_Prot_000.pdf p114 (Study Protocol): Correction

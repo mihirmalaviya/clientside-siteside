@@ -1,0 +1,23 @@
+NCT03541174 — A Research Study to Show the Effect of Aprocitentan in the Treatment of Difficult to Control (Resistant) High Blood Pressure (Hypertension) and Find Out More About Its Safety
+Sponsor: Idorsia Pharmaceuticals Ltd.  Phases: PHASE3  Start: 2018-06-18
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2020-02-27",
+  "uploadDate": "2022-11-08T05:14",
+  "typeAbbrev": "Prot",
+  "size": 1333377
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Protocol Addendum Covid-19",
+  "date": "2020-04-08",
+  "uploadDate": "2022-11-08T05:17",
+  "typeAbbrev": "Prot",
+  "size": 298672
+ }
+]
+Registry changes after start: []
+
+[AVOIDABLE?] NCT03541174_Prot_000.pdf p20 (Study Protocol: Protocol):  Clarify some inconsistencies and correct some minor errors and typos.

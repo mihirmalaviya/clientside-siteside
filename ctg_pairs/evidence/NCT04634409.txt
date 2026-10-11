@@ -1,0 +1,66 @@
+NCT04634409 — A Study of Immune System Proteins in Participants With Mild to Moderate COVID-19 Illness
+Sponsor: Eli Lilly and Company  Phases: PHASE2  Start: 2020-10-29
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol: J2X-MC-PYAH",
+  "date": "2021-05-18",
+  "uploadDate": "2022-06-07T13:28",
+  "typeAbbrev": "Prot",
+  "size": 5300804
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Protocol Addendum 2: J2X-MC-PYAH",
+  "date": "2020-11-11",
+  "uploadDate": "2022-06-07T13:31",
+  "typeAbbrev": "Prot",
+  "size": 438719
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Protocol Addendum 4: J2X-MC-PYAH",
+  "date": "2021-03-16",
+  "uploadDate": "2022-06-07T13:32",
+  "typeAbbrev": "Prot",
+  "size": 515359
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p4 (Study Protocol: Protocol: J2X-MC-PYAH): Determination; 9.4 Statistical Analyses;
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p7 (Study Protocol: Protocol: J2X-MC-PYAH): Sample Size Determination................................ ................................ ......................... 85
+[AVOIDABLE?] NCT04634409_Prot_000.pdf p7 (Study Protocol: Protocol: J2X-MC-PYAH): Appendix 1: Regulatory, Ethical, and Study Oversight
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p9 (Study Protocol: Protocol: J2X-MC-PYAH): to Moderate COVID-19 Illness (BLAZE-4)
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p9 (Study Protocol: Protocol: J2X-MC-PYAH): pandemic spread of coronavirus disease 2019 (COVID-19), which in critical cases results in
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p9 (Study Protocol: Protocol: J2X-MC-PYAH): human cells, and to neutralize the virus, potentially treating even established COVID-19 by
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p9 (Study Protocol: Protocol: J2X-MC-PYAH): 7831 on viral clearance and clinical outcomes in participants with COVID-19 illness.
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p9 (Study Protocol: Protocol: J2X-MC-PYAH): COVID-19 illness. The data from this study will inform decisions for the clinical development of
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p10 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p10 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p10 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization (defined as
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p10 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related emergency room visit, or
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p11 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p11 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p12 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization (defined as
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p12 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related emergency room visit, or
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p12 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p13 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p13 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization (defined as
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p13 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related emergency room visit, or
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p13 (Study Protocol: Protocol: J2X-MC-PYAH): o COVID-19 related hospitalization
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p121 (Study Protocol: Protocol: J2X-MC-PYAH): LY3832479 safety information
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p121 (Study Protocol: Protocol: J2X-MC-PYAH): safety information
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p121 (Study Protocol: Protocol: J2X-MC-PYAH): COVID-19 symptoms
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p122 (Study Protocol: Protocol: J2X-MC-PYAH): Determination; 9.4 Statistical Analyses;
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p122 (Study Protocol: Protocol: J2X-MC-PYAH): clinical worsening of COVID-
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p124 (Study Protocol: Protocol: J2X-MC-PYAH): Determination; 9.4.3.2 Additional
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p125 (Study Protocol: Protocol: J2X-MC-PYAH): Determination
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p126 (Study Protocol: Protocol: J2X-MC-PYAH): and ER visits) to include events through Day 29, in response to FDA feedback.
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p126 (Study Protocol: Protocol: J2X-MC-PYAH): FDA Feedback
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p127 (Study Protocol: Protocol: J2X-MC-PYAH): [CDC] Centers for Disease Control and Prevention. COVID-19 in children and teens.
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p127 (Study Protocol: Protocol: J2X-MC-PYAH): Information for parents and caregivers about COVID-19 in children and teens. Website page
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p127 (Study Protocol: Protocol: J2X-MC-PYAH): [CDC] Centers for Disease Control and Prevention. US COVID-19 cases caused by variants.
+[AVOIDABLE?] NCT04634409_Prot_000.pdf p127 (Study Protocol: Protocol: J2X-MC-PYAH): Department of Health and Human Services. Corrected version 2.1. July 2017. Available at:
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p127 (Study Protocol: Protocol: J2X-MC-PYAH): FDA resource page. COVID-19: Developing Drugs and Biological Products for Treatment or
+[UNAVOIDABLE?] NCT04634409_Prot_000.pdf p127 (Study Protocol: Protocol: J2X-MC-PYAH): https:// www.fda.gov/regulatory-information/search-fda-guidance-documents/covid-19-

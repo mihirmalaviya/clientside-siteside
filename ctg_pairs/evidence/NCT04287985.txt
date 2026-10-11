@@ -1,0 +1,34 @@
+NCT04287985 — Safety and Efficacy Study of VIS649 for IgA Nephropathy
+Sponsor: Otsuka Pharmaceutical Development & Commercialization, Inc.  Phases: PHASE2  Start: 2020-07-20
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Version 4",
+  "date": "2020-12-08",
+  "uploadDate": "2024-08-02T13:41",
+  "typeAbbrev": "Prot",
+  "size": 2854161
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Version 3",
+  "date": "2020-01-27",
+  "uploadDate": "2024-08-02T13:46",
+  "typeAbbrev": "Prot",
+  "size": 3168501
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Version 2",
+  "date": "2019-11-01",
+  "uploadDate": "2024-08-02T13:47",
+  "typeAbbrev": "Prot",
+  "size": 2586327
+ }
+]
+Registry changes after start: []
+
+[AVOIDABLE?] NCT04287985_Prot_000.pdf p7 (Study Protocol: Version 4): Note that minor formatting changes and corrections of typographical errors are not detailed.
+[UNAVOIDABLE?] NCT04287985_Prot_001.pdf p3 (Study Protocol: Version 3): Termination visits, physical
+[AVOIDABLE?] NCT04287985_Prot_001.pdf p5 (Study Protocol: Version 3): Note that minor formatting changes and corrections of typographical errors are not detailed.
+[UNAVOIDABLE?] NCT04287985_Prot_001.pdf p7 (Study Protocol: Version 3): 9.2 Sample Size Determination ........................................................................................56

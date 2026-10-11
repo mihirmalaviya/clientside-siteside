@@ -1,0 +1,28 @@
+NCT05136404 — A Relative Bioavailability Study of Selpercatinib (LY3527723) in Healthy Participants
+Sponsor: Loxo Oncology, Inc.  Phases: PHASE1  Start: 2021-12-03
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol",
+  "date": "2021-11-22",
+  "uploadDate": "2024-09-25T07:53",
+  "typeAbbrev": "Prot",
+  "size": 5283713
+ }
+]
+Registry changes after start: ['2025-02-27:primary_outcome']
+
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol): The protocol is amended to correct the timepoints for clinical laboratory assessments in the
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol):  Missing assessments added.
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol):  Missing assessments added.
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol):  Missing assessments added.
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol):  To correct the schedule of
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol): activities for incorrect and
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol): missing clinical laboratory
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p4 (Study Protocol):  For accuracy.
+[UNAVOIDABLE?] NCT05136404_Prot_000.pdf p6 (Study Protocol): 9.5. Sample Size Determination......................................................................................... 41
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p6 (Study Protocol): 10.1. Appendix 1: Regulatory, Ethical, and Study Oversight
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p67 (Study Protocol): The protocol is amended to correct the timepoints for clinical laboratory assessments in the
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p67 (Study Protocol):  Missing 12-lead ECG
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p67 (Study Protocol):  To correct the schedule of
+[AVOIDABLE?] NCT05136404_Prot_000.pdf p67 (Study Protocol): activities for the missing

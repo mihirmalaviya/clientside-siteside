@@ -1,0 +1,34 @@
+NCT02308020 — A Study of Abemaciclib (LY2835219) in Participants With Breast Cancer, Non-small Cell Lung Cancer, or Melanoma That Has Spread to the Brain
+Sponsor: Eli Lilly and Company  Phases: PHASE2  Start: 2015-04-20
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2014-11-11",
+  "uploadDate": "2019-08-30T14:33",
+  "typeAbbrev": "Prot",
+  "size": 876107
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Protocol Amendment (d)",
+  "date": "2019-02-08",
+  "uploadDate": "2019-08-30T14:38",
+  "typeAbbrev": "Prot",
+  "size": 5264438
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p11 (Study Protocol: Protocol Amendment (d)): 10.3.4.1. Special Hepatic Safety Data Collection........................................................... 57
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p11 (Study Protocol: Protocol Amendment (d)): 12.1. Determination of Sample Size ...................................................................................... 64
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p23 (Study Protocol: Protocol Amendment (d)): adverse events (AEs) of abemaciclib may be found in the Investigator’s Brochure (IB).
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p23 (Study Protocol: Protocol Amendment (d)): (Development Core Safety Information [DCSI]) of the IB.  Information on serious adverse
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p23 (Study Protocol: Protocol Amendment (d)): Section 6 (Effects in Humans) of the IB.
+[AVOIDABLE?] NCT02308020_Prot_002.pdf p23 (Study Protocol: Protocol Amendment (d)): were some inconsistencies. This amendment will harmonize the dosing guidance across
+[AVOIDABLE?] NCT02308020_Prot_002.pdf p24 (Study Protocol: Protocol Amendment (d)): venous thromboembolic events (VTEs) for ongoing patients. Minor typographical and
+[AVOIDABLE?] NCT02308020_Prot_002.pdf p109 (Study Protocol: Protocol Amendment (d)): Minor typographical and formatting edits were made throughout the document for clarity and
+[AVOIDABLE?] NCT02308020_Prot_002.pdf p110 (Study Protocol: Protocol Amendment (d)): thromboembolic events (VTEs) for ongoing patients. Minor typographical and formatting edits
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p112 (Study Protocol: Protocol Amendment (d)): b Determination of persistent events will be at the discretion of the investigator.  Recurrent toxicity refers to the
+[UNAVOIDABLE?] NCT02308020_Prot_002.pdf p114 (Study Protocol: Protocol Amendment (d)): Section 10.3.4.1. Special Hepatic Safety Data Collection
+[AVOIDABLE?] NCT02308020_Prot_002.pdf p114 (Study Protocol: Protocol Amendment (d)): Dose adjustment (omission, reduction, or discontinuation) should not solely be based on

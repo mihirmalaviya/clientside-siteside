@@ -1,0 +1,63 @@
+NCT03004924 — Treatment of Bacterial Conjunctivitis With SHP640 Compared to PVP-Iodine and Placebo
+Sponsor: Shire  Phases: PHASE3  Start: 2017-03-29
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Protocol",
+  "date": "2016-09-27",
+  "uploadDate": "2019-09-23T05:48",
+  "typeAbbrev": "Prot",
+  "size": 515439
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Amendment 1",
+  "date": "2016-11-28",
+  "uploadDate": "2019-09-23T05:49",
+  "typeAbbrev": "Prot",
+  "size": 980164
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Amendment 2",
+  "date": "2017-02-15",
+  "uploadDate": "2019-09-23T05:56",
+  "typeAbbrev": "Prot",
+  "size": 1044622
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Amendment 3",
+  "date": "2017-12-13",
+  "uploadDate": "2019-09-23T05:58",
+  "typeAbbrev": "Prot",
+  "size": 1105859
+ },
+ {
+  "filename": "Prot_004.pdf",
+  "label": "Study Protocol: Amendment 4",
+  "date": "2018-07-31",
+  "uploadDate": "2019-09-23T06:50",
+  "typeAbbrev": "Prot",
+  "size": 1193637
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT03004924_Prot_003.pdf p8 (Study Protocol: Amendment 3): 7.1.3 Visit 5 (End of Study or Early Termination) .........................................................42
+[AVOIDABLE?] NCT03004924_Prot_003.pdf p8 (Study Protocol: Amendment 3): 8.1.6 Abuse, Misuse, Overdose, and Medication Error..................................................49
+[UNAVOIDABLE?] NCT03004924_Prot_003.pdf p8 (Study Protocol: Amendment 3): 8.2.1 Reference Safety Information................................................................................50
+[UNAVOIDABLE?] NCT03004924_Prot_003.pdf p9 (Study Protocol: Amendment 3): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee, and Site
+[UNAVOIDABLE?] NCT03004924_Prot_003.pdf p9 (Study Protocol: Amendment 3): 10.1.5 Study Suspension, Termination, and Completion
+[AVOIDABLE?] NCT03004924_Prot_003.pdf p12 (Study Protocol: Amendment 3): BCVA best corrected visual acuity
+[UNAVOIDABLE?] NCT03004924_Prot_003.pdf p12 (Study Protocol: Amendment 3): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT03004924_Prot_003.pdf p12 (Study Protocol: Amendment 3): FDA Food and Drug Administration
+[UNAVOIDABLE?] NCT03004924_Prot_004.pdf p7 (Study Protocol: Amendment 4): 7.1.3 Visit 5 (End of Study or Early Termination) .........................................................41
+[AVOIDABLE?] NCT03004924_Prot_004.pdf p7 (Study Protocol: Amendment 4): 7.2.3.1 Best Corrected Visual Acuity.................................................................43
+[AVOIDABLE?] NCT03004924_Prot_004.pdf p8 (Study Protocol: Amendment 4): 8.1.6 Abuse, Misuse, Overdose, and Medication Error..................................................48
+[UNAVOIDABLE?] NCT03004924_Prot_004.pdf p8 (Study Protocol: Amendment 4): 8.2.1 Reference Safety Information................................................................................49
+[UNAVOIDABLE?] NCT03004924_Prot_004.pdf p8 (Study Protocol: Amendment 4): 8.2.7 Regulatory Agency, Institutional Review Board, Ethics Committee, and Site
+[UNAVOIDABLE?] NCT03004924_Prot_004.pdf p9 (Study Protocol: Amendment 4): 10.1.5 Study Suspension, Termination, and Completion
+[AVOIDABLE?] NCT03004924_Prot_004.pdf p11 (Study Protocol: Amendment 4): BCVA best corrected visual acuity
+[UNAVOIDABLE?] NCT03004924_Prot_004.pdf p11 (Study Protocol: Amendment 4): EMA European Medicines Agency
+[UNAVOIDABLE?] NCT03004924_Prot_004.pdf p11 (Study Protocol: Amendment 4): FDA Food and Drug Administration

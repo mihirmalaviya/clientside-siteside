@@ -1,0 +1,45 @@
+NCT05931380 — A Study of Once-Daily Oral Orforglipron (LY3502970) in Japanese Adult Participants With Obesity Disease
+Sponsor: Eli Lilly and Company  Phases: PHASE3  Start: 2023-07-31
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Amendment (b)",
+  "date": "2023-12-07",
+  "uploadDate": "2026-06-08T22:25",
+  "typeAbbrev": "Prot",
+  "size": 1778498
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Errata to Amendment (b)",
+  "date": "2024-01-11",
+  "uploadDate": "2026-06-12T21:09",
+  "typeAbbrev": "Prot",
+  "size": 183485
+ }
+]
+Registry changes after start: []
+
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p8 (Study Protocol: Amendment (b)): table were corrected as follows:
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p8 (Study Protocol: Amendment (b)): Error correction
+[UNAVOIDABLE?] NCT05931380_Prot_000.pdf p13 (Study Protocol: Amendment (b)): Regulatory Agency Identifier Number(s): Not applicable
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p161 (Study Protocol: Amendment (b)): 1.1 Synopsis Study Population: “less than” was changed to “approximately”. Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p161 (Study Protocol: Amendment (b)): Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p161 (Study Protocol: Amendment (b)): Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p161 (Study Protocol: Amendment (b)): PK Samples: “or post-dose” was changed to “post-dose” Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): “AHM” was changed to “antihyperglycemic medications” Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): “AHM” was changed to “antihyperglycemic medications” Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): “Single” was changed to “Triplicate” Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): 8.6 Genetics “clinical trials” was changed to “clinical traits” Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p162 (Study Protocol: Amendment (b)): “sofobuvir” was changed to “sofosbuvir” Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p163 (Study Protocol: Amendment (b)): Correction
+[AVOIDABLE?] NCT05931380_Prot_000.pdf p163 (Study Protocol: Amendment (b)): Correction
+[UNAVOIDABLE?] NCT05931380_Prot_000.pdf p164 (Study Protocol: Amendment (b)): [EMA] European Medicines Agency. Guideline on clinical evaluation of medicinal products
+[UNAVOIDABLE?] NCT05931380_Prot_000.pdf p165 (Study Protocol: Amendment (b)): [FDA] Food and Drug Administration. Guidance for Industry. Developing products for weight
+[UNAVOIDABLE?] NCT05931380_Prot_000.pdf p166 (Study Protocol: Amendment (b)): 2019. https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206321Orig1s000lbl.pdf.
+[AVOIDABLE?] NCT05931380_Prot_001.pdf p2 (Study Protocol: Errata to Amendment (b)): Section Original Text Correct Text Brief Rationale
+[AVOIDABLE?] NCT05931380_Prot_001.pdf p3 (Study Protocol: Errata to Amendment (b)): Section Original Text Correct Text Brief Rationale
+[AVOIDABLE?] NCT05931380_Prot_001.pdf p4 (Study Protocol: Errata to Amendment (b)): Section Original Text Correct Text Brief Rationale
+[AVOIDABLE?] NCT05931380_Prot_001.pdf p5 (Study Protocol: Errata to Amendment (b)): Section Original Text Correct Text Brief Rationale

@@ -1,0 +1,76 @@
+NCT03922308 — Study of rADAMTS-13 (SHP655) in the Treatment of Participants With Acquired Thrombotic Thrombocytopenic Purpura (aTTP)
+Sponsor: Shire  Phases: PHASE2  Start: 2019-10-09
+Protocol docs: [
+ {
+  "filename": "Prot_000.pdf",
+  "label": "Study Protocol: Original",
+  "date": "2018-10-03",
+  "uploadDate": "2022-07-22T06:13",
+  "typeAbbrev": "Prot",
+  "size": 2305623
+ },
+ {
+  "filename": "Prot_001.pdf",
+  "label": "Study Protocol: Protocol Amendment 1",
+  "date": "2019-04-01",
+  "uploadDate": "2022-07-22T06:14",
+  "typeAbbrev": "Prot",
+  "size": 2319847
+ },
+ {
+  "filename": "Prot_002.pdf",
+  "label": "Study Protocol: Protocol Amendment 2",
+  "date": "2019-09-23",
+  "uploadDate": "2022-07-22T06:44",
+  "typeAbbrev": "Prot",
+  "size": 1442103
+ },
+ {
+  "filename": "Prot_003.pdf",
+  "label": "Study Protocol: Protocol Amendment 3",
+  "date": "2020-06-08",
+  "uploadDate": "2022-07-22T06:44",
+  "typeAbbrev": "Prot",
+  "size": 1352299
+ },
+ {
+  "filename": "Prot_004.pdf",
+  "label": "Study Protocol: Protocol Amendment 4",
+  "date": "2020-09-17",
+  "uploadDate": "2022-07-22T06:46",
+  "typeAbbrev": "Prot",
+  "size": 1528786
+ }
+]
+Registry changes after start: []
+
+[UNAVOIDABLE?] NCT03922308_Prot_001.pdf p5 (Study Protocol: Protocol Amendment 1): reflected in the IB, and guidance on how
+[UNAVOIDABLE?] NCT03922308_Prot_001.pdf p5 (Study Protocol: Protocol Amendment 1): the Investigator’s Brochure (IB): “Known
+[AVOIDABLE?] NCT03922308_Prot_001.pdf p7 (Study Protocol: Protocol Amendment 1):  Missing components
+[UNAVOIDABLE?] NCT03922308_Prot_001.pdf p8 (Study Protocol: Protocol Amendment 1): 2.1.1 Current Standard of Care (SoC).............................................................................. 24
+[AVOIDABLE?] NCT03922308_Prot_001.pdf p11 (Study Protocol: Protocol Amendment 1): 9.4.4 Control of Type I Error ............................................................................................ 66
+[AVOIDABLE?] NCT03922308_Prot_001.pdf p11 (Study Protocol: Protocol Amendment 1): Appendix 1  REGULATORY, ETHICAL, AND STUDY OVERSIGHT Considerations
+[AVOIDABLE?] NCT03922308_Prot_001.pdf p11 (Study Protocol: Protocol Amendment 1): Appendix 2.8  Abuse, Misuse, Overdose and Medication Error.................................... 86
+[UNAVOIDABLE?] NCT03922308_Prot_001.pdf p11 (Study Protocol: Protocol Amendment 1): Appendix 2.10  Regulatory Agency, Institutional Review Board, Ethics Committee and
+[UNAVOIDABLE?] NCT03922308_Prot_001.pdf p13 (Study Protocol: Protocol Amendment 1): rADAMTS-13 (SHP655) administered in addition to standard of care (SoC) treatment
+[UNAVOIDABLE?] NCT03922308_Prot_002.pdf p5 (Study Protocol: Protocol Amendment 2): determination of eligibility to participate in
+[AVOIDABLE?] NCT03922308_Prot_002.pdf p7 (Study Protocol: Protocol Amendment 2):  Missing components
+[UNAVOIDABLE?] NCT03922308_Prot_002.pdf p8 (Study Protocol: Protocol Amendment 2): 2.1.1 Current Standard of Care (SoC).............................................................................. 25
+[AVOIDABLE?] NCT03922308_Prot_002.pdf p11 (Study Protocol: Protocol Amendment 2): 9.5.4 Control of Type I Error ............................................................................................ 68
+[AVOIDABLE?] NCT03922308_Prot_002.pdf p11 (Study Protocol: Protocol Amendment 2): Appendix 1  REGULATORY, ETHICAL, AND STUDY OVERSIGHT Considerations
+[AVOIDABLE?] NCT03922308_Prot_002.pdf p11 (Study Protocol: Protocol Amendment 2): Appendix 2.8  Abuse, Misuse, Overdose and Medication Error.................................... 88
+[UNAVOIDABLE?] NCT03922308_Prot_002.pdf p11 (Study Protocol: Protocol Amendment 2): Appendix 2.10  Regulatory Agency, Institutional Review Board,
+[UNAVOIDABLE?] NCT03922308_Prot_002.pdf p13 (Study Protocol: Protocol Amendment 2): rADAMTS-13 (SHP655) administered in addition to standard of care (SoC) treatment
+[UNAVOIDABLE?] NCT03922308_Prot_003.pdf p5 (Study Protocol: Protocol Amendment 3): of standard of care
+[AVOIDABLE?] NCT03922308_Prot_003.pdf p7 (Study Protocol: Protocol Amendment 3): • Missing components
+[UNAVOIDABLE?] NCT03922308_Prot_003.pdf p8 (Study Protocol: Protocol Amendment 3): 2.1.1 Current Standard of Care (SoC) .............................................................................. 26
+[AVOIDABLE?] NCT03922308_Prot_003.pdf p10 (Study Protocol: Protocol Amendment 3): 9.5.4 Control of Type I Error ............................................................................................ 70
+[AVOIDABLE?] NCT03922308_Prot_003.pdf p11 (Study Protocol: Protocol Amendment 3): Appendix 1  REGULATORY, ETHICAL, AND STUDY OVERSIGHT Considerations
+[AVOIDABLE?] NCT03922308_Prot_003.pdf p11 (Study Protocol: Protocol Amendment 3): Appendix 2.8  Abuse, Misuse, Overdose and Medication Error .................................... 91
+[UNAVOIDABLE?] NCT03922308_Prot_003.pdf p11 (Study Protocol: Protocol Amendment 3): Appendix 2.10  Regulatory Agency, Institutional Review Board, Ethics Committee and
+[UNAVOIDABLE?] NCT03922308_Prot_003.pdf p13 (Study Protocol: Protocol Amendment 3): rADAMTS-13 (SHP655) administered in addition to standard of care (SoC) treatment
+[AVOIDABLE?] NCT03922308_Prot_004.pdf p6 (Study Protocol: Protocol Amendment 4):  Missing components
+[UNAVOIDABLE?] NCT03922308_Prot_004.pdf p7 (Study Protocol: Protocol Amendment 4): 2.1.1 Current Standard of Care (SoC).........................................................................26
+[AVOIDABLE?] NCT03922308_Prot_004.pdf p10 (Study Protocol: Protocol Amendment 4): 9.5.4 Control of Type I Error .......................................................................................69
+[AVOIDABLE?] NCT03922308_Prot_004.pdf p11 (Study Protocol: Protocol Amendment 4): Appendix 1 REGULATORY, ETHICAL, AND STUDY OVERSIGHT
+[UNAVOIDABLE?] NCT03922308_Prot_004.pdf p12 (Study Protocol: Protocol Amendment 4): rADAMTS-13 (SHP655) administered in addition to standard of care (SoC) treatment
