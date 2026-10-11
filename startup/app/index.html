@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sponsorside</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Crimson+Pro:wght@600&display=swap" rel="stylesheet">
 <script src="vendor/d3.min.js"></script>
 <script src="vendor/topojson-client.min.js"></script>
 <style>
@@ -18,7 +18,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .track.client-on{transform:translateX(-100vw)}
 .shell{width:100vw;flex:none;height:100vh;display:grid;grid-template-rows:auto minmax(0,1fr);background:var(--bg)}
 .shell.client{--brand:#3AA0E3;--bg:#EFF7FD;--hover:#EAF4FC}
-.logo.oval{width:15px;height:24px;border-radius:50%}
+.logo.oval{width:13px;height:23px;border-radius:50%}
 .client .btn:hover{background:#2C8ED0} .client .btn:disabled:hover{background:var(--brand)}
 .cmain{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:16px;padding:16px;min-height:0}
 .ccol{display:flex;flex-direction:column;gap:16px;min-height:0}
@@ -31,7 +31,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--
 .mail-meta{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:8px 0 12px;border-bottom:1px solid var(--line2)}
 .mail-meta b{font-weight:500;color:var(--ink)} .mail-meta span{color:var(--muted)}
 .mail-body{font-size:13.5px;line-height:1.6;color:var(--text);padding-top:12px}
-.mail-body p{margin:0 0 10px} .mail-body ol{margin:0;padding-left:20px} .mail-body li{margin-bottom:8px;padding-left:2px}
+.mail-body p{margin:0 0 10px} .mail-body ol{margin:0 0 14px;padding-left:20px} .mail-body li{margin-bottom:8px;padding-left:2px}
 .da{padding:12px 10px;margin:0 -10px;border-top:1px solid var(--line2);display:flex;flex-direction:column;gap:4px;border-radius:6px}
 .da-q{font-size:12.5px;color:var(--muted);line-height:1.45}
 .da-a{font-size:13.5px;color:var(--ink);line-height:1.5}
@@ -65,7 +65,7 @@ mark.prop{background:#FCD9D7} mark.pub{background:#E6DEFA}
 .files li.flash{animation:flash 1.2s}
 @keyframes flash{from{background:#D4EEFF}}
 .top{background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.brand{font-weight:600;color:var(--ink);margin-right:6px;display:inline-flex;align-items:center;gap:8px}
+.brand{font-family:'Crimson Pro',serif;font-size:1.15em;font-weight:600;color:var(--ink);margin-right:6px;display:inline-flex;align-items:center;gap:8px}
 .logo{width:15px;height:24px;border-radius:3px;background:var(--brand);display:inline-block}
 .search{flex:1 1 420px;display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:6px;padding:6px 10px;background:#fff;min-width:0}
 .search input{border:none;outline:none;flex:1;min-width:0;background:none}
@@ -121,7 +121,6 @@ mark.prop{background:#FCD9D7} mark.pub{background:#E6DEFA}
 .chkbtn input{margin:0;accent-color:var(--greenInk);width:13px;height:13px;cursor:pointer}
 .chkbtn.on{color:var(--greenInk);border-color:#BFD8BE;background:#F6FAF5}
 .acts{display:inline-flex;gap:6px;flex:none}
-.tocl{margin-left:auto}
 .sendbtn{display:inline-flex;align-items:center;gap:7px}
 .tipwrap{position:relative;display:inline-flex}
 .tip2{position:absolute;bottom:calc(100% + 8px);right:0;background:#1F2933;color:#fff;font-size:12px;padding:5px 9px;border-radius:6px;white-space:nowrap;opacity:0;transform:translateY(4px);transition:opacity .15s,transform .15s;pointer-events:none}
@@ -200,7 +199,6 @@ a{color:var(--blueInk)}
     <div class="prog" hidden><div class="bar"><div id="bar"></div></div><span class="pct" id="pct">0%</span></div>
     <span class="hint" id="hint"></span>
     <button class="btn primary hide-idle" id="run">Run search</button>
-    <button class="sbtn tocl" id="toclient" title="Open the site-side page">Clientside →</button>
   </div>
   <div class="start" id="start">
     <div class="startcard">

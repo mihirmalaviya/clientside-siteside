@@ -34,7 +34,8 @@ function init() {
   $('#q0').onkeydown = e => { if (e.key === 'Enter') run($('#q0').value); };
   initDrop();
   initClientDrop();
-  $('#toclient').onclick = () => openClient((RUN.stage3.sites.find(x => x.kind === 'synthetic') || RUN.stage3.sites[0]).key);   // shortcut: straight to the site side, run or not
+  $('#shell .logo').ondblclick = () => openClient((RUN.stage3.sites.find(x => x.kind === 'synthetic') || RUN.stage3.sites[0]).key);   // secret: double-click logo to swap sides
+  $('#client .logo').ondblclick = closeClient;
   setTimeout(() => $('#q0').focus(), 0);
   $('#filter').oninput = e => { S.filter = e.target.value.toLowerCase(); draw(); };
   $('#backtest').onchange = e => { S.backtest = e.target.checked; draw(); };
@@ -201,9 +202,12 @@ function drawTable(rows, sh) {
       '<td>' + (ap ? '<span class="b-ok">✓ Approved</span>' : '<button class="btn sm" data-approve="' + esc(r.key) + '">Approve</button>') + '</td>';
   };
   const wait = !rows.length ? (prog(P) > 0 ? PHASES[P] + ' running…' : S.t >= 0 && P === 0 ? 'Scanning ' + (RUN.stage1.n_candidates || '') + ' candidates…' : 'No sites match.') : '';
-  $('#list').innerHTML = '<table><thead><tr>' + (chk ? '<th class="nosort" style="width:28px"><input type="checkbox" data-all></th>' : '') + th('rank', '#', 1) + th('name', 'Site') + cols.join('') + '</tr></thead><tbody>' +
-    rows.map(r => '<tr data-row="' + esc(r.key) + '" class="' + (S.sel === r.key ? 'sel' : '') + '">' + (chk ? '<td><input type="checkbox" data-check="' + esc(r.key) + '"' + (S.checked.has(r.key) ? ' checked' : '') + '></td>' : '') + site(r) + cells(r) + '</tr>').join('') +
-    '</tbody></table>' + (wait ? '<div class="empty">' + wait + '</div>' : '');
+  const head = '<tr>' + (chk ? '<th class="nosort" style="width:28px"><input type="checkbox" data-all></th>' : '') + th('rank', '#', 1) + th('name', 'Site') + cols.join('') + '</tr>';
+  const body = rows.map(r => '<tr data-row="' + esc(r.key) + '" class="' + (S.sel === r.key ? 'sel' : '') + '">' + (chk ? '<td><input type="checkbox" data-check="' + esc(r.key) + '"' + (S.checked.has(r.key) ? ' checked' : '') + '></td>' : '') + site(r) + cells(r) + '</tr>').join('');
+  const el = $('#list'), tb = el._head === head && el.querySelector('tbody'), w = wait ? '<div class="empty">' + wait + '</div>' : '';
+  // Same header → only swap the body, so header tooltips don't flicker while rows stream in.
+  if (tb) { tb.innerHTML = body; el.querySelector(':scope > .empty')?.remove(); if (w) el.insertAdjacentHTML('beforeend', w); }
+  else { el.innerHTML = '<table><thead>' + head + '</thead><tbody>' + body + '</tbody></table>' + w; el._head = head; }
 }
 
 const fitColor = fit => { const S0 = [[190, 222, 247], [122, 160, 194], [47, 59, 74]], f = Math.max(0, Math.min(1, (0.97 - fit) / 0.92)); const [p, q, k] = f < .5 ? [S0[0], S0[1], f * 2] : [S0[1], S0[2], (f - .5) * 2]; return 'rgb(' + p.map((v, i) => Math.round(v + (q[i] - v) * k)).join(',') + ')'; };
@@ -417,7 +421,9 @@ function drawLeft() {
   if (!C.file) {
     $('#cleft').innerHTML = sw + '<div class="mail-subj">Feasibility questionnaire: ' + esc(RUN.trial.name) + '</div>' +
       '<div class="mail-meta"><div><b>' + esc(RUN.trial.sponsor) + '</b> <span>to ' + esc(C.site.name) + '</span></div><span>' + esc(RUN.recorded || '') + '</span></div>' +
-      '<div class="mail-body"><p>Please answer the ' + qs.length + ' questions below for ' + esc(RUN.trial.name) + ' (' + esc(RUN.trial.nct) + ').</p><ol>' + qs.map(q => '<li>' + esc(q.question) + '</li>').join('') + '</ol></div>';
+      '<div class="mail-body"><p>Dear ' + esc(C.site.short || C.site.name) + ' team,</p>' +
+      '<p>As part of site selection for ' + esc(RUN.trial.name) + ' (' + esc(RUN.trial.nct) + '), please answer the ' + qs.length + ' questions below. Let us know if anything needs clarification.</p><ol>' + qs.map(q => '<li>' + esc(q.question) + '</li>').join('') + '</ol>' +
+      '<p>Thank you,<br>Clinical Operations, ' + esc(RUN.trial.sponsor) + '</p></div>';
     return;
   }
   const a = C.sel ? C.ans.find(x => x.q_id === C.sel) || {} : {}, ev = evid(a), files = [...new Set(ev.map(e => e.file))], text = docs()[C.file];
@@ -440,9 +446,11 @@ function drawLeft() {
 // a log file shown as the plain text file it is: one size, one spacing, lines as written
 // display only (the file is untouched): no em dashes, each "|" field on its own line, a blank line between original lines
 const logDisplay = text => text.trim().replace(/\s*\u2014\s*/g, ' ').split('\n').map(l => l.split(/\s*\|\s*/).join('\n')).join('\n\n').replace(/\n{3,}/g, '\n\n');
+// public log: Q/A lines bold, the line just above each Q (the sponsor) plain, everything else italic
+const styleLog = t => t.split('\n').map((l, i, ls) => /^[QA]: /.test(l) ? '<b>' + l + '</b>' : !l || /^Q: /.test(ls[i + 1]) ? l : '<i>' + l + '</i>').join('\n');
 function textFileHTML(path, text) {
   return '<div class="tf"><div class="tf-h"><span class="mono">' + esc(path) + '</span><span>' + (new Blob([text]).size / 1024).toFixed(1) + ' KB · ' + text.split('\n').filter(l => /^\d{4}-\d\d-\d\d/.test(l)).length + ' entries</span></div>' +
-    '<div class="tf-body">' + esc(logDisplay(text)) + '</div></div>';
+    '<div class="tf-body">' + (path === 'public/qa_log.md' ? styleLog : x => x)(esc(logDisplay(text))) + '</div></div>';
 }
 function drawCFiles(flash) {
   $('#cfiles').innerHTML = CFILES.concat(CDROP.filter(f => !CFILES.includes(f))).map(f => '<li data-cdoc="' + esc(f) + '"' + (f === flash ? ' class="flash"' : '') + ' title="' + esc(f) + '">' + esc(f) + '</li>').join('');
